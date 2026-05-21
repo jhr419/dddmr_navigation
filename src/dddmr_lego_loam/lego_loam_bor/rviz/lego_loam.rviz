@@ -28,10 +28,10 @@ Panels:
     Name: Time
     SyncMode: 0
     SyncSource: Map
-  - Class: mapping_panel/MappingPanel
-    Name: MappingPanel
-  - Class: pose_graph_editor_panel/PoseGraphEditorPanel
-    Name: PoseGraphEditorPanel
+  #- Class: mapping_panel/MappingPanel
+  #  Name: MappingPanel
+  #- Class: pose_graph_editor_panel/PoseGraphEditorPanel
+  #  Name: PoseGraphEditorPanel
 Visualization Manager:
   Class: ""
   Displays:
