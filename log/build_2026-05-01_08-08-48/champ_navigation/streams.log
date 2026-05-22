@@ -1,0 +1,46 @@
+[0.009s] Invoking command in '/ws_gz/build/champ_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws_gz/src/gz_quadbot/champ/champ_navigation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/champ_navigation
+[0.047s] -- The C compiler identification is GNU 13.4.0
+[0.085s] -- The CXX compiler identification is GNU 13.4.0
+[0.090s] -- Detecting C compiler ABI info
+[0.135s] -- Detecting C compiler ABI info - done
+[0.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.140s] -- Detecting C compile features
+[0.141s] -- Detecting C compile features - done
+[0.143s] -- Detecting CXX compiler ABI info
+[0.195s] -- Detecting CXX compiler ABI info - done
+[0.201s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.201s] -- Detecting CXX compile features
+[0.201s] -- Detecting CXX compile features - done
+[0.203s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.296s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.333s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.384s] -- Configuring done
+[0.385s] -- Generating done
+[0.386s] -- Build files have been written to: /ws_gz/build/champ_navigation
+[0.388s] Invoked command in '/ws_gz/build/champ_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws_gz/src/gz_quadbot/champ/champ_navigation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/champ_navigation
+[0.389s] Invoking command in '/ws_gz/build/champ_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/champ_navigation -- -j32 -l32
+[0.414s] Invoked command in '/ws_gz/build/champ_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/champ_navigation -- -j32 -l32
+[0.420s] Invoking command in '/ws_gz/build/champ_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/champ_navigation
+[0.424s] -- Install configuration: "Release"
+[0.425s] -- Execute custom install script
+[0.425s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/launch/navigate.launch.py
+[0.431s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/launch/slam.launch.py
+[0.435s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/rviz/navigation.rviz
+[0.440s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/rviz/navigation_minimal.rviz
+[0.445s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/rviz/slam.rviz
+[0.451s] -- Symlinking: /ws_gz/install/champ_navigation/share/ament_index/resource_index/package_run_dependencies/champ_navigation
+[0.456s] -- Symlinking: /ws_gz/install/champ_navigation/share/ament_index/resource_index/parent_prefix_path/champ_navigation
+[0.462s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/environment/ament_prefix_path.sh
+[0.467s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/environment/ament_prefix_path.dsv
+[0.472s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/environment/path.sh
+[0.478s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/environment/path.dsv
+[0.483s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/local_setup.bash
+[0.489s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/local_setup.sh
+[0.493s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/local_setup.zsh
+[0.497s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/local_setup.dsv
+[0.502s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/package.dsv
+[0.508s] -- Symlinking: /ws_gz/install/champ_navigation/share/ament_index/resource_index/packages/champ_navigation
+[0.512s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/cmake/champ_navigationConfig.cmake
+[0.518s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/cmake/champ_navigationConfig-version.cmake
+[0.523s] -- Symlinking: /ws_gz/install/champ_navigation/share/champ_navigation/package.xml
+[0.529s] Invoked command in '/ws_gz/build/champ_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/champ_navigation

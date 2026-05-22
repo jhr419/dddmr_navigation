@@ -1,0 +1,89 @@
+[0.015s] Invoking command in '/ws_gz/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws_gz/src/livox_laser_simulation_RO2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/ros2_livox_simulation
+[0.024s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.110s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.115s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.136s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.138s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.142s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.147s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.153s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.167s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.168s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.229s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.251s] -- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[0.268s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.284s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.285s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.287s] -- Searching for dependencies of ignition-math6
+[0.288s] -- Looking for OGRE...
+[0.291s] -- Found Ogre Ghadamon (1.9.0)
+[0.292s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.299s] -- Looking for OGRE_Paging...
+[0.299s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.299s] -- Looking for OGRE_Terrain...
+[0.299s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.299s] -- Looking for OGRE_Property...
+[0.299s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.299s] -- Looking for OGRE_RTShaderSystem...
+[0.299s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.299s] -- Looking for OGRE_Volume...
+[0.299s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.299s] -- Looking for OGRE_Overlay...
+[0.299s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.339s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.339s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.339s] -- Searching for dependencies of ignition-transport8
+[0.351s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.363s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.366s] -- Checking for module 'libzmq >= 4'
+[0.374s] --   Found libzmq , version 4.3.4
+[0.399s] -- Checking for module 'uuid'
+[0.407s] --   Found uuid, version 2.37.2
+[0.426s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.426s] -- Searching for dependencies of ignition-msgs5
+[0.444s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.447s] -- Checking for module 'tinyxml2'
+[0.454s] --   Found tinyxml2, version 9.0.0
+[0.474s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.474s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.474s] -- Searching for dependencies of ignition-common3
+[0.474s] -- Looking for dlfcn.h - found
+[0.474s] -- Looking for libdl - found
+[0.482s] -- Searching for <ignition-common3> component [graphics]
+[0.483s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.483s] -- Searching for dependencies of ignition-common3-graphics
+[0.483s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.484s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.484s] -- Searching for dependencies of ignition-fuel_tools4
+[0.509s] -- Checking for module 'jsoncpp'
+[0.516s] --   Found jsoncpp, version 1.9.5
+[0.540s] -- Checking for module 'libzip'
+[0.547s] --   Found libzip, version 1.7.3
+[0.566s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.567s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.567s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.568s] -- Gazebo version: 11.10
+[0.568s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.571s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.585s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.623s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.634s] [31mCMake Error at CMakeLists.txt:29 (find_package):
+[0.634s]   By not providing "Findlivox_ros_driver2.cmake" in CMAKE_MODULE_PATH this
+[0.634s]   project has asked CMake to find a package configuration file provided by
+[0.634s]   "livox_ros_driver2", but CMake did not find one.
+[0.634s] 
+[0.634s]   Could not find a package configuration file provided by "livox_ros_driver2"
+[0.634s]   with any of the following names:
+[0.634s] 
+[0.634s]     livox_ros_driver2Config.cmake
+[0.634s]     livox_ros_driver2-config.cmake
+[0.634s] 
+[0.634s]   Add the installation prefix of "livox_ros_driver2" to CMAKE_PREFIX_PATH or
+[0.634s]   set "livox_ros_driver2_DIR" to a directory containing one of the above
+[0.634s]   files.  If "livox_ros_driver2" provides a separate development package or
+[0.634s]   SDK, be sure it has been installed.
+[0.634s] 
+[0.634s] [0m
+[0.634s] -- Configuring incomplete, errors occurred!
+[0.634s] See also "/ws_gz/build/ros2_livox_simulation/CMakeFiles/CMakeOutput.log".
+[0.639s] Invoked command in '/ws_gz/build/ros2_livox_simulation' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws_gz/src/livox_laser_simulation_RO2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/ros2_livox_simulation

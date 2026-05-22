@@ -1,0 +1,2 @@
+Invoking command in '/ws_gz/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws_gz/src/livox_laser_simulation_RO2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/ros2_livox_simulation
+Invoked command in '/ws_gz/build/ros2_livox_simulation' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws_gz/src/livox_laser_simulation_RO2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/ros2_livox_simulation

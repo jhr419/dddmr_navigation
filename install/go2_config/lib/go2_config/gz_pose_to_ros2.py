@@ -1,0 +1,1 @@
+/ws_gz/src/gz_quadbot/robots/configs/go2_config/scripts/gz_pose_to_ros2.py

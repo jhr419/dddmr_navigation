@@ -1,0 +1,6 @@
+Invoking command in '/ws_gz/build/realsense_ros_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ws_gz/src/realsense_ros_gazebo -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/realsense_ros_gazebo
+Invoked command in '/ws_gz/build/realsense_ros_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ws_gz/src/realsense_ros_gazebo -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/realsense_ros_gazebo
+Invoking command in '/ws_gz/build/realsense_ros_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/realsense_ros_gazebo -- -j32 -l32
+Invoked command in '/ws_gz/build/realsense_ros_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/realsense_ros_gazebo -- -j32 -l32
+Invoking command in '/ws_gz/build/realsense_ros_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/realsense_ros_gazebo
+Invoked command in '/ws_gz/build/realsense_ros_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/realsense_ros_gazebo

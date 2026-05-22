@@ -1,0 +1,41 @@
+[0.008s] Invoking command in '/ws_gz/build/champ_base': CMAKE_PREFIX_PATH=/ws_gz/install/champ_msgs:/ws_gz/install/champ:/ws_gz/install/ros2_livox_simulation:/ws_gz/install/go2_description:/ws_gz/install/go2_config:/ws_gz/install/champ_navigation:/ws_gz/install/champ_gazebo:/ws_gz/install/champ_bringup:/ws_gz/install/champ_base:/ws_gz/install/champ_description:/ws_gz/install/champ_config:/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/ws_gz/install/champ_msgs/lib:/ws_gz/install/ros2_livox_simulation/lib:/ws_gz/install/champ_base/lib:/livox_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ws_gz/build/champ_base -- -j32 -l32
+[0.048s] [ 16%] Built target message_relay
+[0.050s] [ 33%] Built target state_estimation
+[0.051s] [ 50%] Built target quadruped_controller
+[0.066s] [ 66%] Built target state_estimation_node
+[0.068s] [ 83%] Built target message_relay_node
+[0.069s] [100%] Built target quadruped_controller_node
+[0.076s] Invoked command in '/ws_gz/build/champ_base' returned '0': CMAKE_PREFIX_PATH=/ws_gz/install/champ_msgs:/ws_gz/install/champ:/ws_gz/install/ros2_livox_simulation:/ws_gz/install/go2_description:/ws_gz/install/go2_config:/ws_gz/install/champ_navigation:/ws_gz/install/champ_gazebo:/ws_gz/install/champ_bringup:/ws_gz/install/champ_base:/ws_gz/install/champ_description:/ws_gz/install/champ_config:/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/ws_gz/install/champ_msgs/lib:/ws_gz/install/ros2_livox_simulation/lib:/ws_gz/install/champ_base/lib:/livox_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ws_gz/build/champ_base -- -j32 -l32
+[0.076s] Invoking command in '/ws_gz/build/champ_base': CMAKE_PREFIX_PATH=/ws_gz/install/champ_msgs:/ws_gz/install/champ:/ws_gz/install/ros2_livox_simulation:/ws_gz/install/go2_description:/ws_gz/install/go2_config:/ws_gz/install/champ_navigation:/ws_gz/install/champ_gazebo:/ws_gz/install/champ_bringup:/ws_gz/install/champ_base:/ws_gz/install/champ_description:/ws_gz/install/champ_config:/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/ws_gz/install/champ_msgs/lib:/ws_gz/install/ros2_livox_simulation/lib:/ws_gz/install/champ_base/lib:/livox_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /ws_gz/build/champ_base
+[0.081s] -- Install configuration: "Release"
+[0.082s] -- Execute custom install script
+[0.083s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml
+[0.083s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml
+[0.083s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml
+[0.083s] -- Up-to-date symlink: /ws_gz/install/champ_base/lib/libquadruped_controller.so
+[0.083s] -- Up-to-date symlink: /ws_gz/install/champ_base/bin/quadruped_controller_node
+[0.083s] -- Up-to-date symlink: /ws_gz/install/champ_base/lib/libmessage_relay.so
+[0.084s] -- Up-to-date symlink: /ws_gz/install/champ_base/bin/message_relay_node
+[0.084s] -- Up-to-date symlink: /ws_gz/install/champ_base/lib/libstate_estimation.so
+[0.084s] -- Up-to-date symlink: /ws_gz/install/champ_base/bin/state_estimation_node
+[0.084s] -- Up-to-date symlink: /ws_gz/install/champ_base/lib/champ_base/quadruped_controller_node
+[0.084s] -- Up-to-date symlink: /ws_gz/install/champ_base/lib/champ_base/message_relay_node
+[0.084s] -- Up-to-date symlink: /ws_gz/install/champ_base/lib/champ_base/state_estimation_node
+[0.084s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/ament_index/resource_index/package_run_dependencies/champ_base
+[0.085s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/ament_index/resource_index/parent_prefix_path/champ_base
+[0.085s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/environment/ament_prefix_path.sh
+[0.085s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/environment/ament_prefix_path.dsv
+[0.085s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/environment/path.sh
+[0.085s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/environment/path.dsv
+[0.085s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/local_setup.bash
+[0.085s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/local_setup.sh
+[0.086s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/local_setup.zsh
+[0.086s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/local_setup.dsv
+[0.086s] -- Symlinking: /ws_gz/install/champ_base/share/champ_base/package.dsv
+[0.092s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/ament_index/resource_index/packages/champ_base
+[0.092s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.092s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.092s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake
+[0.092s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake
+[0.092s] -- Up-to-date symlink: /ws_gz/install/champ_base/share/champ_base/package.xml
+[0.093s] Invoked command in '/ws_gz/build/champ_base' returned '0': CMAKE_PREFIX_PATH=/ws_gz/install/champ_msgs:/ws_gz/install/champ:/ws_gz/install/ros2_livox_simulation:/ws_gz/install/go2_description:/ws_gz/install/go2_config:/ws_gz/install/champ_navigation:/ws_gz/install/champ_gazebo:/ws_gz/install/champ_bringup:/ws_gz/install/champ_base:/ws_gz/install/champ_description:/ws_gz/install/champ_config:/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/ws_gz/install/champ_msgs/lib:/ws_gz/install/ros2_livox_simulation/lib:/ws_gz/install/champ_base/lib:/livox_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /ws_gz/build/champ_base

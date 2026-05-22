@@ -1,0 +1,1 @@
+/ws_gz/build/champ_bringup/ament_cmake_environment_hooks/local_setup.sh

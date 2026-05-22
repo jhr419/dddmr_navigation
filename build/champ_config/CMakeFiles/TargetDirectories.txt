@@ -1,0 +1,9 @@
+/ws_gz/build/champ_config/CMakeFiles/uninstall.dir
+/ws_gz/build/champ_config/CMakeFiles/champ_config_uninstall.dir
+/ws_gz/build/champ_config/CMakeFiles/test.dir
+/ws_gz/build/champ_config/CMakeFiles/edit_cache.dir
+/ws_gz/build/champ_config/CMakeFiles/rebuild_cache.dir
+/ws_gz/build/champ_config/CMakeFiles/list_install_components.dir
+/ws_gz/build/champ_config/CMakeFiles/install.dir
+/ws_gz/build/champ_config/CMakeFiles/install/local.dir
+/ws_gz/build/champ_config/CMakeFiles/install/strip.dir

@@ -1,0 +1,52 @@
+Built target ament_cmake_python_symlink_go2_config
+running egg_info
+writing go2_config.egg-info/PKG-INFO
+writing dependency_links to go2_config.egg-info/dependency_links.txt
+writing top-level names to go2_config.egg-info/top_level.txt
+reading manifest file 'go2_config.egg-info/SOURCES.txt'
+writing manifest file 'go2_config.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_go2_config_egg
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/launch/gazebo.launch.py
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/launch/gazebo_velodyne.launch.py
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/launch/gz_lidar_odom.launch.py
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/config/autonomy/navigation.yaml
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/config/autonomy/slam.yaml
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/config/gait/gait.yaml
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/config/joints/joints.yaml
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/config/links/links.yaml
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/config/ros_control/ros_control.yaml
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/maps/map.pgm
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/maps/map.yaml
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/maps/playground.pgm
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/maps/playground.yaml
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/worlds/default.world
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/worlds/my.world
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/worlds/outdoor.world
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/worlds/playground.world
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/worlds/slope_with_pillar_2.world
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/environment/pythonpath.sh
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/environment/pythonpath.dsv
+-- Up-to-date symlink: /ws_gz/install/go2_config/local/lib/python3.10/dist-packages/go2_config-0.1.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /ws_gz/install/go2_config/local/lib/python3.10/dist-packages/go2_config-0.1.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /ws_gz/install/go2_config/local/lib/python3.10/dist-packages/go2_config-0.1.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /ws_gz/install/go2_config/local/lib/python3.10/dist-packages/go2_config-0.1.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /ws_gz/install/go2_config/local/lib/python3.10/dist-packages/go2_config/__init__.py
+-- Up-to-date symlink: /ws_gz/install/go2_config/lib/go2_config/gz_pose_to_ros2.py
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/ament_index/resource_index/package_run_dependencies/go2_config
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/ament_index/resource_index/parent_prefix_path/go2_config
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/environment/path.sh
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/environment/path.dsv
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/local_setup.bash
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/local_setup.sh
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/local_setup.zsh
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/local_setup.dsv
+-- Symlinking: /ws_gz/install/go2_config/share/go2_config/package.dsv
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/ament_index/resource_index/packages/go2_config
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/cmake/go2_configConfig.cmake
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/cmake/go2_configConfig-version.cmake
+-- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/package.xml
+Listing '/ws_gz/install/go2_config/local/lib/python3.10/dist-packages/go2_config'...

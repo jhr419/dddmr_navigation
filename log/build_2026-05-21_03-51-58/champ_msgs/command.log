@@ -1,0 +1,3 @@
+Invoking command in '/ws_gz/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/champ_msgs -- -j32 -l32
+Invoked command in '/ws_gz/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/champ_msgs -- -j32 -l32
+Invoking command in '/ws_gz/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/champ_msgs

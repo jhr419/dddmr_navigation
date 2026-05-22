@@ -1,0 +1,1 @@
+/ws_gz/src/gz_quadbot/robots/configs/go2_config/launch/gazebo.launch.py

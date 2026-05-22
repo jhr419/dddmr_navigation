@@ -1,0 +1,49 @@
+[0.018s] Invoking command in '/ws_gz/build/champ_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/champ_description -- -j32 -l32
+[0.045s] Invoked command in '/ws_gz/build/champ_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/champ_description -- -j32 -l32
+[0.046s] Invoking command in '/ws_gz/build/champ_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/champ_description
+[0.049s] -- Install configuration: "Release"
+[0.049s] -- Execute custom install script
+[0.052s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/launch/description.launch
+[0.052s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/launch/description.launch.py
+[0.052s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/launch/view_urdf.launch
+[0.053s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/rviz/urdf_viewer.rviz
+[0.053s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/meshes/arm/base.stl
+[0.053s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/meshes/arm/lower_arm.stl
+[0.053s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/meshes/arm/upper_arm.stl
+[0.054s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/meshes/arm/wrist1.stl
+[0.054s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/meshes/arm/wrist2.stl
+[0.055s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/meshes/asus_camera_simple.dae
+[0.055s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/meshes/base.stl
+[0.055s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/meshes/base_simple.stl
+[0.055s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/meshes/hip.stl
+[0.056s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/meshes/hokuyo_utm_30lx.dae
+[0.056s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/meshes/lower_leg.stl
+[0.056s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/meshes/lower_leg_simple.stl
+[0.056s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/meshes/upper_leg.stl
+[0.056s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/meshes/upper_leg_simple.stl
+[0.056s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/urdf/accessories.urdf.xacro
+[0.056s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/urdf/asus_camera.urdf.xacro
+[0.056s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/urdf/champ.urdf
+[0.056s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/urdf/champ.urdf.xacro
+[0.056s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/urdf/champ_arm.urdf
+[0.056s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/urdf/champ_velodyne.urdf
+[0.057s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/urdf/gen_urdf
+[0.057s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/urdf/hokuyo_utm30lx.urdf.xacro
+[0.058s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/urdf/leg.urdf.xacro
+[0.058s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/urdf/properties.urdf.xacro
+[0.058s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/ament_index/resource_index/package_run_dependencies/champ_description
+[0.059s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/ament_index/resource_index/parent_prefix_path/champ_description
+[0.059s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/environment/ament_prefix_path.sh
+[0.060s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/environment/ament_prefix_path.dsv
+[0.060s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/environment/path.sh
+[0.061s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/environment/path.dsv
+[0.061s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/local_setup.bash
+[0.061s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/local_setup.sh
+[0.061s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/local_setup.zsh
+[0.062s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/local_setup.dsv
+[0.062s] -- Symlinking: /ws_gz/install/champ_description/share/champ_description/package.dsv
+[0.064s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/ament_index/resource_index/packages/champ_description
+[0.064s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/cmake/champ_descriptionConfig.cmake
+[0.064s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/cmake/champ_descriptionConfig-version.cmake
+[0.064s] -- Up-to-date symlink: /ws_gz/install/champ_description/share/champ_description/package.xml
+[0.082s] Invoked command in '/ws_gz/build/champ_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/champ_description

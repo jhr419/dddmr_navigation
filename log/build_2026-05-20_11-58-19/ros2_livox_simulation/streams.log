@@ -1,0 +1,227 @@
+[0.015s] Invoking command in '/ws_gz/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ws_gz/src/livox_laser_simulation_RO2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/ros2_livox_simulation
+[0.023s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.100s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.105s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.126s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.128s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.131s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.155s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.156s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.224s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.246s] -- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[0.263s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.281s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.283s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.286s] -- Searching for dependencies of ignition-math6
+[0.287s] -- Looking for OGRE...
+[0.291s] -- Found Ogre Ghadamon (1.9.0)
+[0.291s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.298s] -- Looking for OGRE_Paging...
+[0.298s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.298s] -- Looking for OGRE_Terrain...
+[0.298s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.299s] -- Looking for OGRE_Property...
+[0.299s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.299s] -- Looking for OGRE_RTShaderSystem...
+[0.299s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.299s] -- Looking for OGRE_Volume...
+[0.299s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.299s] -- Looking for OGRE_Overlay...
+[0.299s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.342s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.342s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.342s] -- Searching for dependencies of ignition-transport8
+[0.354s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.365s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.368s] -- Checking for module 'libzmq >= 4'
+[0.376s] --   Found libzmq , version 4.3.4
+[0.403s] -- Checking for module 'uuid'
+[0.411s] --   Found uuid, version 2.37.2
+[0.430s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.430s] -- Searching for dependencies of ignition-msgs5
+[0.444s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.447s] -- Checking for module 'tinyxml2'
+[0.454s] --   Found tinyxml2, version 9.0.0
+[0.474s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.474s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.474s] -- Searching for dependencies of ignition-common3
+[0.475s] -- Looking for dlfcn.h - found
+[0.475s] -- Looking for libdl - found
+[0.481s] -- Searching for <ignition-common3> component [graphics]
+[0.482s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.482s] -- Searching for dependencies of ignition-common3-graphics
+[0.482s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.482s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.483s] -- Searching for dependencies of ignition-fuel_tools4
+[0.512s] -- Checking for module 'jsoncpp'
+[0.519s] --   Found jsoncpp, version 1.9.5
+[0.542s] -- Checking for module 'libzip'
+[0.550s] --   Found libzip, version 1.7.3
+[0.569s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.569s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.569s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.570s] -- Gazebo version: 11.10
+[0.570s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.572s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.585s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.623s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.627s] -- Found livox_ros_driver2: 1.0.0 (/livox_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[0.655s] -- Checking for module 'eigen3'
+[0.664s] --   Found eigen3, version 3.4.0
+[0.700s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.700s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.724s] -- Checking for module 'flann'
+[0.733s] --   Found flann, version 1.9.1
+[0.774s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.774s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.399s] -- Checking for module 'libusb-1.0'
+[1.433s] --   Found libusb-1.0, version 1.0.25
+[1.500s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.501s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.590s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.682s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.686s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.690s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.772s] -- Found Qhull version 8.0.2
+[1.856s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.950s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.951s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.951s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.952s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.952s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.953s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.953s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.953s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[1.954s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.954s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.955s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.956s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.956s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.957s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.957s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.958s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.959s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.959s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.960s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.960s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.961s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[1.961s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[1.961s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[1.962s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.962s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.978s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono 
+[1.984s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.134s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.138s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.138s] -- Configured cppcheck include dirs: /ws_gz/src/livox_laser_simulation_RO2/include
+[2.138s] -- Configured cppcheck exclude dirs and/or files: 
+[2.142s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.142s] -- Configured cpplint exclude dirs and/or files: 
+[2.143s] -- Added test 'lint_cmake' to check CMake code style
+[2.147s] -- Added test 'uncrustify' to check C / C++ code style
+[2.147s] -- Configured uncrustify additional arguments: 
+[2.148s] -- Added test 'xmllint' to check XML markup files
+[2.149s] -- Configuring done
+[2.175s] -- Generating done
+[2.178s] -- Build files have been written to: /ws_gz/build/ros2_livox_simulation
+[2.188s] Invoked command in '/ws_gz/build/ros2_livox_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ws_gz/src/livox_laser_simulation_RO2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/ros2_livox_simulation
+[2.189s] Invoking command in '/ws_gz/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/ros2_livox_simulation -- -j32 -l32
+[2.230s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_ode_multiray_shape.cpp.o[0m
+[2.230s] [ 66%] [32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_points_plugin.cpp.o[0m
+[3.690s] In file included from [01m[K/ws_gz/src/livox_laser_simulation_RO2/include/ros2_livox/livox_points_plugin.h:14[m[K,
+[3.690s]                  from [01m[K/ws_gz/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:12[m[K:
+[3.690s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[3.690s]    47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[3.691s]       |      [01;35m[K^~~~~~~[m[K
+[5.361s] [01m[K/ws_gz/src/livox_laser_simulation_RO2/src/livox_ode_multiray_shape.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::physics::LivoxOdeMultiRayShape::[01;32m[KInit[m[K()[m[K’:
+[5.361s] [01m[K/ws_gz/src/livox_laser_simulation_RO2/src/livox_ode_multiray_shape.cpp:191:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KyawAngle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.361s]   191 |     double [01;35m[KyawAngle[m[K, pitchAngle;
+[5.361s]       |            [01;35m[K^~~~~~~~[m[K
+[5.361s] [01m[K/ws_gz/src/livox_laser_simulation_RO2/src/livox_ode_multiray_shape.cpp:191:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpitchAngle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.362s]   191 |     double yawAngle, [01;35m[KpitchAngle[m[K;
+[5.362s]       |                      [01;35m[K^~~~~~~~~~[m[K
+[5.362s] [01m[K/ws_gz/src/livox_laser_simulation_RO2/src/livox_ode_multiray_shape.cpp:193:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KyDiff[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[5.362s]   193 |     double [01;35m[KyDiff[m[K;
+[5.362s]       |            [01;35m[K^~~~~[m[K
+[5.362s] [01m[K/ws_gz/src/livox_laser_simulation_RO2/src/livox_ode_multiray_shape.cpp:195:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KhorzSamples[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[5.362s]   195 |     int [01;35m[KhorzSamples[m[K = 1;
+[5.362s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[5.362s] [01m[K/ws_gz/src/livox_laser_simulation_RO2/src/livox_ode_multiray_shape.cpp:198:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KpDiff[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[5.362s]   198 |     double [01;35m[KpDiff[m[K = 0;
+[5.362s]       |            [01;35m[K^~~~~[m[K
+[5.362s] [01m[K/ws_gz/src/livox_laser_simulation_RO2/src/livox_ode_multiray_shape.cpp:199:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KvertSamples[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[5.362s]   199 |     int [01;35m[KvertSamples[m[K = 1;
+[5.362s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[5.362s] [01m[K/ws_gz/src/livox_laser_simulation_RO2/src/livox_ode_multiray_shape.cpp:203:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KminRange[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[5.362s]   203 |     double [01;35m[KminRange[m[K, maxRange;
+[5.362s]       |            [01;35m[K^~~~~~~~[m[K
+[5.362s] [01m[K/ws_gz/src/livox_laser_simulation_RO2/src/livox_ode_multiray_shape.cpp:203:22:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KmaxRange[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[5.362s]   203 |     double minRange, [01;35m[KmaxRange[m[K;
+[5.362s]       |                      [01;35m[K^~~~~~~~[m[K
+[6.032s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[6.032s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[6.032s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/RaySensor.hh:26[m[K,
+[6.032s]                  from [01m[K/ws_gz/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:9[m[K:
+[6.032s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.032s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[6.032s]       |            [01;35m[K^~~~~~~~[m[K
+[6.032s] In file included from [01m[K/usr/include/c++/13/bits/stl_construct.h:61[m[K,
+[6.032s]                  from [01m[K/usr/include/c++/13/bits/stl_tempbuf.h:61[m[K,
+[6.032s]                  from [01m[K/usr/include/c++/13/memory:66[m[K,
+[6.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[6.033s]                  from [01m[K/ws_gz/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:1[m[K:
+[6.033s] [01m[K/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.033s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[6.033s]       |                                  [01;36m[K^~~~~~~~[m[K
+[6.998s] [01m[K/ws_gz/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::LivoxPointsPlugin::[01;32m[KOnNewLaserScans[m[K()[m[K’:
+[6.998s] [01m[K/ws_gz/src/livox_laser_simulation_RO2/src/livox_points_plugin.cpp:214:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::[01;32m[KconvertPointCloudToPointCloud2[m[K(const msg::PointCloud&, msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.998s]   214 |         [01;35m[Ksensor_msgs::convertPointCloudToPointCloud2(cloud, cloud2)[m[K;
+[6.999s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[6.999s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.999s]    81 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+[6.999s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.506s] [100%] [32m[1mLinking CXX shared library libros2_livox.so[0m
+[11.815s] [100%] Built target ros2_livox
+[11.823s] Invoked command in '/ws_gz/build/ros2_livox_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/ros2_livox_simulation -- -j32 -l32
+[11.824s] Invoking command in '/ws_gz/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/ros2_livox_simulation
+[11.829s] -- Install configuration: "Release"
+[11.829s] -- Execute custom install script
+[11.830s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/include/ros2_livox/csv_reader.hpp
+[11.834s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/include/ros2_livox/livox_ode_multiray_shape.h
+[11.840s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/include/ros2_livox/livox_points_plugin.h
+[11.844s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/lib/libros2_livox.so
+[11.848s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.sh
+[11.853s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.dsv
+[11.858s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid40.csv
+[11.863s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid70.csv
+[11.867s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid360.csv
+[11.872s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/tele.csv
+[11.877s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/horizon.csv
+[11.881s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/HAP.csv
+[11.886s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/avia.csv
+[11.891s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid40.xacro
+[11.896s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid70.xacro
+[11.900s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid360.xacro
+[11.904s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/tele.xacro
+[11.910s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/horizon.xacro
+[11.914s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/HAP.xacro
+[11.920s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/avia.xacro
+[11.927s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ament_index/resource_index/package_run_dependencies/ros2_livox_simulation
+[11.932s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ament_index/resource_index/parent_prefix_path/ros2_livox_simulation
+[11.938s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.sh
+[11.942s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.dsv
+[11.946s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.sh
+[11.951s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.dsv
+[11.956s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.bash
+[11.960s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.sh
+[11.965s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.zsh
+[11.969s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.dsv
+[11.973s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv
+[11.977s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ament_index/resource_index/packages/ros2_livox_simulation
+[11.983s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_libraries-extras.cmake
+[11.988s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig.cmake
+[11.993s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig-version.cmake
+[11.997s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/package.xml
+[12.005s] Invoked command in '/ws_gz/build/ros2_livox_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/ros2_livox_simulation

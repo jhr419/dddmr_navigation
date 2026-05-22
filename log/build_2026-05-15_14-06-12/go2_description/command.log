@@ -1,0 +1,6 @@
+Invoking command in '/ws_gz/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws_gz/src/gz_quadbot/robots/descriptions/go2_description -DCMAKE_INSTALL_PREFIX=/ws_gz/install/go2_description
+Invoked command in '/ws_gz/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws_gz/src/gz_quadbot/robots/descriptions/go2_description -DCMAKE_INSTALL_PREFIX=/ws_gz/install/go2_description
+Invoking command in '/ws_gz/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/go2_description -- -j32 -l32
+Invoked command in '/ws_gz/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/go2_description -- -j32 -l32
+Invoking command in '/ws_gz/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/go2_description
+Invoked command in '/ws_gz/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/go2_description

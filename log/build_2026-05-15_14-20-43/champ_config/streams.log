@@ -1,0 +1,6 @@
+[0.014s] Invoking command in '/ws_gz/build/champ_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ws_gz/src/gz_quadbot/champ/champ_config -DCMAKE_INSTALL_PREFIX=/ws_gz/install/champ_config
+[0.020s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.096s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.135s] -- Configuring done
+[0.137s] -- Generating done
+[0.138s] -- Build files have been written to: /ws_gz/build/champ_config

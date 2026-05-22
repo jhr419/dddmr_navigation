@@ -1,0 +1,32 @@
+[0.013s] Invoking command in '/ws_gz/build/realsense_ros_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /ws_gz/build/realsense_ros_gazebo -- -j32 -l32
+[0.068s] [100%] Built target realsense_gazebo_plugin
+[0.088s] Invoked command in '/ws_gz/build/realsense_ros_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /ws_gz/build/realsense_ros_gazebo -- -j32 -l32
+[0.089s] Invoking command in '/ws_gz/build/realsense_ros_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /ws_gz/build/realsense_ros_gazebo
+[0.094s] -- Install configuration: "Release"
+[0.094s] -- Execute custom install script
+[0.094s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/lib/librealsense_gazebo_plugin.so
+[0.095s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/meshes/realsense_d435.stl
+[0.095s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/meshes/realsense_r200/materials/textures/realsense_diffuse.png
+[0.095s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/meshes/realsense_r200/meshes/realsense.dae
+[0.095s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/meshes/realsense_r200/model.config
+[0.095s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/meshes/realsense_r200/model.sdf
+[0.095s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/meshes/realsense_t265.stl
+[0.095s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/xacro/depthcam.xacro
+[0.095s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/xacro/inertia_calc.xacro
+[0.095s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/xacro/tracker.xacro
+[0.095s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/ament_index/resource_index/package_run_dependencies/realsense_ros_gazebo
+[0.095s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/ament_index/resource_index/parent_prefix_path/realsense_ros_gazebo
+[0.096s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/environment/ament_prefix_path.sh
+[0.096s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/environment/ament_prefix_path.dsv
+[0.096s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/environment/path.sh
+[0.096s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/environment/path.dsv
+[0.096s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/local_setup.bash
+[0.096s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/local_setup.sh
+[0.096s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/local_setup.zsh
+[0.096s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/local_setup.dsv
+[0.096s] -- Symlinking: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/package.dsv
+[0.103s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/ament_index/resource_index/packages/realsense_ros_gazebo
+[0.103s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/cmake/realsense_ros_gazeboConfig.cmake
+[0.103s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/cmake/realsense_ros_gazeboConfig-version.cmake
+[0.103s] -- Up-to-date symlink: /ws_gz/install/realsense_ros_gazebo/share/realsense_ros_gazebo/package.xml
+[0.113s] Invoked command in '/ws_gz/build/realsense_ros_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /ws_gz/build/realsense_ros_gazebo

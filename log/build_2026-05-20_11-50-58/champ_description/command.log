@@ -1,0 +1,4 @@
+Invoking command in '/ws_gz/build/champ_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/champ_description -- -j32 -l32
+Invoked command in '/ws_gz/build/champ_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/champ_description -- -j32 -l32
+Invoking command in '/ws_gz/build/champ_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/champ_description
+Invoked command in '/ws_gz/build/champ_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/champ_description

@@ -1,0 +1,55 @@
+[0.012s] Invoking command in '/ws_gz/build/go2_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/go2_config -- -j32 -l32
+[0.047s] Built target ament_cmake_python_symlink_go2_config
+[0.153s] running egg_info
+[0.153s] writing go2_config.egg-info/PKG-INFO
+[0.153s] writing dependency_links to go2_config.egg-info/dependency_links.txt
+[0.153s] writing top-level names to go2_config.egg-info/top_level.txt
+[0.154s] reading manifest file 'go2_config.egg-info/SOURCES.txt'
+[0.154s] writing manifest file 'go2_config.egg-info/SOURCES.txt'
+[0.169s] Built target ament_cmake_python_build_go2_config_egg
+[0.174s] Invoked command in '/ws_gz/build/go2_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/go2_config -- -j32 -l32
+[0.175s] Invoking command in '/ws_gz/build/go2_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/go2_config
+[0.180s] -- Install configuration: "Release"
+[0.180s] -- Execute custom install script
+[0.180s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/launch/gazebo.launch.py
+[0.180s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/launch/gazebo_velodyne.launch.py
+[0.180s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/launch/gz_lidar_odom.launch.py
+[0.181s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/config/autonomy/navigation.yaml
+[0.181s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/config/autonomy/slam.yaml
+[0.181s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/config/gait/gait.yaml
+[0.181s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/config/joints/joints.yaml
+[0.181s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/config/links/links.yaml
+[0.181s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/config/ros_control/ros_control.yaml
+[0.181s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/maps/map.pgm
+[0.181s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/maps/map.yaml
+[0.181s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/maps/playground.pgm
+[0.181s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/maps/playground.yaml
+[0.182s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/worlds/default.world
+[0.182s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/worlds/outdoor.world
+[0.182s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/worlds/playground.world
+[0.182s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/worlds/slope_with_pillar_2.world
+[0.182s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/environment/pythonpath.sh
+[0.182s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/environment/pythonpath.dsv
+[0.182s] -- Up-to-date symlink: /ws_gz/install/go2_config/local/lib/python3.10/dist-packages/go2_config-0.1.0-py3.10.egg-info/PKG-INFO
+[0.182s] -- Up-to-date symlink: /ws_gz/install/go2_config/local/lib/python3.10/dist-packages/go2_config-0.1.0-py3.10.egg-info/SOURCES.txt
+[0.182s] -- Up-to-date symlink: /ws_gz/install/go2_config/local/lib/python3.10/dist-packages/go2_config-0.1.0-py3.10.egg-info/dependency_links.txt
+[0.182s] -- Up-to-date symlink: /ws_gz/install/go2_config/local/lib/python3.10/dist-packages/go2_config-0.1.0-py3.10.egg-info/top_level.txt
+[0.183s] -- Up-to-date symlink: /ws_gz/install/go2_config/local/lib/python3.10/dist-packages/go2_config/__init__.py
+[0.183s] -- Up-to-date symlink: /ws_gz/install/go2_config/lib/go2_config/gz_pose_to_ros2.py
+[0.183s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/ament_index/resource_index/package_run_dependencies/go2_config
+[0.183s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/ament_index/resource_index/parent_prefix_path/go2_config
+[0.183s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/environment/ament_prefix_path.sh
+[0.183s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/environment/ament_prefix_path.dsv
+[0.183s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/environment/path.sh
+[0.183s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/environment/path.dsv
+[0.183s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/local_setup.bash
+[0.183s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/local_setup.sh
+[0.183s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/local_setup.zsh
+[0.183s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/local_setup.dsv
+[0.183s] -- Symlinking: /ws_gz/install/go2_config/share/go2_config/package.dsv
+[0.189s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/ament_index/resource_index/packages/go2_config
+[0.189s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/cmake/go2_configConfig.cmake
+[0.189s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/cmake/go2_configConfig-version.cmake
+[0.189s] -- Up-to-date symlink: /ws_gz/install/go2_config/share/go2_config/package.xml
+[0.204s] Listing '/ws_gz/install/go2_config/local/lib/python3.10/dist-packages/go2_config'...
+[0.207s] Invoked command in '/ws_gz/build/go2_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/go2_config

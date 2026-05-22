@@ -1,0 +1,2 @@
+Invoking command in '/ws_gz/build/livox_laser_simulation': /usr/bin/cmake /ws_gz/src/livox_laser_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/livox_laser_simulation
+Invoked command in '/ws_gz/build/livox_laser_simulation' returned '1': /usr/bin/cmake /ws_gz/src/livox_laser_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/livox_laser_simulation

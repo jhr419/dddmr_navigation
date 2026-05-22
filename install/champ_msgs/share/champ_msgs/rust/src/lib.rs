@@ -1,0 +1,1 @@
+/ws_gz/build/champ_msgs/rosidl_generator_rs/champ_msgs/rust/src/lib.rs

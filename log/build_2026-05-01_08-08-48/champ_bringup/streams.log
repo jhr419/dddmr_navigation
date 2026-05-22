@@ -1,0 +1,78 @@
+[0.012s] Invoking command in '/ws_gz/build/champ_bringup': AMENT_PREFIX_PATH=/ws_gz/install/champ_base:/ws_gz/install/champ_msgs:/ws_gz/install/champ_description:/ws_gz/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws_gz/install/champ_base:/ws_gz/install/champ_msgs:/ws_gz/install/champ_description:/ws_gz/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ws_gz/install/champ_base/lib:/ws_gz/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/ws_gz/install/champ_base/bin:${PATH} PYTHONPATH=/ws_gz/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ws_gz/src/gz_quadbot/champ/champ_bringup -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/champ_bringup
+[0.076s] -- The C compiler identification is GNU 13.4.0
+[0.140s] -- The CXX compiler identification is GNU 13.4.0
+[0.148s] -- Detecting C compiler ABI info
+[0.249s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.255s] -- Detecting C compile features
+[0.255s] -- Detecting C compile features - done
+[0.257s] -- Detecting CXX compiler ABI info
+[0.312s] -- Detecting CXX compiler ABI info - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.319s] -- Detecting CXX compile features
+[0.319s] -- Detecting CXX compile features - done
+[0.322s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.419s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.452s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.544s] -- Configuring done
+[0.547s] -- Generating done
+[0.548s] -- Build files have been written to: /ws_gz/build/champ_bringup
+[0.551s] Invoked command in '/ws_gz/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/ws_gz/install/champ_base:/ws_gz/install/champ_msgs:/ws_gz/install/champ_description:/ws_gz/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws_gz/install/champ_base:/ws_gz/install/champ_msgs:/ws_gz/install/champ_description:/ws_gz/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ws_gz/install/champ_base/lib:/ws_gz/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/ws_gz/install/champ_base/bin:${PATH} PYTHONPATH=/ws_gz/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ws_gz/src/gz_quadbot/champ/champ_bringup -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/champ_bringup
+[0.552s] Invoking command in '/ws_gz/build/champ_bringup': AMENT_PREFIX_PATH=/ws_gz/install/champ_base:/ws_gz/install/champ_msgs:/ws_gz/install/champ_description:/ws_gz/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws_gz/install/champ_base:/ws_gz/install/champ_msgs:/ws_gz/install/champ_description:/ws_gz/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ws_gz/install/champ_base/lib:/ws_gz/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/ws_gz/install/champ_base/bin:${PATH} PYTHONPATH=/ws_gz/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ws_gz/build/champ_bringup -- -j32 -l32
+[0.588s] Built target ament_cmake_python_symlink_champ_bringup
+[0.711s] running egg_info
+[0.711s] creating champ_bringup.egg-info
+[0.711s] writing champ_bringup.egg-info/PKG-INFO
+[0.711s] writing dependency_links to champ_bringup.egg-info/dependency_links.txt
+[0.712s] writing top-level names to champ_bringup.egg-info/top_level.txt
+[0.712s] writing manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[0.712s] reading manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[0.713s] writing manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[0.725s] Built target ament_cmake_python_build_champ_bringup_egg
+[0.732s] Invoked command in '/ws_gz/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/ws_gz/install/champ_base:/ws_gz/install/champ_msgs:/ws_gz/install/champ_description:/ws_gz/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws_gz/install/champ_base:/ws_gz/install/champ_msgs:/ws_gz/install/champ_description:/ws_gz/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ws_gz/install/champ_base/lib:/ws_gz/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/ws_gz/install/champ_base/bin:${PATH} PYTHONPATH=/ws_gz/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ws_gz/build/champ_bringup -- -j32 -l32
+[0.732s] Invoking command in '/ws_gz/build/champ_bringup': AMENT_PREFIX_PATH=/ws_gz/install/champ_base:/ws_gz/install/champ_msgs:/ws_gz/install/champ_description:/ws_gz/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws_gz/install/champ_base:/ws_gz/install/champ_msgs:/ws_gz/install/champ_description:/ws_gz/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ws_gz/install/champ_base/lib:/ws_gz/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/ws_gz/install/champ_base/bin:${PATH} PYTHONPATH=/ws_gz/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ws_gz/build/champ_bringup
+[0.737s] -- Install configuration: "Release"
+[0.737s] -- Execute custom install script
+[0.738s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/bringup.launch
+[0.744s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/bringup.launch.py
+[0.752s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/include/laser/d435.launch
+[0.765s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/include/laser/hokuyo.launch
+[0.772s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/include/laser/kinect.launch
+[0.782s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/include/laser/lms1xx.launch
+[0.791s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/include/laser/realsense.launch
+[0.797s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/include/laser/rplidar.launch
+[0.801s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/include/laser/sim.launch
+[0.806s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/include/laser/sweep.launch
+[0.811s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/include/laser/xv11.launch
+[0.814s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/include/laser/ydlidar.launch
+[0.819s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/include/velocity_smoother.launch
+[0.823s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/joints_gui.launch
+[0.827s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/launch/joints_gui.launch.py
+[0.834s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/environment/pythonpath.sh
+[0.849s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/environment/pythonpath.dsv
+[0.866s] -- Symlinking: /ws_gz/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/PKG-INFO
+[0.884s] -- Symlinking: /ws_gz/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/SOURCES.txt
+[0.895s] -- Symlinking: /ws_gz/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/dependency_links.txt
+[0.905s] -- Symlinking: /ws_gz/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/top_level.txt
+[0.916s] -- Symlinking: /ws_gz/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/__init__.py
+[0.927s] -- Symlinking: /ws_gz/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/joint_calibrator_relay.py
+[0.942s] -- Symlinking: /ws_gz/install/champ_bringup/lib/champ_bringup/joint_calibrator_relay.py
+[0.959s] -- Symlinking: /ws_gz/install/champ_bringup/share/ament_index/resource_index/package_run_dependencies/champ_bringup
+[0.973s] -- Symlinking: /ws_gz/install/champ_bringup/share/ament_index/resource_index/parent_prefix_path/champ_bringup
+[0.987s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/environment/ament_prefix_path.sh
+[1.001s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/environment/ament_prefix_path.dsv
+[1.010s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/environment/path.sh
+[1.016s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/environment/path.dsv
+[1.022s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/local_setup.bash
+[1.026s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/local_setup.sh
+[1.031s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/local_setup.zsh
+[1.036s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/local_setup.dsv
+[1.041s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/package.dsv
+[1.046s] -- Symlinking: /ws_gz/install/champ_bringup/share/ament_index/resource_index/packages/champ_bringup
+[1.051s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/cmake/champ_bringupConfig.cmake
+[1.054s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/cmake/champ_bringupConfig-version.cmake
+[1.059s] -- Symlinking: /ws_gz/install/champ_bringup/share/champ_bringup/package.xml
+[1.080s] Listing '/ws_gz/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup'...
+[1.080s] Compiling '/ws_gz/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/__init__.py'...
+[1.080s] Compiling '/ws_gz/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/joint_calibrator_relay.py'...
+[1.084s] Invoked command in '/ws_gz/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/ws_gz/install/champ_base:/ws_gz/install/champ_msgs:/ws_gz/install/champ_description:/ws_gz/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws_gz/install/champ_base:/ws_gz/install/champ_msgs:/ws_gz/install/champ_description:/ws_gz/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/ws_gz/install/champ_base/lib:/ws_gz/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/ws_gz/install/champ_base/bin:${PATH} PYTHONPATH=/ws_gz/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ws_gz/build/champ_bringup

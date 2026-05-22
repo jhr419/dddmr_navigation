@@ -1,0 +1,138 @@
+[0.015s] Invoking command in '/ws_gz/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/ros2_livox_simulation -- -j32 -l32
+[0.038s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.117s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.120s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.134s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.135s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.138s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.148s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.163s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.164s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.234s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.256s] -- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[0.275s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.284s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.290s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.291s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.295s] -- Searching for dependencies of ignition-math6
+[0.296s] -- Looking for OGRE...
+[0.300s] -- Found Ogre Ghadamon (1.9.0)
+[0.300s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.307s] -- Looking for OGRE_Paging...
+[0.307s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.307s] -- Looking for OGRE_Terrain...
+[0.307s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.307s] -- Looking for OGRE_Property...
+[0.307s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.307s] -- Looking for OGRE_RTShaderSystem...
+[0.307s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.307s] -- Looking for OGRE_Volume...
+[0.308s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.308s] -- Looking for OGRE_Overlay...
+[0.308s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.373s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.373s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.374s] -- Searching for dependencies of ignition-transport8
+[0.386s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.395s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.398s] -- Checking for module 'libzmq >= 4'
+[0.407s] --   Found libzmq , version 4.3.4
+[0.433s] -- Checking for module 'uuid'
+[0.440s] --   Found uuid, version 2.37.2
+[0.459s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.459s] -- Searching for dependencies of ignition-msgs5
+[0.473s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.476s] -- Checking for module 'tinyxml2'
+[0.484s] --   Found tinyxml2, version 9.0.0
+[0.505s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.506s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.506s] -- Searching for dependencies of ignition-common3
+[0.506s] -- Looking for dlfcn.h - found
+[0.506s] -- Looking for libdl - found
+[0.513s] -- Searching for <ignition-common3> component [graphics]
+[0.513s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.514s] -- Searching for dependencies of ignition-common3-graphics
+[0.514s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.514s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.515s] -- Searching for dependencies of ignition-fuel_tools4
+[0.540s] -- Checking for module 'jsoncpp'
+[0.549s] --   Found jsoncpp, version 1.9.5
+[0.574s] -- Checking for module 'libzip'
+[0.582s] --   Found libzip, version 1.7.3
+[0.602s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.602s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.602s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.603s] -- Gazebo version: 11.10
+[0.603s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.605s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.619s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.657s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.662s] -- Found livox_ros_driver2: 1.0.0 (/livox_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[0.683s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.708s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.878s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.883s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.981s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.985s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.989s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.077s] -- Found Qhull version 8.0.2
+[1.160s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.254s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono 
+[1.258s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.343s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.347s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.347s] -- Configured cppcheck include dirs: /ws_gz/src/livox_laser_simulation_RO2/include
+[1.347s] -- Configured cppcheck exclude dirs and/or files: 
+[1.350s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.350s] -- Configured cpplint exclude dirs and/or files: 
+[1.351s] -- Added test 'lint_cmake' to check CMake code style
+[1.355s] -- Added test 'uncrustify' to check C / C++ code style
+[1.355s] -- Configured uncrustify additional arguments: 
+[1.356s] -- Added test 'xmllint' to check XML markup files
+[1.356s] -- Configuring done
+[1.370s] -- Generating done
+[1.373s] -- Build files have been written to: /ws_gz/build/ros2_livox_simulation
+[1.396s] [35m[1mConsolidate compiler generated dependencies of target ros2_livox[0m
+[1.423s] [100%] Built target ros2_livox
+[1.432s] Invoked command in '/ws_gz/build/ros2_livox_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws_gz/build/ros2_livox_simulation -- -j32 -l32
+[1.434s] Invoking command in '/ws_gz/build/ros2_livox_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/ros2_livox_simulation
+[1.439s] -- Install configuration: "Release"
+[1.440s] -- Execute custom install script
+[1.440s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/include/ros2_livox/csv_reader.hpp
+[1.440s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/include/ros2_livox/livox_ode_multiray_shape.h
+[1.440s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/include/ros2_livox/livox_points_plugin.h
+[1.440s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/lib/libros2_livox.so
+[1.440s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.sh
+[1.440s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.dsv
+[1.440s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid40.csv
+[1.440s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid70.csv
+[1.440s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid360.csv
+[1.440s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/tele.csv
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/horizon.csv
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/HAP.csv
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/avia.csv
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid40.xacro
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid70.xacro
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid360.xacro
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/tele.xacro
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/horizon.xacro
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/HAP.xacro
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/avia.xacro
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ament_index/resource_index/package_run_dependencies/ros2_livox_simulation
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ament_index/resource_index/parent_prefix_path/ros2_livox_simulation
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.sh
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.dsv
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.sh
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.dsv
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.bash
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.sh
+[1.441s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.zsh
+[1.442s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.dsv
+[1.442s] -- Symlinking: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv
+[1.446s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ament_index/resource_index/packages/ros2_livox_simulation
+[1.446s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_libraries-extras.cmake
+[1.446s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig.cmake
+[1.446s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig-version.cmake
+[1.446s] -- Up-to-date symlink: /ws_gz/install/ros2_livox_simulation/share/ros2_livox_simulation/package.xml
+[1.447s] Invoked command in '/ws_gz/build/ros2_livox_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws_gz/build/ros2_livox_simulation

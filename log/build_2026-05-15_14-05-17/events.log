@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.000350] (-) JobUnselected: {'identifier': 'champ'}
+[0.000380] (-) JobUnselected: {'identifier': 'champ_base'}
+[0.000477] (-) JobUnselected: {'identifier': 'champ_bringup'}
+[0.000651] (-) JobUnselected: {'identifier': 'champ_config'}
+[0.000720] (-) JobUnselected: {'identifier': 'champ_description'}
+[0.000740] (-) JobUnselected: {'identifier': 'champ_gazebo'}
+[0.000821] (-) JobUnselected: {'identifier': 'champ_msgs'}
+[0.000828] (-) JobUnselected: {'identifier': 'champ_navigation'}
+[0.000833] (-) JobUnselected: {'identifier': 'go2_config'}
+[0.000839] (-) JobUnselected: {'identifier': 'livox_laser_simulation'}
+[0.000847] (go2_description) JobQueued: {'identifier': 'go2_description', 'dependencies': OrderedDict([('livox_laser_simulation', '/ws_gz/install/livox_laser_simulation')])}
+[0.000857] (go2_description) JobStarted: {'identifier': 'go2_description'}
+[0.006820] (go2_description) JobEnded: {'identifier': 'go2_description', 'rc': 1}
+[0.017020] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+Invoking command in '/ws_gz/build/realsense_ros_gazebo': /usr/bin/cmake /ws_gz/src/realsense_ros_gazebo -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/ws_gz/install/realsense_ros_gazebo
+Invoked command in '/ws_gz/build/realsense_ros_gazebo' returned '1': /usr/bin/cmake /ws_gz/src/realsense_ros_gazebo -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/ws_gz/install/realsense_ros_gazebo

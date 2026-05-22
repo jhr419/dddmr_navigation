@@ -1,0 +1,1 @@
+Invoking command in '/ws_gz/build/champ_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ws_gz/src/gz_quadbot/champ/champ_description -DCMAKE_INSTALL_PREFIX=/ws_gz/install/champ_description

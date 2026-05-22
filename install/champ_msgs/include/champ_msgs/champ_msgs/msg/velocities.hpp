@@ -1,0 +1,1 @@
+/ws_gz/build/champ_msgs/rosidl_generator_cpp/champ_msgs/msg/velocities.hpp

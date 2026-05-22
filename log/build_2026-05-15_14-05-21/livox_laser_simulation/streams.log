@@ -1,0 +1,41 @@
+[0.004s] Invoking command in '/ws_gz/build/livox_laser_simulation': /usr/bin/cmake /ws_gz/src/livox_laser_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/livox_laser_simulation
+[0.007s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.007s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.007s]   CMake.
+[0.007s] 
+[0.007s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.007s]   CMake that the project does not need compatibility with older versions.
+[0.007s] 
+[0.007s] 
+[0.046s] -- The C compiler identification is GNU 13.4.0
+[0.078s] -- The CXX compiler identification is GNU 13.4.0
+[0.082s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.144s] -- Detecting C compile features
+[0.145s] -- Detecting C compile features - done
+[0.146s] -- Detecting CXX compiler ABI info
+[0.232s] -- Detecting CXX compiler ABI info - done
+[0.237s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.237s] -- Detecting CXX compile features
+[0.237s] -- Detecting CXX compile features - done
+[0.245s] CMake Error at CMakeLists.txt:7 (find_package):
+[0.245s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.245s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.245s]   CMake did not find one.
+[0.245s] 
+[0.245s]   Could not find a package configuration file provided by "catkin" with any
+[0.245s]   of the following names:
+[0.246s] 
+[0.246s]     catkinConfig.cmake
+[0.246s]     catkin-config.cmake
+[0.246s] 
+[0.246s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.246s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.246s]   provides a separate development package or SDK, be sure it has been
+[0.246s]   installed.
+[0.246s] 
+[0.246s] 
+[0.246s] -- Configuring incomplete, errors occurred!
+[0.246s] See also "/ws_gz/build/livox_laser_simulation/CMakeFiles/CMakeOutput.log".
+[0.247s] Invoked command in '/ws_gz/build/livox_laser_simulation' returned '1': /usr/bin/cmake /ws_gz/src/livox_laser_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/ws_gz/install/livox_laser_simulation

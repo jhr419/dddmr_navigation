@@ -1,0 +1,1 @@
+/ws_gz/src/gz_quadbot/robots/configs/go2_config/launch/gz_lidar_odom.launch.py
