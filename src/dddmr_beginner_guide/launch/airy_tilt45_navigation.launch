@@ -33,4 +33,4 @@
   <let name="rviz_config" value="$(find-pkg-share dddmr_beginner_guide)/rviz/airy_tilt45_navigation.rviz"/>
   <node name="rviz2" pkg="rviz2" exec="rviz2" args="-d $(var rviz_config)"/>
 
-</launch>
+</launch> 

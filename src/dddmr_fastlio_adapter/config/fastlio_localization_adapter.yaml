@@ -1,0 +1,27 @@
+fastlio_localization_adapter:
+  ros__parameters:
+    fastlio_odom_topic: "/Odometry"
+    dddmr_odom_topic: "/odom"
+
+    # pointcloud2: subscribe sensor_msgs/msg/PointCloud2
+    # livox: subscribe livox_ros_driver2/msg/CustomMsg and republish PointCloud2
+    input_cloud_type: "livox"
+    input_cloud_topic: "/mid360"
+    dddmr_cloud_topic: "segmented_cloud_pure"
+
+    icp_result_topic: "icp_result"
+    map_frame: "map"
+    odom_frame: "odom"
+    base_frame: "base_link"
+    output_cloud_frame: "livox"
+    override_cloud_frame: true
+
+    publish_odom_tf: true
+    publish_initial_odom_tf: true
+    publish_map_odom_tf: true
+    publish_initial_map_odom_tf: true
+
+    base_to_body_xyz: [0.3, 0.0, 0.38]
+    base_to_body_rpy: [0.0, 0.485596, 0.0]
+    base_to_sensor_xyz: [0.3, 0.0, 0.38]
+    base_to_sensor_rpy: [0.0, 0.485596, 0.0]

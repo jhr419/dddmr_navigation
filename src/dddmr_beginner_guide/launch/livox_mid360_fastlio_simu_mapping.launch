@@ -1,6 +1,6 @@
 <launch>
   <arg name="use_sim_time" default="true"/>
-  <arg name="mapping_dir" default="/tmp/dddmr_fastlio_mid360_map"/>
+  <arg name="mapping_dir" default="/home/dddmr_bags/dddmr_fastlio_sim_mid360_map"/>
   <arg name="rviz_config" default="$(find-pkg-share dddmr_beginner_guide)/rviz/livox_mid360_fastlio_dddmr_mapping.rviz"/>
 
   <include file="$(find-pkg-share fast_lio)/launch/mapping.launch.py">
@@ -11,7 +11,7 @@
   </include>
 
   <node pkg="dddmr_fastlio_adapter" exec="fastlio_dddmr_adapter_node" output="screen">
-    <param from="$(find-pkg-share dddmr_fastlio_adapter)/config/livox_mid360_dddmr_adapter.yaml"/>
+    <param from="$(find-pkg-share dddmr_fastlio_adapter)/config/livox_mid360_dddmr_adapter_simu.yaml"/>
     <param name="use_sim_time" value="$(var use_sim_time)"/>
     <param name="mapping_dir" value="$(var mapping_dir)"/>
   </node>
@@ -20,7 +20,7 @@
         args="0.0 0 -0.24 0.0 0.0 0 base_link base_footprint"/>
 
   <node pkg="tf2_ros" exec="static_transform_publisher" name="baselink2mid360"
-        args="0.3 0 0.38 0.0 0.485596 0 base_link livox_frame"/>
+        args="0.1 0 0.11 0.0 0.485596 0 base_link livox_frame"/>
 
   <node pkg="rviz2" exec="rviz2" name="rviz2" output="screen" respawn="false"
           args="-d $(var rviz_config)"/>

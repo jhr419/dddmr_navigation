@@ -56,7 +56,7 @@ mcl_fa:
         
 sub_maps:
   ros__parameters:
-    pose_graph_dir: "/root/dddmr_bags/2026_03_28_19_25_15"
+    pose_graph_dir: "/root/dddmr_bags/gz_go2_demo_world"
     sub_map_search_radius: 50.0
     sub_map_warmup_trigger_distance: 20.0
     complete_map_voxel_size: 0.4

@@ -1,0 +1,113 @@
+<launch>
+  <arg name="use_sim_time" default="true"/>
+
+  <arg name="map_path" default="/home/sentry_ws/src/FAST_LIO_SAM/PCD/GlobalMap.pcd"/>
+  <arg name="ground_path" default="/root/dddmr_bags/gz_go2_demo_world/ground.pcd"/>
+
+  <arg name="initial_x" default="0.0"/>
+  <arg name="initial_y" default="0.0"/>
+  <arg name="initial_z" default="0.0"/>
+  <arg name="initial_yaw" default="0.0"/>
+
+  <arg name="fastlio_config" default="$(find-pkg-share fast_lio)/config/fast_lio_relocalization_param.yaml"/>
+  <arg name="icp_pcl_type" default="pointcloud2"/>
+  <arg name="icp_pointcloud_topic" default="/mid360_PointCloud2"/>
+  <arg name="navigation_pointcloud_topic" default="/mid360_PointCloud2"/>
+  <arg name="rviz_config" default="$(find-pkg-share p2p_move_base)/rviz/p2p_move_base_localization.rviz"/>
+
+  <!-- Go2 / Mid360 frame tree helpers. Fast-LIO odometry is bridged to odom -> base_link below. -->
+  <node pkg="tf2_ros" exec="static_transform_publisher" name="baselink2footprint"
+        args="0.0 0 -0.24 0.0 0.0 0 base_link base_footprint"/>
+  <!-- <node pkg="tf2_ros" exec="static_transform_publisher" name="baselink2mid360"
+        args="0.3 0 0.38 0.0 0.485596 0 base_link livox_frame"/> -->
+  <node pkg="tf2_ros" exec="static_transform_publisher" name="baselink2mid360"
+        args="0.1 0 0.11 0.0 0.485596 0 base_link livox"/>
+
+  <!-- Fast-LIO2 relocalization. map_path is also passed as prior_map_path to keep it identical to ICP. -->
+  <node pkg="fast_lio" exec="fastlio_mapping" name="fastlio_mapping" output="screen">
+    <param from="$(var fastlio_config)"/>
+    <param name="use_sim_time" value="$(var use_sim_time)"/>
+    <param name="locate_in_prior_map" value="true"/>
+    <param name="prior_map_path" value="$(var map_path)"/>
+    <param name="common.send_odom_base_tf" value="false"/>
+  </node>
+
+  <node pkg="icp_relocalization" exec="icp_node" name="go2_icp_relocalization" output="screen" respawn="false">
+    <param name="use_sim_time" value="$(var use_sim_time)"/>
+    <param name="initial_x" value="$(var initial_x)"/>
+    <param name="initial_y" value="$(var initial_y)"/>
+    <param name="initial_z" value="$(var initial_z)"/>
+    <param name="initial_a" value="$(var initial_yaw)"/>
+    <param name="map_voxel_leaf_size" value="0.5"/>
+    <param name="cloud_voxel_leaf_size" value="0.3"/>
+    <param name="map_frame_id" value="map"/>
+    <param name="solver_max_iter" value="75"/>
+    <param name="max_correspondence_distance" value="0.2"/>
+    <param name="RANSAC_outlier_rejection_threshold" value="1.0"/>
+    <param name="map_path" value="$(var map_path)"/>
+    <param name="fitness_score_thre" value="0.2"/>
+    <param name="converged_count_thre" value="20"/>
+    <param name="pcl_type" value="$(var icp_pcl_type)"/>
+    <remap from="/pointcloud2" to="$(var icp_pointcloud_topic)"/>
+  </node>
+
+  <!-- DDDMR navigation compatibility layer:
+       /Odometry -> /odom, odom -> base_link TF, ICP result -> map -> odom TF,
+       and navigation lidar cloud -> segmented_cloud_pure. -->
+  <node pkg="dddmr_fastlio_adapter" exec="fastlio_localization_adapter_node" name="fastlio_localization_adapter" output="screen">
+    <param name="use_sim_time" value="$(var use_sim_time)"/>
+    <param name="fastlio_odom_topic" value="/Odometry"/>
+    <param name="dddmr_odom_topic" value="/odom"/>
+    <param name="input_cloud_topic" value="$(var navigation_pointcloud_topic)"/>
+    <param name="dddmr_cloud_topic" value="segmented_cloud_pure"/>
+    <param name="icp_result_topic" value="icp_result"/>
+    <param name="map_frame" value="map"/>
+    <param name="odom_frame" value="odom"/>
+    <param name="base_frame" value="base_link"/>
+    <param name="output_cloud_frame" value="livox"/>
+    <param name="override_cloud_frame" value="true"/>
+    <param name="publish_odom_tf" value="true"/>
+    <param name="publish_initial_odom_tf" value="true"/>
+    <param name="publish_map_odom_tf" value="true"/>
+    <param name="publish_initial_map_odom_tf" value="true"/>
+    <param name="initial_x" value="$(var initial_x)"/>
+    <param name="initial_y" value="$(var initial_y)"/>
+    <param name="initial_z" value="$(var initial_z)"/>
+    <param name="initial_yaw" value="$(var initial_yaw)"/>
+    <param name="base_to_body_xyz" value="[0.3, 0.0, 0.38]"/>
+    <param name="base_to_body_rpy" value="[0.0, 0.485596, 0.0]"/>
+    <param name="base_to_sensor_xyz" value="[0.3, 0.0, 0.38]"/>
+    <param name="base_to_sensor_rpy" value="[0.0, 0.485596, 0.0]"/>
+  </node>
+
+  <!-- Prior map publishers used by perception_3d/global_planner. -->
+  <node pkg="dddmr_fastlio_adapter" exec="pcd_map_publisher_node" name="go2_map_publisher" output="screen" respawn="false">
+    <param name="use_sim_time" value="$(var use_sim_time)"/>
+    <param name="map_path" value="$(var map_path)"/>
+    <param name="ground_path" value="$(var ground_path)"/>
+    <param name="global_frame" value="map"/>
+    <param name="map_topic" value="mapcloud"/>
+    <param name="ground_topic" value="mapground"/>
+    <param name="map_leaf_size" value="0.2"/>
+    <param name="ground_leaf_size" value="0.3"/>
+  </node>
+
+  <node pkg="global_planner" exec="global_planner_node" output="screen" respawn="false">
+    <param from="$(find-pkg-share p2p_move_base)/config/go2_localization.yaml"/>
+    <param name="use_sim_time" value="$(var use_sim_time)"/>
+  </node>
+
+  <node pkg="p2p_move_base" exec="p2p_move_base_node" output="screen" respawn="false">
+    <param from="$(find-pkg-share p2p_move_base)/config/go2_localization.yaml"/>
+    <param name="use_sim_time" value="$(var use_sim_time)"/>
+  </node>
+
+  <node pkg="p2p_move_base" exec="clicked2goal.py" output="screen" respawn="false">
+    <param name="use_sim_time" value="$(var use_sim_time)"/>
+  </node>
+
+  <node pkg="rviz2" exec="rviz2" name="rviz2" output="screen" respawn="false"
+        args="-d $(var rviz_config)">
+    <param name="use_sim_time" value="$(var use_sim_time)"/>
+  </node>
+</launch>

@@ -1,0 +1,90 @@
+<launch>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="map_path" default="/tmp/dddmr_fastlio_mid360_map/map.pcd"/>
+  <arg name="ground_path" default="/tmp/dddmr_fastlio_mid360_map/ground.pcd"/>
+  <arg name="initial_x" default="0.0"/>
+  <arg name="initial_y" default="0.0"/>
+  <arg name="initial_z" default="0.0"/>
+  <arg name="initial_yaw" default="0.0"/>
+  <arg name="rviz_config" default="$(find-pkg-share dddmr_beginner_guide)/rviz/airy_tilt45_navigation.rviz"/>
+
+  <!--- mcl_feature -->
+  <node pkg="lego_loam_bor" exec="mcl_feature" output="screen" respawn="false">
+    <param from="$(find-pkg-share dddmr_beginner_guide)/config/livox_mid360_navigation.yaml" />
+    <param name="use_sim_time" value="$(var use_sim_time)" />
+    <remap from="/lslidar_point_cloud" to="/airy_points"/>
+    <remap from="/odom" to="/odom"/>
+  </node>
+
+  <!--- TF -->
+  <node pkg="tf2_ros" exec="static_transform_publisher" name="baselink2footprint" args="0.0 0 -0.24 0.0 0.0 0 base_link base_footprint" />
+  <node pkg="tf2_ros" exec="static_transform_publisher" name="baselink2mid360" args="0.3 0 0.38 0.0 0.485596 0 base_link livox_frame" />
+  <node pkg="tf2_ros" exec="static_transform_publisher" name="baselink2airy_compat" args="0.2 0 0.22 0.0 0.78539815 0 base_link airy" />
+
+  <!--- map publisher for global/local planners -->
+  <node pkg="mcl_3dl" exec="pcl_publisher" output="screen" respawn="false">
+    <param from="$(find-pkg-share mcl_3dl)/config/pcl_publisher.yaml" />
+    <param name="use_sim_time" value="$(var use_sim_time)" />
+    <param name="map_dir" value="$(var map_path)" />
+    <param name="ground_dir" value="$(var ground_path)" />
+  </node>
+
+  <!--- ICP relocalization: publishes map -> odom, while odometry keeps odom -> base_link -->
+  <node pkg="icp_relocalization" exec="transform_publisher" name="mid360_map_to_odom" output="screen">
+    <param name="use_sim_time" value="$(var use_sim_time)" />
+    <param name="map_frame_id" value="map"/>
+    <param name="odom_frame_id" value="odom"/>
+    <param name="publish_initial_transform" value="true"/>
+    <param name="initial_x" value="$(var initial_x)"/>
+    <param name="initial_y" value="$(var initial_y)"/>
+    <param name="initial_z" value="$(var initial_z)"/>
+    <param name="initial_yaw" value="$(var initial_yaw)"/>
+  </node>
+
+  <!--- /odom topic to odom -> base_link TF -->
+  <node pkg="icp_relocalization" exec="odom_tf_publisher" name="mid360_odom_to_base_link" output="screen">
+    <param name="use_sim_time" value="$(var use_sim_time)" />
+    <param name="odom_topic" value="/odom"/>
+    <param name="odom_frame_id" value="odom"/>
+    <param name="base_frame_id" value="base_link"/>
+    <param name="prefer_msg_frame_ids" value="true"/>
+  </node>
+
+  <node pkg="icp_relocalization" exec="icp_node" name="mid360_icp_relocalization" output="screen" respawn="false">
+    <param name="use_sim_time" value="$(var use_sim_time)" />
+    <param name="initial_x" value="$(var initial_x)"/>
+    <param name="initial_y" value="$(var initial_y)"/>
+    <param name="initial_z" value="$(var initial_z)"/>
+    <param name="initial_a" value="$(var initial_yaw)"/>
+    <param name="map_voxel_leaf_size" value="0.5"/>
+    <param name="cloud_voxel_leaf_size" value="0.3"/>
+    <param name="map_frame_id" value="map"/>
+    <param name="solver_max_iter" value="75"/>
+    <param name="max_correspondence_distance" value="0.2"/>
+    <param name="RANSAC_outlier_rejection_threshold" value="1.0"/>
+    <param name="map_path" value="$(var map_path)"/>
+    <param name="fitness_score_thre" value="0.2"/>
+    <param name="converged_count_thre" value="20"/>
+    <param name="pcl_type" value="pointcloud2"/>
+    <remap from="/pointcloud2" to="/airy_points"/>
+  </node>
+
+  <!--- global_planner -->
+  <node pkg="global_planner" exec="global_planner_node" output="screen" respawn="false">
+    <param from="$(find-pkg-share dddmr_beginner_guide)/config/livox_mid360_navigation.yaml" />
+    <param name="use_sim_time" value="$(var use_sim_time)" />
+  </node>
+
+  <!--- p2p_move_base -->
+  <node pkg="p2p_move_base" exec="p2p_move_base_node" output="screen" respawn="false">
+    <param from="$(find-pkg-share dddmr_beginner_guide)/config/livox_mid360_navigation.yaml" />
+    <param name="use_sim_time" value="$(var use_sim_time)" />
+  </node>
+
+  <!--- goal sender -->
+  <node pkg="p2p_move_base" exec="clicked2goal.py" output="screen" respawn="false"/>
+
+  <!--- Rviz -->
+  <node name="rviz2" pkg="rviz2" exec="rviz2" args="-d $(var rviz_config)"/>
+
+</launch>

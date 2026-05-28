@@ -12,14 +12,12 @@ fastlio_dddmr_adapter:
     odom_history_duration_s: 2.0
     max_odom_stamp_diff_s: 0.05
 
-    # Directory consumed by dddmr_mcl_3dl: map.pcd, ground.pcd, poses.pcd, edges.pcd, pcd/N_*.pcd.
-    mapping_dir: "/home/dddmr_bags/dddmr_fastlio_mid360_map"
+    mapping_dir: "/home/dddmr_bags/dddmr_fastlio_sim_mid360_map"
     save_on_shutdown: false
 
-    # Fast-LIO publishes odometry/clouds in its IMU "body" frame.
-    # These values are T_base_body, matching the base_link -> Livox Mid360 mount.
-    base_to_body_xyz: [0.1, 0.0, 0.11]
-    base_to_body_rpy: [0.0, 0.485596, 0.0]
+    # In simulation /imu/data is the robot body IMU, so Fast-LIO body equals base_link.
+    base_to_body_xyz: [0.0, 0.0, 0.0]
+    base_to_body_rpy: [0.0, 0.0, 0.0]
 
     keyframe_distance: 0.5
     keyframe_angle: 0.5
@@ -30,8 +28,6 @@ fastlio_dddmr_adapter:
     min_range: 0.5
     max_range: 60.0
 
-    # Simple base_link-frame ground split for DDDMR localization.
-    # Tune these for your robot height and Mid360 mounting.
     ground_z_min: -0.45
     ground_z_max: 0.20
     ground_abs_slope_max: 0.35

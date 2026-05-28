@@ -1,6 +1,8 @@
 #include <algorithm>
 #include <cmath>
+#include <deque>
 #include <filesystem>
+#include <iterator>
 #include <mutex>
 #include <string>
 #include <vector>
@@ -135,6 +137,8 @@ public:
     save_on_shutdown_ = declare_parameter<bool>("save_on_shutdown", false);
     publish_tf_ = declare_parameter<bool>("publish_tf", true);
     publish_period_s_ = declare_parameter<double>("publish_period_s", 1.0);
+    odom_history_duration_s_ = declare_parameter<double>("odom_history_duration_s", 2.0);
+    max_odom_stamp_diff_s_ = declare_parameter<double>("max_odom_stamp_diff_s", 0.05);
 
     keyframe_distance_ = declare_parameter<double>("keyframe_distance", 0.5);
     keyframe_angle_ = declare_parameter<double>("keyframe_angle", 0.5);
@@ -244,6 +248,14 @@ private:
   {
     std::lock_guard<std::mutex> lock(mutex_);
     last_odom_ = *msg;
+    odom_history_.push_back(*msg);
+    const rclcpp::Time newest_stamp(msg->header.stamp);
+    while (!odom_history_.empty() &&
+      (newest_stamp - rclcpp::Time(odom_history_.front().header.stamp)).seconds() >
+      odom_history_duration_s_)
+    {
+      odom_history_.pop_front();
+    }
     have_odom_ = true;
     const Eigen::Affine3d map_to_body = poseToAffine(msg->pose.pose);
     last_map_to_base_ = map_to_body * body_to_base_;
@@ -275,7 +287,12 @@ private:
       return;
     }
 
-    const Eigen::Affine3d map_to_body = poseToAffine(last_odom_.pose.pose);
+    nav_msgs::msg::Odometry cloud_odom;
+    if (!lookupClosestOdom(msg->header.stamp, cloud_odom)) {
+      return;
+    }
+
+    const Eigen::Affine3d map_to_body = poseToAffine(cloud_odom.pose.pose);
     const Eigen::Affine3d map_to_base = map_to_body * body_to_base_;
     if (!shouldAddKeyFrame(map_to_base)) {
       return;
@@ -297,8 +314,44 @@ private:
 
     RCLCPP_INFO(
       get_logger(),
-      "DDDMR keyframe %zu: feature=%zu ground=%zu",
-      keyframes_.size() - 1, keyframe.feature->size(), keyframe.ground->size());
+      "DDDMR keyframe %zu: feature=%zu ground=%zu odom_dt=%.3fs",
+      keyframes_.size() - 1, keyframe.feature->size(), keyframe.ground->size(),
+      std::abs((rclcpp::Time(cloud_odom.header.stamp) - rclcpp::Time(msg->header.stamp)).seconds()));
+  }
+
+  bool lookupClosestOdom(
+    const builtin_interfaces::msg::Time & stamp,
+    nav_msgs::msg::Odometry & odom)
+  {
+    if (odom_history_.empty()) {
+      RCLCPP_WARN_THROTTLE(
+        get_logger(), *get_clock(), 2000,
+        "Waiting for Fast-LIO odometry history on %s", odom_topic_.c_str());
+      return false;
+    }
+
+    const rclcpp::Time target(stamp);
+    auto best = odom_history_.begin();
+    double best_dt = std::abs((rclcpp::Time(best->header.stamp) - target).seconds());
+    for (auto it = std::next(odom_history_.begin()); it != odom_history_.end(); ++it) {
+      const double dt = std::abs((rclcpp::Time(it->header.stamp) - target).seconds());
+      if (dt < best_dt) {
+        best = it;
+        best_dt = dt;
+      }
+    }
+
+    if (best_dt > max_odom_stamp_diff_s_) {
+      RCLCPP_WARN_THROTTLE(
+        get_logger(), *get_clock(), 2000,
+        "Closest Fast-LIO odom is %.3fs away from cloud stamp; skip this cloud. "
+        "Increase max_odom_stamp_diff_s only after checking clock/topic latency.",
+        best_dt);
+      return false;
+    }
+
+    odom = *best;
+    return true;
   }
 
   bool shouldAddKeyFrame(const Eigen::Affine3d & map_to_base) const
@@ -529,6 +582,8 @@ private:
   bool save_on_shutdown_ = false;
   bool publish_tf_ = true;
   double publish_period_s_ = 1.0;
+  double odom_history_duration_s_ = 2.0;
+  double max_odom_stamp_diff_s_ = 0.05;
   double keyframe_distance_ = 0.5;
   double keyframe_angle_ = 0.5;
   int keyframe_min_points_ = 100;
@@ -547,6 +602,7 @@ private:
   Eigen::Affine3d last_map_to_base_ = Eigen::Affine3d::Identity();
 
   nav_msgs::msg::Odometry last_odom_;
+  std::deque<nav_msgs::msg::Odometry> odom_history_;
   sensor_msgs::msg::PointCloud2 latest_fastlio_map_;
   bool have_odom_ = false;
   bool have_fastlio_map_ = false;
