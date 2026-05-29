@@ -1,0 +1,9 @@
+[0.032s] Invoking command in '/root/dddmr_navigation/build/map_editor_panel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/map_editor_panel -- -j28 -l28
+[0.090s] [ 20%] [34m[1mAutomatic UIC for target map_editor_panel[0m
+[0.122s] [ 20%] Built target map_editor_panel_autogen
+[0.141s] [ 40%] [34m[1mGenerating include/map_editor_panel/moc_map_editor_panel.cpp[0m
+[0.225s] [ 60%] [32mBuilding CXX object CMakeFiles/map_editor_panel.dir/include/map_editor_panel/moc_map_editor_panel.cpp.o[0m
+[0.234s] [ 80%] [32mBuilding CXX object CMakeFiles/map_editor_panel.dir/src/map_editor_panel.cpp.o[0m
+[25.776s] gmake[2]: *** [CMakeFiles/map_editor_panel.dir/build.make:94: CMakeFiles/map_editor_panel.dir/src/map_editor_panel.cpp.o] Interrupt
+[25.776s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/map_editor_panel.dir/all] Interrupt
+[25.776s] gmake: *** [Makefile:146: all] Interrupt

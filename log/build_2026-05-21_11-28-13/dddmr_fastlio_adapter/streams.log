@@ -1,0 +1,109 @@
+[0.039s] Invoking command in '/root/dddmr_navigation/build/dddmr_fastlio_adapter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_fastlio_adapter -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_fastlio_adapter
+[0.088s] -- The C compiler identification is GNU 13.4.0
+[0.132s] -- The CXX compiler identification is GNU 13.4.0
+[0.137s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.211s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.211s] -- Detecting C compile features
+[0.211s] -- Detecting C compile features - done
+[0.215s] -- Detecting CXX compiler ABI info
+[0.303s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.316s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.319s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.505s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.567s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.601s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.654s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.661s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.669s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.682s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.704s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.767s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.769s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.868s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.907s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.964s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.974s] -- Looking for pthread.h
+[1.040s] -- Looking for pthread.h - found
+[1.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.110s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.111s] -- Found Threads: TRUE  
+[1.179s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.194s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.240s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.267s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[1.280s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.410s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.432s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.432s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.432s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.433s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.452s] -- Checking for module 'eigen3'
+[1.464s] --   Found eigen3, version 3.4.0
+[1.496s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.496s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.525s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.593s] -- Checking for module 'libusb-1.0'
+[1.609s] --   Found libusb-1.0, version 1.0.25
+[1.645s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.646s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.646s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.697s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.697s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.698s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.698s] [0m** WARNING ** io features related to png will be disabled[0m
+[1.753s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.760s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.903s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.903s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.905s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.912s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.925s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.936s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.013s] -- Found X11: /usr/include   
+[2.014s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.087s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.087s] -- Looking for gethostbyname
+[2.151s] -- Looking for gethostbyname - found
+[2.152s] -- Looking for connect
+[2.219s] -- Looking for connect - found
+[2.219s] -- Looking for remove
+[2.286s] -- Looking for remove - found
+[2.286s] -- Looking for shmat
+[2.353s] -- Looking for shmat - found
+[2.353s] -- Looking for IceConnectionNumber in ICE
+[2.417s] -- Looking for IceConnectionNumber in ICE - found
+[2.487s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[2.488s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.490s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[2.491s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[2.501s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.505s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[2.510s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[2.516s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.545s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.561s] -- Checking for module 'flann'
+[2.573s] --   Found flann, version 1.9.1
+[2.606s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.606s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.608s] -- looking for PCL_COMMON
+[2.608s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.609s] -- looking for PCL_OCTREE
+[2.609s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.610s] -- looking for PCL_IO
+[2.610s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.611s] -- looking for PCL_KDTREE
+[2.611s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.611s] -- looking for PCL_SEARCH
+[2.612s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.612s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.613s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.613s] -- looking for PCL_FILTERS
+[2.614s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.615s] -- Found PCL: pcl_common;pcl_octree;pcl_io;pcl_kdtree;pcl_search;pcl_sample_consensus;pcl_filters;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN  
+[2.617s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.718s] -- Configuring done
+[2.755s] -- Generating done
+[2.763s] -- Build files have been written to: /root/dddmr_navigation/build/dddmr_fastlio_adapter

@@ -1,0 +1,175 @@
+-- The C compiler identification is GNU 13.4.0
+-- The CXX compiler identification is GNU 13.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)
+-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found tf2_sensor_msgs: 0.25.20 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+-- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[33mCMake Warning (dev) at CMakeLists.txt:29 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/dddmr_navigation/build/mcl_3dl
+[ 18%] [32mBuilding CXX object CMakeFiles/sub_maps.dir/src/sub_maps.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/parameters.dir/src/parameters.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/pcl_publisher.dir/src/pcl_publisher.cpp.o[0m
+[ 36%] [32m[1mLinking CXX shared library libparameters.so[0m
+[ 36%] Built target parameters
+[ 45%] [32mBuilding CXX object CMakeFiles/lidar_measurement_model_likelihood.dir/src/lidar_measurement_model_likelihood.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable pcl_publisher[0m
+[ 54%] Built target pcl_publisher
+[ 63%] [32m[1mLinking CXX shared library libsub_maps.so[0m
+[ 63%] Built target sub_maps
+[ 72%] [32m[1mLinking CXX shared library liblidar_measurement_model_likelihood.so[0m
+[ 72%] Built target lidar_measurement_model_likelihood
+[ 81%] [32mBuilding CXX object CMakeFiles/mcl_3dl.dir/src/mcl_3dl_node.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/mcl_3dl.dir/src/mcl_3dl.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mcl_3dl[0m
+[100%] Built target mcl_3dl
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/lib/libparameters.so
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/lib/liblidar_measurement_model_likelihood.so
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/lib/libsub_maps.so
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/lib/mcl_3dl/mcl_3dl
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/lib/mcl_3dl/pcl_publisher
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/filter.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/filter_vec3.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/lidar_measurement_models/lidar_measurement_model_likelihood.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/motion_prediction_model_base.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/motion_prediction_models/motion_prediction_model_differential_drive.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/nd.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/noise_generator_base.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/noise_generators/diagonal_noise_generator.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/noise_generators/multivariate_noise_generator.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/parameters.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/pf.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/quat.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/state_6dof.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/sub_maps.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/vec3.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//utilities.h
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//launch/mcl_3dl.launch
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//launch/mcl_3dlXfeatureXbag.launch
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//launch/pcl_publisher.launch
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//config/mcl_3dl.yaml
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//config/pcl_publisher.yaml
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//rviz/mcl_3dl_demo.rviz
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/edges.pcd
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/ground.pcd
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/map.pcd
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/pcd/0_feature.pcd
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/pcd/0_ground.pcd
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/poses.pcd
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/ament_index/resource_index/package_run_dependencies/mcl_3dl
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/ament_index/resource_index/parent_prefix_path/mcl_3dl
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/environment/ament_prefix_path.sh
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/environment/ament_prefix_path.dsv
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/environment/path.sh
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/environment/path.dsv
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/local_setup.bash
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/local_setup.sh
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/local_setup.zsh
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/local_setup.dsv
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/package.dsv
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/ament_index/resource_index/packages/mcl_3dl
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/cmake/mcl_3dlConfig.cmake
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/cmake/mcl_3dlConfig-version.cmake
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/package.xml

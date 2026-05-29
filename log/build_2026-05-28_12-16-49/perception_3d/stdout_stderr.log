@@ -1,0 +1,86 @@
+[ 14%] Built target shared_data_sensor
+[ 21%] Built target depthimg2pointcloud_node
+[ 35%] Built target depth_camera_buffer
+[ 42%] Built target perception_sensor
+[ 50%] Built target stacked_perception
+[ 57%] Built target cluster_marking
+[ 64%] Built target stacked_perception_ros
+[ 71%] Built target perception_3d_ros_node
+[100%] Built target layers
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/lib/libshared_data_sensor.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/lib/libperception_sensor.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/lib/libstacked_perception.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/lib/libstacked_perception_ros.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/lib/libdepth_camera_buffer.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/lib/libcluster_marking.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/lib/liblayers.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/lib/perception_3d/perception_3d_ros_node
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/lib/perception_3d/depthimg2pointcloud_node
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/cluster_marking.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/depth_camera/depth_camera_layer.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/depth_camera/depth_camera_observation.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/depth_camera/depth_camera_observation_buffer.hpp
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/depth_camera/frustum_utils.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/dynamic_graph.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/global_utils.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/multilayer_spinning_lidar.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/no_entry_layer.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/nothing_layer.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/path_blocked_strategy.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/perception_3d_ros.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/sensor.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/shared_data.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/speed_limit_layer.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/stacked_perception.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/static_graph.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/include//perception_3d/static_layer.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//launch/depth_camera_demo/multi_depth_camera_3d_ros_launch.py
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//launch/multilayer_spinning_lidar_demo/multilayer_spinning_lidar_3d_ros_launch.py
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//launch/multilayer_spinning_lidar_demo/scanning_lidar_3d_ros_launch.py
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//launch/perception_3d_ros.launch
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//launch/semantic_segmentation_depth_camera_demo/semantic_segmentation_depth_camera_3d_ros_launch.py
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//launch/zone_editor_utils.launch
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//config/depth_camera_demo/multi_depth_camera_3d_ros.yaml
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//config/multilayer_spinning_lidar_demo/multilayer_spinning_lidar_3d_ros.yaml
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//config/multilayer_spinning_lidar_demo/scanning_lidar_3d_ros.yaml
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//config/no_entry_layer.yaml
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//config/perception_3d_ros.yaml
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//config/segmentation_depth_camera_demo/semantic_segmentation_depth_camera_3d_ros.yaml
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//config/speed_limit_layer.yaml
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//rviz/multi_depth_camera_3d.rviz
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//rviz/multilayer_spinning_lidar_3d.rviz
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//rviz/perception_3d.rviz
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//rviz/scanning_lidar_3d.rviz
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//rviz/semantic_segmentation_depth_camera_3d.rviz
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//rviz/zone_demo.rviz
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//rviz/zone_editor_utils.rviz
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//map/ground.pcd
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//map/map.pcd
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//map/no_entry1.pcd
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//map/zone1.pcd
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//map/zone2.pcd
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/perception_3d_plugins.xml
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/environment/library_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/environment/library_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//perception_3d_plugins.xml
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/ament_index/resource_index/package_run_dependencies/perception_3d
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/ament_index/resource_index/parent_prefix_path/perception_3d
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/environment/path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/environment/path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/local_setup.bash
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/local_setup.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/local_setup.zsh
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/local_setup.dsv
+-- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/package.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/ament_index/resource_index/packages/perception_3d
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/ament_index/resource_index/perception_3d__pluginlib__plugin/perception_3d
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/cmake/perception_3dConfig.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/cmake/perception_3dConfig-version.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d/package.xml

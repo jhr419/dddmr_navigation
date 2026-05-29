@@ -1,0 +1,3 @@
+/root/dddmr_navigation/install/map_editor_panel/lib/libmap_editor_panel.so
+/root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/map_editor_panelExport.cmake
+/root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/map_editor_panelExport-release.cmake

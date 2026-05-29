@@ -1,0 +1,804 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (-) JobUnselected: {'identifier': 'base_trajectory'}
+[0.000235] (-) JobUnselected: {'identifier': 'cloud_msgs'}
+[0.000295] (-) JobUnselected: {'identifier': 'dddmr_beginner_guide'}
+[0.000318] (-) JobUnselected: {'identifier': 'dddmr_fastlio_adapter'}
+[0.000373] (-) JobUnselected: {'identifier': 'dddmr_odom_3d'}
+[0.000394] (-) JobUnselected: {'identifier': 'dddmr_rviz_default_plugins'}
+[0.000422] (-) JobUnselected: {'identifier': 'dddmr_semantic_segmentation'}
+[0.000461] (-) JobUnselected: {'identifier': 'dddmr_sys_core'}
+[0.000514] (-) JobUnselected: {'identifier': 'dddmr_trt'}
+[0.000540] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000549] (-) JobUnselected: {'identifier': 'global_planner'}
+[0.000557] (-) JobUnselected: {'identifier': 'lego_loam_bor'}
+[0.000563] (-) JobUnselected: {'identifier': 'local_planner'}
+[0.000569] (-) JobUnselected: {'identifier': 'map_editor_panel'}
+[0.000575] (-) JobUnselected: {'identifier': 'mapping_panel'}
+[0.000582] (-) JobUnselected: {'identifier': 'mcl_3dl'}
+[0.000588] (-) JobUnselected: {'identifier': 'mpc_critics'}
+[0.000594] (-) JobUnselected: {'identifier': 'p2p_move_base'}
+[0.000600] (-) JobUnselected: {'identifier': 'perception_3d'}
+[0.000607] (-) JobUnselected: {'identifier': 'pose_graph_editor_panel'}
+[0.000614] (-) JobUnselected: {'identifier': 'pose_graph_merge_editor_panel'}
+[0.000809] (-) JobUnselected: {'identifier': 'recovery_behaviors'}
+[0.000827] (-) JobUnselected: {'identifier': 'trajectory_generators'}
+[0.000837] (dddmr_sc_pgo) JobQueued: {'identifier': 'dddmr_sc_pgo', 'dependencies': OrderedDict()}
+[0.000846] (dddmr_sc_pgo) JobStarted: {'identifier': 'dddmr_sc_pgo'}
+[0.005557] (dddmr_sc_pgo) JobProgress: {'identifier': 'dddmr_sc_pgo', 'progress': 'cmake'}
+[0.006032] (dddmr_sc_pgo) Command: {'cmd': ['/usr/bin/cmake', '/root/dddmr_navigation/src/dddmr_sc_pgo', '-DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sc_pgo'], 'cwd': '/root/dddmr_navigation/build/dddmr_sc_pgo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'yk'), ('GIT_ASKPASS', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/root/dddmr_navigation/install/p2p_move_base/lib:/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/pose_graph_merge_editor_panel/lib:/root/dddmr_navigation/install/pose_graph_editor_panel/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/mcl_3dl/lib:/root/dddmr_navigation/install/mapping_panel/lib:/root/dddmr_navigation/install/map_editor_panel/lib:/root/dddmr_navigation/install/lego_loam_bor/lib:/root/dddmr_navigation/install/global_planner/lib:/root/dddmr_navigation/install/fast_lio/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/dddmr_rviz_default_plugins/lib:/root/dddmr_navigation/install/cloud_msgs/lib:/root/dddmr_navigation/install/base_trajectory/lib'), ('BROWSER', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/dddmr_navigation'), ('TERM_PROGRAM_VERSION', '3.5.38'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-27ace972-e339-4102-9cb6-a68ff8daf15c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/node'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('COLCON_PREFIX_PATH', '/root/dddmr_navigation/install'), ('ROS_DISTRO', 'humble'), ('OVSX_REGISTRY_URL', 'https://open-vsx.org'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-8d4a5eca80.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/cursor-remote-ssh-cc04204e-865f-4c41-b7d9-7fa2afb2864a.sock'), ('ROS_DOMAIN_ID', '18'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/root/dddmr_navigation/install/p2p_move_base:/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/pose_graph_merge_editor_panel:/root/dddmr_navigation/install/pose_graph_editor_panel:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/mcl_3dl:/root/dddmr_navigation/install/mapping_panel:/root/dddmr_navigation/install/map_editor_panel:/root/dddmr_navigation/install/lego_loam_bor:/root/dddmr_navigation/install/global_planner:/root/dddmr_navigation/install/fast_lio:/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/dddmr_semantic_segmentation:/root/dddmr_navigation/install/dddmr_rviz_default_plugins:/root/dddmr_navigation/install/dddmr_odom_3d:/root/dddmr_navigation/install/dddmr_fastlio_adapter:/root/dddmr_navigation/install/dddmr_beginner_guide:/root/dddmr_navigation/install/cloud_msgs:/root/dddmr_navigation/install/base_trajectory'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_IPC_AUTH_TOKEN', '4a8016d1c03267560b2dc3cb3b7ca8a7839b6fb33ba6112bee41260685a1090b'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/dddmr_navigation/build/dddmr_sc_pgo'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/root/dddmr_navigation/install/fast_lio/local/lib/python3.10/dist-packages:/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:/root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dddmr_navigation/install/p2p_move_base:/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/pose_graph_merge_editor_panel:/root/dddmr_navigation/install/pose_graph_editor_panel:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/mcl_3dl:/root/dddmr_navigation/install/mapping_panel:/root/dddmr_navigation/install/map_editor_panel:/root/dddmr_navigation/install/lego_loam_bor:/root/dddmr_navigation/install/global_planner:/root/dddmr_navigation/install/fast_lio:/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/dddmr_semantic_segmentation:/root/dddmr_navigation/install/dddmr_rviz_default_plugins:/root/dddmr_navigation/install/dddmr_odom_3d:/root/dddmr_navigation/install/dddmr_fastlio_adapter:/root/dddmr_navigation/install/dddmr_beginner_guide:/root/dddmr_navigation/install/cloud_msgs:/root/dddmr_navigation/install/base_trajectory:/opt/ros/humble')]), 'shell': False}
+[0.070896] (dddmr_sc_pgo) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.4.0\n'}
+[0.099606] (-) TimerEvent: {}
+[0.111784] (dddmr_sc_pgo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.4.0\n'}
+[0.116580] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.175081] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.181105] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.181248] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.181332] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.183321] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199750] (-) TimerEvent: {}
+[0.240530] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.244542] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.244748] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.244841] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.246666] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.299960] (-) TimerEvent: {}
+[0.347295] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400080] (-) TimerEvent: {}
+[0.402124] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.428687] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.432392] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.437569] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.444839] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.454498] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.481684] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.483784] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500149] (-) TimerEvent: {}
+[0.549240] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.566707] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.598938] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600352] (-) TimerEvent: {}
+[0.605029] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.670899] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.671071] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700514] (-) TimerEvent: {}
+[0.727311] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.727899] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.754709] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.770917] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.786167] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.795010] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.800730] (-) TimerEvent: {}
+[0.804933] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.807666] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.842896] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[0.849281] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.868224] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.879984] (dddmr_sc_pgo) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.900787] (-) TimerEvent: {}
+[0.908411] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.908489] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.934116] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.945723] (dddmr_sc_pgo) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.978534] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.978618] (dddmr_sc_pgo) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.000851] (-) TimerEvent: {}
+[1.101016] (-) TimerEvent: {}
+[1.201341] (-) TimerEvent: {}
+[1.301603] (-) TimerEvent: {}
+[1.401840] (-) TimerEvent: {}
+[1.502112] (-) TimerEvent: {}
+[1.602398] (-) TimerEvent: {}
+[1.666359] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.678136] (dddmr_sc_pgo) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.702556] (-) TimerEvent: {}
+[1.708490] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.709480] (dddmr_sc_pgo) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.753732] (dddmr_sc_pgo) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.802620] (-) TimerEvent: {}
+[1.838216] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.842115] (dddmr_sc_pgo) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.846966] (dddmr_sc_pgo) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.902698] (-) TimerEvent: {}
+[1.945010] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.002820] (-) TimerEvent: {}
+[2.029106] (dddmr_sc_pgo) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.102930] (-) TimerEvent: {}
+[2.111564] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.111786] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.112217] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.112731] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.112921] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.113108] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.113290] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.113594] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.113826] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.114268] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.114582] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.114984] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.115416] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.115844] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.116230] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.116615] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.117049] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.117440] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.117858] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.118261] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.118664] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.118803] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.118982] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.119360] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.119773] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.122111] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[2.133692] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.134467] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.134500] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.135979] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:56 (find_package):\n'}
+[2.136020] (dddmr_sc_pgo) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[2.136043] (dddmr_sc_pgo) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[2.136066] (dddmr_sc_pgo) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[2.136087] (dddmr_sc_pgo) StderrLine: {'line': b'\n'}
+[2.136107] (dddmr_sc_pgo) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[2.136128] (dddmr_sc_pgo) StderrLine: {'line': b'\n'}
+[2.136147] (dddmr_sc_pgo) StderrLine: {'line': b'    /usr\n'}
+[2.136167] (dddmr_sc_pgo) StderrLine: {'line': b'\n'}
+[2.136187] (dddmr_sc_pgo) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[2.136209] (dddmr_sc_pgo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.136230] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[0m\n'}
+[2.158011] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex \n'}
+[2.159575] (dddmr_sc_pgo) StdoutLine: {'line': b'-- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include\n'}
+[2.169897] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.203100] (-) TimerEvent: {}
+[2.218247] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.219018] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.219191] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/dddmr_navigation/src/dddmr_sc_pgo/include;/root/dddmr_navigation/src/dddmr_sc_pgo/include/dddmr_sc_pgo\n'}
+[2.219248] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.219847] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.219907] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.220074] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.220469] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.220768] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.221321] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.221357] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.221629] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.222908] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.245900] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Generating done\n'}
+[2.251031] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Build files have been written to: /root/dddmr_navigation/build/dddmr_sc_pgo\n'}
+[2.260515] (dddmr_sc_pgo) CommandEnded: {'returncode': 0}
+[2.260876] (dddmr_sc_pgo) JobProgress: {'identifier': 'dddmr_sc_pgo', 'progress': 'build'}
+[2.261398] (dddmr_sc_pgo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dddmr_navigation/build/dddmr_sc_pgo', '--', '-j28', '-l28'], 'cwd': '/root/dddmr_navigation/build/dddmr_sc_pgo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'yk'), ('GIT_ASKPASS', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/root/dddmr_navigation/install/p2p_move_base/lib:/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/pose_graph_merge_editor_panel/lib:/root/dddmr_navigation/install/pose_graph_editor_panel/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/mcl_3dl/lib:/root/dddmr_navigation/install/mapping_panel/lib:/root/dddmr_navigation/install/map_editor_panel/lib:/root/dddmr_navigation/install/lego_loam_bor/lib:/root/dddmr_navigation/install/global_planner/lib:/root/dddmr_navigation/install/fast_lio/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/dddmr_rviz_default_plugins/lib:/root/dddmr_navigation/install/cloud_msgs/lib:/root/dddmr_navigation/install/base_trajectory/lib'), ('BROWSER', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/dddmr_navigation'), ('TERM_PROGRAM_VERSION', '3.5.38'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-27ace972-e339-4102-9cb6-a68ff8daf15c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/node'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('COLCON_PREFIX_PATH', '/root/dddmr_navigation/install'), ('ROS_DISTRO', 'humble'), ('OVSX_REGISTRY_URL', 'https://open-vsx.org'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-8d4a5eca80.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/cursor-remote-ssh-cc04204e-865f-4c41-b7d9-7fa2afb2864a.sock'), ('ROS_DOMAIN_ID', '18'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/root/dddmr_navigation/install/p2p_move_base:/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/pose_graph_merge_editor_panel:/root/dddmr_navigation/install/pose_graph_editor_panel:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/mcl_3dl:/root/dddmr_navigation/install/mapping_panel:/root/dddmr_navigation/install/map_editor_panel:/root/dddmr_navigation/install/lego_loam_bor:/root/dddmr_navigation/install/global_planner:/root/dddmr_navigation/install/fast_lio:/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/dddmr_semantic_segmentation:/root/dddmr_navigation/install/dddmr_rviz_default_plugins:/root/dddmr_navigation/install/dddmr_odom_3d:/root/dddmr_navigation/install/dddmr_fastlio_adapter:/root/dddmr_navigation/install/dddmr_beginner_guide:/root/dddmr_navigation/install/cloud_msgs:/root/dddmr_navigation/install/base_trajectory'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_IPC_AUTH_TOKEN', '4a8016d1c03267560b2dc3cb3b7ca8a7839b6fb33ba6112bee41260685a1090b'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/dddmr_navigation/build/dddmr_sc_pgo'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/root/dddmr_navigation/install/fast_lio/local/lib/python3.10/dist-packages:/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:/root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dddmr_navigation/install/p2p_move_base:/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/pose_graph_merge_editor_panel:/root/dddmr_navigation/install/pose_graph_editor_panel:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/mcl_3dl:/root/dddmr_navigation/install/mapping_panel:/root/dddmr_navigation/install/map_editor_panel:/root/dddmr_navigation/install/lego_loam_bor:/root/dddmr_navigation/install/global_planner:/root/dddmr_navigation/install/fast_lio:/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/dddmr_semantic_segmentation:/root/dddmr_navigation/install/dddmr_rviz_default_plugins:/root/dddmr_navigation/install/dddmr_odom_3d:/root/dddmr_navigation/install/dddmr_fastlio_adapter:/root/dddmr_navigation/install/dddmr_beginner_guide:/root/dddmr_navigation/install/cloud_msgs:/root/dddmr_navigation/install/base_trajectory:/opt/ros/humble')]), 'shell': False}
+[2.303208] (-) TimerEvent: {}
+[2.307748] (dddmr_sc_pgo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/scan_context_lib.dir/src/scan_context.cpp.o\x1b[0m\n'}
+[2.403389] (-) TimerEvent: {}
+[2.503647] (-) TimerEvent: {}
+[2.603877] (-) TimerEvent: {}
+[2.704219] (-) TimerEvent: {}
+[2.804537] (-) TimerEvent: {}
+[2.904841] (-) TimerEvent: {}
+[3.005084] (-) TimerEvent: {}
+[3.097548] (dddmr_sc_pgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[3.097670] (dddmr_sc_pgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/dddmr_navigation/src/dddmr_sc_pgo/include/dddmr_sc_pgo/scan_context.h:21\x1b[m\x1b[K,\n'}
+[3.097698] (dddmr_sc_pgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/dddmr_navigation/src/dddmr_sc_pgo/src/scan_context.cpp:8\x1b[m\x1b[K:\n'}
+[3.097721] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.097751] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.097772] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.097794] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.097815] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.097836] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.097863] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:337:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.097884] (dddmr_sc_pgo) StderrLine: {'line': b'  337 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.097907] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.105245] (-) TimerEvent: {}
+[3.133477] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.133622] (dddmr_sc_pgo) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.133650] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.133672] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.133695] (dddmr_sc_pgo) StderrLine: {'line': b'  313 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[3.133715] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.133735] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:368:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.133760] (dddmr_sc_pgo) StderrLine: {'line': b'  368 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K;\n'}
+[3.133780] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.166832] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:318:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.167123] (dddmr_sc_pgo) StderrLine: {'line': b'  318 |     \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.167154] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.167177] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_INTENSITY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.167200] (dddmr_sc_pgo) StderrLine: {'line': b'  411 |     \x1b[01;36m\x1b[KPCL_ADD_INTENSITY\x1b[m\x1b[K;\n'}
+[3.167221] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.167241] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.167263] (dddmr_sc_pgo) StderrLine: {'line': b'  411 |     PCL_ADD_INTENSITY\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[3.167284] (dddmr_sc_pgo) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.167304] (dddmr_sc_pgo) StderrLine: {'line': b'      |                      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[3.167328] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:324:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.167349] (dddmr_sc_pgo) StderrLine: {'line': b'  324 |     \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.167369] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.167393] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_INTENSITY_8U\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.167416] (dddmr_sc_pgo) StderrLine: {'line': b'  437 |     \x1b[01;36m\x1b[KPCL_ADD_INTENSITY_8U\x1b[m\x1b[K;\n'}
+[3.167436] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.167456] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.167478] (dddmr_sc_pgo) StderrLine: {'line': b'  437 |     PCL_ADD_INTENSITY_8U\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[3.167498] (dddmr_sc_pgo) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.167517] (dddmr_sc_pgo) StderrLine: {'line': b'      |                         \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[3.167536] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:330:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.167678] (dddmr_sc_pgo) StderrLine: {'line': b'  330 |     \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.167730] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.167755] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_INTENSITY_32U\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.167778] (dddmr_sc_pgo) StderrLine: {'line': b'  469 |     \x1b[01;36m\x1b[KPCL_ADD_INTENSITY_32U\x1b[m\x1b[K;\n'}
+[3.167800] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.167821] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.167843] (dddmr_sc_pgo) StderrLine: {'line': b'  469 |     PCL_ADD_INTENSITY_32U\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[3.167864] (dddmr_sc_pgo) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.167884] (dddmr_sc_pgo) StderrLine: {'line': b'      |                          \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[3.168059] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.168094] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.168117] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.168139] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.168162] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.168183] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.168203] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:497:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.168225] (dddmr_sc_pgo) StderrLine: {'line': b'  497 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.168246] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.168266] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:501:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.168287] (dddmr_sc_pgo) StderrLine: {'line': b'  501 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.168306] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.168326] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.168347] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.168368] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.168397] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.168419] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.168439] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.168459] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:533:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.168480] (dddmr_sc_pgo) StderrLine: {'line': b'  533 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.168500] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.168519] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.168539] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.168558] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.168578] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.168597] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.168617] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.168636] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:573:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.168655] (dddmr_sc_pgo) StderrLine: {'line': b'  573 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.168675] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.168695] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.168715] (dddmr_sc_pgo) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.168736] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.168755] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.168774] (dddmr_sc_pgo) StderrLine: {'line': b'  313 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[3.168793] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.168812] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:574:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.168832] (dddmr_sc_pgo) StderrLine: {'line': b'  574 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K;\n'}
+[3.168852] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.169041] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.169099] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.169126] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.169149] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.169202] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.169226] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.169248] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:629:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.169271] (dddmr_sc_pgo) StderrLine: {'line': b'  629 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.169293] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.169315] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.169338] (dddmr_sc_pgo) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.169360] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.169384] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.169570] (dddmr_sc_pgo) StderrLine: {'line': b'  313 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[3.169599] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.169626] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:630:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.169648] (dddmr_sc_pgo) StderrLine: {'line': b'  630 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K;\n'}
+[3.169668] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.169689] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.169712] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.169732] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.169751] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.169772] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.169792] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.169811] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:636:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.169831] (dddmr_sc_pgo) StderrLine: {'line': b'  636 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.169851] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.169870] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.169891] (dddmr_sc_pgo) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.169912] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.169933] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.169954] (dddmr_sc_pgo) StderrLine: {'line': b'  313 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K \\\n'}
+[3.169973] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.169992] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:637:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.170012] (dddmr_sc_pgo) StderrLine: {'line': b'  637 |     \x1b[01;36m\x1b[KPCL_ADD_RGB\x1b[m\x1b[K;\n'}
+[3.170032] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.170260] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.170285] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.170306] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.170327] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.170349] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.170369] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.170395] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:741:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.170416] (dddmr_sc_pgo) StderrLine: {'line': b'  741 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // this adds the members x,y,z\n'}
+[3.170435] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.170454] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:745:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.170474] (dddmr_sc_pgo) StderrLine: {'line': b'  745 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.170494] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.170762] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.170820] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.170846] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.170868] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.170891] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.170913] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.170934] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:782:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.170955] (dddmr_sc_pgo) StderrLine: {'line': b'  782 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K;    // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.170976] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.170995] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:786:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.171019] (dddmr_sc_pgo) StderrLine: {'line': b'  786 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.171039] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.171315] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.171558] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.171622] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.171675] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.171727] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.171780] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.171941] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:867:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.172000] (dddmr_sc_pgo) StderrLine: {'line': b'  867 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.172080] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.172166] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:871:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.172220] (dddmr_sc_pgo) StderrLine: {'line': b'  871 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.172272] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.172323] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.172374] (dddmr_sc_pgo) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.172432] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.172489] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.172541] (dddmr_sc_pgo) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[3.172590] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.172764] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:883:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.172874] (dddmr_sc_pgo) StderrLine: {'line': b'  883 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[3.172930] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.172982] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:887:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.173035] (dddmr_sc_pgo) StderrLine: {'line': b'  887 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.173086] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.173137] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.173194] (dddmr_sc_pgo) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.173245] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.173296] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.173350] (dddmr_sc_pgo) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[3.173408] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.173461] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:924:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.173511] (dddmr_sc_pgo) StderrLine: {'line': b'  924 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K;\n'}
+[3.173560] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.173610] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.173663] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.173712] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.173787] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.173871] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.173922] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.173971] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:955:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.174021] (dddmr_sc_pgo) StderrLine: {'line': b'  955 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.174072] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.174122] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.174173] (dddmr_sc_pgo) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.174223] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.174273] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.174324] (dddmr_sc_pgo) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[3.174375] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.174481] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:956:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.174549] (dddmr_sc_pgo) StderrLine: {'line': b'  956 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[3.174601] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.174650] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:960:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.174702] (dddmr_sc_pgo) StderrLine: {'line': b'  960 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.174751] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.174801] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.174856] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.174906] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.174956] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.175007] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.175081] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.175145] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1001:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.175196] (dddmr_sc_pgo) StderrLine: {'line': b' 1001 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.175247] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.175297] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.175347] (dddmr_sc_pgo) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.175403] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.175456] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.175709] (dddmr_sc_pgo) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[3.175751] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.175776] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1002:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.175802] (dddmr_sc_pgo) StderrLine: {'line': b' 1002 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[3.175825] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.175848] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.175871] (dddmr_sc_pgo) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.175892] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.175912] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.175932] (dddmr_sc_pgo) StderrLine: {'line': b' 1007 |         \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K;\n'}
+[3.175952] (dddmr_sc_pgo) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.175971] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.175992] (dddmr_sc_pgo) StderrLine: {'line': b' 1007 |         PCL_ADD_UNION_RGB\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[3.176012] (dddmr_sc_pgo) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.176032] (dddmr_sc_pgo) StderrLine: {'line': b'      |                          \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[3.176052] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1006:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.176072] (dddmr_sc_pgo) StderrLine: {'line': b' 1006 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.176141] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.176161] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.176182] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.176202] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.176222] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176242] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.176261] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.176281] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1085:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176300] (dddmr_sc_pgo) StderrLine: {'line': b' 1085 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.176321] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.176340] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.176359] (dddmr_sc_pgo) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.176379] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.176405] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176425] (dddmr_sc_pgo) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[3.176444] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.176463] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1086:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176482] (dddmr_sc_pgo) StderrLine: {'line': b' 1086 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[3.176501] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.176520] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1090:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.176540] (dddmr_sc_pgo) StderrLine: {'line': b' 1090 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.176560] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.176579] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.176599] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.176617] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.176636] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176657] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.176676] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.176695] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1135:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176714] (dddmr_sc_pgo) StderrLine: {'line': b' 1135 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.176734] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.176752] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.176773] (dddmr_sc_pgo) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.176791] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.176810] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176830] (dddmr_sc_pgo) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[3.176848] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.176868] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1136:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176886] (dddmr_sc_pgo) StderrLine: {'line': b' 1136 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[3.176905] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.176925] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1140:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.176951] (dddmr_sc_pgo) StderrLine: {'line': b' 1140 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.176989] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.177007] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.177026] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.177045] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.177064] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.177083] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.177102] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.177121] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1187:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.177140] (dddmr_sc_pgo) StderrLine: {'line': b' 1187 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.177159] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.177178] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1191:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.177199] (dddmr_sc_pgo) StderrLine: {'line': b' 1191 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.177218] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.177238] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.177257] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.177275] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.177293] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.177312] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.177330] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.177348] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.177367] (dddmr_sc_pgo) StderrLine: {'line': b' 1226 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.177390] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.177410] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1230:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.177431] (dddmr_sc_pgo) StderrLine: {'line': b' 1230 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.177450] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.177468] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1326:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.177488] (dddmr_sc_pgo) StderrLine: {'line': b' 1326 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.177507] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.177525] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1519:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.177545] (dddmr_sc_pgo) StderrLine: {'line': b' 1519 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.177564] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.188961] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1738:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.189002] (dddmr_sc_pgo) StderrLine: {'line': b' 1738 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.189028] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.189084] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.189108] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.189127] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.189147] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.189166] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.189184] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.189203] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1765:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.189222] (dddmr_sc_pgo) StderrLine: {'line': b' 1765 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.189241] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.189586] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.189634] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.189656] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.189676] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.189696] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.189716] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.189735] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.189797] (dddmr_sc_pgo) StderrLine: {'line': b' 1818 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[3.189818] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.189837] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.189857] (dddmr_sc_pgo) StderrLine: {'line': b'  266 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.189876] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.189894] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.189914] (dddmr_sc_pgo) StderrLine: {'line': b'  280 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_NORMAL4D\x1b[m\x1b[K \\\n'}
+[3.189933] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.189954] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1819:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.189975] (dddmr_sc_pgo) StderrLine: {'line': b' 1819 |     \x1b[01;36m\x1b[KPCL_ADD_NORMAL4D\x1b[m\x1b[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[3.189994] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.190013] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.190032] (dddmr_sc_pgo) StderrLine: {'line': b'  289 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.190050] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.190070] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.190089] (dddmr_sc_pgo) StderrLine: {'line': b' 1824 |         \x1b[01;36m\x1b[KPCL_ADD_UNION_RGB\x1b[m\x1b[K;\n'}
+[3.190108] (dddmr_sc_pgo) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.190127] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.190147] (dddmr_sc_pgo) StderrLine: {'line': b' 1824 |         PCL_ADD_UNION_RGB\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[3.190166] (dddmr_sc_pgo) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.190184] (dddmr_sc_pgo) StderrLine: {'line': b'      |                          \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[3.190202] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1823:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.190220] (dddmr_sc_pgo) StderrLine: {'line': b' 1823 |       \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[3.190239] (dddmr_sc_pgo) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.190659] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.190704] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K \\\n'}
+[3.190725] (dddmr_sc_pgo) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.190744] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.190764] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   \x1b[01;36m\x1b[KPCL_ADD_UNION_POINT4D\x1b[m\x1b[K \\\n'}
+[3.190783] (dddmr_sc_pgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.190802] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1867:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.190823] (dddmr_sc_pgo) StderrLine: {'line': b' 1867 |     \x1b[01;36m\x1b[KPCL_ADD_POINT4D\x1b[m\x1b[K;\n'}
+[3.190842] (dddmr_sc_pgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.205364] (-) TimerEvent: {}
+[3.305545] (-) TimerEvent: {}
+[3.405755] (-) TimerEvent: {}
+[3.480655] (dddmr_sc_pgo) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libscan_context_lib.so\x1b[0m\n'}
+[3.505834] (-) TimerEvent: {}
+[3.536090] (dddmr_sc_pgo) StdoutLine: {'line': b'[ 50%] Built target scan_context_lib\n'}
+[3.554797] (dddmr_sc_pgo) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o\x1b[0m\n'}
+[3.605989] (-) TimerEvent: {}
+[3.706348] (-) TimerEvent: {}
+[3.806675] (-) TimerEvent: {}
+[3.906985] (-) TimerEvent: {}
+[4.007333] (-) TimerEvent: {}
+[4.107541] (-) TimerEvent: {}
+[4.207737] (-) TimerEvent: {}
+[4.307969] (-) TimerEvent: {}
+[4.408202] (-) TimerEvent: {}
+[4.508511] (-) TimerEvent: {}
+[4.608809] (-) TimerEvent: {}
+[4.709059] (-) TimerEvent: {}
+[4.809288] (-) TimerEvent: {}
+[4.909508] (-) TimerEvent: {}
+[5.009740] (-) TimerEvent: {}
+[5.110049] (-) TimerEvent: {}
+[5.210373] (-) TimerEvent: {}
+[5.310719] (-) TimerEvent: {}
+[5.411014] (-) TimerEvent: {}
+[5.511327] (-) TimerEvent: {}
+[5.611560] (-) TimerEvent: {}
+[5.711771] (-) TimerEvent: {}
+[5.812065] (-) TimerEvent: {}
+[5.912268] (-) TimerEvent: {}
+[6.012492] (-) TimerEvent: {}
+[6.112689] (-) TimerEvent: {}
+[6.212980] (-) TimerEvent: {}
+[6.313285] (-) TimerEvent: {}
+[6.413648] (-) TimerEvent: {}
+[6.513893] (-) TimerEvent: {}
+[6.614153] (-) TimerEvent: {}
+[6.714405] (-) TimerEvent: {}
+[6.814908] (-) TimerEvent: {}
+[6.915114] (-) TimerEvent: {}
+[7.015407] (-) TimerEvent: {}
+[7.115671] (-) TimerEvent: {}
+[7.215976] (-) TimerEvent: {}
+[7.316292] (-) TimerEvent: {}
+[7.416492] (-) TimerEvent: {}
+[7.516687] (-) TimerEvent: {}
+[7.616923] (-) TimerEvent: {}
+[7.717153] (-) TimerEvent: {}
+[7.817366] (-) TimerEvent: {}
+[7.917851] (-) TimerEvent: {}
+[8.018177] (-) TimerEvent: {}
+[8.118526] (-) TimerEvent: {}
+[8.218809] (-) TimerEvent: {}
+[8.319109] (-) TimerEvent: {}
+[8.419438] (-) TimerEvent: {}
+[8.519655] (-) TimerEvent: {}
+[8.619891] (-) TimerEvent: {}
+[8.720216] (-) TimerEvent: {}
+[8.820438] (-) TimerEvent: {}
+[8.920685] (-) TimerEvent: {}
+[9.020940] (-) TimerEvent: {}
+[9.121192] (-) TimerEvent: {}
+[9.221536] (-) TimerEvent: {}
+[9.321848] (-) TimerEvent: {}
+[9.422182] (-) TimerEvent: {}
+[9.522527] (-) TimerEvent: {}
+[9.622841] (-) TimerEvent: {}
+[9.723159] (-) TimerEvent: {}
+[9.823486] (-) TimerEvent: {}
+[9.923800] (-) TimerEvent: {}
+[10.024066] (-) TimerEvent: {}
+[10.124414] (-) TimerEvent: {}
+[10.224738] (-) TimerEvent: {}
+[10.325020] (-) TimerEvent: {}
+[10.425348] (-) TimerEvent: {}
+[10.525599] (-) TimerEvent: {}
+[10.625926] (-) TimerEvent: {}
+[10.726231] (-) TimerEvent: {}
+[10.826577] (-) TimerEvent: {}
+[10.926876] (-) TimerEvent: {}
+[11.027218] (-) TimerEvent: {}
+[11.127533] (-) TimerEvent: {}
+[11.227858] (-) TimerEvent: {}
+[11.328201] (-) TimerEvent: {}
+[11.428560] (-) TimerEvent: {}
+[11.528761] (-) TimerEvent: {}
+[11.628961] (-) TimerEvent: {}
+[11.729297] (-) TimerEvent: {}
+[11.829563] (-) TimerEvent: {}
+[11.929796] (-) TimerEvent: {}
+[12.030018] (-) TimerEvent: {}
+[12.130352] (-) TimerEvent: {}
+[12.230664] (-) TimerEvent: {}
+[12.330968] (-) TimerEvent: {}
+[12.431276] (-) TimerEvent: {}
+[12.531555] (-) TimerEvent: {}
+[12.631785] (-) TimerEvent: {}
+[12.732003] (-) TimerEvent: {}
+[12.832255] (-) TimerEvent: {}
+[12.932539] (-) TimerEvent: {}
+[13.032748] (-) TimerEvent: {}
+[13.133055] (-) TimerEvent: {}
+[13.233403] (-) TimerEvent: {}
+[13.333693] (-) TimerEvent: {}
+[13.433994] (-) TimerEvent: {}
+[13.534273] (-) TimerEvent: {}
+[13.634541] (-) TimerEvent: {}
+[13.734757] (-) TimerEvent: {}
+[13.834992] (-) TimerEvent: {}
+[13.935267] (-) TimerEvent: {}
+[14.035546] (-) TimerEvent: {}
+[14.135772] (-) TimerEvent: {}
+[14.236013] (-) TimerEvent: {}
+[14.336314] (-) TimerEvent: {}
+[14.436569] (-) TimerEvent: {}
+[14.506714] (dddmr_sc_pgo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sc_pgo_node\x1b[0m\n'}
+[14.536649] (-) TimerEvent: {}
+[14.636937] (-) TimerEvent: {}
+[14.737245] (-) TimerEvent: {}
+[14.837594] (-) TimerEvent: {}
+[14.937825] (-) TimerEvent: {}
+[15.038113] (-) TimerEvent: {}
+[15.138410] (-) TimerEvent: {}
+[15.238641] (-) TimerEvent: {}
+[15.338877] (-) TimerEvent: {}
+[15.377722] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `__static_initialization_and_destruction_0()':\n"}
+[15.377862] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text+0x231a): undefined reference to `gtsam::_defaultKeyFormatter[abi:cxx11](unsigned long)'\n"}
+[15.378606] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text+0x235e): undefined reference to `gtsam::_multirobotKeyFormatter[abi:cxx11](unsigned long)'\n"}
+[15.379923] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::Pose3::operator*(gtsam::Pose3 const&) const':\n"}
+[15.379998] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZNK5gtsam5Pose3mlERKS0_[_ZNK5gtsam5Pose3mlERKS0_]+0x54): undefined reference to `gtsam::Rot3::operator*(Eigen::Matrix<double, 3, 1, 0, 3, 1> const&) const'\n"}
+[15.380181] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZNK5gtsam5Pose3mlERKS0_[_ZNK5gtsam5Pose3mlERKS0_]+0xae): undefined reference to `gtsam::Rot3::operator*(gtsam::Rot3 const&) const'\n"}
+[15.380657] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::ValuesKeyDoesNotExist::ValuesKeyDoesNotExist(char const*, unsigned long)':\n"}
+[15.380682] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam21ValuesKeyDoesNotExistC2EPKcm[_ZN5gtsam21ValuesKeyDoesNotExistC5EPKcm]+0x27): undefined reference to `vtable for gtsam::ValuesKeyDoesNotExist'\n"}
+[15.381011] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::ValuesKeyDoesNotExist::~ValuesKeyDoesNotExist()':\n"}
+[15.381070] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam21ValuesKeyDoesNotExistD2Ev[_ZN5gtsam21ValuesKeyDoesNotExistD5Ev]+0x13): undefined reference to `vtable for gtsam::ValuesKeyDoesNotExist'\n"}
+[15.381424] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::ValuesIncorrectType::ValuesIncorrectType(unsigned long, std::type_info const&, std::type_info const&)':\n"}
+[15.381521] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam19ValuesIncorrectTypeC2EmRKSt9type_infoS3_[_ZN5gtsam19ValuesIncorrectTypeC5EmRKSt9type_infoS3_]+0x2b): undefined reference to `vtable for gtsam::ValuesIncorrectType'\n"}
+[15.381674] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::ValuesIncorrectType::~ValuesIncorrectType()':\n"}
+[15.381733] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam19ValuesIncorrectTypeD2Ev[_ZN5gtsam19ValuesIncorrectTypeD5Ev]+0x13): undefined reference to `vtable for gtsam::ValuesIncorrectType'\n"}
+[15.381925] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::Factor::~Factor()':\n"}
+[15.381959] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam6FactorD2Ev[_ZN5gtsam6FactorD5Ev]+0x13): undefined reference to `vtable for gtsam::Factor'\n"}
+[15.382371] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::NonlinearFactor::~NonlinearFactor()':\n"}
+[15.382418] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam15NonlinearFactorD2Ev[_ZN5gtsam15NonlinearFactorD5Ev]+0x13): undefined reference to `vtable for gtsam::NonlinearFactor'\n"}
+[15.382717] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::NoiseModelFactor::~NoiseModelFactor()':\n"}
+[15.382743] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam16NoiseModelFactorD2Ev[_ZN5gtsam16NoiseModelFactorD5Ev]+0x13): undefined reference to `vtable for gtsam::NoiseModelFactor'\n"}
+[15.382993] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::NonlinearFactorGraph::NonlinearFactorGraph()':\n"}
+[15.383014] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam20NonlinearFactorGraphC2Ev[_ZN5gtsam20NonlinearFactorGraphC5Ev]+0x1f): undefined reference to `vtable for gtsam::NonlinearFactorGraph'\n"}
+[15.383392] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::NonlinearFactorGraph::~NonlinearFactorGraph()':\n"}
+[15.383470] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam20NonlinearFactorGraphD2Ev[_ZN5gtsam20NonlinearFactorGraphD5Ev]+0x13): undefined reference to `vtable for gtsam::NonlinearFactorGraph'\n"}
+[15.383670] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::Symbol::operator unsigned long() const':\n"}
+[15.383693] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZNK5gtsam6SymbolcvmEv[_ZNK5gtsam6SymbolcvmEv]+0x18): undefined reference to `gtsam::Symbol::key() const'\n"}
+[15.384086] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `SC_PGO_Node::initISAM2()':\n"}
+[15.384144] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node9initISAM2Ev[_ZN11SC_PGO_Node9initISAM2Ev]+0x255): undefined reference to `gtsam::Values::operator=(gtsam::Values const&)'\n"}
+[15.384422] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `SC_PGO_Node::addOdomFactor(std::shared_ptr<KeyFrame> const&)':\n"}
+[15.384446] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node13addOdomFactorERKSt10shared_ptrI8KeyFrameE[_ZN11SC_PGO_Node13addOdomFactorERKSt10shared_ptrI8KeyFrameE]+0x1ad): undefined reference to `gtsam::noiseModel::Diagonal::Sigmas(Eigen::Matrix<double, -1, 1, 0, -1, 1> const&, bool)'\n"}
+[15.384725] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node13addOdomFactorERKSt10shared_ptrI8KeyFrameE[_ZN11SC_PGO_Node13addOdomFactorERKSt10shared_ptrI8KeyFrameE]+0x5c6): undefined reference to `gtsam::noiseModel::Diagonal::Sigmas(Eigen::Matrix<double, -1, 1, 0, -1, 1> const&, bool)'\n"}
+[15.385162] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `SC_PGO_Node::addLoopFactor(int, int)':\n"}
+[15.385200] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node13addLoopFactorEii[_ZN11SC_PGO_Node13addLoopFactorEii]+0x295): undefined reference to `gtsam::noiseModel::Diagonal::Sigmas(Eigen::Matrix<double, -1, 1, 0, -1, 1> const&, bool)'\n"}
+[15.385366] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `SC_PGO_Node::runOptimization()':\n"}
+[15.385393] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node15runOptimizationEv[_ZN11SC_PGO_Node15runOptimizationEv]+0x1ba): undefined reference to `gtsam::ISAM2::calculateEstimate() const'\n"}
+[15.385729] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node15runOptimizationEv[_ZN11SC_PGO_Node15runOptimizationEv]+0x1da): undefined reference to `gtsam::Values::operator=(gtsam::Values const&)'\n"}
+[15.386022] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `SC_PGO_Node::publishOptimizedOdom(int, gtsam::Pose3 const&)':\n"}
+[15.386045] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node20publishOptimizedOdomEiRKN5gtsam5Pose3E[_ZN11SC_PGO_Node20publishOptimizedOdomEiRKN5gtsam5Pose3E]+0x18a): undefined reference to `gtsam::Pose3::rotation(gtsam::OptionalJacobian<3, 6>) const'\n"}
+[15.386252] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node20publishOptimizedOdomEiRKN5gtsam5Pose3E[_ZN11SC_PGO_Node20publishOptimizedOdomEiRKN5gtsam5Pose3E]+0x19f): undefined reference to `gtsam::Rot3::toQuaternion() const'\n"}
+[15.386695] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `SC_PGO_Node::publishOptimizedPath()':\n"}
+[15.386720] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node20publishOptimizedPathEv[_ZN11SC_PGO_Node20publishOptimizedPathEv]+0x129): undefined reference to `gtsam::Values::exists(unsigned long) const'\n"}
+[15.386866] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node20publishOptimizedPathEv[_ZN11SC_PGO_Node20publishOptimizedPathEv]+0x223): undefined reference to `gtsam::Pose3::rotation(gtsam::OptionalJacobian<3, 6>) const'\n"}
+[15.387137] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node20publishOptimizedPathEv[_ZN11SC_PGO_Node20publishOptimizedPathEv]+0x238): undefined reference to `gtsam::Rot3::toQuaternion() const'\n"}
+[15.387425] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `SC_PGO_Node::publishKeyframesMap()':\n"}
+[15.387449] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node19publishKeyframesMapEv[_ZN11SC_PGO_Node19publishKeyframesMapEv]+0x127): undefined reference to `gtsam::Values::exists(unsigned long) const'\n"}
+[15.387728] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `SC_PGO_Node::publishLoopMarkers()':\n"}
+[15.387750] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node18publishLoopMarkersEv[_ZN11SC_PGO_Node18publishLoopMarkersEv]+0xdd): undefined reference to `gtsam::Values::exists(unsigned long) const'\n"}
+[15.387979] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node18publishLoopMarkersEv[_ZN11SC_PGO_Node18publishLoopMarkersEv]+0x127): undefined reference to `gtsam::Values::exists(unsigned long) const'\n"}
+[15.388402] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `SC_PGO_Node::pose3ToMatrix(gtsam::Pose3 const&)':\n"}
+[15.388433] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node13pose3ToMatrixERKN5gtsam5Pose3E[_ZN11SC_PGO_Node13pose3ToMatrixERKN5gtsam5Pose3E]+0x79): undefined reference to `gtsam::Pose3::rotation(gtsam::OptionalJacobian<3, 6>) const'\n"}
+[15.388634] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZN11SC_PGO_Node13pose3ToMatrixERKN5gtsam5Pose3E[_ZN11SC_PGO_Node13pose3ToMatrixERKN5gtsam5Pose3E]+0x8b): undefined reference to `gtsam::Rot3::matrix() const'\n"}
+[15.389220] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::Factor::Factor(gtsam::Factor const&)':\n"}
+[15.389260] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam6FactorC2ERKS0_[_ZN5gtsam6FactorC5ERKS0_]+0x17): undefined reference to `vtable for gtsam::Factor'\n"}
+[15.389617] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `std::__detail::_MakeUniq<gtsam::ISAM2>::__single_object std::make_unique<gtsam::ISAM2, gtsam::ISAM2Params&>(gtsam::ISAM2Params&)':\n"}
+[15.389683] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZSt11make_uniqueIN5gtsam5ISAM2EJRNS0_11ISAM2ParamsEEENSt8__detail9_MakeUniqIT_E15__single_objectEDpOT0_[_ZSt11make_uniqueIN5gtsam5ISAM2EJRNS0_11ISAM2ParamsEEENSt8__detail9_MakeUniqIT_E15__single_objectEDpOT0_]+0x3f): undefined reference to `gtsam::ISAM2::ISAM2(gtsam::ISAM2Params const&)'\n"}
+[15.389919] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `void gtsam::Values::insert<gtsam::Pose3>(unsigned long, gtsam::Pose3 const&)':\n"}
+[15.389945] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam6Values6insertINS_5Pose3EEEvmRKT_[_ZN5gtsam6Values6insertINS_5Pose3EEEvmRKT_]+0x69): undefined reference to `gtsam::Values::insert(unsigned long, gtsam::Value const&)'\n"}
+[15.390274] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::Pose3 const gtsam::Values::at<gtsam::Pose3>(unsigned long) const':\n"}
+[15.390326] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZNK5gtsam6Values2atINS_5Pose3EEEKT_m[_ZNK5gtsam6Values2atINS_5Pose3EEEKT_m]+0xad): undefined reference to `typeinfo for gtsam::ValuesKeyDoesNotExist'\n"}
+[15.391061] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::internal::handle<gtsam::Pose3>::operator()(unsigned long, gtsam::Value const*)':\n"}
+[15.391130] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam8internal6handleINS_5Pose3EEclEmPKNS_5ValueE[_ZN5gtsam8internal6handleINS_5Pose3EEclEmPKNS_5ValueE]+0xb9): undefined reference to `typeinfo for gtsam::ValuesIncorrectType'\n"}
+[15.391830] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::NoiseModelFactor::NoiseModelFactor<std::array<unsigned long, 1ul> >(boost::shared_ptr<gtsam::noiseModel::Base> const&, std::array<unsigned long, 1ul> const&)':\n"}
+[15.391915] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam16NoiseModelFactorC2ISt5arrayImLm1EEEERKN5boost10shared_ptrINS_10noiseModel4BaseEEERKT_[_ZN5gtsam16NoiseModelFactorC5ISt5arrayImLm1EEEERKN5boost10shared_ptrINS_10noiseModel4BaseEEERKT_]+0x2e): undefined reference to `vtable for gtsam::NoiseModelFactor'\n"}
+[15.392160] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::Testable<gtsam::Pose3>::Print(gtsam::Pose3 const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[15.392201] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam8TestableINS_5Pose3EE5PrintERKS1_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN5gtsam8TestableINS_5Pose3EE5PrintERKS1_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x23): undefined reference to `gtsam::Pose3::print(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const'\n"}
+[15.392481] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::Testable<gtsam::Pose3>::Equals(gtsam::Pose3 const&, gtsam::Pose3 const&, double)':\n"}
+[15.392525] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam8TestableINS_5Pose3EE6EqualsERKS1_S4_d[_ZN5gtsam8TestableINS_5Pose3EE6EqualsERKS1_S4_d]+0x31): undefined reference to `gtsam::Pose3::equals(gtsam::Pose3 const&, double) const'\n"}
+[15.392807] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::NoiseModelFactor::NoiseModelFactor<std::array<unsigned long, 2ul> >(boost::shared_ptr<gtsam::noiseModel::Base> const&, std::array<unsigned long, 2ul> const&)':\n"}
+[15.392863] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam16NoiseModelFactorC2ISt5arrayImLm2EEEERKN5boost10shared_ptrINS_10noiseModel4BaseEEERKT_[_ZN5gtsam16NoiseModelFactorC5ISt5arrayImLm2EEEERKN5boost10shared_ptrINS_10noiseModel4BaseEEERKT_]+0x2e): undefined reference to `vtable for gtsam::NoiseModelFactor'\n"}
+[15.393545] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::NonlinearFactor::NonlinearFactor<std::array<unsigned long, 1ul> >(std::array<unsigned long, 1ul> const&)':\n"}
+[15.393587] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam15NonlinearFactorC2ISt5arrayImLm1EEEERKT_[_ZN5gtsam15NonlinearFactorC5ISt5arrayImLm1EEEERKT_]+0x2a): undefined reference to `vtable for gtsam::NonlinearFactor'\n"}
+[15.393876] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::LieGroup<gtsam::Pose3, 6>::between(gtsam::Pose3 const&, gtsam::OptionalJacobian<6, 6>, gtsam::OptionalJacobian<6, 6>) const':\n"}
+[15.393916] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZNK5gtsam8LieGroupINS_5Pose3ELi6EE7betweenERKS1_NS_16OptionalJacobianILi6ELi6EEES6_[_ZNK5gtsam8LieGroupINS_5Pose3ELi6EE7betweenERKS1_NS_16OptionalJacobianILi6ELi6EEES6_]+0x62): undefined reference to `gtsam::Pose3::inverse() const'\n"}
+[15.394140] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZNK5gtsam8LieGroupINS_5Pose3ELi6EE7betweenERKS1_NS_16OptionalJacobianILi6ELi6EEES6_[_ZNK5gtsam8LieGroupINS_5Pose3ELi6EE7betweenERKS1_NS_16OptionalJacobianILi6ELi6EEES6_]+0xbd): undefined reference to `gtsam::Pose3::inverse() const'\n"}
+[15.394399] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZNK5gtsam8LieGroupINS_5Pose3ELi6EE7betweenERKS1_NS_16OptionalJacobianILi6ELi6EEES6_[_ZNK5gtsam8LieGroupINS_5Pose3ELi6EE7betweenERKS1_NS_16OptionalJacobianILi6ELi6EEES6_]+0xd6): undefined reference to `gtsam::Pose3::AdjointMap() const'\n"}
+[15.394764] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::NonlinearFactor::NonlinearFactor<std::array<unsigned long, 2ul> >(std::array<unsigned long, 2ul> const&)':\n"}
+[15.394789] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam15NonlinearFactorC2ISt5arrayImLm2EEEERKT_[_ZN5gtsam15NonlinearFactorC5ISt5arrayImLm2EEEERKT_]+0x2a): undefined reference to `vtable for gtsam::NonlinearFactor'\n"}
+[15.395463] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::Factor::Factor<std::array<unsigned long, 1ul> >(std::array<unsigned long, 1ul> const&)':\n"}
+[15.395498] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam6FactorC2ISt5arrayImLm1EEEERKT_[_ZN5gtsam6FactorC5ISt5arrayImLm1EEEERKT_]+0x29): undefined reference to `vtable for gtsam::Factor'\n"}
+[15.395739] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::LieGroup<gtsam::Pose3, 6>::localCoordinates(gtsam::Pose3 const&, gtsam::OptionalJacobian<6, 6>, gtsam::OptionalJacobian<6, 6>) const':\n"}
+[15.395797] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZNK5gtsam8LieGroupINS_5Pose3ELi6EE16localCoordinatesERKS1_NS_16OptionalJacobianILi6ELi6EEES6_[_ZNK5gtsam8LieGroupINS_5Pose3ELi6EE16localCoordinatesERKS1_NS_16OptionalJacobianILi6ELi6EEES6_]+0xd3): undefined reference to `gtsam::Pose3::ChartAtOrigin::Local(gtsam::Pose3 const&, gtsam::OptionalJacobian<6, 6>)'\n"}
+[15.396001] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZNK5gtsam8LieGroupINS_5Pose3ELi6EE16localCoordinatesERKS1_NS_16OptionalJacobianILi6ELi6EEES6_[_ZNK5gtsam8LieGroupINS_5Pose3ELi6EE16localCoordinatesERKS1_NS_16OptionalJacobianILi6ELi6EEES6_]+0x103): undefined reference to `gtsam::Pose3::inverse() const'\n"}
+[15.396248] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZNK5gtsam8LieGroupINS_5Pose3ELi6EE16localCoordinatesERKS1_NS_16OptionalJacobianILi6ELi6EEES6_[_ZNK5gtsam8LieGroupINS_5Pose3ELi6EE16localCoordinatesERKS1_NS_16OptionalJacobianILi6ELi6EEES6_]+0x11c): undefined reference to `gtsam::Pose3::AdjointMap() const'\n"}
+[15.396569] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::LieGroup<gtsam::Pose3, 6>::retract(Eigen::Matrix<double, 6, 1, 0, 6, 1> const&, gtsam::OptionalJacobian<6, 6>, gtsam::OptionalJacobian<6, 6>) const':\n"}
+[15.396594] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZNK5gtsam8LieGroupINS_5Pose3ELi6EE7retractERKN5Eigen6MatrixIdLi6ELi1ELi0ELi6ELi1EEENS_16OptionalJacobianILi6ELi6EEES9_[_ZNK5gtsam8LieGroupINS_5Pose3ELi6EE7retractERKN5Eigen6MatrixIdLi6ELi1ELi0ELi6ELi1EEENS_16OptionalJacobianILi6ELi6EEES9_]+0xa0): undefined reference to `gtsam::Pose3::ChartAtOrigin::Retract(Eigen::Matrix<double, 6, 1, 0, 6, 1> const&, gtsam::OptionalJacobian<6, 6>)'\n"}
+[15.396823] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZNK5gtsam8LieGroupINS_5Pose3ELi6EE7retractERKN5Eigen6MatrixIdLi6ELi1ELi0ELi6ELi1EEENS_16OptionalJacobianILi6ELi6EEES9_[_ZNK5gtsam8LieGroupINS_5Pose3ELi6EE7retractERKN5Eigen6MatrixIdLi6ELi1ELi0ELi6ELi1EEENS_16OptionalJacobianILi6ELi6EEES9_]+0xec): undefined reference to `gtsam::Pose3::inverse() const'\n"}
+[15.397070] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZNK5gtsam8LieGroupINS_5Pose3ELi6EE7retractERKN5Eigen6MatrixIdLi6ELi1ELi0ELi6ELi1EEENS_16OptionalJacobianILi6ELi6EEES9_[_ZNK5gtsam8LieGroupINS_5Pose3ELi6EE7retractERKN5Eigen6MatrixIdLi6ELi1ELi0ELi6ELi1EEENS_16OptionalJacobianILi6ELi6EEES9_]+0x105): undefined reference to `gtsam::Pose3::AdjointMap() const'\n"}
+[15.397454] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::Factor::Factor<std::array<unsigned long, 2ul> >(std::array<unsigned long, 2ul> const&)':\n"}
+[15.397497] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam6FactorC2ISt5arrayImLm2EEEERKT_[_ZN5gtsam6FactorC5ISt5arrayImLm2EEEERKT_]+0x29): undefined reference to `vtable for gtsam::Factor'\n"}
+[15.398289] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::NonlinearFactor::NonlinearFactor(gtsam::NonlinearFactor const&)':\n"}
+[15.398325] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam15NonlinearFactorC2ERKS0_[_ZN5gtsam15NonlinearFactorC5ERKS0_]+0x2a): undefined reference to `vtable for gtsam::NonlinearFactor'\n"}
+[15.398583] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::NoiseModelFactor::NoiseModelFactor(gtsam::NoiseModelFactor const&)':\n"}
+[15.398608] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZN5gtsam16NoiseModelFactorC2ERKS0_[_ZN5gtsam16NoiseModelFactorC5ERKS0_]+0x2a): undefined reference to `vtable for gtsam::NoiseModelFactor'\n"}
+[15.398975] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::LieGroup<gtsam::Pose3, 6>::between(gtsam::Pose3 const&) const':\n"}
+[15.399046] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZNK5gtsam8LieGroupINS_5Pose3ELi6EE7betweenERKS1_[_ZNK5gtsam8LieGroupINS_5Pose3ELi6EE7betweenERKS1_]+0x51): undefined reference to `gtsam::Pose3::inverse() const'\n"}
+[15.403265] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam13BetweenFactorINS_5Pose3EEE[_ZTVN5gtsam13BetweenFactorINS_5Pose3EEE]+0x20): undefined reference to `gtsam::NonlinearFactor::error(gtsam::HybridValues const&) const'\n"}
+[15.403655] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam13BetweenFactorINS_5Pose3EEE[_ZTVN5gtsam13BetweenFactorINS_5Pose3EEE]+0x30): undefined reference to `gtsam::Factor::printKeys(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > (unsigned long)> const&) const'\n"}
+[15.403911] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam13BetweenFactorINS_5Pose3EEE[_ZTVN5gtsam13BetweenFactorINS_5Pose3EEE]+0x40): undefined reference to `gtsam::NoiseModelFactor::error(gtsam::Values const&) const'\n"}
+[15.404224] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam13BetweenFactorINS_5Pose3EEE[_ZTVN5gtsam13BetweenFactorINS_5Pose3EEE]+0x58): undefined reference to `gtsam::NoiseModelFactor::linearize(gtsam::Values const&) const'\n"}
+[15.404540] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam13BetweenFactorINS_5Pose3EEE[_ZTVN5gtsam13BetweenFactorINS_5Pose3EEE]+0x68): undefined reference to `gtsam::NonlinearFactor::rekey(std::map<unsigned long, unsigned long, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > > const&) const'\n"}
+[15.404871] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam13BetweenFactorINS_5Pose3EEE[_ZTVN5gtsam13BetweenFactorINS_5Pose3EEE]+0x70): undefined reference to `gtsam::NonlinearFactor::rekey(std::vector<unsigned long, tbb::detail::d1::tbb_allocator<unsigned long> > const&) const'\n"}
+[15.405210] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE]+0x20): undefined reference to `gtsam::NonlinearFactor::error(gtsam::HybridValues const&) const'\n"}
+[15.405494] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE]+0x28): undefined reference to `gtsam::NoiseModelFactor::print(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > (unsigned long)> const&) const'\n"}
+[15.405859] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE]+0x30): undefined reference to `gtsam::Factor::printKeys(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > (unsigned long)> const&) const'\n"}
+[15.406114] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE]+0x38): undefined reference to `gtsam::NoiseModelFactor::equals(gtsam::NonlinearFactor const&, double) const'\n"}
+[15.406437] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE]+0x40): undefined reference to `gtsam::NoiseModelFactor::error(gtsam::Values const&) const'\n"}
+[15.406786] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE]+0x58): undefined reference to `gtsam::NoiseModelFactor::linearize(gtsam::Values const&) const'\n"}
+[15.407078] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE]+0x68): undefined reference to `gtsam::NonlinearFactor::rekey(std::map<unsigned long, unsigned long, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > > const&) const'\n"}
+[15.407393] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE]+0x70): undefined reference to `gtsam::NonlinearFactor::rekey(std::vector<unsigned long, tbb::detail::d1::tbb_allocator<unsigned long> > const&) const'\n"}
+[15.407700] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam11PriorFactorINS_5Pose3EEE[_ZTVN5gtsam11PriorFactorINS_5Pose3EEE]+0x20): undefined reference to `gtsam::NonlinearFactor::error(gtsam::HybridValues const&) const'\n"}
+[15.408009] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam11PriorFactorINS_5Pose3EEE[_ZTVN5gtsam11PriorFactorINS_5Pose3EEE]+0x30): undefined reference to `gtsam::Factor::printKeys(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > (unsigned long)> const&) const'\n"}
+[15.408347] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam11PriorFactorINS_5Pose3EEE[_ZTVN5gtsam11PriorFactorINS_5Pose3EEE]+0x40): undefined reference to `gtsam::NoiseModelFactor::error(gtsam::Values const&) const'\n"}
+[15.408640] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam11PriorFactorINS_5Pose3EEE[_ZTVN5gtsam11PriorFactorINS_5Pose3EEE]+0x58): undefined reference to `gtsam::NoiseModelFactor::linearize(gtsam::Values const&) const'\n"}
+[15.408962] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam11PriorFactorINS_5Pose3EEE[_ZTVN5gtsam11PriorFactorINS_5Pose3EEE]+0x68): undefined reference to `gtsam::NonlinearFactor::rekey(std::map<unsigned long, unsigned long, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > > const&) const'\n"}
+[15.409269] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam11PriorFactorINS_5Pose3EEE[_ZTVN5gtsam11PriorFactorINS_5Pose3EEE]+0x70): undefined reference to `gtsam::NonlinearFactor::rekey(std::vector<unsigned long, tbb::detail::d1::tbb_allocator<unsigned long> > const&) const'\n"}
+[15.409584] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE]+0x20): undefined reference to `gtsam::NonlinearFactor::error(gtsam::HybridValues const&) const'\n"}
+[15.409897] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE]+0x28): undefined reference to `gtsam::NoiseModelFactor::print(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > (unsigned long)> const&) const'\n"}
+[15.410210] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE]+0x30): undefined reference to `gtsam::Factor::printKeys(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > (unsigned long)> const&) const'\n"}
+[15.410524] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE]+0x38): undefined reference to `gtsam::NoiseModelFactor::equals(gtsam::NonlinearFactor const&, double) const'\n"}
+[15.410835] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE]+0x40): undefined reference to `gtsam::NoiseModelFactor::error(gtsam::Values const&) const'\n"}
+[15.411146] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE]+0x58): undefined reference to `gtsam::NoiseModelFactor::linearize(gtsam::Values const&) const'\n"}
+[15.411455] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE]+0x68): undefined reference to `gtsam::NonlinearFactor::rekey(std::map<unsigned long, unsigned long, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned long> > > const&) const'\n"}
+[15.411795] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE[_ZTVN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE]+0x70): undefined reference to `gtsam::NonlinearFactor::rekey(std::vector<unsigned long, tbb::detail::d1::tbb_allocator<unsigned long> > const&) const'\n"}
+[15.412479] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTIN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE[_ZTIN5gtsam17NoiseModelFactorNIJNS_5Pose3ES1_EEE]+0x18): undefined reference to `typeinfo for gtsam::NoiseModelFactor'\n"}
+[15.412824] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o:(.data.rel.ro._ZTIN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE[_ZTIN5gtsam17NoiseModelFactorNIJNS_5Pose3EEEE]+0x18): undefined reference to `typeinfo for gtsam::NoiseModelFactor'\n"}
+[15.413612] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::GenericValue<gtsam::Pose3>::print(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const':\n"}
+[15.413667] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZNK5gtsam12GenericValueINS_5Pose3EE5printERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZNK5gtsam12GenericValueINS_5Pose3EE5printERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x5d): undefined reference to `gtsam::demangle[abi:cxx11](char const*)'\n"}
+[15.413929] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::BetweenFactor<gtsam::Pose3>::equals(gtsam::NonlinearFactor const&, double) const':\n"}
+[15.413985] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZNK5gtsam13BetweenFactorINS_5Pose3EE6equalsERKNS_15NonlinearFactorEd[_ZNK5gtsam13BetweenFactorINS_5Pose3EE6equalsERKNS_15NonlinearFactorEd]+0x33): undefined reference to `typeinfo for gtsam::NonlinearFactor'\n"}
+[15.414172] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZNK5gtsam13BetweenFactorINS_5Pose3EE6equalsERKNS_15NonlinearFactorEd[_ZNK5gtsam13BetweenFactorINS_5Pose3EE6equalsERKNS_15NonlinearFactorEd]+0x69): undefined reference to `gtsam::NoiseModelFactor::equals(gtsam::NonlinearFactor const&, double) const'\n"}
+[15.414495] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o: in function `gtsam::PriorFactor<gtsam::Pose3>::equals(gtsam::NonlinearFactor const&, double) const':\n"}
+[15.414522] (dddmr_sc_pgo) StderrLine: {'line': b"sc_pgo_node.cpp:(.text._ZNK5gtsam11PriorFactorINS_5Pose3EE6equalsERKNS_15NonlinearFactorEd[_ZNK5gtsam11PriorFactorINS_5Pose3EE6equalsERKNS_15NonlinearFactorEd]+0x33): undefined reference to `typeinfo for gtsam::NonlinearFactor'\n"}
+[15.414750] (dddmr_sc_pgo) StderrLine: {'line': b"/usr/bin/ld: sc_pgo_node.cpp:(.text._ZNK5gtsam11PriorFactorINS_5Pose3EE6equalsERKNS_15NonlinearFactorEd[_ZNK5gtsam11PriorFactorINS_5Pose3EE6equalsERKNS_15NonlinearFactorEd]+0x69): undefined reference to `gtsam::NoiseModelFactor::equals(gtsam::NonlinearFactor const&, double) const'\n"}
+[15.438989] (-) TimerEvent: {}
+[15.446585] (dddmr_sc_pgo) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[15.447949] (dddmr_sc_pgo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sc_pgo_node.dir/build.make:428: sc_pgo_node] Error 1\n'}
+[15.448138] (dddmr_sc_pgo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sc_pgo_node.dir/all] Error 2\n'}
+[15.448388] (dddmr_sc_pgo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.450375] (dddmr_sc_pgo) CommandEnded: {'returncode': 2}
+[15.457840] (dddmr_sc_pgo) JobEnded: {'identifier': 'dddmr_sc_pgo', 'rc': 2}
+[15.468273] (-) EventReactorShutdown: {}

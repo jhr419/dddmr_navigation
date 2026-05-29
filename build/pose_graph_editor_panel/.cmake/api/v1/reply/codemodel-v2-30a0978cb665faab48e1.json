@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-bbc8f660a4059575c7b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pose_graph_editor_panel",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_graph_editor_panel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_graph_editor_panel-Release-b9851371c3081abf9fd8.json",
+					"name" : "pose_graph_editor_panel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_graph_editor_panel_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_graph_editor_panel_autogen-Release-780fc348f6b4db6a422a.json",
+					"name" : "pose_graph_editor_panel_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_graph_editor_panel_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_graph_editor_panel_uninstall-Release-d5b3cde927db4d3e0980.json",
+					"name" : "pose_graph_editor_panel_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-71dcb6d4e6240cb27ead.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/dddmr_navigation/build/pose_graph_editor_panel",
+		"source" : "/root/dddmr_navigation/src/dddmr_rviz_tools/pose_graph_editor_panel"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

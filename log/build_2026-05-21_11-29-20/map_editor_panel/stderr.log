@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/map_editor_panel.dir/build.make:94: CMakeFiles/map_editor_panel.dir/src/map_editor_panel.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/map_editor_panel.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

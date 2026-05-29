@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4a1bc7ad37296761a1b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "local_planner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "local_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-local_planner-64abf2a6df245d05d046.json",
+					"name" : "local_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "local_planner_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-local_planner_node-ba31778299a34ceabf73.json",
+					"name" : "local_planner_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "local_planner_play_ground_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-local_planner_play_ground_node-50539d27e751396d292e.json",
+					"name" : "local_planner_play_ground_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "local_planner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-local_planner_uninstall-7b5dc5d62aae065b2325.json",
+					"name" : "local_planner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-158c7018f538791430cf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/dddmr_navigation/build/local_planner",
+		"source" : "/root/dddmr_navigation/src/dddmr_local_planner/local_planner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

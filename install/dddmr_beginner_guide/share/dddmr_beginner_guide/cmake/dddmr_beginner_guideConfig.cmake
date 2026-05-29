@@ -1,0 +1,1 @@
+/root/dddmr_navigation/build/dddmr_beginner_guide/ament_cmake_core/dddmr_beginner_guideConfig.cmake

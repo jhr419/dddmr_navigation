@@ -1,0 +1,11 @@
+source;share/lego_loam_bor/hook/cmake_prefix_path.ps1
+source;share/lego_loam_bor/hook/cmake_prefix_path.dsv
+source;share/lego_loam_bor/hook/cmake_prefix_path.sh
+source;share/lego_loam_bor/hook/ld_library_path_lib.ps1
+source;share/lego_loam_bor/hook/ld_library_path_lib.dsv
+source;share/lego_loam_bor/hook/ld_library_path_lib.sh
+source;share/lego_loam_bor/local_setup.bash
+source;share/lego_loam_bor/local_setup.dsv
+source;share/lego_loam_bor/local_setup.ps1
+source;share/lego_loam_bor/local_setup.sh
+source;share/lego_loam_bor/local_setup.zsh

@@ -1,0 +1,1 @@
+Invoking command in '/root/dddmr_navigation/build/map_editor_panel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_rviz_tools/map_editor_panel -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/map_editor_panel

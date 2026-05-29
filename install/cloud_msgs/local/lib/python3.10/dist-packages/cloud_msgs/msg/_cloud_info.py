@@ -1,0 +1,1 @@
+/root/dddmr_navigation/build/cloud_msgs/rosidl_generator_py/cloud_msgs/msg/_cloud_info.py

@@ -1,0 +1,58 @@
+[ 18%] Built target parameters
+[ 36%] Built target pcl_publisher
+[ 54%] Built target sub_maps
+[ 72%] Built target lidar_measurement_model_likelihood
+[100%] Built target mcl_3dl
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/lib/libparameters.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/lib/liblidar_measurement_model_likelihood.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/lib/libsub_maps.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/lib/mcl_3dl/mcl_3dl
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/lib/mcl_3dl/pcl_publisher
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/filter.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/filter_vec3.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/lidar_measurement_models/lidar_measurement_model_likelihood.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/motion_prediction_model_base.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/motion_prediction_models/motion_prediction_model_differential_drive.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/nd.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/noise_generator_base.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/noise_generators/diagonal_noise_generator.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/noise_generators/multivariate_noise_generator.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/parameters.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/pf.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/quat.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/state_6dof.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/sub_maps.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/vec3.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/include//utilities.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//launch/mcl_3dl.launch
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//launch/mcl_3dlXfeatureXbag.launch
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//launch/pcl_publisher.launch
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//config/mcl_3dl.yaml
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//config/pcl_publisher.yaml
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//rviz/mcl_3dl_demo.rviz
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/edges.pcd
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/ground.pcd
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/map.pcd
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/pcd/0_feature.pcd
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/pcd/0_ground.pcd
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/poses.pcd
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/ament_index/resource_index/package_run_dependencies/mcl_3dl
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/ament_index/resource_index/parent_prefix_path/mcl_3dl
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/environment/path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/environment/path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/local_setup.bash
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/local_setup.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/local_setup.zsh
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/local_setup.dsv
+-- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/package.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/ament_index/resource_index/packages/mcl_3dl
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/cmake/mcl_3dlConfig.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/cmake/mcl_3dlConfig-version.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/package.xml

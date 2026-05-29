@@ -1,0 +1,177 @@
+[0.042s] Invoking command in '/root/dddmr_navigation/build/mpc_critics': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/dddmr_navigation/src/dddmr_local_planner/mpc_critics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/mpc_critics
+[0.183s] -- The C compiler identification is GNU 13.4.0
+[0.250s] -- The CXX compiler identification is GNU 13.4.0
+[0.269s] -- Detecting C compiler ABI info
+[0.361s] -- Detecting C compiler ABI info - done
+[0.367s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.368s] -- Detecting C compile features
+[0.369s] -- Detecting C compile features - done
+[0.373s] -- Detecting CXX compiler ABI info
+[0.464s] -- Detecting CXX compiler ABI info - done
+[0.476s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.476s] -- Detecting CXX compile features
+[0.477s] -- Detecting CXX compile features - done
+[0.493s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.710s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.798s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.846s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.923s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.930s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.948s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.970s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.001s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.084s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.089s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.219s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.258s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.309s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.321s] -- Looking for pthread.h
+[1.421s] -- Looking for pthread.h - found
+[1.422s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.508s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.511s] -- Found Threads: TRUE  
+[1.599s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.658s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.693s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.742s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.762s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.817s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.842s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.874s] -- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)
+[1.879s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.939s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.964s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.966s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.966s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.971s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.977s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.981s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[2.011s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.055s] -- Checking for module 'eigen3'
+[2.071s] --   Found eigen3, version 3.4.0
+[2.110s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.110s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.164s] -- Checking for module 'flann'
+[2.181s] --   Found flann, version 1.9.1
+[2.231s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.231s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.427s] -- Checking for module 'libusb-1.0'
+[3.453s] --   Found libusb-1.0, version 1.0.25
+[3.500s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.509s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.588s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.771s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.779s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.786s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.982s] -- Found Qhull version 8.0.2
+[4.172s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.340s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.341s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.345s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.345s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.346s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.349s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.349s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.349s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.350s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.350s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.351s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.351s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.352s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.353s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.354s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.357s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.360s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.361s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.361s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.362s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.363s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.363s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.364s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.365s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.366s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.368s] -- Found base_trajectory: 0.0.0 (/root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake)
+[4.383s] [33mCMake Warning (dev) at CMakeLists.txt:30 (find_package):
+[4.383s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[4.383s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[4.383s]   command to set the policy and suppress this warning.
+[4.383s] 
+[4.383s]   CMake variable PCL_ROOT is set to:
+[4.384s] 
+[4.384s]     /usr
+[4.384s] 
+[4.384s]   For compatibility, CMake is ignoring the variable.
+[4.384s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.384s] [0m
+[4.687s] -- Configuring done
+[4.909s] -- Generating done
+[4.946s] -- Build files have been written to: /root/dddmr_navigation/build/mpc_critics
+[4.966s] Invoked command in '/root/dddmr_navigation/build/mpc_critics' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/dddmr_navigation/src/dddmr_local_planner/mpc_critics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/mpc_critics
+[4.972s] Invoking command in '/root/dddmr_navigation/build/mpc_critics': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/dddmr_navigation/build/mpc_critics -- -j28 -l28
+[5.036s] [  6%] [32mBuilding CXX object CMakeFiles/scoring_model.dir/src/scoring_model.cpp.o[0m
+[13.659s] [ 12%] [32m[1mLinking CXX shared library libscoring_model.so[0m
+[95.797s] [ 12%] Built target scoring_model
+[95.812s] [ 18%] [32mBuilding CXX object CMakeFiles/stacked_scoring_model.dir/src/stacked_scoring_model.cpp.o[0m
+[100.432s] [ 25%] [32m[1mLinking CXX shared library libstacked_scoring_model.so[0m
+[107.115s] [ 25%] Built target stacked_scoring_model
+[107.130s] [ 31%] [32mBuilding CXX object CMakeFiles/mpc_critics_ros.dir/src/mpc_critics_ros.cpp.o[0m
+[113.248s] [ 37%] [32m[1mLinking CXX shared library libmpc_critics_ros.so[0m
+[113.684s] [ 37%] Built target mpc_critics_ros
+[113.701s] [ 50%] [32mBuilding CXX object CMakeFiles/critics.dir/models/shortest_angle_model.cpp.o[0m
+[113.701s] [ 50%] [32mBuilding CXX object CMakeFiles/critics.dir/models/toward_global_plan_model.cpp.o[0m
+[113.702s] [ 56%] [32mBuilding CXX object CMakeFiles/mpc_critics_node.dir/src/mpc_critics_node.cpp.o[0m
+[113.703s] [ 68%] [32mBuilding CXX object CMakeFiles/critics.dir/models/pure_pursuit_model.cpp.o[0m
+[113.703s] [ 68%] [32mBuilding CXX object CMakeFiles/critics.dir/models/collision_model.cpp.o[0m
+[113.703s] [ 75%] [32mBuilding CXX object CMakeFiles/critics.dir/models/twirling_model.cpp.o[0m
+[113.703s] [ 87%] [32mBuilding CXX object CMakeFiles/critics.dir/models/stick_path_model.cpp.o[0m
+[113.703s] [ 87%] [32mBuilding CXX object CMakeFiles/critics.dir/models/collision_min_max_model.cpp.o[0m
+[120.730s] [ 93%] [32m[1mLinking CXX executable mpc_critics_node[0m
+[121.150s] [ 93%] Built target mpc_critics_node
+[122.571s] [100%] [32m[1mLinking CXX shared library libcritics.so[0m
+[122.936s] [100%] Built target critics
+[122.943s] Invoked command in '/root/dddmr_navigation/build/mpc_critics' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/dddmr_navigation/build/mpc_critics -- -j28 -l28
+[122.945s] Invoking command in '/root/dddmr_navigation/build/mpc_critics': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/dddmr_navigation/build/mpc_critics
+[122.950s] -- Install configuration: ""
+[122.950s] -- Execute custom install script
+[122.950s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/lib/libscoring_model.so
+[122.956s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/lib/libstacked_scoring_model.so
+[122.963s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/lib/libmpc_critics_ros.so
+[122.970s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/lib/libcritics.so
+[122.975s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/lib/mpc_critics/mpc_critics_node
+[122.980s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/include//mpc_critics/collision_min_max_model.h
+[122.987s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/include//mpc_critics/collision_model.h
+[122.994s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/include//mpc_critics/model_shared_data.h
+[123.003s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/include//mpc_critics/mpc_critics_ros.h
+[123.009s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/include//mpc_critics/pure_pursuit_model.h
+[123.015s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/include//mpc_critics/scoring_model.h
+[123.022s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/include//mpc_critics/shortest_angle_model.h
+[123.027s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/include//mpc_critics/stacked_scoring_model.h
+[123.032s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/include//mpc_critics/stick_path_model.h
+[123.038s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/include//mpc_critics/toward_global_plan_model.h
+[123.045s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/include//mpc_critics/twirling_model.h
+[123.087s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics//launch/mpc_critics.launch
+[123.094s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics//config/mpc_critics.yaml
+[123.099s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/mpc_critics.xml
+[123.106s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/environment/library_path.sh
+[123.111s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/environment/library_path.dsv
+[123.117s] -- Up-to-date symlink: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics//mpc_critics.xml
+[123.117s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/ament_index/resource_index/package_run_dependencies/mpc_critics
+[123.123s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/ament_index/resource_index/parent_prefix_path/mpc_critics
+[123.130s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/environment/ament_prefix_path.sh
+[123.136s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/environment/ament_prefix_path.dsv
+[123.141s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/environment/path.sh
+[123.147s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/environment/path.dsv
+[123.153s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/local_setup.bash
+[123.160s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/local_setup.sh
+[123.166s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/local_setup.zsh
+[123.172s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/local_setup.dsv
+[123.178s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/package.dsv
+[123.183s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/ament_index/resource_index/packages/mpc_critics
+[123.189s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/ament_index/resource_index/mpc_critics__pluginlib__plugin/mpc_critics
+[123.195s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/cmake/ament_cmake_export_include_directories-extras.cmake
+[123.202s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/cmake/ament_cmake_export_libraries-extras.cmake
+[123.208s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/cmake/ament_cmake_export_dependencies-extras.cmake
+[123.215s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/cmake/mpc_criticsConfig.cmake
+[123.221s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/cmake/mpc_criticsConfig-version.cmake
+[123.226s] -- Symlinking: /root/dddmr_navigation/install/mpc_critics/share/mpc_critics/package.xml
+[123.233s] Invoked command in '/root/dddmr_navigation/build/mpc_critics' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/dddmr_navigation/build/mpc_critics

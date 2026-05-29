@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/dddmr_navigation/build/dddmr_sys_core/rosidl_generator_py/dddmr_sys_core/dddmr_sys_core_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "dddmr_sys_core__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/dddmr_sys_core")

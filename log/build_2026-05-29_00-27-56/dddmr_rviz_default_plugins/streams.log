@@ -1,0 +1,44 @@
+[0.031s] Invoking command in '/root/dddmr_navigation/build/dddmr_rviz_default_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_rviz_default_plugins -- -j28 -l28
+[0.179s] [100%] Built target dddmr_rviz_default_plugins
+[0.213s] Invoked command in '/root/dddmr_navigation/build/dddmr_rviz_default_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_rviz_default_plugins -- -j28 -l28
+[0.214s] Invoking command in '/root/dddmr_navigation/build/dddmr_rviz_default_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_rviz_default_plugins
+[0.220s] -- Install configuration: "Release"
+[0.223s] -- Execute custom install script
+[0.223s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins//plugins_description.xml
+[0.223s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/library_path.sh
+[0.223s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/library_path.dsv
+[0.224s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/goal_pose/goal_tool.hpp
+[0.224s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/move/move_tool.hpp
+[0.224s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/point_cloud_selection/point_cloud_selection_tool.hpp
+[0.224s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/pose/pose_tool.hpp
+[0.224s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/pose_estimate/initial_pose_tool.hpp
+[0.224s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/select/edge_selection_tool.hpp
+[0.224s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/select/node_selection_tool.hpp
+[0.225s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/visibility_control.hpp
+[0.225s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/icons/classes/3DGoalPose.png
+[0.225s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/icons/classes/3DInitialPose.png
+[0.225s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/icons/classes/Select.png
+[0.225s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/ament_index/resource_index/package_run_dependencies/dddmr_rviz_default_plugins
+[0.225s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/ament_index/resource_index/parent_prefix_path/dddmr_rviz_default_plugins
+[0.225s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/ament_prefix_path.sh
+[0.225s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/ament_prefix_path.dsv
+[0.225s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/path.sh
+[0.225s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/path.dsv
+[0.226s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/local_setup.bash
+[0.226s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/local_setup.sh
+[0.226s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/local_setup.zsh
+[0.226s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/local_setup.dsv
+[0.226s] -- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/package.dsv
+[0.227s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/ament_index/resource_index/packages/dddmr_rviz_default_plugins
+[0.227s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/dddmr_rviz_default_plugins
+[0.228s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_plugins-extras.cmake
+[0.228s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.228s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[0.228s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.228s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_pluginsConfig.cmake
+[0.228s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_pluginsConfig-version.cmake
+[0.228s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/package.xml
+[0.228s] -- Up-to-date: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/lib/libdddmr_rviz_default_plugins.so
+[0.228s] -- Up-to-date: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_pluginsExport.cmake
+[0.228s] -- Up-to-date: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_pluginsExport-release.cmake
+[0.328s] Invoked command in '/root/dddmr_navigation/build/dddmr_rviz_default_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_rviz_default_plugins

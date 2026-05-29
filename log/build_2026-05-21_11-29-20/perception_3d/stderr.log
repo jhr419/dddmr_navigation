@@ -1,0 +1,6 @@
+gmake[2]: *** Deleting file 'libshared_data_sensor.so'
+gmake[2]: *** [CMakeFiles/shared_data_sensor.dir/build.make:408: libshared_data_sensor.so] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/shared_data_sensor.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/depthimg2pointcloud_node.dir/build.make:76: CMakeFiles/depthimg2pointcloud_node.dir/utils/depthimg2pointcloud_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:373: CMakeFiles/depthimg2pointcloud_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

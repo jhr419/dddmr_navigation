@@ -1,0 +1,8 @@
+source;share/dddmr_trt/hook/cmake_prefix_path.ps1
+source;share/dddmr_trt/hook/cmake_prefix_path.dsv
+source;share/dddmr_trt/hook/cmake_prefix_path.sh
+source;share/dddmr_trt/local_setup.bash
+source;share/dddmr_trt/local_setup.dsv
+source;share/dddmr_trt/local_setup.ps1
+source;share/dddmr_trt/local_setup.sh
+source;share/dddmr_trt/local_setup.zsh

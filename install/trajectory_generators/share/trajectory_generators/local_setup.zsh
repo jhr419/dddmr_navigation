@@ -1,0 +1,1 @@
+/root/dddmr_navigation/build/trajectory_generators/ament_cmake_environment_hooks/local_setup.zsh

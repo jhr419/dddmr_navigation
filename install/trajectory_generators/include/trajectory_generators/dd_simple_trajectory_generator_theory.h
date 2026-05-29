@@ -1,0 +1,1 @@
+/root/dddmr_navigation/src/dddmr_local_planner/trajectory_generators/include/trajectory_generators/dd_simple_trajectory_generator_theory.h

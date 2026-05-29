@@ -1,0 +1,36 @@
+[0.035s] Invoking command in '/root/dddmr_navigation/build/map_editor_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/map_editor_panel -- -j28 -l28
+[0.096s] [ 20%] [34m[1mAutomatic UIC for target map_editor_panel[0m
+[0.121s] [ 20%] Built target map_editor_panel_autogen
+[0.166s] [100%] Built target map_editor_panel
+[0.236s] Invoked command in '/root/dddmr_navigation/build/map_editor_panel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/map_editor_panel -- -j28 -l28
+[0.237s] Invoking command in '/root/dddmr_navigation/build/map_editor_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/map_editor_panel
+[0.244s] -- Install configuration: "Release"
+[0.245s] -- Execute custom install script
+[0.245s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel//plugin_description.xml
+[0.246s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/environment/library_path.sh
+[0.246s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/environment/library_path.dsv
+[0.247s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/include/map_editor_panel/map_editor_panel.h
+[0.247s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/ament_index/resource_index/package_run_dependencies/map_editor_panel
+[0.247s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/ament_index/resource_index/parent_prefix_path/map_editor_panel
+[0.247s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/environment/ament_prefix_path.sh
+[0.248s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/environment/ament_prefix_path.dsv
+[0.248s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/environment/path.sh
+[0.248s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/environment/path.dsv
+[0.248s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/local_setup.bash
+[0.248s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/local_setup.sh
+[0.248s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/local_setup.zsh
+[0.249s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/local_setup.dsv
+[0.249s] -- Symlinking: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/package.dsv
+[0.256s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/ament_index/resource_index/packages/map_editor_panel
+[0.257s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/ament_index/resource_index/rviz_common__pluginlib__plugin/map_editor_panel
+[0.257s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/ament_cmake_export_targets-extras.cmake
+[0.257s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.258s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.258s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/ament_cmake_export_libraries-extras.cmake
+[0.258s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/map_editor_panelConfig.cmake
+[0.258s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/map_editor_panelConfig-version.cmake
+[0.258s] -- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/package.xml
+[0.258s] -- Up-to-date: /root/dddmr_navigation/install/map_editor_panel/lib/libmap_editor_panel.so
+[0.259s] -- Up-to-date: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/map_editor_panelExport.cmake
+[0.259s] -- Up-to-date: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/map_editor_panelExport-release.cmake
+[0.314s] Invoked command in '/root/dddmr_navigation/build/map_editor_panel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/map_editor_panel

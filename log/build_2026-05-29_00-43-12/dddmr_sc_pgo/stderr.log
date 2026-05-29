@@ -1,0 +1,371 @@
+CMake Warning (dev) at CMakeLists.txt:62 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+In file included from /usr/include/pcl-1.12/pcl/point_types.h:354,
+                 from /root/dddmr_navigation/src/dddmr_sc_pgo/include/dddmr_sc_pgo/scan_context.h:21,
+                 from /root/dddmr_navigation/src/dddmr_sc_pgo/src/scan_context.cpp:8:
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:337:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+  337 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  289 |       { \
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3: note: in expansion of macro ‘PCL_ADD_UNION_RGB’
+  313 |   PCL_ADD_UNION_RGB \
+      |   ^~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:368:5: note: in expansion of macro ‘PCL_ADD_RGB’
+  368 |     PCL_ADD_RGB;
+      |     ^~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:318:5: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  318 |     { \
+      |     ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:5: note: in expansion of macro ‘PCL_ADD_INTENSITY’
+  411 |     PCL_ADD_INTENSITY;
+      |     ^~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:22: warning: extra ‘;’ [-Wpedantic]
+  411 |     PCL_ADD_INTENSITY;
+      |                      ^
+      |                      -
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:324:5: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  324 |     { \
+      |     ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:5: note: in expansion of macro ‘PCL_ADD_INTENSITY_8U’
+  437 |     PCL_ADD_INTENSITY_8U;
+      |     ^~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:25: warning: extra ‘;’ [-Wpedantic]
+  437 |     PCL_ADD_INTENSITY_8U;
+      |                         ^
+      |                         -
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:330:5: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  330 |     { \
+      |     ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:5: note: in expansion of macro ‘PCL_ADD_INTENSITY_32U’
+  469 |     PCL_ADD_INTENSITY_32U;
+      |     ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:26: warning: extra ‘;’ [-Wpedantic]
+  469 |     PCL_ADD_INTENSITY_32U;
+      |                          ^
+      |                          -
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:497:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+  497 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:501:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  501 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:533:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+  533 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:573:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+  573 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  289 |       { \
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3: note: in expansion of macro ‘PCL_ADD_UNION_RGB’
+  313 |   PCL_ADD_UNION_RGB \
+      |   ^~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:574:5: note: in expansion of macro ‘PCL_ADD_RGB’
+  574 |     PCL_ADD_RGB;
+      |     ^~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:629:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+  629 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  289 |       { \
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3: note: in expansion of macro ‘PCL_ADD_UNION_RGB’
+  313 |   PCL_ADD_UNION_RGB \
+      |   ^~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:630:5: note: in expansion of macro ‘PCL_ADD_RGB’
+  630 |     PCL_ADD_RGB;
+      |     ^~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:636:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+  636 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  289 |       { \
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3: note: in expansion of macro ‘PCL_ADD_UNION_RGB’
+  313 |   PCL_ADD_UNION_RGB \
+      |   ^~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:637:5: note: in expansion of macro ‘PCL_ADD_RGB’
+  637 |     PCL_ADD_RGB;
+      |     ^~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:741:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+  741 |     PCL_ADD_POINT4D; // this adds the members x,y,z
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:745:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  745 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:782:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+  782 |     PCL_ADD_POINT4D;    // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:786:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  786 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:867:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+  867 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:871:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  871 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  266 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro ‘PCL_ADD_UNION_NORMAL4D’
+  280 |   PCL_ADD_UNION_NORMAL4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:883:5: note: in expansion of macro ‘PCL_ADD_NORMAL4D’
+  883 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:887:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  887 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  266 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro ‘PCL_ADD_UNION_NORMAL4D’
+  280 |   PCL_ADD_UNION_NORMAL4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:924:5: note: in expansion of macro ‘PCL_ADD_NORMAL4D’
+  924 |     PCL_ADD_NORMAL4D;
+      |     ^~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:955:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+  955 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  266 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro ‘PCL_ADD_UNION_NORMAL4D’
+  280 |   PCL_ADD_UNION_NORMAL4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:956:5: note: in expansion of macro ‘PCL_ADD_NORMAL4D’
+  956 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:960:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  960 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1001:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+ 1001 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  266 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro ‘PCL_ADD_UNION_NORMAL4D’
+  280 |   PCL_ADD_UNION_NORMAL4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1002:5: note: in expansion of macro ‘PCL_ADD_NORMAL4D’
+ 1002 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  289 |       { \
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:9: note: in expansion of macro ‘PCL_ADD_UNION_RGB’
+ 1007 |         PCL_ADD_UNION_RGB;
+      |         ^~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:26: warning: extra ‘;’ [-Wpedantic]
+ 1007 |         PCL_ADD_UNION_RGB;
+      |                          ^
+      |                          -
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1006:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1006 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1085:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+ 1085 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  266 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro ‘PCL_ADD_UNION_NORMAL4D’
+  280 |   PCL_ADD_UNION_NORMAL4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1086:5: note: in expansion of macro ‘PCL_ADD_NORMAL4D’
+ 1086 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1090:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1090 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1135:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+ 1135 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  266 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro ‘PCL_ADD_UNION_NORMAL4D’
+  280 |   PCL_ADD_UNION_NORMAL4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1136:5: note: in expansion of macro ‘PCL_ADD_NORMAL4D’
+ 1136 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1140:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1140 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1187:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+ 1187 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1191:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1191 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1226:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+ 1226 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1230:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1230 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1326:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1326 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1519:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1519 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1738:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1738 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1765:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+ 1765 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1818:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+ 1818 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  266 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro ‘PCL_ADD_UNION_NORMAL4D’
+  280 |   PCL_ADD_UNION_NORMAL4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1819:5: note: in expansion of macro ‘PCL_ADD_NORMAL4D’
+ 1819 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     ^~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  289 |       { \
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:9: note: in expansion of macro ‘PCL_ADD_UNION_RGB’
+ 1824 |         PCL_ADD_UNION_RGB;
+      |         ^~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:26: warning: extra ‘;’ [-Wpedantic]
+ 1824 |         PCL_ADD_UNION_RGB;
+      |                          ^
+      |                          -
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1823:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1823 |       {
+      |       ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  241 |     struct { \
+      |            ^
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+  259 |   PCL_ADD_UNION_POINT4D \
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1867:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+ 1867 |     PCL_ADD_POINT4D;
+      |     ^~~~~~~~~~~~~~~

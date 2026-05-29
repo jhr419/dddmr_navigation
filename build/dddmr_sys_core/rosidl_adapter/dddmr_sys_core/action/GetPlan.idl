@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from dddmr_sys_core/action/GetPlan.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "nav_msgs/msg/Path.idl"
+
+module dddmr_sys_core {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct GetPlan_Goal {
+      geometry_msgs::msg::PoseStamped goal;
+
+      geometry_msgs::msg::PoseStamped start;
+
+      @verbatim (language="comment", text=
+        "below for dwa global plnner")
+      boolean activate_threading;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct GetPlan_Result {
+      nav_msgs::msg::Path path;
+
+      builtin_interfaces::msg::Duration planning_time;
+    };
+    @verbatim (language="comment", text=
+      "feedback definition")
+    struct GetPlan_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

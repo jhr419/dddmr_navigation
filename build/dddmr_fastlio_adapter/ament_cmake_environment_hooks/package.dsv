@@ -1,0 +1,4 @@
+source;share/dddmr_fastlio_adapter/local_setup.bash
+source;share/dddmr_fastlio_adapter/local_setup.dsv
+source;share/dddmr_fastlio_adapter/local_setup.sh
+source;share/dddmr_fastlio_adapter/local_setup.zsh

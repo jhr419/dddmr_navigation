@@ -1,0 +1,8 @@
+[0.033s] Invoking command in '/root/dddmr_navigation/build/mapping_panel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/mapping_panel -- -j28 -l28
+[0.094s] [ 20%] [34m[1mAutomatic UIC for target mapping_panel[0m
+[0.122s] [ 20%] Built target mapping_panel_autogen
+[0.146s] [ 40%] [34m[1mGenerating include/mapping_panel/moc_mapping_panel.cpp[0m
+[0.299s] [ 60%] [32mBuilding CXX object CMakeFiles/mapping_panel.dir/include/mapping_panel/moc_mapping_panel.cpp.o[0m
+[0.314s] [ 80%] [32mBuilding CXX object CMakeFiles/mapping_panel.dir/src/mapping_panel.cpp.o[0m
+[24.112s] [100%] [32m[1mLinking CXX shared library libmapping_panel.so[0m
+[25.107s] [100%] Built target mapping_panel

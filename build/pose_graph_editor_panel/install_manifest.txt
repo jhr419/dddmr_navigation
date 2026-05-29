@@ -1,0 +1,3 @@
+/root/dddmr_navigation/install/pose_graph_editor_panel/lib/libpose_graph_editor_panel.so
+/root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/cmake/pose_graph_editor_panelExport.cmake
+/root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/cmake/pose_graph_editor_panelExport-release.cmake

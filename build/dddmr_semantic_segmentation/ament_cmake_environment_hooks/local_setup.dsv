@@ -1,0 +1,2 @@
+source;share/dddmr_semantic_segmentation/environment/ament_prefix_path.sh
+source;share/dddmr_semantic_segmentation/environment/path.sh

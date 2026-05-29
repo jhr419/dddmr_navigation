@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libscan_context_lib.so -o libscan_context_lib.so CMakeFiles/scan_context_lib.dir/src/scan_context.cpp.o   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib /usr/lib/libOpenNI.so /usr/lib/x86_64-linux-gnu/libOpenNI2.so /usr/lib/x86_64-linux-gnu/libpcl_common.so 

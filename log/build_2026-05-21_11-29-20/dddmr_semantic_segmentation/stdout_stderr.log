@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/semantic_segmentation2point_cloud.dir/src/semantic_segmentation2point_cloud.cpp.o[0m
+gmake[2]: *** [CMakeFiles/semantic_segmentation2point_cloud.dir/build.make:76: CMakeFiles/semantic_segmentation2point_cloud.dir/src/semantic_segmentation2point_cloud.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/semantic_segmentation2point_cloud.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

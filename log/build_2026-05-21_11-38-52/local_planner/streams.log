@@ -1,0 +1,159 @@
+[0.015s] Invoking command in '/root/dddmr_navigation/build/local_planner': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/dddmr_navigation/src/dddmr_local_planner/local_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/local_planner
+[0.061s] -- The C compiler identification is GNU 13.4.0
+[0.109s] -- The CXX compiler identification is GNU 13.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.177s] -- Detecting C compile features
+[0.177s] -- Detecting C compile features - done
+[0.179s] -- Detecting CXX compiler ABI info
+[0.242s] -- Detecting CXX compiler ABI info - done
+[0.247s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.247s] -- Detecting CXX compile features
+[0.247s] -- Detecting CXX compile features - done
+[0.249s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.365s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.409s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.431s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.461s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.465s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.471s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.528s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.530s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.599s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.624s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.675s] -- Looking for pthread.h
+[0.740s] -- Looking for pthread.h - found
+[0.740s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.796s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.797s] -- Found Threads: TRUE  
+[0.834s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.860s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.875s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.895s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[0.902s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.924s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.936s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.949s] -- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)
+[0.952s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.975s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.986s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.987s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.987s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.989s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.992s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.994s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[1.010s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.039s] -- Checking for module 'eigen3'
+[1.050s] --   Found eigen3, version 3.4.0
+[1.077s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.077s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.110s] -- Checking for module 'flann'
+[1.120s] --   Found flann, version 1.9.1
+[1.149s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.149s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.838s] -- Checking for module 'libusb-1.0'
+[1.849s] --   Found libusb-1.0, version 1.0.25
+[1.878s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.879s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.924s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.040s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.044s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.049s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.154s] -- Found Qhull version 8.0.2
+[2.265s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.367s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.367s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.367s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.368s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.368s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.369s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.369s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.369s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.370s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.371s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.371s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.372s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.372s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.373s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.373s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.375s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.375s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.376s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.377s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.378s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.378s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.379s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.379s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.380s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.381s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.399s] -- Found base_trajectory: 0.0.0 (/root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake)
+[2.410s] -- Found perception_3d: 2.5.0 (/root/dddmr_navigation/install/perception_3d/share/perception_3d/cmake)
+[2.423s] -- Found mpc_critics: 1.0.0 (/root/dddmr_navigation/install/mpc_critics/share/mpc_critics/cmake)
+[2.439s] -- Found trajectory_generators: 1.0.0 (/root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/cmake)
+[2.455s] -- Found dddmr_sys_core: 1.0.0 (/root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake)
+[2.480s] [33mCMake Warning (dev) at CMakeLists.txt:30 (find_package):
+[2.480s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.480s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.480s]   command to set the policy and suppress this warning.
+[2.480s] 
+[2.480s]   CMake variable PCL_ROOT is set to:
+[2.480s] 
+[2.480s]     /usr
+[2.480s] 
+[2.480s]   For compatibility, CMake is ignoring the variable.
+[2.480s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.480s] [0m
+[4.638s] -- Configuring done
+[4.726s] -- Generating done
+[4.740s] -- Build files have been written to: /root/dddmr_navigation/build/local_planner
+[4.753s] Invoked command in '/root/dddmr_navigation/build/local_planner' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/dddmr_navigation/src/dddmr_local_planner/local_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/local_planner
+[4.754s] Invoking command in '/root/dddmr_navigation/build/local_planner': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/dddmr_navigation/build/local_planner -- -j28 -l28
+[4.796s] [ 16%] [32mBuilding CXX object CMakeFiles/local_planner.dir/src/local_planner.cpp.o[0m
+[11.900s] [01m[K/root/dddmr_navigation/src/dddmr_local_planner/local_planner/src/local_planner.cpp:[m[K In member function ‘[01m[Kdddmr_sys_core::PlannerState local_planner::Local_Planner::[01;32m[KcomputeVelocityCommand[m[K(std::string, base_trajectory::Trajectory&)[m[K’:
+[11.900s] [01m[K/root/dddmr_navigation/src/dddmr_local_planner/local_planner/src/local_planner.cpp:630:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[11.900s]   630 | [01;35m[K}[m[K
+[11.900s]       | [01;35m[K^[m[K
+[15.528s] [ 33%] [32m[1mLinking CXX shared library liblocal_planner.so[0m
+[16.296s] [ 33%] Built target local_planner
+[16.314s] [ 50%] [32mBuilding CXX object CMakeFiles/local_planner_play_ground_node.dir/src/local_planner_play_ground_node.cpp.o[0m
+[16.316s] [ 66%] [32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/local_planner_node.cpp.o[0m
+[22.225s] [ 83%] [32m[1mLinking CXX executable local_planner_node[0m
+[22.814s] [ 83%] Built target local_planner_node
+[27.116s] [100%] [32m[1mLinking CXX executable local_planner_play_ground_node[0m
+[27.810s] [100%] Built target local_planner_play_ground_node
+[27.845s] Invoked command in '/root/dddmr_navigation/build/local_planner' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/dddmr_navigation/build/local_planner -- -j28 -l28
+[27.847s] Invoking command in '/root/dddmr_navigation/build/local_planner': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/dddmr_navigation/build/local_planner
+[27.853s] -- Install configuration: ""
+[27.853s] -- Execute custom install script
+[27.854s] -- Symlinking: /root/dddmr_navigation/install/local_planner/lib/liblocal_planner.so
+[27.859s] -- Symlinking: /root/dddmr_navigation/install/local_planner/lib/local_planner/local_planner_node
+[27.864s] -- Symlinking: /root/dddmr_navigation/install/local_planner/lib/local_planner/local_planner_play_ground_node
+[27.871s] -- Symlinking: /root/dddmr_navigation/install/local_planner/include//local_planner/local_planner.h
+[27.876s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner//launch/local_planner_play_ground.launch
+[27.882s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner//config/local_planner_play_ground.yaml
+[27.889s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner//rviz/local_planner_play_ground.rviz
+[27.894s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/environment/library_path.sh
+[27.898s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/environment/library_path.dsv
+[27.905s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/ament_index/resource_index/package_run_dependencies/local_planner
+[27.909s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/ament_index/resource_index/parent_prefix_path/local_planner
+[27.915s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/environment/ament_prefix_path.sh
+[27.920s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/environment/ament_prefix_path.dsv
+[27.926s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/environment/path.sh
+[27.933s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/environment/path.dsv
+[27.938s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/local_setup.bash
+[27.944s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/local_setup.sh
+[27.949s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/local_setup.zsh
+[27.956s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/local_setup.dsv
+[27.964s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/package.dsv
+[27.970s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/ament_index/resource_index/packages/local_planner
+[27.975s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.981s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[27.986s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.990s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/cmake/local_plannerConfig.cmake
+[27.995s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/cmake/local_plannerConfig-version.cmake
+[28.001s] -- Symlinking: /root/dddmr_navigation/install/local_planner/share/local_planner/package.xml
+[28.009s] Invoked command in '/root/dddmr_navigation/build/local_planner' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/dddmr_navigation/build/local_planner

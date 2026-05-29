@@ -1,0 +1,96 @@
+[0.036s] Invoking command in '/root/dddmr_navigation/build/dddmr_sc_pgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_sc_pgo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sc_pgo
+[0.054s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.143s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.150s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.172s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.173s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.176s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.208s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.209s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.300s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.345s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.362s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.389s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.404s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.423s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[0.426s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.483s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.485s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.516s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.549s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.798s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.804s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.920s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.925s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.930s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.032s] -- Found Qhull version 8.0.2
+[1.154s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.276s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.282s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.283s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.284s] [33mCMake Warning (dev) at CMakeLists.txt:62 (find_package):
+[1.284s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.284s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.284s]   command to set the policy and suppress this warning.
+[1.284s] 
+[1.285s]   CMake variable PCL_ROOT is set to:
+[1.285s] 
+[1.285s]     /usr
+[1.285s] 
+[1.285s]   For compatibility, CMake is ignoring the variable.
+[1.285s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.285s] [0m
+[1.299s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[1.310s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.357s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.359s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.360s] -- Configured cppcheck include dirs: /root/dddmr_navigation/src/dddmr_sc_pgo/include;/root/dddmr_navigation/src/dddmr_sc_pgo/include/dddmr_sc_pgo
+[1.360s] -- Configured cppcheck exclude dirs and/or files: 
+[1.360s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.360s] -- Configured cpplint exclude dirs and/or files: 
+[1.361s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.361s] -- Added test 'lint_cmake' to check CMake code style
+[1.361s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.362s] -- Added test 'uncrustify' to check C / C++ code style
+[1.362s] -- Configured uncrustify additional arguments: 
+[1.363s] -- Added test 'xmllint' to check XML markup files
+[1.365s] -- Configuring done
+[1.396s] -- Generating done
+[1.402s] -- Build files have been written to: /root/dddmr_navigation/build/dddmr_sc_pgo
+[1.421s] Invoked command in '/root/dddmr_navigation/build/dddmr_sc_pgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_sc_pgo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sc_pgo
+[1.422s] Invoking command in '/root/dddmr_navigation/build/dddmr_sc_pgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_sc_pgo -- -j28 -l28
+[1.467s] [35m[1mConsolidate compiler generated dependencies of target scan_context_lib[0m
+[1.483s] [ 25%] [32m[1mLinking CXX shared library libscan_context_lib.so[0m
+[1.558s] [ 50%] Built target scan_context_lib
+[1.567s] [35m[1mConsolidate compiler generated dependencies of target sc_pgo_node[0m
+[1.589s] [ 75%] [32m[1mLinking CXX executable sc_pgo_node[0m
+[2.614s] [100%] Built target sc_pgo_node
+[2.623s] Invoked command in '/root/dddmr_navigation/build/dddmr_sc_pgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_sc_pgo -- -j28 -l28
+[2.624s] Invoking command in '/root/dddmr_navigation/build/dddmr_sc_pgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_sc_pgo
+[2.630s] -- Install configuration: ""
+[2.630s] -- Execute custom install script
+[2.630s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/lib/dddmr_sc_pgo/sc_pgo_node
+[2.640s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/lib/libscan_context_lib.so
+[2.649s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/include/dddmr_sc_pgo/scan_context.h
+[2.657s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/launch/sc_pgo.launch.py
+[2.666s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/config/sc_pgo.yaml
+[2.674s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/ament_index/resource_index/package_run_dependencies/dddmr_sc_pgo
+[2.683s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/ament_index/resource_index/parent_prefix_path/dddmr_sc_pgo
+[2.692s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/environment/ament_prefix_path.sh
+[2.700s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/environment/ament_prefix_path.dsv
+[2.709s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/environment/path.sh
+[2.718s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/environment/path.dsv
+[2.727s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/local_setup.bash
+[2.736s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/local_setup.sh
+[2.743s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/local_setup.zsh
+[2.752s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/local_setup.dsv
+[2.761s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/package.dsv
+[2.767s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/ament_index/resource_index/packages/dddmr_sc_pgo
+[2.775s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.785s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.792s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/cmake/dddmr_sc_pgoConfig.cmake
+[2.800s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/cmake/dddmr_sc_pgoConfig-version.cmake
+[2.809s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/package.xml
+[2.818s] Invoked command in '/root/dddmr_navigation/build/dddmr_sc_pgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_sc_pgo

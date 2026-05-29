@@ -1,0 +1,661 @@
+[0.000000] (-) TimerEvent: {}
+[0.000113] (-) JobUnselected: {'identifier': 'base_trajectory'}
+[0.000397] (-) JobUnselected: {'identifier': 'cloud_msgs'}
+[0.000422] (-) JobUnselected: {'identifier': 'dddmr_beginner_guide'}
+[0.000448] (-) JobUnselected: {'identifier': 'dddmr_fastlio_adapter'}
+[0.000492] (-) JobUnselected: {'identifier': 'dddmr_odom_3d'}
+[0.000511] (-) JobUnselected: {'identifier': 'dddmr_rviz_default_plugins'}
+[0.000525] (-) JobUnselected: {'identifier': 'dddmr_semantic_segmentation'}
+[0.000570] (-) JobUnselected: {'identifier': 'dddmr_sys_core'}
+[0.000584] (-) JobUnselected: {'identifier': 'dddmr_trt'}
+[0.000597] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000611] (-) JobUnselected: {'identifier': 'global_planner'}
+[0.000633] (-) JobUnselected: {'identifier': 'lego_loam_bor'}
+[0.000667] (-) JobUnselected: {'identifier': 'local_planner'}
+[0.000682] (-) JobUnselected: {'identifier': 'map_editor_panel'}
+[0.000695] (-) JobUnselected: {'identifier': 'mapping_panel'}
+[0.000709] (-) JobUnselected: {'identifier': 'mcl_3dl'}
+[0.000724] (-) JobUnselected: {'identifier': 'mpc_critics'}
+[0.000737] (-) JobUnselected: {'identifier': 'p2p_move_base'}
+[0.000766] (-) JobUnselected: {'identifier': 'perception_3d'}
+[0.000787] (-) JobUnselected: {'identifier': 'pose_graph_editor_panel'}
+[0.000800] (-) JobUnselected: {'identifier': 'pose_graph_merge_editor_panel'}
+[0.000814] (-) JobUnselected: {'identifier': 'recovery_behaviors'}
+[0.000827] (-) JobUnselected: {'identifier': 'trajectory_generators'}
+[0.000865] (dddmr_sc_pgo) JobQueued: {'identifier': 'dddmr_sc_pgo', 'dependencies': OrderedDict()}
+[0.000889] (dddmr_sc_pgo) JobStarted: {'identifier': 'dddmr_sc_pgo'}
+[0.004447] (dddmr_sc_pgo) JobProgress: {'identifier': 'dddmr_sc_pgo', 'progress': 'cmake'}
+[0.005333] (dddmr_sc_pgo) Command: {'cmd': ['/usr/bin/cmake', '/root/dddmr_navigation/src/dddmr_sc_pgo', '-DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sc_pgo'], 'cwd': '/root/dddmr_navigation/build/dddmr_sc_pgo', 'env': OrderedDict([('npm_config_devdir', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/node-gyp'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/root'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('PUPPETEER_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/puppeteer'), ('HTTPS_PROXY', 'http://127.0.0.1:46193'), ('no_proxy', '127.0.0.1,::1,localhost'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('CARGO_TARGET_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cargo-target'), ('CCACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/ccache'), ('all_proxy', 'http://127.0.0.1:46193'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('HOSTNAME', 'yk'), ('CURSOR_RIPGREP_PATH', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/node_modules/@vscode/ripgrep/bin/rg'), ('PIP_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/pip'), ('NUGET_PACKAGES', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/nuget'), ('HOMEBREW_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/homebrew'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SOCKS_PROXY', 'socks5://127.0.0.1:46161'), ('BROWSER', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root'), ('NO_PROXY', '127.0.0.1,::1,localhost'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1024614c-b5fc-4e4e-b81c-9c78bcdf6c21.sock'), ('ROS_PYTHON_VERSION', '3'), ('CURSOR_ORIG_UID', '0'), ('NO_COLOR', '1'), ('CONDA_PKGS_DIRS', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/conda'), ('DEBUGINFOD_URLS', ''), ('COMPOSER_HOME', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/composer'), ('https_proxy', 'http://127.0.0.1:46193'), ('VSCODE_L10N_BUNDLE_LOCATION', 'vscode-local:/home/yk/.cursor/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.105.0-universal/translations/extensions/vscode.json-language-features.i18n.json'), ('ROS_DISTRO', 'humble'), ('OVSX_REGISTRY_URL', 'https://open-vsx.org'), ('FORCE_COLOR', '0'), ('ALL_PROXY', 'http://127.0.0.1:46193'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('http_proxy', 'http://127.0.0.1:46193'), ('BUN_INSTALL_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/bun'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CURSOR_LAYOUT', 'unifiedAgent'), ('GOMODCACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/go-mod'), ('CP_HOME_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cocoapods'), ('socks_proxy', 'socks5://127.0.0.1:46161'), ('TERM', 'dumb'), ('SOCKS5_PROXY', 'socks5://127.0.0.1:46161'), ('ROS_LOCALHOST_ONLY', '0'), ('POETRY_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/poetry'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('YARN_CACHE_FOLDER', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/yarn'), ('UV_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/uv'), ('PLAYWRIGHT_BROWSERS_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/playwright'), ('BUNDLE_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/bundle'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('NX_CACHE_DIRECTORY', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/nx'), ('LS_COLORS', ''), ('CYPRESS_CACHE_FOLDER', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cypress'), ('SSH_AUTH_SOCK', '/tmp/cursor-remote-ssh-cc04204e-865f-4c41-b7d9-7fa2afb2864a.sock'), ('PNPM_STORE_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/pnpm-store'), ('ROS_DOMAIN_ID', '18'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CURSOR_SANDBOX', 'native'), ('GOCACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/go-build'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_HTTP_PROXY', 'http://127.0.0.1:46193'), ('socks5_proxy', 'socks5://127.0.0.1:46161'), ('NPM_CONFIG_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/npm'), ('PWD', '/root/dddmr_navigation/build/dddmr_sc_pgo'), ('GRADLE_USER_HOME', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/gradle'), ('CURSOR_ORIG_GID', '0'), ('GIT_HTTPS_PROXY', 'http://127.0.0.1:46193'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:46193'), ('TURBO_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/turbo'), ('COLCON', '1'), ('__CURSOR_SANDBOX_ENV_RESTORE', "builtin export HTTP_PROXY='http://127.0.0.1:46193'; builtin export HTTPS_PROXY='http://127.0.0.1:46193'; builtin export http_proxy='http://127.0.0.1:46193'; builtin export https_proxy='http://127.0.0.1:46193'; builtin export GIT_HTTP_PROXY='http://127.0.0.1:46193'; builtin export GIT_HTTPS_PROXY='http://127.0.0.1:46193'; builtin export SOCKS_PROXY='socks5://127.0.0.1:46161'; builtin export SOCKS5_PROXY='socks5://127.0.0.1:46161'; builtin export socks_proxy='socks5://127.0.0.1:46161'; builtin export socks5_proxy='socks5://127.0.0.1:46161'; builtin export ALL_PROXY='http://127.0.0.1:46193'; builtin export all_proxy='http://127.0.0.1:46193'; builtin export NO_PROXY='127.0.0.1,::1,localhost'; builtin export no_proxy='127.0.0.1,::1,localhost'"), ('_ZO_DOCTOR', '0'), ('GEM_SPEC_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/gem-specs'), ('CURSOR_SANDBOX_LANDLOCK_STATUS', 'fully_enforced'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.016435] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.085810] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.089563] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099996] (-) TimerEvent: {}
+[0.103274] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.104407] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.107414] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.111706] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.117541] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.132658] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.133345] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.198954] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.200097] (-) TimerEvent: {}
+[0.221465] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.229834] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.242881] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.250425] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.259231] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.260591] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.289179] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[0.290390] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.300322] (-) TimerEvent: {}
+[0.307160] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.327233] (dddmr_sc_pgo) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.400489] (-) TimerEvent: {}
+[0.488773] (dddmr_sc_pgo) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.492658] (dddmr_sc_pgo) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.500658] (-) TimerEvent: {}
+[0.575778] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.579705] (dddmr_sc_pgo) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.583872] (dddmr_sc_pgo) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.600858] (-) TimerEvent: {}
+[0.661599] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[0.701083] (-) TimerEvent: {}
+[0.750260] (dddmr_sc_pgo) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.801366] (-) TimerEvent: {}
+[0.834238] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[0.839640] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.840398] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.841715] (dddmr_sc_pgo) StderrLine: {'line': b'CMake Warning (dev) at CMakeLists.txt:62 (find_package):\n'}
+[0.841807] (dddmr_sc_pgo) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[0.841863] (dddmr_sc_pgo) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[0.841912] (dddmr_sc_pgo) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.841959] (dddmr_sc_pgo) StderrLine: {'line': b'\n'}
+[0.842008] (dddmr_sc_pgo) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[0.842056] (dddmr_sc_pgo) StderrLine: {'line': b'\n'}
+[0.842102] (dddmr_sc_pgo) StderrLine: {'line': b'    /usr\n'}
+[0.842155] (dddmr_sc_pgo) StderrLine: {'line': b'\n'}
+[0.842211] (dddmr_sc_pgo) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[0.842258] (dddmr_sc_pgo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.842306] (dddmr_sc_pgo) StderrLine: {'line': b'\n'}
+[0.853778] (dddmr_sc_pgo) StdoutLine: {'line': b'-- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include\n'}
+[0.859781] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.896994] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.897411] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.897688] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/dddmr_navigation/src/dddmr_sc_pgo/include;/root/dddmr_navigation/src/dddmr_sc_pgo/include/dddmr_sc_pgo\n'}
+[0.897768] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.898076] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.898161] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.898212] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.898511] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.898551] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.898852] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.898907] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.898951] (dddmr_sc_pgo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.899789] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.901422] (-) TimerEvent: {}
+[0.922805] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Generating done\n'}
+[0.927873] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Build files have been written to: /root/dddmr_navigation/build/dddmr_sc_pgo\n'}
+[0.935056] (dddmr_sc_pgo) CommandEnded: {'returncode': 0}
+[0.936151] (dddmr_sc_pgo) JobProgress: {'identifier': 'dddmr_sc_pgo', 'progress': 'build'}
+[0.936171] (dddmr_sc_pgo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dddmr_navigation/build/dddmr_sc_pgo', '--', '-j28', '-l28'], 'cwd': '/root/dddmr_navigation/build/dddmr_sc_pgo', 'env': OrderedDict([('npm_config_devdir', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/node-gyp'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/root'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('PUPPETEER_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/puppeteer'), ('HTTPS_PROXY', 'http://127.0.0.1:46193'), ('no_proxy', '127.0.0.1,::1,localhost'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('CARGO_TARGET_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cargo-target'), ('CCACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/ccache'), ('all_proxy', 'http://127.0.0.1:46193'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('HOSTNAME', 'yk'), ('CURSOR_RIPGREP_PATH', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/node_modules/@vscode/ripgrep/bin/rg'), ('PIP_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/pip'), ('NUGET_PACKAGES', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/nuget'), ('HOMEBREW_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/homebrew'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SOCKS_PROXY', 'socks5://127.0.0.1:46161'), ('BROWSER', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root'), ('NO_PROXY', '127.0.0.1,::1,localhost'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1024614c-b5fc-4e4e-b81c-9c78bcdf6c21.sock'), ('ROS_PYTHON_VERSION', '3'), ('CURSOR_ORIG_UID', '0'), ('NO_COLOR', '1'), ('CONDA_PKGS_DIRS', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/conda'), ('DEBUGINFOD_URLS', ''), ('COMPOSER_HOME', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/composer'), ('https_proxy', 'http://127.0.0.1:46193'), ('VSCODE_L10N_BUNDLE_LOCATION', 'vscode-local:/home/yk/.cursor/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.105.0-universal/translations/extensions/vscode.json-language-features.i18n.json'), ('ROS_DISTRO', 'humble'), ('OVSX_REGISTRY_URL', 'https://open-vsx.org'), ('FORCE_COLOR', '0'), ('ALL_PROXY', 'http://127.0.0.1:46193'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('http_proxy', 'http://127.0.0.1:46193'), ('BUN_INSTALL_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/bun'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CURSOR_LAYOUT', 'unifiedAgent'), ('GOMODCACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/go-mod'), ('CP_HOME_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cocoapods'), ('socks_proxy', 'socks5://127.0.0.1:46161'), ('TERM', 'dumb'), ('SOCKS5_PROXY', 'socks5://127.0.0.1:46161'), ('ROS_LOCALHOST_ONLY', '0'), ('POETRY_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/poetry'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('YARN_CACHE_FOLDER', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/yarn'), ('UV_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/uv'), ('PLAYWRIGHT_BROWSERS_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/playwright'), ('BUNDLE_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/bundle'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('NX_CACHE_DIRECTORY', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/nx'), ('LS_COLORS', ''), ('CYPRESS_CACHE_FOLDER', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cypress'), ('SSH_AUTH_SOCK', '/tmp/cursor-remote-ssh-cc04204e-865f-4c41-b7d9-7fa2afb2864a.sock'), ('PNPM_STORE_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/pnpm-store'), ('ROS_DOMAIN_ID', '18'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CURSOR_SANDBOX', 'native'), ('GOCACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/go-build'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_HTTP_PROXY', 'http://127.0.0.1:46193'), ('socks5_proxy', 'socks5://127.0.0.1:46161'), ('NPM_CONFIG_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/npm'), ('PWD', '/root/dddmr_navigation/build/dddmr_sc_pgo'), ('GRADLE_USER_HOME', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/gradle'), ('CURSOR_ORIG_GID', '0'), ('GIT_HTTPS_PROXY', 'http://127.0.0.1:46193'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:46193'), ('TURBO_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/turbo'), ('COLCON', '1'), ('__CURSOR_SANDBOX_ENV_RESTORE', "builtin export HTTP_PROXY='http://127.0.0.1:46193'; builtin export HTTPS_PROXY='http://127.0.0.1:46193'; builtin export http_proxy='http://127.0.0.1:46193'; builtin export https_proxy='http://127.0.0.1:46193'; builtin export GIT_HTTP_PROXY='http://127.0.0.1:46193'; builtin export GIT_HTTPS_PROXY='http://127.0.0.1:46193'; builtin export SOCKS_PROXY='socks5://127.0.0.1:46161'; builtin export SOCKS5_PROXY='socks5://127.0.0.1:46161'; builtin export socks_proxy='socks5://127.0.0.1:46161'; builtin export socks5_proxy='socks5://127.0.0.1:46161'; builtin export ALL_PROXY='http://127.0.0.1:46193'; builtin export all_proxy='http://127.0.0.1:46193'; builtin export NO_PROXY='127.0.0.1,::1,localhost'; builtin export no_proxy='127.0.0.1,::1,localhost'"), ('_ZO_DOCTOR', '0'), ('GEM_SPEC_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/gem-specs'), ('CURSOR_SANDBOX_LANDLOCK_STATUS', 'fully_enforced'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.968701] (dddmr_sc_pgo) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target scan_context_lib\n'}
+[0.978512] (dddmr_sc_pgo) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/scan_context_lib.dir/src/scan_context.cpp.o\n'}
+[1.001635] (-) TimerEvent: {}
+[1.101862] (-) TimerEvent: {}
+[1.202017] (-) TimerEvent: {}
+[1.302283] (-) TimerEvent: {}
+[1.402434] (-) TimerEvent: {}
+[1.502577] (-) TimerEvent: {}
+[1.602780] (-) TimerEvent: {}
+[1.703031] (-) TimerEvent: {}
+[1.802032] (dddmr_sc_pgo) StderrLine: {'line': b'In file included from /usr/include/pcl-1.12/pcl/point_types.h:354,\n'}
+[1.802150] (dddmr_sc_pgo) StderrLine: {'line': b'                 from /root/dddmr_navigation/src/dddmr_sc_pgo/include/dddmr_sc_pgo/scan_context.h:21,\n'}
+[1.802180] (dddmr_sc_pgo) StderrLine: {'line': b'                 from /root/dddmr_navigation/src/dddmr_sc_pgo/src/scan_context.cpp:8:\n'}
+[1.802203] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.802223] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.802243] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.802262] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.802282] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.802302] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.802320] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:337:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.802340] (dddmr_sc_pgo) StderrLine: {'line': b'  337 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.802359] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.803201] (-) TimerEvent: {}
+[1.843966] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.844077] (dddmr_sc_pgo) StderrLine: {'line': b'  289 |       { \\\n'}
+[1.844114] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.844144] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_RGB\xe2\x80\x99\n'}
+[1.844173] (dddmr_sc_pgo) StderrLine: {'line': b'  313 |   PCL_ADD_UNION_RGB \\\n'}
+[1.844198] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~\n'}
+[1.844223] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:368:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_RGB\xe2\x80\x99\n'}
+[1.844247] (dddmr_sc_pgo) StderrLine: {'line': b'  368 |     PCL_ADD_RGB;\n'}
+[1.844271] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~\n'}
+[1.878283] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:318:5: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.878402] (dddmr_sc_pgo) StderrLine: {'line': b'  318 |     { \\\n'}
+[1.878592] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^\n'}
+[1.878633] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_INTENSITY\xe2\x80\x99\n'}
+[1.878664] (dddmr_sc_pgo) StderrLine: {'line': b'  411 |     PCL_ADD_INTENSITY;\n'}
+[1.878688] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~\n'}
+[1.878711] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:22: warning: extra \xe2\x80\x98;\xe2\x80\x99 [-Wpedantic]\n'}
+[1.878733] (dddmr_sc_pgo) StderrLine: {'line': b'  411 |     PCL_ADD_INTENSITY;\n'}
+[1.878763] (dddmr_sc_pgo) StderrLine: {'line': b'      |                      ^\n'}
+[1.878882] (dddmr_sc_pgo) StderrLine: {'line': b'      |                      -\n'}
+[1.878907] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:324:5: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.878932] (dddmr_sc_pgo) StderrLine: {'line': b'  324 |     { \\\n'}
+[1.878955] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^\n'}
+[1.878978] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_INTENSITY_8U\xe2\x80\x99\n'}
+[1.879001] (dddmr_sc_pgo) StderrLine: {'line': b'  437 |     PCL_ADD_INTENSITY_8U;\n'}
+[1.879025] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~~\n'}
+[1.879047] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:25: warning: extra \xe2\x80\x98;\xe2\x80\x99 [-Wpedantic]\n'}
+[1.879069] (dddmr_sc_pgo) StderrLine: {'line': b'  437 |     PCL_ADD_INTENSITY_8U;\n'}
+[1.879091] (dddmr_sc_pgo) StderrLine: {'line': b'      |                         ^\n'}
+[1.879113] (dddmr_sc_pgo) StderrLine: {'line': b'      |                         -\n'}
+[1.879135] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:330:5: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.879280] (dddmr_sc_pgo) StderrLine: {'line': b'  330 |     { \\\n'}
+[1.879305] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^\n'}
+[1.879328] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_INTENSITY_32U\xe2\x80\x99\n'}
+[1.879350] (dddmr_sc_pgo) StderrLine: {'line': b'  469 |     PCL_ADD_INTENSITY_32U;\n'}
+[1.879372] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.879394] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:26: warning: extra \xe2\x80\x98;\xe2\x80\x99 [-Wpedantic]\n'}
+[1.879416] (dddmr_sc_pgo) StderrLine: {'line': b'  469 |     PCL_ADD_INTENSITY_32U;\n'}
+[1.879438] (dddmr_sc_pgo) StderrLine: {'line': b'      |                          ^\n'}
+[1.879460] (dddmr_sc_pgo) StderrLine: {'line': b'      |                          -\n'}
+[1.879482] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.879504] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.879526] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.879547] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.879568] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.879589] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.879609] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:497:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.879631] (dddmr_sc_pgo) StderrLine: {'line': b'  497 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.879652] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.879673] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:501:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.879694] (dddmr_sc_pgo) StderrLine: {'line': b'  501 |       {\n'}
+[1.879716] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.879738] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.879764] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.879790] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.879811] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.879833] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.879854] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.879875] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:533:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.879898] (dddmr_sc_pgo) StderrLine: {'line': b'  533 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.879922] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.879947] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.879970] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.880005] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.880036] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.880062] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.880086] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.880111] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:573:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.880134] (dddmr_sc_pgo) StderrLine: {'line': b'  573 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.880244] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.880269] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.880293] (dddmr_sc_pgo) StderrLine: {'line': b'  289 |       { \\\n'}
+[1.880316] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.880339] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_RGB\xe2\x80\x99\n'}
+[1.880362] (dddmr_sc_pgo) StderrLine: {'line': b'  313 |   PCL_ADD_UNION_RGB \\\n'}
+[1.880385] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~\n'}
+[1.880409] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:574:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_RGB\xe2\x80\x99\n'}
+[1.880433] (dddmr_sc_pgo) StderrLine: {'line': b'  574 |     PCL_ADD_RGB;\n'}
+[1.880458] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~\n'}
+[1.880482] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.880506] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.880530] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.880553] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.880626] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.880650] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.880672] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:629:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.880695] (dddmr_sc_pgo) StderrLine: {'line': b'  629 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.880718] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.880741] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.880764] (dddmr_sc_pgo) StderrLine: {'line': b'  289 |       { \\\n'}
+[1.880787] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.880810] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_RGB\xe2\x80\x99\n'}
+[1.880833] (dddmr_sc_pgo) StderrLine: {'line': b'  313 |   PCL_ADD_UNION_RGB \\\n'}
+[1.880855] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~\n'}
+[1.880876] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:630:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_RGB\xe2\x80\x99\n'}
+[1.880899] (dddmr_sc_pgo) StderrLine: {'line': b'  630 |     PCL_ADD_RGB;\n'}
+[1.880921] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~\n'}
+[1.880943] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.880965] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.880988] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.881010] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.881033] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.881055] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.881077] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:636:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.881100] (dddmr_sc_pgo) StderrLine: {'line': b'  636 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.881123] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.881147] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.881171] (dddmr_sc_pgo) StderrLine: {'line': b'  289 |       { \\\n'}
+[1.881192] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.881215] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_RGB\xe2\x80\x99\n'}
+[1.881237] (dddmr_sc_pgo) StderrLine: {'line': b'  313 |   PCL_ADD_UNION_RGB \\\n'}
+[1.881260] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~\n'}
+[1.881282] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:637:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_RGB\xe2\x80\x99\n'}
+[1.881304] (dddmr_sc_pgo) StderrLine: {'line': b'  637 |     PCL_ADD_RGB;\n'}
+[1.881326] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~\n'}
+[1.881561] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.881590] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.881614] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.881638] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.881663] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.881687] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.881711] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:741:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.881734] (dddmr_sc_pgo) StderrLine: {'line': b'  741 |     PCL_ADD_POINT4D; // this adds the members x,y,z\n'}
+[1.881759] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.881781] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:745:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.881803] (dddmr_sc_pgo) StderrLine: {'line': b'  745 |       {\n'}
+[1.881825] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.882002] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.882031] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.882055] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.882078] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.882103] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.882127] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.882154] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:782:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.882178] (dddmr_sc_pgo) StderrLine: {'line': b'  782 |     PCL_ADD_POINT4D;    // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.882201] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.882223] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:786:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.882246] (dddmr_sc_pgo) StderrLine: {'line': b'  786 |       {\n'}
+[1.882267] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.882598] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.882664] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.882687] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.882710] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.882737] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.882762] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.882787] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:867:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.882812] (dddmr_sc_pgo) StderrLine: {'line': b'  867 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.882874] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.882897] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:871:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.882921] (dddmr_sc_pgo) StderrLine: {'line': b'  871 |       {\n'}
+[1.882944] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.882967] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.882993] (dddmr_sc_pgo) StderrLine: {'line': b'  266 |     struct { \\\n'}
+[1.883016] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.883039] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_NORMAL4D\xe2\x80\x99\n'}
+[1.883064] (dddmr_sc_pgo) StderrLine: {'line': b'  280 |   PCL_ADD_UNION_NORMAL4D \\\n'}
+[1.883088] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[1.883111] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:883:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_NORMAL4D\xe2\x80\x99\n'}
+[1.883135] (dddmr_sc_pgo) StderrLine: {'line': b'  883 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[1.883196] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~\n'}
+[1.883219] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:887:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.883242] (dddmr_sc_pgo) StderrLine: {'line': b'  887 |       {\n'}
+[1.883264] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.883286] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.883308] (dddmr_sc_pgo) StderrLine: {'line': b'  266 |     struct { \\\n'}
+[1.883332] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.883357] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_NORMAL4D\xe2\x80\x99\n'}
+[1.883456] (dddmr_sc_pgo) StderrLine: {'line': b'  280 |   PCL_ADD_UNION_NORMAL4D \\\n'}
+[1.883480] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[1.883503] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:924:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_NORMAL4D\xe2\x80\x99\n'}
+[1.883526] (dddmr_sc_pgo) StderrLine: {'line': b'  924 |     PCL_ADD_NORMAL4D;\n'}
+[1.883550] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~\n'}
+[1.883572] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.883594] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.883616] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.883639] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.883662] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.883684] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.883707] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:955:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.883729] (dddmr_sc_pgo) StderrLine: {'line': b'  955 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.883751] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.883773] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.883799] (dddmr_sc_pgo) StderrLine: {'line': b'  266 |     struct { \\\n'}
+[1.883821] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.883843] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_NORMAL4D\xe2\x80\x99\n'}
+[1.883866] (dddmr_sc_pgo) StderrLine: {'line': b'  280 |   PCL_ADD_UNION_NORMAL4D \\\n'}
+[1.883888] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[1.883910] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:956:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_NORMAL4D\xe2\x80\x99\n'}
+[1.883952] (dddmr_sc_pgo) StderrLine: {'line': b'  956 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[1.883980] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~\n'}
+[1.884005] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:960:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.884122] (dddmr_sc_pgo) StderrLine: {'line': b'  960 |       {\n'}
+[1.884148] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.884173] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.884196] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.884220] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.884244] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.884267] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.884290] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.884312] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1001:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.884335] (dddmr_sc_pgo) StderrLine: {'line': b' 1001 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.884357] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.884380] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.884402] (dddmr_sc_pgo) StderrLine: {'line': b'  266 |     struct { \\\n'}
+[1.884424] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.884446] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_NORMAL4D\xe2\x80\x99\n'}
+[1.884468] (dddmr_sc_pgo) StderrLine: {'line': b'  280 |   PCL_ADD_UNION_NORMAL4D \\\n'}
+[1.884489] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[1.884511] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1002:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_NORMAL4D\xe2\x80\x99\n'}
+[1.884534] (dddmr_sc_pgo) StderrLine: {'line': b' 1002 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[1.884558] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~\n'}
+[1.884580] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.884602] (dddmr_sc_pgo) StderrLine: {'line': b'  289 |       { \\\n'}
+[1.884624] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.884647] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:9: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_RGB\xe2\x80\x99\n'}
+[1.884669] (dddmr_sc_pgo) StderrLine: {'line': b' 1007 |         PCL_ADD_UNION_RGB;\n'}
+[1.884692] (dddmr_sc_pgo) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~\n'}
+[1.884714] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:26: warning: extra \xe2\x80\x98;\xe2\x80\x99 [-Wpedantic]\n'}
+[1.884736] (dddmr_sc_pgo) StderrLine: {'line': b' 1007 |         PCL_ADD_UNION_RGB;\n'}
+[1.884759] (dddmr_sc_pgo) StderrLine: {'line': b'      |                          ^\n'}
+[1.884781] (dddmr_sc_pgo) StderrLine: {'line': b'      |                          -\n'}
+[1.884803] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1006:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.884825] (dddmr_sc_pgo) StderrLine: {'line': b' 1006 |       {\n'}
+[1.884847] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.885065] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.885093] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.885118] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.885184] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.885214] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.885238] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.885262] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1085:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.885285] (dddmr_sc_pgo) StderrLine: {'line': b' 1085 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.885308] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.885331] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.885354] (dddmr_sc_pgo) StderrLine: {'line': b'  266 |     struct { \\\n'}
+[1.885377] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.885399] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_NORMAL4D\xe2\x80\x99\n'}
+[1.885421] (dddmr_sc_pgo) StderrLine: {'line': b'  280 |   PCL_ADD_UNION_NORMAL4D \\\n'}
+[1.885442] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[1.885464] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1086:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_NORMAL4D\xe2\x80\x99\n'}
+[1.885487] (dddmr_sc_pgo) StderrLine: {'line': b' 1086 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[1.885512] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~\n'}
+[1.885544] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1090:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.885590] (dddmr_sc_pgo) StderrLine: {'line': b' 1090 |       {\n'}
+[1.885618] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.885715] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.885743] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.885768] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.885793] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.885819] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.885880] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.885904] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1135:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.885955] (dddmr_sc_pgo) StderrLine: {'line': b' 1135 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.885979] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.886002] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.886024] (dddmr_sc_pgo) StderrLine: {'line': b'  266 |     struct { \\\n'}
+[1.886047] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.886070] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_NORMAL4D\xe2\x80\x99\n'}
+[1.886097] (dddmr_sc_pgo) StderrLine: {'line': b'  280 |   PCL_ADD_UNION_NORMAL4D \\\n'}
+[1.886120] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[1.886147] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1136:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_NORMAL4D\xe2\x80\x99\n'}
+[1.886172] (dddmr_sc_pgo) StderrLine: {'line': b' 1136 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[1.886195] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~\n'}
+[1.886218] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1140:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.886241] (dddmr_sc_pgo) StderrLine: {'line': b' 1140 |       {\n'}
+[1.886264] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.886333] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.886388] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.886418] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.886446] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.886471] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.886496] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.886519] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1187:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.886542] (dddmr_sc_pgo) StderrLine: {'line': b' 1187 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.886564] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.886586] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1191:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.886608] (dddmr_sc_pgo) StderrLine: {'line': b' 1191 |       {\n'}
+[1.886630] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.886874] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.886900] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.886923] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.886946] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.886970] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.886993] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.887016] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1226:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.887038] (dddmr_sc_pgo) StderrLine: {'line': b' 1226 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.887063] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.887085] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1230:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.887107] (dddmr_sc_pgo) StderrLine: {'line': b' 1230 |       {\n'}
+[1.887128] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.887414] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1326:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.887442] (dddmr_sc_pgo) StderrLine: {'line': b' 1326 |       {\n'}
+[1.887465] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.888440] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1519:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.888488] (dddmr_sc_pgo) StderrLine: {'line': b' 1519 |       {\n'}
+[1.888511] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.901537] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1738:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.901615] (dddmr_sc_pgo) StderrLine: {'line': b' 1738 |       {\n'}
+[1.901646] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.901675] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.901701] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.901725] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.901747] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.901770] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.901793] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.901815] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1765:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.901837] (dddmr_sc_pgo) StderrLine: {'line': b' 1765 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.901859] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.902263] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.902364] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.902395] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.902418] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.902441] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.902464] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.902485] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1818:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.902505] (dddmr_sc_pgo) StderrLine: {'line': b' 1818 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])\n'}
+[1.902526] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[1.902545] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.902565] (dddmr_sc_pgo) StderrLine: {'line': b'  266 |     struct { \\\n'}
+[1.902584] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.902602] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_NORMAL4D\xe2\x80\x99\n'}
+[1.902625] (dddmr_sc_pgo) StderrLine: {'line': b'  280 |   PCL_ADD_UNION_NORMAL4D \\\n'}
+[1.902644] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[1.902663] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1819:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_NORMAL4D\xe2\x80\x99\n'}
+[1.902682] (dddmr_sc_pgo) StderrLine: {'line': b' 1819 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])\n'}
+[1.902708] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~\n'}
+[1.902738] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.902763] (dddmr_sc_pgo) StderrLine: {'line': b'  289 |       { \\\n'}
+[1.902783] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.902804] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:9: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_RGB\xe2\x80\x99\n'}
+[1.902824] (dddmr_sc_pgo) StderrLine: {'line': b' 1824 |         PCL_ADD_UNION_RGB;\n'}
+[1.902843] (dddmr_sc_pgo) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~\n'}
+[1.902863] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:26: warning: extra \xe2\x80\x98;\xe2\x80\x99 [-Wpedantic]\n'}
+[1.902884] (dddmr_sc_pgo) StderrLine: {'line': b' 1824 |         PCL_ADD_UNION_RGB;\n'}
+[1.902903] (dddmr_sc_pgo) StderrLine: {'line': b'      |                          ^\n'}
+[1.902923] (dddmr_sc_pgo) StderrLine: {'line': b'      |                          -\n'}
+[1.902982] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1823:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.903007] (dddmr_sc_pgo) StderrLine: {'line': b' 1823 |       {\n'}
+[1.903029] (dddmr_sc_pgo) StderrLine: {'line': b'      |       ^\n'}
+[1.903092] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]\n'}
+[1.903114] (dddmr_sc_pgo) StderrLine: {'line': b'  241 |     struct { \\\n'}
+[1.903135] (dddmr_sc_pgo) StderrLine: {'line': b'      |            ^\n'}
+[1.903160] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro \xe2\x80\x98PCL_ADD_UNION_POINT4D\xe2\x80\x99\n'}
+[1.903183] (dddmr_sc_pgo) StderrLine: {'line': b'  259 |   PCL_ADD_UNION_POINT4D \\\n'}
+[1.903204] (-) TimerEvent: {}
+[1.903211] (dddmr_sc_pgo) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~~\n'}
+[1.903232] (dddmr_sc_pgo) StderrLine: {'line': b'/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1867:5: note: in expansion of macro \xe2\x80\x98PCL_ADD_POINT4D\xe2\x80\x99\n'}
+[1.903252] (dddmr_sc_pgo) StderrLine: {'line': b' 1867 |     PCL_ADD_POINT4D;\n'}
+[1.903271] (dddmr_sc_pgo) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~\n'}
+[2.003342] (-) TimerEvent: {}
+[2.103493] (-) TimerEvent: {}
+[2.203676] (-) TimerEvent: {}
+[2.219129] (dddmr_sc_pgo) StdoutLine: {'line': b'[ 50%] Linking CXX shared library libscan_context_lib.so\n'}
+[2.269658] (dddmr_sc_pgo) StdoutLine: {'line': b'[ 50%] Built target scan_context_lib\n'}
+[2.286838] (dddmr_sc_pgo) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target sc_pgo_node\n'}
+[2.303220] (dddmr_sc_pgo) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o\n'}
+[2.303777] (-) TimerEvent: {}
+[2.404037] (-) TimerEvent: {}
+[2.504386] (-) TimerEvent: {}
+[2.604671] (-) TimerEvent: {}
+[2.704932] (-) TimerEvent: {}
+[2.805184] (-) TimerEvent: {}
+[2.905377] (-) TimerEvent: {}
+[3.005548] (-) TimerEvent: {}
+[3.105780] (-) TimerEvent: {}
+[3.206036] (-) TimerEvent: {}
+[3.306360] (-) TimerEvent: {}
+[3.406650] (-) TimerEvent: {}
+[3.506935] (-) TimerEvent: {}
+[3.607255] (-) TimerEvent: {}
+[3.707484] (-) TimerEvent: {}
+[3.807693] (-) TimerEvent: {}
+[3.907938] (-) TimerEvent: {}
+[4.008233] (-) TimerEvent: {}
+[4.108413] (-) TimerEvent: {}
+[4.208722] (-) TimerEvent: {}
+[4.309017] (-) TimerEvent: {}
+[4.409350] (-) TimerEvent: {}
+[4.509657] (-) TimerEvent: {}
+[4.609894] (-) TimerEvent: {}
+[4.710091] (-) TimerEvent: {}
+[4.810257] (-) TimerEvent: {}
+[4.910591] (-) TimerEvent: {}
+[5.010876] (-) TimerEvent: {}
+[5.111148] (-) TimerEvent: {}
+[5.211326] (-) TimerEvent: {}
+[5.311625] (-) TimerEvent: {}
+[5.411913] (-) TimerEvent: {}
+[5.512216] (-) TimerEvent: {}
+[5.612394] (-) TimerEvent: {}
+[5.712705] (-) TimerEvent: {}
+[5.812990] (-) TimerEvent: {}
+[5.913290] (-) TimerEvent: {}
+[6.013621] (-) TimerEvent: {}
+[6.113862] (-) TimerEvent: {}
+[6.214158] (-) TimerEvent: {}
+[6.314328] (-) TimerEvent: {}
+[6.414502] (-) TimerEvent: {}
+[6.514702] (-) TimerEvent: {}
+[6.614954] (-) TimerEvent: {}
+[6.715253] (-) TimerEvent: {}
+[6.815545] (-) TimerEvent: {}
+[6.915829] (-) TimerEvent: {}
+[7.016107] (-) TimerEvent: {}
+[7.116415] (-) TimerEvent: {}
+[7.216704] (-) TimerEvent: {}
+[7.317010] (-) TimerEvent: {}
+[7.417318] (-) TimerEvent: {}
+[7.517626] (-) TimerEvent: {}
+[7.617832] (-) TimerEvent: {}
+[7.718109] (-) TimerEvent: {}
+[7.818414] (-) TimerEvent: {}
+[7.918731] (-) TimerEvent: {}
+[8.018976] (-) TimerEvent: {}
+[8.119273] (-) TimerEvent: {}
+[8.219513] (-) TimerEvent: {}
+[8.319795] (-) TimerEvent: {}
+[8.420017] (-) TimerEvent: {}
+[8.520285] (-) TimerEvent: {}
+[8.620578] (-) TimerEvent: {}
+[8.720861] (-) TimerEvent: {}
+[8.821165] (-) TimerEvent: {}
+[8.921464] (-) TimerEvent: {}
+[9.021754] (-) TimerEvent: {}
+[9.122006] (-) TimerEvent: {}
+[9.222274] (-) TimerEvent: {}
+[9.322527] (-) TimerEvent: {}
+[9.422711] (-) TimerEvent: {}
+[9.522884] (-) TimerEvent: {}
+[9.623118] (-) TimerEvent: {}
+[9.723293] (-) TimerEvent: {}
+[9.823442] (-) TimerEvent: {}
+[9.923614] (-) TimerEvent: {}
+[10.023868] (-) TimerEvent: {}
+[10.124108] (-) TimerEvent: {}
+[10.224290] (-) TimerEvent: {}
+[10.324441] (-) TimerEvent: {}
+[10.424620] (-) TimerEvent: {}
+[10.524818] (-) TimerEvent: {}
+[10.625086] (-) TimerEvent: {}
+[10.725259] (-) TimerEvent: {}
+[10.825410] (-) TimerEvent: {}
+[10.925556] (-) TimerEvent: {}
+[11.025740] (-) TimerEvent: {}
+[11.125886] (-) TimerEvent: {}
+[11.226181] (-) TimerEvent: {}
+[11.326334] (-) TimerEvent: {}
+[11.426471] (-) TimerEvent: {}
+[11.526636] (-) TimerEvent: {}
+[11.626875] (-) TimerEvent: {}
+[11.727105] (-) TimerEvent: {}
+[11.827267] (-) TimerEvent: {}
+[11.927406] (-) TimerEvent: {}
+[12.027542] (-) TimerEvent: {}
+[12.127706] (-) TimerEvent: {}
+[12.227940] (-) TimerEvent: {}
+[12.328172] (-) TimerEvent: {}
+[12.428307] (-) TimerEvent: {}
+[12.528458] (-) TimerEvent: {}
+[12.628627] (-) TimerEvent: {}
+[12.728869] (-) TimerEvent: {}
+[12.829097] (-) TimerEvent: {}
+[12.929309] (-) TimerEvent: {}
+[13.029459] (-) TimerEvent: {}
+[13.129613] (-) TimerEvent: {}
+[13.229833] (-) TimerEvent: {}
+[13.330057] (-) TimerEvent: {}
+[13.430290] (-) TimerEvent: {}
+[13.530430] (-) TimerEvent: {}
+[13.630568] (-) TimerEvent: {}
+[13.730730] (-) TimerEvent: {}
+[13.830972] (-) TimerEvent: {}
+[13.931230] (-) TimerEvent: {}
+[14.031371] (-) TimerEvent: {}
+[14.131506] (-) TimerEvent: {}
+[14.231667] (-) TimerEvent: {}
+[14.331821] (-) TimerEvent: {}
+[14.432046] (-) TimerEvent: {}
+[14.532345] (-) TimerEvent: {}
+[14.632489] (-) TimerEvent: {}
+[14.732651] (-) TimerEvent: {}
+[14.832834] (-) TimerEvent: {}
+[14.933084] (-) TimerEvent: {}
+[15.033287] (-) TimerEvent: {}
+[15.133439] (-) TimerEvent: {}
+[15.233613] (-) TimerEvent: {}
+[15.333819] (-) TimerEvent: {}
+[15.434083] (-) TimerEvent: {}
+[15.534303] (-) TimerEvent: {}
+[15.634444] (-) TimerEvent: {}
+[15.734614] (-) TimerEvent: {}
+[15.834784] (-) TimerEvent: {}
+[15.935014] (-) TimerEvent: {}
+[16.035270] (-) TimerEvent: {}
+[16.135422] (-) TimerEvent: {}
+[16.235576] (-) TimerEvent: {}
+[16.288465] (dddmr_sc_pgo) StdoutLine: {'line': b'[100%] Linking CXX executable sc_pgo_node\n'}
+[16.335760] (-) TimerEvent: {}
+[16.436004] (-) TimerEvent: {}
+[16.536254] (-) TimerEvent: {}
+[16.636396] (-) TimerEvent: {}
+[16.736536] (-) TimerEvent: {}
+[16.836711] (-) TimerEvent: {}
+[16.936954] (-) TimerEvent: {}
+[17.037236] (-) TimerEvent: {}
+[17.137414] (-) TimerEvent: {}
+[17.237564] (-) TimerEvent: {}
+[17.325046] (dddmr_sc_pgo) StdoutLine: {'line': b'[100%] Built target sc_pgo_node\n'}
+[17.337681] (-) TimerEvent: {}
+[17.362649] (dddmr_sc_pgo) CommandEnded: {'returncode': 0}
+[17.363342] (dddmr_sc_pgo) JobProgress: {'identifier': 'dddmr_sc_pgo', 'progress': 'install'}
+[17.368190] (dddmr_sc_pgo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dddmr_navigation/build/dddmr_sc_pgo'], 'cwd': '/root/dddmr_navigation/build/dddmr_sc_pgo', 'env': OrderedDict([('npm_config_devdir', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/node-gyp'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/root'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('PUPPETEER_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/puppeteer'), ('HTTPS_PROXY', 'http://127.0.0.1:46193'), ('no_proxy', '127.0.0.1,::1,localhost'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('CARGO_TARGET_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cargo-target'), ('CCACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/ccache'), ('all_proxy', 'http://127.0.0.1:46193'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('HOSTNAME', 'yk'), ('CURSOR_RIPGREP_PATH', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/node_modules/@vscode/ripgrep/bin/rg'), ('PIP_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/pip'), ('NUGET_PACKAGES', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/nuget'), ('HOMEBREW_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/homebrew'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SOCKS_PROXY', 'socks5://127.0.0.1:46161'), ('BROWSER', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root'), ('NO_PROXY', '127.0.0.1,::1,localhost'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1024614c-b5fc-4e4e-b81c-9c78bcdf6c21.sock'), ('ROS_PYTHON_VERSION', '3'), ('CURSOR_ORIG_UID', '0'), ('NO_COLOR', '1'), ('CONDA_PKGS_DIRS', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/conda'), ('DEBUGINFOD_URLS', ''), ('COMPOSER_HOME', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/composer'), ('https_proxy', 'http://127.0.0.1:46193'), ('VSCODE_L10N_BUNDLE_LOCATION', 'vscode-local:/home/yk/.cursor/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.105.0-universal/translations/extensions/vscode.json-language-features.i18n.json'), ('ROS_DISTRO', 'humble'), ('OVSX_REGISTRY_URL', 'https://open-vsx.org'), ('FORCE_COLOR', '0'), ('ALL_PROXY', 'http://127.0.0.1:46193'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('http_proxy', 'http://127.0.0.1:46193'), ('BUN_INSTALL_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/bun'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CURSOR_LAYOUT', 'unifiedAgent'), ('GOMODCACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/go-mod'), ('CP_HOME_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cocoapods'), ('socks_proxy', 'socks5://127.0.0.1:46161'), ('TERM', 'dumb'), ('SOCKS5_PROXY', 'socks5://127.0.0.1:46161'), ('ROS_LOCALHOST_ONLY', '0'), ('POETRY_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/poetry'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('YARN_CACHE_FOLDER', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/yarn'), ('UV_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/uv'), ('PLAYWRIGHT_BROWSERS_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/playwright'), ('BUNDLE_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/bundle'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('NX_CACHE_DIRECTORY', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/nx'), ('LS_COLORS', ''), ('CYPRESS_CACHE_FOLDER', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cypress'), ('SSH_AUTH_SOCK', '/tmp/cursor-remote-ssh-cc04204e-865f-4c41-b7d9-7fa2afb2864a.sock'), ('PNPM_STORE_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/pnpm-store'), ('ROS_DOMAIN_ID', '18'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CURSOR_SANDBOX', 'native'), ('GOCACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/go-build'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_HTTP_PROXY', 'http://127.0.0.1:46193'), ('socks5_proxy', 'socks5://127.0.0.1:46161'), ('NPM_CONFIG_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/npm'), ('PWD', '/root/dddmr_navigation/build/dddmr_sc_pgo'), ('GRADLE_USER_HOME', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/gradle'), ('CURSOR_ORIG_GID', '0'), ('GIT_HTTPS_PROXY', 'http://127.0.0.1:46193'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:46193'), ('TURBO_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/turbo'), ('COLCON', '1'), ('__CURSOR_SANDBOX_ENV_RESTORE', "builtin export HTTP_PROXY='http://127.0.0.1:46193'; builtin export HTTPS_PROXY='http://127.0.0.1:46193'; builtin export http_proxy='http://127.0.0.1:46193'; builtin export https_proxy='http://127.0.0.1:46193'; builtin export GIT_HTTP_PROXY='http://127.0.0.1:46193'; builtin export GIT_HTTPS_PROXY='http://127.0.0.1:46193'; builtin export SOCKS_PROXY='socks5://127.0.0.1:46161'; builtin export SOCKS5_PROXY='socks5://127.0.0.1:46161'; builtin export socks_proxy='socks5://127.0.0.1:46161'; builtin export socks5_proxy='socks5://127.0.0.1:46161'; builtin export ALL_PROXY='http://127.0.0.1:46193'; builtin export all_proxy='http://127.0.0.1:46193'; builtin export NO_PROXY='127.0.0.1,::1,localhost'; builtin export no_proxy='127.0.0.1,::1,localhost'"), ('_ZO_DOCTOR', '0'), ('GEM_SPEC_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/gem-specs'), ('CURSOR_SANDBOX_LANDLOCK_STATUS', 'fully_enforced'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.372044] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.372145] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.372364] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/lib/dddmr_sc_pgo/sc_pgo_node\n'}
+[17.372419] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/lib/libscan_context_lib.so\n'}
+[17.372547] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/include/dddmr_sc_pgo/scan_context.h\n'}
+[17.372694] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/launch/sc_pgo.launch.py\n'}
+[17.372748] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/config/sc_pgo.yaml\n'}
+[17.372798] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/ament_index/resource_index/package_run_dependencies/dddmr_sc_pgo\n'}
+[17.372843] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/ament_index/resource_index/parent_prefix_path/dddmr_sc_pgo\n'}
+[17.372890] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/environment/ament_prefix_path.sh\n'}
+[17.372940] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/environment/ament_prefix_path.dsv\n'}
+[17.372995] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/environment/path.sh\n'}
+[17.373046] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/environment/path.dsv\n'}
+[17.373098] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/local_setup.bash\n'}
+[17.373150] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/local_setup.sh\n'}
+[17.373200] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/local_setup.zsh\n'}
+[17.373246] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/local_setup.dsv\n'}
+[17.373285] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/package.dsv\n'}
+[17.379637] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/ament_index/resource_index/packages/dddmr_sc_pgo\n'}
+[17.379714] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.379775] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.379797] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/cmake/dddmr_sc_pgoConfig.cmake\n'}
+[17.379820] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/cmake/dddmr_sc_pgoConfig-version.cmake\n'}
+[17.379866] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/package.xml\n'}
+[17.380756] (dddmr_sc_pgo) CommandEnded: {'returncode': 0}
+[17.391390] (dddmr_sc_pgo) JobEnded: {'identifier': 'dddmr_sc_pgo', 'rc': 0}
+[17.391678] (-) EventReactorShutdown: {}

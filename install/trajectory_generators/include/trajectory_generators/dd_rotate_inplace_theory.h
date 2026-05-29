@@ -1,0 +1,1 @@
+/root/dddmr_navigation/src/dddmr_local_planner/trajectory_generators/include/trajectory_generators/dd_rotate_inplace_theory.h

@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from dddmr_sys_core/action/RecoveryBehaviors.action
+// generated code does not contain a copyright notice
+
+
+module dddmr_sys_core {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct RecoveryBehaviors_Goal {
+      string behavior_name;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct RecoveryBehaviors_Result {
+      boolean succeed;
+
+      string info;
+    };
+    @verbatim (language="comment", text=
+      "feedback definition")
+    struct RecoveryBehaviors_Feedback {
+      boolean undergoing;
+    };
+  };
+};

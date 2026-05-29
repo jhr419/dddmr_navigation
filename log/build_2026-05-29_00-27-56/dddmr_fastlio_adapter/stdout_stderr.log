@@ -1,0 +1,21 @@
+[100%] Built target fastlio_dddmr_adapter_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/lib/dddmr_fastlio_adapter/fastlio_dddmr_adapter_node
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/config/livox_mid360_dddmr_adapter.yaml
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/ament_index/resource_index/package_run_dependencies/dddmr_fastlio_adapter
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/ament_index/resource_index/parent_prefix_path/dddmr_fastlio_adapter
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/environment/path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/environment/path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/local_setup.bash
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/local_setup.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/local_setup.zsh
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/local_setup.dsv
+-- Symlinking: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/package.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/ament_index/resource_index/packages/dddmr_fastlio_adapter
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/cmake/dddmr_fastlio_adapterConfig.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/cmake/dddmr_fastlio_adapterConfig-version.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/package.xml

@@ -1,0 +1,168 @@
+[0.037s] Invoking command in '/root/dddmr_navigation/build/perception_3d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_perception_3d -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/perception_3d
+[0.068s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.137s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.143s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.162s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.164s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.172s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.185s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.212s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.212s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.341s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.411s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.455s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.480s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.499s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[0.508s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.538s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.554s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.575s] -- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)
+[0.577s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.608s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.611s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.613s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.614s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.617s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.619s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[0.642s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.686s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.729s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.072s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.081s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.263s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.271s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.276s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.436s] -- Found Qhull version 8.0.2
+[1.608s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.754s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.763s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[1.766s] [33mCMake Warning (dev) at CMakeLists.txt:31 (find_package):
+[1.766s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.766s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.766s]   command to set the policy and suppress this warning.
+[1.766s] 
+[1.766s]   CMake variable PCL_ROOT is set to:
+[1.766s] 
+[1.766s]     /usr
+[1.766s] 
+[1.766s]   For compatibility, CMake is ignoring the variable.
+[1.766s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.766s] [0m
+[1.936s] -- Configuring done
+[2.236s] -- Generating done
+[2.305s] -- Build files have been written to: /root/dddmr_navigation/build/perception_3d
+[2.320s] Invoked command in '/root/dddmr_navigation/build/perception_3d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_perception_3d -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/perception_3d
+[2.322s] Invoking command in '/root/dddmr_navigation/build/perception_3d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/perception_3d -- -j28 -l28
+[2.372s] [35m[1mConsolidate compiler generated dependencies of target depth_camera_buffer[0m
+[2.373s] [35m[1mConsolidate compiler generated dependencies of target shared_data_sensor[0m
+[2.379s] [  3%] [32mBuilding CXX object CMakeFiles/depthimg2pointcloud_node.dir/utils/depthimg2pointcloud_node.cpp.o[0m
+[2.408s] [  7%] [32m[1mLinking CXX shared library libshared_data_sensor.so[0m
+[2.424s] [ 21%] Built target depth_camera_buffer
+[28.751s] [ 25%] [32m[1mLinking CXX executable depthimg2pointcloud_node[0m
+[30.162s] [ 25%] Built target depthimg2pointcloud_node
+[47.385s] [ 35%] Built target shared_data_sensor
+[47.404s] [ 39%] [32mBuilding CXX object CMakeFiles/perception_sensor.dir/src/sensor.cpp.o[0m
+[52.430s] [ 42%] [32m[1mLinking CXX shared library libperception_sensor.so[0m
+[131.472s] [ 42%] Built target perception_sensor
+[131.489s] [ 46%] [32mBuilding CXX object CMakeFiles/cluster_marking.dir/plugins/cluster_marking.cpp.o[0m
+[131.489s] [ 50%] [32mBuilding CXX object CMakeFiles/stacked_perception.dir/src/stacked_perception.cpp.o[0m
+[136.512s] [ 53%] [32m[1mLinking CXX shared library libstacked_perception.so[0m
+[138.033s] [ 53%] Built target stacked_perception
+[138.089s] [ 57%] [32mBuilding CXX object CMakeFiles/stacked_perception_ros.dir/src/perception_3d_ros.cpp.o[0m
+[138.731s] [ 60%] [32m[1mLinking CXX shared library libcluster_marking.so[0m
+[139.256s] [ 60%] Built target cluster_marking
+[149.102s] [ 64%] [32m[1mLinking CXX shared library libstacked_perception_ros.so[0m
+[149.394s] [ 64%] Built target stacked_perception_ros
+[149.408s] [ 67%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/no_entry_layer.cpp.o[0m
+[149.408s] [ 71%] [32mBuilding CXX object CMakeFiles/perception_3d_ros_node.dir/src/perception_3d_node.cpp.o[0m
+[149.408s] [ 75%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/path_blocked_strategy.cpp.o[0m
+[149.409s] [ 78%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/depth_camera/depth_camera_layer.cpp.o[0m
+[149.409s] [ 82%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/speed_limit_layer.cpp.o[0m
+[149.410s] [ 85%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/nothing_layer.cpp.o[0m
+[149.410s] [ 89%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[149.410s] [ 92%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/multilayer_spinning_lidar.cpp.o[0m
+[156.426s] [ 96%] [32m[1mLinking CXX executable perception_3d_ros_node[0m
+[156.744s] [ 96%] Built target perception_3d_ros_node
+[166.941s] [100%] [32m[1mLinking CXX shared library liblayers.so[0m
+[167.688s] [100%] Built target layers
+[167.749s] Invoked command in '/root/dddmr_navigation/build/perception_3d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/perception_3d -- -j28 -l28
+[167.751s] Invoking command in '/root/dddmr_navigation/build/perception_3d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/perception_3d
+[167.758s] -- Install configuration: "Release"
+[167.758s] -- Execute custom install script
+[167.758s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/lib/libshared_data_sensor.so
+[167.766s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/lib/libperception_sensor.so
+[167.772s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/lib/libstacked_perception.so
+[167.777s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/lib/libstacked_perception_ros.so
+[167.784s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/lib/libdepth_camera_buffer.so
+[167.789s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/lib/libcluster_marking.so
+[167.795s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/lib/liblayers.so
+[167.800s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/lib/perception_3d/perception_3d_ros_node
+[167.806s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/lib/perception_3d/depthimg2pointcloud_node
+[167.812s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/cluster_marking.h
+[167.818s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/depth_camera/depth_camera_layer.h
+[167.826s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/depth_camera/depth_camera_observation.h
+[167.832s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/depth_camera/depth_camera_observation_buffer.hpp
+[167.838s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/depth_camera/frustum_utils.h
+[167.845s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/dynamic_graph.h
+[167.852s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/global_utils.h
+[167.860s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/multilayer_spinning_lidar.h
+[167.865s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/no_entry_layer.h
+[167.871s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/nothing_layer.h
+[167.876s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/path_blocked_strategy.h
+[167.883s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/perception_3d_ros.h
+[167.891s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/sensor.h
+[167.898s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/shared_data.h
+[167.905s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/speed_limit_layer.h
+[167.912s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/stacked_perception.h
+[167.917s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/static_graph.h
+[167.925s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/include//perception_3d/static_layer.h
+[167.966s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//launch/depth_camera_demo/multi_depth_camera_3d_ros_launch.py
+[167.973s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//launch/multilayer_spinning_lidar_demo/multilayer_spinning_lidar_3d_ros_launch.py
+[167.982s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//launch/multilayer_spinning_lidar_demo/scanning_lidar_3d_ros_launch.py
+[167.990s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//launch/perception_3d_ros.launch
+[167.995s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//launch/semantic_segmentation_depth_camera_demo/semantic_segmentation_depth_camera_3d_ros_launch.py
+[168.002s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//launch/zone_editor_utils.launch
+[168.010s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//config/depth_camera_demo/multi_depth_camera_3d_ros.yaml
+[168.016s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//config/multilayer_spinning_lidar_demo/multilayer_spinning_lidar_3d_ros.yaml
+[168.023s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//config/multilayer_spinning_lidar_demo/scanning_lidar_3d_ros.yaml
+[168.032s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//config/no_entry_layer.yaml
+[168.038s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//config/perception_3d_ros.yaml
+[168.043s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//config/segmentation_depth_camera_demo/semantic_segmentation_depth_camera_3d_ros.yaml
+[168.051s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//config/speed_limit_layer.yaml
+[168.057s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//rviz/multi_depth_camera_3d.rviz
+[168.064s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//rviz/multilayer_spinning_lidar_3d.rviz
+[168.070s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//rviz/perception_3d.rviz
+[168.077s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//rviz/scanning_lidar_3d.rviz
+[168.084s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//rviz/semantic_segmentation_depth_camera_3d.rviz
+[168.090s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//rviz/zone_demo.rviz
+[168.098s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//rviz/zone_editor_utils.rviz
+[168.105s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//map/ground.pcd
+[168.113s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//map/map.pcd
+[168.118s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//map/no_entry1.pcd
+[168.124s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//map/zone1.pcd
+[168.130s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d//map/zone2.pcd
+[168.137s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/perception_3d_plugins.xml
+[168.144s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/environment/library_path.sh
+[168.150s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/environment/library_path.dsv
+[168.156s] -- Up-to-date symlink: /root/dddmr_navigation/install/perception_3d/share/perception_3d//perception_3d_plugins.xml
+[168.156s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/ament_index/resource_index/package_run_dependencies/perception_3d
+[168.163s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/ament_index/resource_index/parent_prefix_path/perception_3d
+[168.170s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/environment/ament_prefix_path.sh
+[168.176s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/environment/ament_prefix_path.dsv
+[168.182s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/environment/path.sh
+[168.187s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/environment/path.dsv
+[168.192s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/local_setup.bash
+[168.198s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/local_setup.sh
+[168.203s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/local_setup.zsh
+[168.209s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/local_setup.dsv
+[168.217s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/package.dsv
+[168.223s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/ament_index/resource_index/packages/perception_3d
+[168.229s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/ament_index/resource_index/perception_3d__pluginlib__plugin/perception_3d
+[168.235s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/cmake/ament_cmake_export_include_directories-extras.cmake
+[168.242s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/cmake/ament_cmake_export_libraries-extras.cmake
+[168.248s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/cmake/ament_cmake_export_dependencies-extras.cmake
+[168.255s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/cmake/perception_3dConfig.cmake
+[168.262s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/cmake/perception_3dConfig-version.cmake
+[168.269s] -- Symlinking: /root/dddmr_navigation/install/perception_3d/share/perception_3d/package.xml
+[168.277s] Invoked command in '/root/dddmr_navigation/build/perception_3d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/perception_3d

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/dddmr_navigation/build/dddmr_fastlio_adapter/fastlio_dddmr_adapter_node" "TARGETS" "fastlio_dddmr_adapter_node" "DESTINATION" "lib/dddmr_fastlio_adapter")

@@ -1,0 +1,4 @@
+/root/dddmr_navigation/src/dddmr_sc_pgo/src/sc_pgo_node.cpp: In member function ‘void SC_PGO_Node::addLoopFactor(int, int)’:
+/root/dddmr_navigation/src/dddmr_sc_pgo/src/sc_pgo_node.cpp:464:16: warning: unused variable ‘floor_height_threshold’ [-Wunused-variable]
+  464 |         double floor_height_threshold = this->get_parameter("floor_height_threshold").as_double();
+      |                ^~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,21 @@
+[0.007s] Invoking command in '/root/dddmr_navigation/build/dddmr_sc_pgo': /usr/bin/cmake /root/dddmr_navigation/src/dddmr_sc_pgo -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sc_pgo
+[0.023s] [31mCMake Error at CMakeLists.txt:37 (find_package):
+[0.023s]   By not providing "Findament_cmake_ros.cmake" in CMAKE_MODULE_PATH this
+[0.023s]   project has asked CMake to find a package configuration file provided by
+[0.023s]   "ament_cmake_ros", but CMake did not find one.
+[0.023s] 
+[0.023s]   Could not find a package configuration file provided by "ament_cmake_ros"
+[0.023s]   with any of the following names:
+[0.023s] 
+[0.023s]     ament_cmake_rosConfig.cmake
+[0.023s]     ament_cmake_ros-config.cmake
+[0.023s] 
+[0.024s]   Add the installation prefix of "ament_cmake_ros" to CMAKE_PREFIX_PATH or
+[0.024s]   set "ament_cmake_ros_DIR" to a directory containing one of the above files.
+[0.024s]   If "ament_cmake_ros" provides a separate development package or SDK, be
+[0.024s]   sure it has been installed.
+[0.024s] 
+[0.024s] [0m
+[0.024s] -- Configuring incomplete, errors occurred!
+[0.024s] See also "/root/dddmr_navigation/build/dddmr_sc_pgo/CMakeFiles/CMakeOutput.log".
+[0.024s] Invoked command in '/root/dddmr_navigation/build/dddmr_sc_pgo' returned '1': /usr/bin/cmake /root/dddmr_navigation/src/dddmr_sc_pgo -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sc_pgo

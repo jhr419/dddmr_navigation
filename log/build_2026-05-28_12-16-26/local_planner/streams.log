@@ -1,0 +1,68 @@
+[0.020s] Invoking command in '/root/dddmr_navigation/build/local_planner': CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/dddmr_navigation/install/dddmr_sc_pgo:/root/dddmr_navigation/install/p2p_move_base:/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/pose_graph_merge_editor_panel:/root/dddmr_navigation/install/pose_graph_editor_panel:/root/dddmr_navigation/install/mcl_3dl:/root/dddmr_navigation/install/mapping_panel:/root/dddmr_navigation/install/map_editor_panel:/root/dddmr_navigation/install/lego_loam_bor:/root/dddmr_navigation/install/global_planner:/root/dddmr_navigation/install/fast_lio:/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_semantic_segmentation:/root/dddmr_navigation/install/dddmr_rviz_default_plugins:/root/dddmr_navigation/install/dddmr_odom_3d:/root/dddmr_navigation/install/dddmr_fastlio_adapter:/root/dddmr_navigation/install/dddmr_beginner_guide:/root/dddmr_navigation/install/cloud_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:/root/dddmr_navigation/install/dddmr_sc_pgo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/root/dddmr_navigation/install/p2p_move_base/lib:/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/pose_graph_merge_editor_panel/lib:/root/dddmr_navigation/install/pose_graph_editor_panel/lib:/root/dddmr_navigation/install/mcl_3dl/lib:/root/dddmr_navigation/install/mapping_panel/lib:/root/dddmr_navigation/install/map_editor_panel/lib:/root/dddmr_navigation/install/lego_loam_bor/lib:/root/dddmr_navigation/install/global_planner/lib:/root/dddmr_navigation/install/fast_lio/lib:/root/dddmr_navigation/install/dddmr_rviz_default_plugins/lib:/root/dddmr_navigation/install/cloud_msgs/lib /usr/bin/cmake /root/dddmr_navigation/src/dddmr_local_planner/local_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/local_planner
+[0.031s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.104s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.110s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.126s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.127s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.130s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.157s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.158s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.230s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.254s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.269s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.277s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.286s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[0.291s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.305s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.314s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.324s] -- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)
+[0.325s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.340s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.341s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.342s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.343s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.344s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.344s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[0.354s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.373s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.401s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.600s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.605s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.755s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.762s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.768s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.912s] -- Found Qhull version 8.0.2
+[1.062s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.192s] -- Found base_trajectory: 0.0.0 (/root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake)
+[1.199s] -- Found perception_3d: 2.5.0 (/root/dddmr_navigation/install/perception_3d/share/perception_3d/cmake)
+[1.210s] -- Found mpc_critics: 1.0.0 (/root/dddmr_navigation/install/mpc_critics/share/mpc_critics/cmake)
+[1.222s] -- Found trajectory_generators: 1.0.0 (/root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/cmake)
+[1.235s] -- Found dddmr_sys_core: 1.0.0 (/root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake)
+[1.255s] [33mCMake Warning (dev) at CMakeLists.txt:30 (find_package):
+[1.255s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.255s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.255s]   command to set the policy and suppress this warning.
+[1.255s] 
+[1.255s]   CMake variable PCL_ROOT is set to:
+[1.255s] 
+[1.255s]     /usr
+[1.255s] 
+[1.256s]   For compatibility, CMake is ignoring the variable.
+[1.256s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.256s] [0m
+[4.068s] -- Configuring done
+[4.147s] -- Generating done
+[4.161s] -- Build files have been written to: /root/dddmr_navigation/build/local_planner
+[4.174s] Invoked command in '/root/dddmr_navigation/build/local_planner' returned '0': CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/dddmr_navigation/install/dddmr_sc_pgo:/root/dddmr_navigation/install/p2p_move_base:/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/pose_graph_merge_editor_panel:/root/dddmr_navigation/install/pose_graph_editor_panel:/root/dddmr_navigation/install/mcl_3dl:/root/dddmr_navigation/install/mapping_panel:/root/dddmr_navigation/install/map_editor_panel:/root/dddmr_navigation/install/lego_loam_bor:/root/dddmr_navigation/install/global_planner:/root/dddmr_navigation/install/fast_lio:/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_semantic_segmentation:/root/dddmr_navigation/install/dddmr_rviz_default_plugins:/root/dddmr_navigation/install/dddmr_odom_3d:/root/dddmr_navigation/install/dddmr_fastlio_adapter:/root/dddmr_navigation/install/dddmr_beginner_guide:/root/dddmr_navigation/install/cloud_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:/root/dddmr_navigation/install/dddmr_sc_pgo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/root/dddmr_navigation/install/p2p_move_base/lib:/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/pose_graph_merge_editor_panel/lib:/root/dddmr_navigation/install/pose_graph_editor_panel/lib:/root/dddmr_navigation/install/mcl_3dl/lib:/root/dddmr_navigation/install/mapping_panel/lib:/root/dddmr_navigation/install/map_editor_panel/lib:/root/dddmr_navigation/install/lego_loam_bor/lib:/root/dddmr_navigation/install/global_planner/lib:/root/dddmr_navigation/install/fast_lio/lib:/root/dddmr_navigation/install/dddmr_rviz_default_plugins/lib:/root/dddmr_navigation/install/cloud_msgs/lib /usr/bin/cmake /root/dddmr_navigation/src/dddmr_local_planner/local_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/local_planner
+[4.175s] Invoking command in '/root/dddmr_navigation/build/local_planner': CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/dddmr_navigation/install/dddmr_sc_pgo:/root/dddmr_navigation/install/p2p_move_base:/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/pose_graph_merge_editor_panel:/root/dddmr_navigation/install/pose_graph_editor_panel:/root/dddmr_navigation/install/mcl_3dl:/root/dddmr_navigation/install/mapping_panel:/root/dddmr_navigation/install/map_editor_panel:/root/dddmr_navigation/install/lego_loam_bor:/root/dddmr_navigation/install/global_planner:/root/dddmr_navigation/install/fast_lio:/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_semantic_segmentation:/root/dddmr_navigation/install/dddmr_rviz_default_plugins:/root/dddmr_navigation/install/dddmr_odom_3d:/root/dddmr_navigation/install/dddmr_fastlio_adapter:/root/dddmr_navigation/install/dddmr_beginner_guide:/root/dddmr_navigation/install/cloud_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:/root/dddmr_navigation/install/dddmr_sc_pgo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/root/dddmr_navigation/install/p2p_move_base/lib:/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/pose_graph_merge_editor_panel/lib:/root/dddmr_navigation/install/pose_graph_editor_panel/lib:/root/dddmr_navigation/install/mcl_3dl/lib:/root/dddmr_navigation/install/mapping_panel/lib:/root/dddmr_navigation/install/map_editor_panel/lib:/root/dddmr_navigation/install/lego_loam_bor/lib:/root/dddmr_navigation/install/global_planner/lib:/root/dddmr_navigation/install/fast_lio/lib:/root/dddmr_navigation/install/dddmr_rviz_default_plugins/lib:/root/dddmr_navigation/install/cloud_msgs/lib /usr/bin/cmake --build /root/dddmr_navigation/build/local_planner -- -j28 -l28
+[4.231s] [35m[1mConsolidate compiler generated dependencies of target local_planner[0m
+[4.266s] [ 16%] [32mBuilding CXX object CMakeFiles/local_planner.dir/src/local_planner.cpp.o[0m
+[10.797s] [01m[K/root/dddmr_navigation/src/dddmr_local_planner/local_planner/src/local_planner.cpp:[m[K In member function ‘[01m[Kdddmr_sys_core::PlannerState local_planner::Local_Planner::[01;32m[KcomputeVelocityCommand[m[K(std::string, base_trajectory::Trajectory&)[m[K’:
+[10.797s] [01m[K/root/dddmr_navigation/src/dddmr_local_planner/local_planner/src/local_planner.cpp:630:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[10.797s]   630 | [01;35m[K}[m[K
+[10.797s]       | [01;35m[K^[m[K
+[11.948s] gmake[2]: *** [CMakeFiles/local_planner.dir/build.make:76: CMakeFiles/local_planner.dir/src/local_planner.cpp.o] Interrupt
+[11.949s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/local_planner.dir/all] Interrupt
+[11.949s] gmake: *** [Makefile:146: all] Interrupt

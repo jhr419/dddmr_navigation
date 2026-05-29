@@ -1,0 +1,1 @@
+/root/dddmr_navigation/build/dddmr_sys_core/rosidl_typesupport_fastrtps_c/dddmr_sys_core/action/detail/get_plan__rosidl_typesupport_fastrtps_c.h

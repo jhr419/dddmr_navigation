@@ -1,0 +1,5 @@
+[0.051s] Invoking command in '/root/dddmr_navigation/build/dddmr_fastlio_adapter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_fastlio_adapter -- -j28 -l28
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/fastlio_dddmr_adapter_node.dir/src/fastlio_dddmr_adapter_node.cpp.o[0m
+[25.806s] gmake[2]: *** [CMakeFiles/fastlio_dddmr_adapter_node.dir/build.make:76: CMakeFiles/fastlio_dddmr_adapter_node.dir/src/fastlio_dddmr_adapter_node.cpp.o] Interrupt
+[25.806s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fastlio_dddmr_adapter_node.dir/all] Interrupt
+[25.807s] gmake: *** [Makefile:146: all] Interrupt

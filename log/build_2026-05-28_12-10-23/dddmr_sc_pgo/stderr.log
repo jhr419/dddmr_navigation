@@ -1,0 +1,8 @@
+[31mCMake Error at CMakeLists.txt:19 (if):
+  if given arguments:
+
+    "CMAKE_BUILD_TYPE" "AND" "CMAKE_BUILD_TYPE" "NOT_EQUAL" "Release"
+
+  Unknown arguments specified
+
+[0m

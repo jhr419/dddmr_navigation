@@ -1,0 +1,19 @@
+[33mCMake Warning (dev) at CMakeLists.txt:28 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/root/dddmr_navigation/src/dddmr_global_planner/src/a_star_on_pc.cpp:[m[K In member function ‘[01m[Kvoid A_Star_on_Graph::[01;32m[KgetPath[m[K(unsigned int, unsigned int, std::vector<unsigned int>&)[m[K’:
+[01m[K/root/dddmr_navigation/src/dddmr_global_planner/src/a_star_on_pc.cpp:292:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kcurrent_expanding_index[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  292 |       Node_t new_node = {.self_index=[01;35m[K(current_expanding_index)[m[K, .g=new_g, .h=new_h, .f=new_f, .parent_index=current_node.self_index, .is_closed=false, .is_opened=true};
+      |                                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/global_planner.dir/build.make:76: CMakeFiles/global_planner.dir/src/global_planner.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/global_planner.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

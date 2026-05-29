@@ -1,0 +1,1 @@
+/root/dddmr_navigation/src/dddmr_semantic_segmentation/scripts/ddrnet_image_test.py

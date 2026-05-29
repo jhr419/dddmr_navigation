@@ -1,0 +1,32 @@
+[ 20%] [34m[1mAutomatic UIC for target map_editor_panel[0m
+[ 20%] Built target map_editor_panel_autogen
+[100%] Built target map_editor_panel
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel//plugin_description.xml
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/environment/library_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/environment/library_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/include/map_editor_panel/map_editor_panel.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/ament_index/resource_index/package_run_dependencies/map_editor_panel
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/ament_index/resource_index/parent_prefix_path/map_editor_panel
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/environment/path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/environment/path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/local_setup.bash
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/local_setup.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/local_setup.zsh
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/local_setup.dsv
+-- Symlinking: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/package.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/ament_index/resource_index/packages/map_editor_panel
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/ament_index/resource_index/rviz_common__pluginlib__plugin/map_editor_panel
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/map_editor_panelConfig.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/map_editor_panelConfig-version.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/package.xml
+-- Up-to-date: /root/dddmr_navigation/install/map_editor_panel/lib/libmap_editor_panel.so
+-- Up-to-date: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/map_editor_panelExport.cmake
+-- Up-to-date: /root/dddmr_navigation/install/map_editor_panel/share/map_editor_panel/cmake/map_editor_panelExport-release.cmake

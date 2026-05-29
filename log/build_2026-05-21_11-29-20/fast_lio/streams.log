@@ -1,0 +1,88 @@
+[0.031s] Invoking command in '/root/dddmr_navigation/build/fast_lio': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/FAST_LIO -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/fast_lio
+[0.049s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.049s] [0mCurrent CPU archtecture: x86_64[0m
+[0.050s] [0mProcesser number:  28[0m
+[0.050s] [0mcore for MP: 3[0m
+[0.279s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.302s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.378s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.394s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.413s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.448s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.650s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.650s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.044s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.227s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.267s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.289s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.320s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.352s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.367s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.404s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.488s] -- Checking for module 'eigen3'
+[1.519s] --   Found eigen3, version 3.4.0
+[1.613s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.613s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.737s] -- Checking for module 'flann'
+[1.777s] --   Found flann, version 1.9.1
+[1.875s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.876s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.490s] -- Checking for module 'libusb-1.0'
+[4.527s] --   Found libusb-1.0, version 1.0.25
+[4.687s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.694s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.855s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.375s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.385s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.396s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.744s] -- Found Qhull version 8.0.2
+[6.362s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.725s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[6.727s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[6.729s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[6.730s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[6.732s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[6.733s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[6.735s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[6.735s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[6.737s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[6.738s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[6.740s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[6.742s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[6.745s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[6.745s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[6.747s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[6.749s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[6.751s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[6.754s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[6.754s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[6.756s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[6.758s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[6.759s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[6.760s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[6.763s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[6.766s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[6.854s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.860s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.861s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.156s] -- Configuring incomplete, errors occurred!
+[7.157s] See also "/root/dddmr_navigation/build/fast_lio/CMakeFiles/CMakeOutput.log".
+[7.157s] [31mCMake Error at CMakeLists.txt:62 (find_package):
+[7.157s]   By not providing "Findlivox_ros_driver2.cmake" in CMAKE_MODULE_PATH this
+[7.157s]   project has asked CMake to find a package configuration file provided by
+[7.157s]   "livox_ros_driver2", but CMake did not find one.
+[7.157s] 
+[7.157s]   Could not find a package configuration file provided by "livox_ros_driver2"
+[7.157s]   with any of the following names:
+[7.157s] 
+[7.157s]     livox_ros_driver2Config.cmake
+[7.158s]     livox_ros_driver2-config.cmake
+[7.158s] 
+[7.158s]   Add the installation prefix of "livox_ros_driver2" to CMAKE_PREFIX_PATH or
+[7.158s]   set "livox_ros_driver2_DIR" to a directory containing one of the above
+[7.158s]   files.  If "livox_ros_driver2" provides a separate development package or
+[7.158s]   SDK, be sure it has been installed.
+[7.158s] 
+[7.158s] [0m
+[7.218s] Invoked command in '/root/dddmr_navigation/build/fast_lio' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/FAST_LIO -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/fast_lio

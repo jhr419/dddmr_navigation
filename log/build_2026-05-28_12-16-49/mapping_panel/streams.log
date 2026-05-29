@@ -1,0 +1,36 @@
+[0.036s] Invoking command in '/root/dddmr_navigation/build/mapping_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/mapping_panel -- -j28 -l28
+[0.096s] [ 20%] [34m[1mAutomatic UIC for target mapping_panel[0m
+[0.119s] [ 20%] Built target mapping_panel_autogen
+[0.153s] [100%] Built target mapping_panel
+[0.171s] Invoked command in '/root/dddmr_navigation/build/mapping_panel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/mapping_panel -- -j28 -l28
+[0.173s] Invoking command in '/root/dddmr_navigation/build/mapping_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/mapping_panel
+[0.183s] -- Install configuration: "Release"
+[0.184s] -- Execute custom install script
+[0.184s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel//plugin_description.xml
+[0.184s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/library_path.sh
+[0.184s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/library_path.dsv
+[0.184s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/include/mapping_panel/mapping_panel.h
+[0.184s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/ament_index/resource_index/package_run_dependencies/mapping_panel
+[0.184s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/ament_index/resource_index/parent_prefix_path/mapping_panel
+[0.184s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/ament_prefix_path.sh
+[0.184s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/ament_prefix_path.dsv
+[0.184s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/path.sh
+[0.184s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/path.dsv
+[0.184s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/local_setup.bash
+[0.184s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/local_setup.sh
+[0.184s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/local_setup.zsh
+[0.184s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/local_setup.dsv
+[0.184s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/package.dsv
+[0.185s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/ament_index/resource_index/packages/mapping_panel
+[0.185s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/ament_index/resource_index/rviz_common__pluginlib__plugin/mapping_panel
+[0.185s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/ament_cmake_export_targets-extras.cmake
+[0.185s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.185s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.185s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/ament_cmake_export_libraries-extras.cmake
+[0.185s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/mapping_panelConfig.cmake
+[0.185s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/mapping_panelConfig-version.cmake
+[0.186s] -- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/package.xml
+[0.187s] -- Up-to-date: /root/dddmr_navigation/install/mapping_panel/lib/libmapping_panel.so
+[0.187s] -- Up-to-date: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/mapping_panelExport.cmake
+[0.187s] -- Up-to-date: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/mapping_panelExport-release.cmake
+[0.297s] Invoked command in '/root/dddmr_navigation/build/mapping_panel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/mapping_panel

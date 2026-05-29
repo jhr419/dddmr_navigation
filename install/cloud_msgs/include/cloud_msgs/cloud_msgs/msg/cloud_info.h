@@ -1,0 +1,1 @@
+/root/dddmr_navigation/build/cloud_msgs/rosidl_generator_c/cloud_msgs/msg/cloud_info.h

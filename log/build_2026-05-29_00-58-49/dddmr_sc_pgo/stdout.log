@@ -1,0 +1,3 @@
+[ 50%] Built target scan_context_lib
+Consolidate compiler generated dependencies of target sc_pgo_node
+[ 75%] Building CXX object CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o

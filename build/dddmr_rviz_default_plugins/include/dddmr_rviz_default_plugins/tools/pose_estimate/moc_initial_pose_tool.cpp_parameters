@@ -1,0 +1,5 @@
+-I/root/dddmr_navigation/src/dddmr_rviz_tools/dddmr_rviz_default_plugins/include
+-I/usr/include/pcl-1.12
+-o
+/root/dddmr_navigation/build/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/tools/pose_estimate/moc_initial_pose_tool.cpp
+/root/dddmr_navigation/src/dddmr_rviz_tools/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/tools/pose_estimate/initial_pose_tool.hpp

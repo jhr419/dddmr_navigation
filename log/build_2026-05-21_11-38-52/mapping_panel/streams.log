@@ -1,0 +1,102 @@
+[0.037s] Invoking command in '/root/dddmr_navigation/build/mapping_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_rviz_tools/mapping_panel -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/mapping_panel
+[0.051s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.146s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.154s] -- Found rviz_ogre_vendor: 11.2.26 (/opt/ros/humble/share/rviz_ogre_vendor/cmake)
+[0.154s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.157s] -- Found OGRE
+[0.157s] --   static     : OFF
+[0.157s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.157s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.157s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.157s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.157s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.157s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.157s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.158s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.158s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.158s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.158s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.202s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[0.232s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.249s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.253s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.261s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.275s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.329s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.331s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.357s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.367s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.382s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.393s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.404s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.456s] -- Found rviz_assimp_vendor: 11.2.26 (/opt/ros/humble/share/rviz_assimp_vendor/cmake)
+[0.456s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.458s] -- Found rviz_rendering: 11.2.26 (/opt/ros/humble/share/rviz_rendering/cmake)
+[0.494s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.498s] -- Found rviz_common: 11.2.26 (/opt/ros/humble/share/rviz_common/cmake)
+[0.556s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.683s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.722s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.764s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.998s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.006s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.159s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.167s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.174s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.356s] -- Found Qhull version 8.0.2
+[1.524s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.670s] [33mCMake Warning (dev) at CMakeLists.txt:31 (find_package):
+[1.670s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.670s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.670s]   command to set the policy and suppress this warning.
+[1.670s] 
+[1.670s]   CMake variable PCL_ROOT is set to:
+[1.670s] 
+[1.670s]     /usr
+[1.671s] 
+[1.671s]   For compatibility, CMake is ignoring the variable.
+[1.671s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.671s] [0m
+[1.755s] -- Configuring done
+[1.824s] -- Generating done
+[1.834s] -- Build files have been written to: /root/dddmr_navigation/build/mapping_panel
+[1.848s] Invoked command in '/root/dddmr_navigation/build/mapping_panel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_rviz_tools/mapping_panel -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/mapping_panel
+[1.850s] Invoking command in '/root/dddmr_navigation/build/mapping_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/mapping_panel -- -j28 -l28
+[1.904s] [ 20%] [34m[1mAutomatic UIC for target mapping_panel[0m
+[1.927s] [ 20%] Built target mapping_panel_autogen
+[1.944s] [35m[1mConsolidate compiler generated dependencies of target mapping_panel[0m
+[1.981s] [100%] Built target mapping_panel
+[1.992s] Invoked command in '/root/dddmr_navigation/build/mapping_panel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/mapping_panel -- -j28 -l28
+[1.995s] Invoking command in '/root/dddmr_navigation/build/mapping_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/mapping_panel
+[2.001s] -- Install configuration: "Release"
+[2.001s] -- Execute custom install script
+[2.002s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel//plugin_description.xml
+[2.010s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/library_path.sh
+[2.017s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/library_path.dsv
+[2.026s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/include/mapping_panel/mapping_panel.h
+[2.034s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/ament_index/resource_index/package_run_dependencies/mapping_panel
+[2.045s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/ament_index/resource_index/parent_prefix_path/mapping_panel
+[2.052s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/ament_prefix_path.sh
+[2.061s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/ament_prefix_path.dsv
+[2.068s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/path.sh
+[2.075s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/path.dsv
+[2.083s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/local_setup.bash
+[2.090s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/local_setup.sh
+[2.099s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/local_setup.zsh
+[2.106s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/local_setup.dsv
+[2.117s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/package.dsv
+[2.126s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/ament_index/resource_index/packages/mapping_panel
+[2.134s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/ament_index/resource_index/rviz_common__pluginlib__plugin/mapping_panel
+[2.143s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/ament_cmake_export_targets-extras.cmake
+[2.154s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.165s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.176s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/ament_cmake_export_libraries-extras.cmake
+[2.186s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/mapping_panelConfig.cmake
+[2.194s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/mapping_panelConfig-version.cmake
+[2.204s] -- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/package.xml
+[2.211s] -- Installing: /root/dddmr_navigation/install/mapping_panel/lib/libmapping_panel.so
+[2.212s] -- Set runtime path of "/root/dddmr_navigation/install/mapping_panel/lib/libmapping_panel.so" to ""
+[2.212s] -- Installing: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/mapping_panelExport.cmake
+[2.212s] -- Installing: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/mapping_panelExport-release.cmake
+[2.216s] Invoked command in '/root/dddmr_navigation/build/mapping_panel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/mapping_panel

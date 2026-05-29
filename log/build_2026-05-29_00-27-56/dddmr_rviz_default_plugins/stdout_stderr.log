@@ -1,0 +1,40 @@
+[100%] Built target dddmr_rviz_default_plugins
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins//plugins_description.xml
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/library_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/library_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/goal_pose/goal_tool.hpp
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/move/move_tool.hpp
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/point_cloud_selection/point_cloud_selection_tool.hpp
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/pose/pose_tool.hpp
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/pose_estimate/initial_pose_tool.hpp
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/select/edge_selection_tool.hpp
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/select/node_selection_tool.hpp
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/visibility_control.hpp
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/icons/classes/3DGoalPose.png
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/icons/classes/3DInitialPose.png
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/icons/classes/Select.png
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/ament_index/resource_index/package_run_dependencies/dddmr_rviz_default_plugins
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/ament_index/resource_index/parent_prefix_path/dddmr_rviz_default_plugins
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/local_setup.bash
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/local_setup.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/local_setup.zsh
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/local_setup.dsv
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/package.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/ament_index/resource_index/packages/dddmr_rviz_default_plugins
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/dddmr_rviz_default_plugins
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_plugins-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_pluginsConfig.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_pluginsConfig-version.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/package.xml
+-- Up-to-date: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/lib/libdddmr_rviz_default_plugins.so
+-- Up-to-date: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_pluginsExport.cmake
+-- Up-to-date: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_pluginsExport-release.cmake

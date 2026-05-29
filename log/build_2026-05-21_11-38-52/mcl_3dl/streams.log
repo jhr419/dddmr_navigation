@@ -1,0 +1,181 @@
+[0.010s] Invoking command in '/root/dddmr_navigation/build/mcl_3dl': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/cloud_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/cloud_msgs:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/cloud_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/dddmr_navigation/src/dddmr_mcl_3dl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/mcl_3dl
+[0.070s] -- The C compiler identification is GNU 13.4.0
+[0.132s] -- The CXX compiler identification is GNU 13.4.0
+[0.140s] -- Detecting C compiler ABI info
+[0.222s] -- Detecting C compiler ABI info - done
+[0.233s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.233s] -- Detecting C compile features
+[0.233s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.324s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.336s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.339s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.509s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.602s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.644s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.692s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.697s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.707s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.721s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.738s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.796s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.800s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.921s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.956s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.007s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.017s] -- Looking for pthread.h
+[1.095s] -- Looking for pthread.h - found
+[1.095s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.180s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.181s] -- Found Threads: TRUE  
+[1.233s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.268s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.288s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.317s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.327s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.357s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.374s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.399s] -- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)
+[1.403s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.439s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.456s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.457s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.457s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.460s] -- Found tf2_sensor_msgs: 0.25.20 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[1.468s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.474s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[1.494s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.538s] -- Checking for module 'eigen3'
+[1.555s] --   Found eigen3, version 3.4.0
+[1.592s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.592s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.632s] -- Checking for module 'flann'
+[1.643s] --   Found flann, version 1.9.1
+[1.685s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.685s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.718s] -- Checking for module 'libusb-1.0'
+[2.734s] --   Found libusb-1.0, version 1.0.25
+[2.773s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.774s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.836s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.010s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.017s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.025s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.188s] -- Found Qhull version 8.0.2
+[3.335s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.487s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.488s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.488s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.489s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.490s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.491s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.491s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.492s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.492s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.493s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.494s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.495s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.496s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.496s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.498s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.499s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.500s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.501s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.502s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.502s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.503s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.503s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.504s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.504s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.505s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.507s] [33mCMake Warning (dev) at CMakeLists.txt:29 (find_package):
+[3.507s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[3.507s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[3.507s]   command to set the policy and suppress this warning.
+[3.507s] 
+[3.507s]   CMake variable PCL_ROOT is set to:
+[3.508s] 
+[3.508s]     /usr
+[3.508s] 
+[3.508s]   For compatibility, CMake is ignoring the variable.
+[3.508s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.508s] [0m
+[3.675s] -- Configuring done
+[3.833s] -- Generating done
+[3.866s] -- Build files have been written to: /root/dddmr_navigation/build/mcl_3dl
+[3.883s] Invoked command in '/root/dddmr_navigation/build/mcl_3dl' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/cloud_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/cloud_msgs:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/cloud_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/dddmr_navigation/src/dddmr_mcl_3dl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/mcl_3dl
+[3.885s] Invoking command in '/root/dddmr_navigation/build/mcl_3dl': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/cloud_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/cloud_msgs:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/cloud_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/dddmr_navigation/build/mcl_3dl -- -j28 -l28
+[3.934s] [ 18%] [32mBuilding CXX object CMakeFiles/sub_maps.dir/src/sub_maps.cpp.o[0m
+[3.934s] [ 18%] [32mBuilding CXX object CMakeFiles/parameters.dir/src/parameters.cpp.o[0m
+[3.935s] [ 27%] [32mBuilding CXX object CMakeFiles/pcl_publisher.dir/src/pcl_publisher.cpp.o[0m
+[11.327s] [ 36%] [32m[1mLinking CXX shared library libparameters.so[0m
+[11.946s] [ 36%] Built target parameters
+[11.978s] [ 45%] [32mBuilding CXX object CMakeFiles/lidar_measurement_model_likelihood.dir/src/lidar_measurement_model_likelihood.cpp.o[0m
+[14.582s] [ 54%] [32m[1mLinking CXX executable pcl_publisher[0m
+[16.238s] [ 54%] Built target pcl_publisher
+[18.928s] [ 63%] [32m[1mLinking CXX shared library libsub_maps.so[0m
+[22.874s] [ 63%] Built target sub_maps
+[23.716s] [ 72%] [32m[1mLinking CXX shared library liblidar_measurement_model_likelihood.so[0m
+[24.144s] [ 72%] Built target lidar_measurement_model_likelihood
+[24.170s] [ 81%] [32mBuilding CXX object CMakeFiles/mcl_3dl.dir/src/mcl_3dl_node.cpp.o[0m
+[24.172s] [ 90%] [32mBuilding CXX object CMakeFiles/mcl_3dl.dir/src/mcl_3dl.cpp.o[0m
+[55.232s] [100%] [32m[1mLinking CXX executable mcl_3dl[0m
+[58.225s] [100%] Built target mcl_3dl
+[58.250s] Invoked command in '/root/dddmr_navigation/build/mcl_3dl' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/cloud_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/cloud_msgs:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/cloud_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/dddmr_navigation/build/mcl_3dl -- -j28 -l28
+[58.252s] Invoking command in '/root/dddmr_navigation/build/mcl_3dl': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/cloud_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/cloud_msgs:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/cloud_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/dddmr_navigation/build/mcl_3dl
+[58.259s] -- Install configuration: ""
+[58.259s] -- Execute custom install script
+[58.260s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/lib/libparameters.so
+[58.269s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/lib/liblidar_measurement_model_likelihood.so
+[58.276s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/lib/libsub_maps.so
+[58.284s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/lib/mcl_3dl/mcl_3dl
+[58.293s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/lib/mcl_3dl/pcl_publisher
+[58.301s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl.h
+[58.311s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/filter.h
+[58.322s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/filter_vec3.h
+[58.332s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/lidar_measurement_models/lidar_measurement_model_likelihood.h
+[58.342s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/motion_prediction_model_base.h
+[58.352s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/motion_prediction_models/motion_prediction_model_differential_drive.h
+[58.359s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/nd.h
+[58.367s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/noise_generator_base.h
+[58.376s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/noise_generators/diagonal_noise_generator.h
+[58.384s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/noise_generators/multivariate_noise_generator.h
+[58.392s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/parameters.h
+[58.402s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/pf.h
+[58.408s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/quat.h
+[58.414s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/state_6dof.h
+[58.421s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/sub_maps.h
+[58.427s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//mcl_3dl/vec3.h
+[58.436s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/include//utilities.h
+[58.443s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//launch/mcl_3dl.launch
+[58.452s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//launch/mcl_3dlXfeatureXbag.launch
+[58.459s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//launch/pcl_publisher.launch
+[58.468s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//config/mcl_3dl.yaml
+[58.475s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//config/pcl_publisher.yaml
+[58.482s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//rviz/mcl_3dl_demo.rviz
+[58.490s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/edges.pcd
+[58.499s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/ground.pcd
+[58.507s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/map.pcd
+[58.516s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/pcd/0_feature.pcd
+[58.522s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/pcd/0_ground.pcd
+[58.530s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl//map/poses.pcd
+[58.539s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/ament_index/resource_index/package_run_dependencies/mcl_3dl
+[58.547s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/ament_index/resource_index/parent_prefix_path/mcl_3dl
+[58.557s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/environment/ament_prefix_path.sh
+[58.564s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/environment/ament_prefix_path.dsv
+[58.571s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/environment/path.sh
+[58.578s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/environment/path.dsv
+[58.587s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/local_setup.bash
+[58.597s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/local_setup.sh
+[58.606s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/local_setup.zsh
+[58.613s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/local_setup.dsv
+[58.623s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/package.dsv
+[58.632s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/ament_index/resource_index/packages/mcl_3dl
+[58.640s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/cmake/ament_cmake_export_include_directories-extras.cmake
+[58.647s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/cmake/ament_cmake_export_dependencies-extras.cmake
+[58.655s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/cmake/mcl_3dlConfig.cmake
+[58.662s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/cmake/mcl_3dlConfig-version.cmake
+[58.669s] -- Symlinking: /root/dddmr_navigation/install/mcl_3dl/share/mcl_3dl/package.xml
+[58.680s] Invoked command in '/root/dddmr_navigation/build/mcl_3dl' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/cloud_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/cloud_msgs:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/cloud_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/dddmr_navigation/build/mcl_3dl

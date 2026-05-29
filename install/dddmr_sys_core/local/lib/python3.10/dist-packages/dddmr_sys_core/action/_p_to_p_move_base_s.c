@@ -1,0 +1,1 @@
+/root/dddmr_navigation/build/dddmr_sys_core/rosidl_generator_py/dddmr_sys_core/action/_p_to_p_move_base_s.c

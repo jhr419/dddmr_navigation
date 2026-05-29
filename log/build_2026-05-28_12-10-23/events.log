@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000099] (-) JobUnselected: {'identifier': 'base_trajectory'}
+[0.000121] (-) JobUnselected: {'identifier': 'cloud_msgs'}
+[0.000148] (-) JobUnselected: {'identifier': 'dddmr_beginner_guide'}
+[0.000170] (-) JobUnselected: {'identifier': 'dddmr_fastlio_adapter'}
+[0.000192] (-) JobUnselected: {'identifier': 'dddmr_odom_3d'}
+[0.000241] (-) JobUnselected: {'identifier': 'dddmr_rviz_default_plugins'}
+[0.000259] (-) JobUnselected: {'identifier': 'dddmr_semantic_segmentation'}
+[0.000274] (-) JobUnselected: {'identifier': 'dddmr_sys_core'}
+[0.000289] (-) JobUnselected: {'identifier': 'dddmr_trt'}
+[0.000303] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000317] (-) JobUnselected: {'identifier': 'global_planner'}
+[0.000330] (-) JobUnselected: {'identifier': 'lego_loam_bor'}
+[0.000346] (-) JobUnselected: {'identifier': 'local_planner'}
+[0.000360] (-) JobUnselected: {'identifier': 'map_editor_panel'}
+[0.000381] (-) JobUnselected: {'identifier': 'mapping_panel'}
+[0.000400] (-) JobUnselected: {'identifier': 'mcl_3dl'}
+[0.000414] (-) JobUnselected: {'identifier': 'mpc_critics'}
+[0.000428] (-) JobUnselected: {'identifier': 'p2p_move_base'}
+[0.000441] (-) JobUnselected: {'identifier': 'perception_3d'}
+[0.000455] (-) JobUnselected: {'identifier': 'pose_graph_editor_panel'}
+[0.000469] (-) JobUnselected: {'identifier': 'pose_graph_merge_editor_panel'}
+[0.000482] (-) JobUnselected: {'identifier': 'recovery_behaviors'}
+[0.000495] (-) JobUnselected: {'identifier': 'trajectory_generators'}
+[0.000511] (dddmr_sc_pgo) JobQueued: {'identifier': 'dddmr_sc_pgo', 'dependencies': OrderedDict()}
+[0.000564] (dddmr_sc_pgo) JobStarted: {'identifier': 'dddmr_sc_pgo'}
+[0.009012] (dddmr_sc_pgo) JobProgress: {'identifier': 'dddmr_sc_pgo', 'progress': 'cmake'}
+[0.009368] (dddmr_sc_pgo) Command: {'cmd': ['/usr/bin/cmake', '/root/dddmr_navigation/src/dddmr_sc_pgo', '-DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sc_pgo'], 'cwd': '/root/dddmr_navigation/build/dddmr_sc_pgo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'yk'), ('GIT_ASKPASS', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('BROWSER', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '3.5.38'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-27ace972-e339-4102-9cb6-a68ff8daf15c.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/node'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('OVSX_REGISTRY_URL', 'https://open-vsx.org'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-8d4a5eca80.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/cursor-remote-ssh-cc04204e-865f-4c41-b7d9-7fa2afb2864a.sock'), ('ROS_DOMAIN_ID', '18'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_IPC_AUTH_TOKEN', '4a8016d1c03267560b2dc3cb3b7ca8a7839b6fb33ba6112bee41260685a1090b'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/dddmr_navigation/build/dddmr_sc_pgo'), ('COLCON', '1')]), 'shell': False}
+[0.099655] (-) TimerEvent: {}
+[0.136463] (dddmr_sc_pgo) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.4.0\n'}
+[0.199753] (-) TimerEvent: {}
+[0.209522] (dddmr_sc_pgo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.4.0\n'}
+[0.216195] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.263846] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.269484] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.269994] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.270525] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.272492] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299829] (-) TimerEvent: {}
+[0.320588] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.325179] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.325315] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.325531] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.325969] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (if):\n'}
+[0.326074] (dddmr_sc_pgo) StderrLine: {'line': b'  if given arguments:\n'}
+[0.326137] (dddmr_sc_pgo) StderrLine: {'line': b'\n'}
+[0.326200] (dddmr_sc_pgo) StderrLine: {'line': b'    "CMAKE_BUILD_TYPE" "AND" "CMAKE_BUILD_TYPE" "NOT_EQUAL" "Release"\n'}
+[0.326265] (dddmr_sc_pgo) StderrLine: {'line': b'\n'}
+[0.326320] (dddmr_sc_pgo) StderrLine: {'line': b'  Unknown arguments specified\n'}
+[0.326372] (dddmr_sc_pgo) StderrLine: {'line': b'\n'}
+[0.326424] (dddmr_sc_pgo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.326476] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.326531] (dddmr_sc_pgo) StdoutLine: {'line': b'See also "/root/dddmr_navigation/build/dddmr_sc_pgo/CMakeFiles/CMakeOutput.log".\n'}
+[0.327959] (dddmr_sc_pgo) CommandEnded: {'returncode': 1}
+[0.345749] (dddmr_sc_pgo) JobEnded: {'identifier': 'dddmr_sc_pgo', 'rc': 1}
+[0.355990] (-) EventReactorShutdown: {}

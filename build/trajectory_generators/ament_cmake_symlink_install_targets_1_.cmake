@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/dddmr_navigation/build/trajectory_generators/trajectory_generators_node" "TARGETS" "trajectory_generators_node" "RUNTIME_DESTINATION" "lib/trajectory_generators")

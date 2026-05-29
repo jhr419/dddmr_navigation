@@ -1,0 +1,10 @@
+/root/dddmr_navigation/build/base_trajectory/CMakeFiles/uninstall.dir
+/root/dddmr_navigation/build/base_trajectory/CMakeFiles/base_trajectory_uninstall.dir
+/root/dddmr_navigation/build/base_trajectory/CMakeFiles/base_trajectory.dir
+/root/dddmr_navigation/build/base_trajectory/CMakeFiles/test.dir
+/root/dddmr_navigation/build/base_trajectory/CMakeFiles/edit_cache.dir
+/root/dddmr_navigation/build/base_trajectory/CMakeFiles/rebuild_cache.dir
+/root/dddmr_navigation/build/base_trajectory/CMakeFiles/list_install_components.dir
+/root/dddmr_navigation/build/base_trajectory/CMakeFiles/install.dir
+/root/dddmr_navigation/build/base_trajectory/CMakeFiles/install/local.dir
+/root/dddmr_navigation/build/base_trajectory/CMakeFiles/install/strip.dir

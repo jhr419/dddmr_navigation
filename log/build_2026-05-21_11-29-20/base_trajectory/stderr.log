@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'libbase_trajectory.so'
+gmake[2]: *** [CMakeFiles/base_trajectory.dir/build.make:350: libbase_trajectory.so] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/base_trajectory.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

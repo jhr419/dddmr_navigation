@@ -1,0 +1,4 @@
+source;share/dddmr_sys_core/local_setup.bash
+source;share/dddmr_sys_core/local_setup.dsv
+source;share/dddmr_sys_core/local_setup.sh
+source;share/dddmr_sys_core/local_setup.zsh

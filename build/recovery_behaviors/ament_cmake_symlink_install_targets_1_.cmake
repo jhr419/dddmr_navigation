@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/dddmr_navigation/build/recovery_behaviors/recovery_behaviors_node" "TARGETS" "recovery_behaviors_node" "RUNTIME_DESTINATION" "lib/recovery_behaviors")

@@ -1,0 +1,5 @@
+/root/dddmr_navigation/build/dddmr_sys_core/rosidl_adapter/dddmr_sys_core:action/PToPMoveBase.idl
+/root/dddmr_navigation/build/dddmr_sys_core/rosidl_adapter/dddmr_sys_core:action/GetPlan.idl
+/root/dddmr_navigation/build/dddmr_sys_core/rosidl_adapter/dddmr_sys_core:action/RecoveryBehaviors.idl
+/root/dddmr_navigation/build/dddmr_sys_core/rosidl_adapter/dddmr_sys_core:action/TagDocking.idl
+/root/dddmr_navigation/build/dddmr_sys_core/rosidl_adapter/dddmr_sys_core:srv/GetKeyFrameCloud.idl

@@ -1,0 +1,4 @@
+source;share/mcl_3dl/local_setup.bash
+source;share/mcl_3dl/local_setup.dsv
+source;share/mcl_3dl/local_setup.sh
+source;share/mcl_3dl/local_setup.zsh

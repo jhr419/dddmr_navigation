@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from dddmr_sys_core/action/TagDocking.action
+// generated code does not contain a copyright notice
+
+
+module dddmr_sys_core {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct TagDocking_Goal {
+      boolean start;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct TagDocking_Result {
+      boolean succeed;
+    };
+    @verbatim (language="comment", text=
+      "feedback definition")
+    struct TagDocking_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

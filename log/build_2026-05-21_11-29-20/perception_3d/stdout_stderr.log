@@ -1,0 +1,16 @@
+[  3%] [32mBuilding CXX object CMakeFiles/shared_data_sensor.dir/src/graph/dynamic_graph.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/shared_data_sensor.dir/src/graph/static_graph.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/depth_camera_buffer.dir/plugins/depth_camera/depth_camera_observation.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/shared_data_sensor.dir/src/shared_data.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/depth_camera_buffer.dir/plugins/depth_camera/depth_camera_observation_buffer.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/depthimg2pointcloud_node.dir/utils/depthimg2pointcloud_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/depth_camera_buffer.dir/plugins/depth_camera/frustum_utils.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library libshared_data_sensor.so[0m
+[ 32%] [32m[1mLinking CXX shared library libdepth_camera_buffer.so[0m
+[ 32%] Built target depth_camera_buffer
+gmake[2]: *** Deleting file 'libshared_data_sensor.so'
+gmake[2]: *** [CMakeFiles/shared_data_sensor.dir/build.make:408: libshared_data_sensor.so] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/shared_data_sensor.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/depthimg2pointcloud_node.dir/build.make:76: CMakeFiles/depthimg2pointcloud_node.dir/utils/depthimg2pointcloud_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:373: CMakeFiles/depthimg2pointcloud_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

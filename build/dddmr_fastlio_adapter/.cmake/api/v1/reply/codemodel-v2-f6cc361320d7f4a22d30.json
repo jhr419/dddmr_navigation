@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f32ff2274b562464e60c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dddmr_fastlio_adapter",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_fastlio_adapter_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_fastlio_adapter_uninstall-Release-9fa84462f88f73e9d0d8.json",
+					"name" : "dddmr_fastlio_adapter_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fastlio_dddmr_adapter_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fastlio_dddmr_adapter_node-Release-993f708f78276a0ee1ed.json",
+					"name" : "fastlio_dddmr_adapter_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-5dd30d8cf04d521614ac.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/dddmr_navigation/build/dddmr_fastlio_adapter",
+		"source" : "/root/dddmr_navigation/src/dddmr_fastlio_adapter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/root/dddmr_navigation/src/dddmr_local_planner/mpc_critics/include/mpc_critics/collision_min_max_model.h

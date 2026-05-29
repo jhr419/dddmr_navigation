@@ -1,0 +1,1 @@
+/root/dddmr_navigation/build/cloud_msgs/rosidl_generator_py/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_c.c

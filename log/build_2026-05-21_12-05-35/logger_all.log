@@ -1,0 +1,428 @@
+[0.694s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'dddmr_beginner_guide']
+[0.695s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=28, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['dddmr_beginner_guide'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c96f14271f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c96f1426bf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c96f1426bf0>>)
+[1.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.610s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/dddmr_navigation'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ignore', 'ignore_ament_install']
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore'
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore_ament_install'
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_pkg']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_pkg'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_meta']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_meta'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ros']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ros'
+[1.766s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FAST_LIO' with type 'ros.ament_cmake' and name 'fast_lio'
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_beginner_guide) by extensions ['ignore', 'ignore_ament_install']
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_beginner_guide) by extension 'ignore'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_beginner_guide) by extension 'ignore_ament_install'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_beginner_guide) by extensions ['colcon_pkg']
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_beginner_guide) by extension 'colcon_pkg'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_beginner_guide) by extensions ['colcon_meta']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_beginner_guide) by extension 'colcon_meta'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_beginner_guide) by extensions ['ros']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_beginner_guide) by extension 'ros'
+[1.779s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_beginner_guide' with type 'ros.ament_cmake' and name 'dddmr_beginner_guide'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_fastlio_adapter) by extensions ['ignore', 'ignore_ament_install']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_fastlio_adapter) by extension 'ignore'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_fastlio_adapter) by extension 'ignore_ament_install'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_fastlio_adapter) by extensions ['colcon_pkg']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_fastlio_adapter) by extension 'colcon_pkg'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_fastlio_adapter) by extensions ['colcon_meta']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_fastlio_adapter) by extension 'colcon_meta'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_fastlio_adapter) by extensions ['ros']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_fastlio_adapter) by extension 'ros'
+[1.791s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_fastlio_adapter' with type 'ros.ament_cmake' and name 'dddmr_fastlio_adapter'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_global_planner) by extensions ['ignore', 'ignore_ament_install']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_global_planner) by extension 'ignore'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_global_planner) by extension 'ignore_ament_install'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_global_planner) by extensions ['colcon_pkg']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_global_planner) by extension 'colcon_pkg'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_global_planner) by extensions ['colcon_meta']
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_global_planner) by extension 'colcon_meta'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_global_planner) by extensions ['ros']
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_global_planner) by extension 'ros'
+[1.802s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_global_planner' with type 'ros.ament_cmake' and name 'global_planner'
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam) by extensions ['ignore', 'ignore_ament_install']
+[1.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam) by extension 'ignore'
+[1.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam) by extension 'ignore_ament_install'
+[1.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam) by extensions ['colcon_pkg']
+[1.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam) by extension 'colcon_pkg'
+[1.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam) by extensions ['colcon_meta']
+[1.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam) by extension 'colcon_meta'
+[1.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam) by extensions ['ros']
+[1.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam) by extension 'ros'
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam) by extensions ['cmake', 'python']
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam) by extension 'cmake'
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam) by extension 'python'
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam) by extensions ['python_setup_py']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam) by extension 'python_setup_py'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/cloud_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/cloud_msgs) by extension 'ignore'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/cloud_msgs) by extension 'ignore_ament_install'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/cloud_msgs) by extensions ['colcon_pkg']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/cloud_msgs) by extension 'colcon_pkg'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/cloud_msgs) by extensions ['colcon_meta']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/cloud_msgs) by extension 'colcon_meta'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/cloud_msgs) by extensions ['ros']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/cloud_msgs) by extension 'ros'
+[1.817s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_lego_loam/cloud_msgs' with type 'ros.ament_cmake' and name 'cloud_msgs'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/lego_loam_bor) by extensions ['ignore', 'ignore_ament_install']
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/lego_loam_bor) by extension 'ignore'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/lego_loam_bor) by extension 'ignore_ament_install'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/lego_loam_bor) by extensions ['colcon_pkg']
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/lego_loam_bor) by extension 'colcon_pkg'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/lego_loam_bor) by extensions ['colcon_meta']
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/lego_loam_bor) by extension 'colcon_meta'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/lego_loam_bor) by extensions ['ros']
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_lego_loam/lego_loam_bor) by extension 'ros'
+[1.834s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_lego_loam/lego_loam_bor' with type 'ros.ament_cmake' and name 'lego_loam_bor'
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner) by extensions ['ignore', 'ignore_ament_install']
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner) by extension 'ignore'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner) by extension 'ignore_ament_install'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner) by extensions ['colcon_pkg']
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner) by extension 'colcon_pkg'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner) by extensions ['colcon_meta']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner) by extension 'colcon_meta'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner) by extensions ['ros']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner) by extension 'ros'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner) by extensions ['cmake', 'python']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner) by extension 'cmake'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner) by extension 'python'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner) by extensions ['python_setup_py']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner) by extension 'python_setup_py'
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/base_trajectory) by extensions ['ignore', 'ignore_ament_install']
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/base_trajectory) by extension 'ignore'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/base_trajectory) by extension 'ignore_ament_install'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/base_trajectory) by extensions ['colcon_pkg']
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/base_trajectory) by extension 'colcon_pkg'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/base_trajectory) by extensions ['colcon_meta']
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/base_trajectory) by extension 'colcon_meta'
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/base_trajectory) by extensions ['ros']
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/base_trajectory) by extension 'ros'
+[1.849s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_local_planner/base_trajectory' with type 'ros.ament_cmake' and name 'base_trajectory'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/local_planner) by extensions ['ignore', 'ignore_ament_install']
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/local_planner) by extension 'ignore'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/local_planner) by extension 'ignore_ament_install'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/local_planner) by extensions ['colcon_pkg']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/local_planner) by extension 'colcon_pkg'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/local_planner) by extensions ['colcon_meta']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/local_planner) by extension 'colcon_meta'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/local_planner) by extensions ['ros']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/local_planner) by extension 'ros'
+[1.865s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_local_planner/local_planner' with type 'ros.ament_cmake' and name 'local_planner'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/mpc_critics) by extensions ['ignore', 'ignore_ament_install']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/mpc_critics) by extension 'ignore'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/mpc_critics) by extension 'ignore_ament_install'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/mpc_critics) by extensions ['colcon_pkg']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/mpc_critics) by extension 'colcon_pkg'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/mpc_critics) by extensions ['colcon_meta']
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/mpc_critics) by extension 'colcon_meta'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/mpc_critics) by extensions ['ros']
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/mpc_critics) by extension 'ros'
+[1.878s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_local_planner/mpc_critics' with type 'ros.ament_cmake' and name 'mpc_critics'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/recovery_behaviors) by extensions ['ignore', 'ignore_ament_install']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/recovery_behaviors) by extension 'ignore'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/recovery_behaviors) by extension 'ignore_ament_install'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/recovery_behaviors) by extensions ['colcon_pkg']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/recovery_behaviors) by extension 'colcon_pkg'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/recovery_behaviors) by extensions ['colcon_meta']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/recovery_behaviors) by extension 'colcon_meta'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/recovery_behaviors) by extensions ['ros']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/recovery_behaviors) by extension 'ros'
+[1.893s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_local_planner/recovery_behaviors' with type 'ros.ament_cmake' and name 'recovery_behaviors'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/trajectory_generators) by extensions ['ignore', 'ignore_ament_install']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/trajectory_generators) by extension 'ignore'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/trajectory_generators) by extension 'ignore_ament_install'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/trajectory_generators) by extensions ['colcon_pkg']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/trajectory_generators) by extension 'colcon_pkg'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/trajectory_generators) by extensions ['colcon_meta']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/trajectory_generators) by extension 'colcon_meta'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/trajectory_generators) by extensions ['ros']
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_local_planner/trajectory_generators) by extension 'ros'
+[1.907s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_local_planner/trajectory_generators' with type 'ros.ament_cmake' and name 'trajectory_generators'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_mcl_3dl) by extensions ['ignore', 'ignore_ament_install']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_mcl_3dl) by extension 'ignore'
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_mcl_3dl) by extension 'ignore_ament_install'
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_mcl_3dl) by extensions ['colcon_pkg']
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_mcl_3dl) by extension 'colcon_pkg'
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_mcl_3dl) by extensions ['colcon_meta']
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_mcl_3dl) by extension 'colcon_meta'
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_mcl_3dl) by extensions ['ros']
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_mcl_3dl) by extension 'ros'
+[1.922s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_mcl_3dl' with type 'ros.ament_cmake' and name 'mcl_3dl'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_odom_3d) by extensions ['ignore', 'ignore_ament_install']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_odom_3d) by extension 'ignore'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_odom_3d) by extension 'ignore_ament_install'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_odom_3d) by extensions ['colcon_pkg']
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_odom_3d) by extension 'colcon_pkg'
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_odom_3d) by extensions ['colcon_meta']
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_odom_3d) by extension 'colcon_meta'
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_odom_3d) by extensions ['ros']
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_odom_3d) by extension 'ros'
+[1.934s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_odom_3d' with type 'ros.ament_cmake' and name 'dddmr_odom_3d'
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_p2p_move_base) by extensions ['ignore', 'ignore_ament_install']
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_p2p_move_base) by extension 'ignore'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_p2p_move_base) by extension 'ignore_ament_install'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_p2p_move_base) by extensions ['colcon_pkg']
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_p2p_move_base) by extension 'colcon_pkg'
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_p2p_move_base) by extensions ['colcon_meta']
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_p2p_move_base) by extension 'colcon_meta'
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_p2p_move_base) by extensions ['ros']
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_p2p_move_base) by extension 'ros'
+[1.949s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_p2p_move_base' with type 'ros.ament_cmake' and name 'p2p_move_base'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_perception_3d) by extensions ['ignore', 'ignore_ament_install']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_perception_3d) by extension 'ignore'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_perception_3d) by extension 'ignore_ament_install'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_perception_3d) by extensions ['colcon_pkg']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_perception_3d) by extension 'colcon_pkg'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_perception_3d) by extensions ['colcon_meta']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_perception_3d) by extension 'colcon_meta'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_perception_3d) by extensions ['ros']
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_perception_3d) by extension 'ros'
+[1.961s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_perception_3d' with type 'ros.ament_cmake' and name 'perception_3d'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools) by extensions ['ignore', 'ignore_ament_install']
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools) by extension 'ignore'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools) by extension 'ignore_ament_install'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools) by extensions ['colcon_pkg']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools) by extension 'colcon_pkg'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools) by extensions ['colcon_meta']
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools) by extension 'colcon_meta'
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools) by extensions ['ros']
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools) by extension 'ros'
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools) by extensions ['cmake', 'python']
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools) by extension 'cmake'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools) by extension 'python'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools) by extensions ['python_setup_py']
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools) by extension 'python_setup_py'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/dddmr_rviz_default_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/dddmr_rviz_default_plugins) by extension 'ignore'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/dddmr_rviz_default_plugins) by extension 'ignore_ament_install'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/dddmr_rviz_default_plugins) by extensions ['colcon_pkg']
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/dddmr_rviz_default_plugins) by extension 'colcon_pkg'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/dddmr_rviz_default_plugins) by extensions ['colcon_meta']
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/dddmr_rviz_default_plugins) by extension 'colcon_meta'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/dddmr_rviz_default_plugins) by extensions ['ros']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/dddmr_rviz_default_plugins) by extension 'ros'
+[1.983s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_rviz_tools/dddmr_rviz_default_plugins' with type 'ros.ament_cmake' and name 'dddmr_rviz_default_plugins'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/map_editor_panel) by extensions ['ignore', 'ignore_ament_install']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/map_editor_panel) by extension 'ignore'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/map_editor_panel) by extension 'ignore_ament_install'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/map_editor_panel) by extensions ['colcon_pkg']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/map_editor_panel) by extension 'colcon_pkg'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/map_editor_panel) by extensions ['colcon_meta']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/map_editor_panel) by extension 'colcon_meta'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/map_editor_panel) by extensions ['ros']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/map_editor_panel) by extension 'ros'
+[1.993s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_rviz_tools/map_editor_panel' with type 'ros.ament_cmake' and name 'map_editor_panel'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/mapping_panel) by extensions ['ignore', 'ignore_ament_install']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/mapping_panel) by extension 'ignore'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/mapping_panel) by extension 'ignore_ament_install'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/mapping_panel) by extensions ['colcon_pkg']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/mapping_panel) by extension 'colcon_pkg'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/mapping_panel) by extensions ['colcon_meta']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/mapping_panel) by extension 'colcon_meta'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/mapping_panel) by extensions ['ros']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/mapping_panel) by extension 'ros'
+[2.002s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_rviz_tools/mapping_panel' with type 'ros.ament_cmake' and name 'mapping_panel'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_editor_panel) by extensions ['ignore', 'ignore_ament_install']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_editor_panel) by extension 'ignore'
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_editor_panel) by extension 'ignore_ament_install'
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_editor_panel) by extensions ['colcon_pkg']
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_editor_panel) by extension 'colcon_pkg'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_editor_panel) by extensions ['colcon_meta']
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_editor_panel) by extension 'colcon_meta'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_editor_panel) by extensions ['ros']
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_editor_panel) by extension 'ros'
+[2.012s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_rviz_tools/pose_graph_editor_panel' with type 'ros.ament_cmake' and name 'pose_graph_editor_panel'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_merge_editor_panel) by extensions ['ignore', 'ignore_ament_install']
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_merge_editor_panel) by extension 'ignore'
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_merge_editor_panel) by extension 'ignore_ament_install'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_merge_editor_panel) by extensions ['colcon_pkg']
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_merge_editor_panel) by extension 'colcon_pkg'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_merge_editor_panel) by extensions ['colcon_meta']
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_merge_editor_panel) by extension 'colcon_meta'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_merge_editor_panel) by extensions ['ros']
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_rviz_tools/pose_graph_merge_editor_panel) by extension 'ros'
+[2.021s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_rviz_tools/pose_graph_merge_editor_panel' with type 'ros.ament_cmake' and name 'pose_graph_merge_editor_panel'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_semantic_segmentation) by extensions ['ignore', 'ignore_ament_install']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_semantic_segmentation) by extension 'ignore'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_semantic_segmentation) by extension 'ignore_ament_install'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_semantic_segmentation) by extensions ['colcon_pkg']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_semantic_segmentation) by extension 'colcon_pkg'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_semantic_segmentation) by extensions ['colcon_meta']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_semantic_segmentation) by extension 'colcon_meta'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_semantic_segmentation) by extensions ['ros']
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_semantic_segmentation) by extension 'ros'
+[2.033s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_semantic_segmentation' with type 'ros.ament_cmake' and name 'dddmr_semantic_segmentation'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_sys_core) by extensions ['ignore', 'ignore_ament_install']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_sys_core) by extension 'ignore'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_sys_core) by extension 'ignore_ament_install'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_sys_core) by extensions ['colcon_pkg']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_sys_core) by extension 'colcon_pkg'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_sys_core) by extensions ['colcon_meta']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_sys_core) by extension 'colcon_meta'
+[2.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_sys_core) by extensions ['ros']
+[2.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_sys_core) by extension 'ros'
+[2.046s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_sys_core' with type 'ros.ament_cmake' and name 'dddmr_sys_core'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_trt) by extensions ['ignore', 'ignore_ament_install']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_trt) by extension 'ignore'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_trt) by extension 'ignore_ament_install'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_trt) by extensions ['colcon_pkg']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_trt) by extension 'colcon_pkg'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_trt) by extensions ['colcon_meta']
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_trt) by extension 'colcon_meta'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_trt) by extensions ['ros']
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/dddmr_trt) by extension 'ros'
+[2.060s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dddmr_trt' with type 'ros.ament_cmake' and name 'dddmr_trt'
+[2.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.286s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'base_trajectory' in 'src/dddmr_local_planner/base_trajectory'
+[2.287s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cloud_msgs' in 'src/dddmr_lego_loam/cloud_msgs'
+[2.287s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dddmr_fastlio_adapter' in 'src/dddmr_fastlio_adapter'
+[2.287s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dddmr_odom_3d' in 'src/dddmr_odom_3d'
+[2.288s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dddmr_rviz_default_plugins' in 'src/dddmr_rviz_tools/dddmr_rviz_default_plugins'
+[2.288s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dddmr_semantic_segmentation' in 'src/dddmr_semantic_segmentation'
+[2.288s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dddmr_sys_core' in 'src/dddmr_sys_core'
+[2.288s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dddmr_trt' in 'src/dddmr_trt'
+[2.288s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fast_lio' in 'src/FAST_LIO'
+[2.289s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'map_editor_panel' in 'src/dddmr_rviz_tools/map_editor_panel'
+[2.289s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mapping_panel' in 'src/dddmr_rviz_tools/mapping_panel'
+[2.289s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'perception_3d' in 'src/dddmr_perception_3d'
+[2.289s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pose_graph_editor_panel' in 'src/dddmr_rviz_tools/pose_graph_editor_panel'
+[2.289s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pose_graph_merge_editor_panel' in 'src/dddmr_rviz_tools/pose_graph_merge_editor_panel'
+[2.289s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'global_planner' in 'src/dddmr_global_planner'
+[2.289s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lego_loam_bor' in 'src/dddmr_lego_loam/lego_loam_bor'
+[2.289s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mcl_3dl' in 'src/dddmr_mcl_3dl'
+[2.289s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mpc_critics' in 'src/dddmr_local_planner/mpc_critics'
+[2.290s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'trajectory_generators' in 'src/dddmr_local_planner/trajectory_generators'
+[2.290s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'local_planner' in 'src/dddmr_local_planner/local_planner'
+[2.290s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'recovery_behaviors' in 'src/dddmr_local_planner/recovery_behaviors'
+[2.290s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'p2p_move_base' in 'src/dddmr_p2p_move_base'
+[2.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.311s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 23 installed packages in /root/dddmr_navigation/install
+[2.313s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /root/livox_ws/install
+[2.321s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[2.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'dddmr_beginner_guide' build argument 'cmake_args' from command line to 'None'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'dddmr_beginner_guide' build argument 'cmake_target' from command line to 'None'
+[2.620s] Level 5:colcon.colcon_core.verb:set package 'dddmr_beginner_guide' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.620s] Level 5:colcon.colcon_core.verb:set package 'dddmr_beginner_guide' build argument 'cmake_clean_cache' from command line to 'False'
+[2.620s] Level 5:colcon.colcon_core.verb:set package 'dddmr_beginner_guide' build argument 'cmake_clean_first' from command line to 'False'
+[2.620s] Level 5:colcon.colcon_core.verb:set package 'dddmr_beginner_guide' build argument 'cmake_force_configure' from command line to 'False'
+[2.620s] Level 5:colcon.colcon_core.verb:set package 'dddmr_beginner_guide' build argument 'ament_cmake_args' from command line to 'None'
+[2.620s] Level 5:colcon.colcon_core.verb:set package 'dddmr_beginner_guide' build argument 'catkin_cmake_args' from command line to 'None'
+[2.621s] Level 5:colcon.colcon_core.verb:set package 'dddmr_beginner_guide' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.621s] DEBUG:colcon.colcon_core.verb:Building package 'dddmr_beginner_guide' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dddmr_navigation/build/dddmr_beginner_guide', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dddmr_navigation/install/dddmr_beginner_guide', 'merge_install': False, 'path': '/root/dddmr_navigation/src/dddmr_beginner_guide', 'symlink_install': False, 'test_result_base': None}
+[2.622s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.627s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.628s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/dddmr_navigation/src/dddmr_beginner_guide' with build type 'ament_cmake'
+[2.629s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/dddmr_navigation/src/dddmr_beginner_guide'
+[2.644s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dddmr_navigation/build/dddmr_beginner_guide': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_beginner_guide -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_beginner_guide
+[7.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dddmr_navigation/build/dddmr_beginner_guide' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_beginner_guide -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_beginner_guide
+[7.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dddmr_navigation/build/dddmr_beginner_guide': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_beginner_guide -- -j28 -l28
+[7.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dddmr_navigation/build/dddmr_beginner_guide' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_beginner_guide -- -j28 -l28
+[7.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dddmr_navigation/build/dddmr_beginner_guide': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_beginner_guide
+[7.816s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dddmr_beginner_guide)
+[7.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dddmr_navigation/build/dddmr_beginner_guide' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_beginner_guide
+[7.832s] Level 1:colcon.colcon_core.environment:checking '/root/dddmr_navigation/install/dddmr_beginner_guide' for CMake module files
+[7.835s] Level 1:colcon.colcon_core.environment:checking '/root/dddmr_navigation/install/dddmr_beginner_guide' for CMake config files
+[7.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('dddmr_beginner_guide', 'cmake_prefix_path')
+[7.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/hook/cmake_prefix_path.ps1'
+[7.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/hook/cmake_prefix_path.dsv'
+[7.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/hook/cmake_prefix_path.sh'
+[7.848s] Level 1:colcon.colcon_core.environment:checking '/root/dddmr_navigation/install/dddmr_beginner_guide/bin'
+[7.849s] Level 1:colcon.colcon_core.environment:checking '/root/dddmr_navigation/install/dddmr_beginner_guide/lib/pkgconfig/dddmr_beginner_guide.pc'
+[7.850s] Level 1:colcon.colcon_core.environment:checking '/root/dddmr_navigation/install/dddmr_beginner_guide/lib/python3.10/site-packages'
+[7.852s] Level 1:colcon.colcon_core.environment:checking '/root/dddmr_navigation/install/dddmr_beginner_guide/bin'
+[7.854s] INFO:colcon.colcon_core.shell:Creating package script '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/package.ps1'
+[7.860s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/package.dsv'
+[7.863s] INFO:colcon.colcon_core.shell:Creating package script '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/package.sh'
+[7.868s] INFO:colcon.colcon_core.shell:Creating package script '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/package.bash'
+[7.873s] INFO:colcon.colcon_core.shell:Creating package script '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/package.zsh'
+[7.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dddmr_navigation/install/dddmr_beginner_guide/share/colcon-core/packages/dddmr_beginner_guide)
+[7.880s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dddmr_beginner_guide)
+[7.881s] Level 1:colcon.colcon_core.environment:checking '/root/dddmr_navigation/install/dddmr_beginner_guide' for CMake module files
+[7.883s] Level 1:colcon.colcon_core.environment:checking '/root/dddmr_navigation/install/dddmr_beginner_guide' for CMake config files
+[7.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('dddmr_beginner_guide', 'cmake_prefix_path')
+[7.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/hook/cmake_prefix_path.ps1'
+[7.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/hook/cmake_prefix_path.dsv'
+[7.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/hook/cmake_prefix_path.sh'
+[7.894s] Level 1:colcon.colcon_core.environment:checking '/root/dddmr_navigation/install/dddmr_beginner_guide/bin'
+[7.895s] Level 1:colcon.colcon_core.environment:checking '/root/dddmr_navigation/install/dddmr_beginner_guide/lib/pkgconfig/dddmr_beginner_guide.pc'
+[7.896s] Level 1:colcon.colcon_core.environment:checking '/root/dddmr_navigation/install/dddmr_beginner_guide/lib/python3.10/site-packages'
+[7.898s] Level 1:colcon.colcon_core.environment:checking '/root/dddmr_navigation/install/dddmr_beginner_guide/bin'
+[7.900s] INFO:colcon.colcon_core.shell:Creating package script '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/package.ps1'
+[7.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/package.dsv'
+[7.906s] INFO:colcon.colcon_core.shell:Creating package script '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/package.sh'
+[7.908s] INFO:colcon.colcon_core.shell:Creating package script '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/package.bash'
+[7.911s] INFO:colcon.colcon_core.shell:Creating package script '/root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/package.zsh'
+[7.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dddmr_navigation/install/dddmr_beginner_guide/share/colcon-core/packages/dddmr_beginner_guide)
+[7.914s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.915s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.915s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.915s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.948s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.949s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.949s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.949s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.960s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[7.962s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.966s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dddmr_navigation/install/local_setup.ps1'
+[7.975s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/dddmr_navigation/install/_local_setup_util_ps1.py'
+[7.985s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dddmr_navigation/install/setup.ps1'
+[8.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dddmr_navigation/install/local_setup.sh'
+[8.004s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/dddmr_navigation/install/_local_setup_util_sh.py'
+[8.007s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dddmr_navigation/install/setup.sh'
+[8.016s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dddmr_navigation/install/local_setup.bash'
+[8.019s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dddmr_navigation/install/setup.bash'
+[8.029s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dddmr_navigation/install/local_setup.zsh'
+[8.031s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dddmr_navigation/install/setup.zsh'

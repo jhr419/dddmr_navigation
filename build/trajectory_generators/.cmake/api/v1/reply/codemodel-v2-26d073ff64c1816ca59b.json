@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1433ebabd6be93127adf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "trajectory_generators",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "stacked_generator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stacked_generator-e7a451ad1dbba36282e5.json",
+					"name" : "stacked_generator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "theories::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-theories-9f8b0f00da664cabccee.json",
+					"name" : "theories",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_generator_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_generator_ros-ab467097fbf8330a68ff.json",
+					"name" : "trajectory_generator_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_generator_theory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_generator_theory-fb622571bdbeebeb5d64.json",
+					"name" : "trajectory_generator_theory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_generators_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_generators_node-430e28b42545f4fbabd0.json",
+					"name" : "trajectory_generators_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_generators_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_generators_uninstall-e777f328155a36d432dc.json",
+					"name" : "trajectory_generators_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b86afe88e0ba99e0052c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/dddmr_navigation/build/trajectory_generators",
+		"source" : "/root/dddmr_navigation/src/dddmr_local_planner/trajectory_generators"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

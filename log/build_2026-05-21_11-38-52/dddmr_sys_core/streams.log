@@ -1,0 +1,262 @@
+[0.037s] Invoking command in '/root/dddmr_navigation/build/dddmr_sys_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_sys_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sys_core
+[0.070s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.168s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.176s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.196s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.198s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.204s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.220s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.256s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.257s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.381s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.427s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.455s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.474s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.503s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.520s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.531s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.100s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.938s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.961s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.985s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.985s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.985s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.210s] -- Configuring done
+[2.281s] -- Generating done
+[2.298s] -- Build files have been written to: /root/dddmr_navigation/build/dddmr_sys_core
+[2.310s] Invoked command in '/root/dddmr_navigation/build/dddmr_sys_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_sys_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sys_core
+[2.312s] Invoking command in '/root/dddmr_navigation/build/dddmr_sys_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_sys_core -- -j28 -l28
+[2.362s] [35m[1mConsolidate compiler generated dependencies of target dddmr_sys_core__rosidl_generator_c[0m
+[2.371s] [  1%] Built target dddmr_sys_core__cpp
+[2.375s] [  3%] Built target dddmr_sys_core__rs
+[2.376s] [ 13%] Built target dddmr_sys_core__rosidl_generator_c
+[2.379s] [ 13%] Built target ament_cmake_python_symlink_dddmr_sys_core
+[2.382s] [35m[1mConsolidate compiler generated dependencies of target dddmr_sys_core__rosidl_typesupport_fastrtps_cpp[0m
+[2.385s] [35m[1mConsolidate compiler generated dependencies of target dddmr_sys_core__rosidl_typesupport_introspection_cpp[0m
+[2.389s] [35m[1mConsolidate compiler generated dependencies of target dddmr_sys_core__rosidl_typesupport_fastrtps_c[0m
+[2.389s] [35m[1mConsolidate compiler generated dependencies of target dddmr_sys_core__rosidl_typesupport_cpp[0m
+[2.389s] [35m[1mConsolidate compiler generated dependencies of target dddmr_sys_core__rosidl_typesupport_introspection_c[0m
+[2.392s] [35m[1mConsolidate compiler generated dependencies of target dddmr_sys_core__rosidl_typesupport_c[0m
+[2.402s] [ 24%] Built target dddmr_sys_core__rosidl_typesupport_fastrtps_cpp
+[2.405s] [ 34%] Built target dddmr_sys_core__rosidl_typesupport_introspection_cpp
+[2.406s] [ 45%] Built target dddmr_sys_core__rosidl_typesupport_introspection_c
+[2.406s] [ 56%] Built target dddmr_sys_core__rosidl_typesupport_cpp
+[2.409s] [ 66%] Built target dddmr_sys_core__rosidl_typesupport_fastrtps_c
+[2.409s] [ 77%] Built target dddmr_sys_core__rosidl_typesupport_c
+[2.416s] [35m[1mConsolidate compiler generated dependencies of target dddmr_sys_core_enum[0m
+[2.429s] [ 77%] Built target dddmr_sys_core
+[2.434s] [ 80%] Built target dddmr_sys_core_enum
+[2.453s] [ 81%] Built target dddmr_sys_core__py
+[2.464s] [35m[1mConsolidate compiler generated dependencies of target dddmr_sys_core__rosidl_generator_py[0m
+[2.480s] [ 90%] Built target dddmr_sys_core__rosidl_generator_py
+[2.490s] [35m[1mConsolidate compiler generated dependencies of target dddmr_sys_core__rosidl_typesupport_introspection_c__pyext[0m
+[2.491s] [35m[1mConsolidate compiler generated dependencies of target dddmr_sys_core__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.495s] [35m[1mConsolidate compiler generated dependencies of target dddmr_sys_core__rosidl_typesupport_c__pyext[0m
+[2.503s] [ 93%] Built target dddmr_sys_core__rosidl_typesupport_fastrtps_c__pyext
+[2.504s] [ 96%] Built target dddmr_sys_core__rosidl_typesupport_introspection_c__pyext
+[2.511s] [100%] Built target dddmr_sys_core__rosidl_typesupport_c__pyext
+[2.625s] running egg_info
+[2.625s] writing dddmr_sys_core.egg-info/PKG-INFO
+[2.625s] writing dependency_links to dddmr_sys_core.egg-info/dependency_links.txt
+[2.625s] writing top-level names to dddmr_sys_core.egg-info/top_level.txt
+[2.627s] reading manifest file 'dddmr_sys_core.egg-info/SOURCES.txt'
+[2.628s] writing manifest file 'dddmr_sys_core.egg-info/SOURCES.txt'
+[2.650s] [100%] Built target ament_cmake_python_build_dddmr_sys_core_egg
+[2.662s] Invoked command in '/root/dddmr_navigation/build/dddmr_sys_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_sys_core -- -j28 -l28
+[2.664s] Invoking command in '/root/dddmr_navigation/build/dddmr_sys_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_sys_core
+[2.671s] -- Install configuration: "Release"
+[2.672s] -- Execute custom install script
+[2.672s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/ament_index/resource_index/rosidl_interfaces/dddmr_sys_core
+[2.680s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/get_plan__functions.h
+[2.687s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/get_plan__struct.h
+[2.696s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/get_plan__type_support.h
+[2.703s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/p_to_p_move_base__functions.h
+[2.711s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/p_to_p_move_base__struct.h
+[2.720s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/p_to_p_move_base__type_support.h
+[2.727s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/recovery_behaviors__functions.h
+[2.736s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/recovery_behaviors__struct.h
+[2.746s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/recovery_behaviors__type_support.h
+[2.757s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/tag_docking__functions.h
+[2.764s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/tag_docking__struct.h
+[2.771s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/tag_docking__type_support.h
+[2.778s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/get_plan.h
+[2.787s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/p_to_p_move_base.h
+[2.794s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/recovery_behaviors.h
+[2.801s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/tag_docking.h
+[2.808s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/msg/rosidl_generator_c__visibility_control.h
+[2.815s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/srv/detail/get_key_frame_cloud__functions.h
+[2.823s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/srv/detail/get_key_frame_cloud__struct.h
+[2.830s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/srv/detail/get_key_frame_cloud__type_support.h
+[2.839s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/srv/get_key_frame_cloud.h
+[2.846s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/environment/library_path.sh
+[2.854s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/environment/library_path.dsv
+[2.862s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/get_plan__rosidl_typesupport_fastrtps_c.h
+[2.870s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/p_to_p_move_base__rosidl_typesupport_fastrtps_c.h
+[2.878s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/recovery_behaviors__rosidl_typesupport_fastrtps_c.h
+[2.886s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/tag_docking__rosidl_typesupport_fastrtps_c.h
+[2.895s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.902s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/srv/detail/get_key_frame_cloud__rosidl_typesupport_fastrtps_c.h
+[2.910s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/get_plan__builder.hpp
+[2.920s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/get_plan__struct.hpp
+[2.926s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/get_plan__traits.hpp
+[2.936s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/get_plan__type_support.hpp
+[2.946s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/p_to_p_move_base__builder.hpp
+[2.953s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/p_to_p_move_base__struct.hpp
+[2.962s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/p_to_p_move_base__traits.hpp
+[2.969s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/p_to_p_move_base__type_support.hpp
+[2.976s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/recovery_behaviors__builder.hpp
+[2.985s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/recovery_behaviors__struct.hpp
+[2.992s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/recovery_behaviors__traits.hpp
+[3.000s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/recovery_behaviors__type_support.hpp
+[3.009s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/tag_docking__builder.hpp
+[3.017s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/tag_docking__struct.hpp
+[3.025s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/tag_docking__traits.hpp
+[3.034s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/tag_docking__type_support.hpp
+[3.043s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/get_plan.hpp
+[3.050s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/p_to_p_move_base.hpp
+[3.058s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/recovery_behaviors.hpp
+[3.067s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/tag_docking.hpp
+[3.079s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.087s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/srv/detail/get_key_frame_cloud__builder.hpp
+[3.095s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/srv/detail/get_key_frame_cloud__struct.hpp
+[3.102s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/srv/detail/get_key_frame_cloud__traits.hpp
+[3.110s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/srv/detail/get_key_frame_cloud__type_support.hpp
+[3.118s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/srv/get_key_frame_cloud.hpp
+[3.126s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[3.135s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/p_to_p_move_base__rosidl_typesupport_fastrtps_cpp.hpp
+[3.145s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/recovery_behaviors__rosidl_typesupport_fastrtps_cpp.hpp
+[3.152s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/tag_docking__rosidl_typesupport_fastrtps_cpp.hpp
+[3.162s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.174s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/srv/detail/get_key_frame_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[3.181s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/get_plan__rosidl_typesupport_introspection_c.h
+[3.189s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/p_to_p_move_base__rosidl_typesupport_introspection_c.h
+[3.197s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/recovery_behaviors__rosidl_typesupport_introspection_c.h
+[3.207s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/tag_docking__rosidl_typesupport_introspection_c.h
+[3.214s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.221s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/srv/detail/get_key_frame_cloud__rosidl_typesupport_introspection_c.h
+[3.235s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp
+[3.244s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/p_to_p_move_base__rosidl_typesupport_introspection_cpp.hpp
+[3.253s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/recovery_behaviors__rosidl_typesupport_introspection_cpp.hpp
+[3.262s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/action/detail/tag_docking__rosidl_typesupport_introspection_cpp.hpp
+[3.270s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include/dddmr_sys_core/dddmr_sys_core/srv/detail/get_key_frame_cloud__rosidl_typesupport_introspection_cpp.hpp
+[3.279s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/environment/pythonpath.sh
+[3.290s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/environment/pythonpath.dsv
+[3.301s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core-1.0.0-py3.10.egg-info/PKG-INFO
+[3.309s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core-1.0.0-py3.10.egg-info/SOURCES.txt
+[3.318s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core-1.0.0-py3.10.egg-info/dependency_links.txt
+[3.327s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core-1.0.0-py3.10.egg-info/top_level.txt
+[3.336s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/__init__.py
+[3.347s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/_dddmr_sys_core_s.ep.rosidl_typesupport_c.c
+[3.360s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/_dddmr_sys_core_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.368s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/_dddmr_sys_core_s.ep.rosidl_typesupport_introspection_c.c
+[3.379s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action/__init__.py
+[3.387s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action/_get_plan.py
+[3.395s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action/_get_plan_s.c
+[3.404s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action/_p_to_p_move_base.py
+[3.414s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action/_p_to_p_move_base_s.c
+[3.425s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action/_recovery_behaviors.py
+[3.435s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action/_recovery_behaviors_s.c
+[3.442s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action/_tag_docking.py
+[3.451s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action/_tag_docking_s.c
+[3.458s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/dddmr_sys_core_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.466s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/dddmr_sys_core_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.475s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/dddmr_sys_core_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.482s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/libdddmr_sys_core__rosidl_generator_py.so
+[3.495s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/srv/__init__.py
+[3.505s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/srv/_get_key_frame_cloud.py
+[3.516s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/srv/_get_key_frame_cloud_s.c
+[3.528s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/dddmr_sys_core_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.528s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/dddmr_sys_core_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.528s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/dddmr_sys_core_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.528s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/ament_index/resource_index/rust_packages/dddmr_sys_core
+[3.539s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/rust/Cargo.toml
+[3.551s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/rust/build.rs
+[3.560s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/rust/src/action.rs
+[3.571s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/rust/src/action/rmw.rs
+[3.579s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/rust/src/lib.rs
+[3.590s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/rust/src/srv.rs
+[3.599s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/rust/src/srv/rmw.rs
+[3.608s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/action/PToPMoveBase.idl
+[3.619s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/action/GetPlan.idl
+[3.628s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/action/RecoveryBehaviors.idl
+[3.640s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/action/TagDocking.idl
+[3.649s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/srv/GetKeyFrameCloud.idl
+[3.661s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/action/PToPMoveBase.action
+[3.669s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/action/GetPlan.action
+[3.680s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/action/RecoveryBehaviors.action
+[3.692s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/action/TagDocking.action
+[3.702s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/srv/GetKeyFrameCloud.srv
+[3.711s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/srv/GetKeyFrameCloud_Request.msg
+[3.721s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/srv/GetKeyFrameCloud_Response.msg
+[3.729s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core_enum.so
+[3.740s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include//dddmr_sys_core/base_p2p_local_planner.h
+[3.748s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/include//dddmr_sys_core/dddmr_enum_states.h
+[3.760s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/ament_index/resource_index/package_run_dependencies/dddmr_sys_core
+[3.772s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/ament_index/resource_index/parent_prefix_path/dddmr_sys_core
+[3.785s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/environment/ament_prefix_path.sh
+[3.796s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/environment/ament_prefix_path.dsv
+[3.804s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/environment/path.sh
+[3.812s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/environment/path.dsv
+[3.821s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/local_setup.bash
+[3.833s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/local_setup.sh
+[3.842s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/local_setup.zsh
+[3.850s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/local_setup.dsv
+[3.859s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/package.dsv
+[3.867s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/ament_index/resource_index/packages/dddmr_sys_core
+[3.875s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/rosidl_cmake-extras.cmake
+[3.884s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.893s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.901s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/ament_cmake_export_libraries-extras.cmake
+[3.912s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/ament_cmake_export_targets-extras.cmake
+[3.920s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.929s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.941s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/dddmr_sys_coreConfig.cmake
+[3.948s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/dddmr_sys_coreConfig-version.cmake
+[3.958s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/package.xml
+[3.966s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_generator_c.so
+[3.966s] -- Set runtime path of "/root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_generator_c.so" to ""
+[3.967s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_typesupport_fastrtps_c.so
+[3.967s] -- Set runtime path of "/root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_typesupport_fastrtps_c.so" to ""
+[3.967s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_typesupport_fastrtps_cpp.so
+[3.967s] -- Set runtime path of "/root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.967s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_typesupport_introspection_c.so
+[3.968s] -- Set runtime path of "/root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_typesupport_introspection_c.so" to ""
+[3.968s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_typesupport_c.so
+[3.968s] -- Set runtime path of "/root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_typesupport_c.so" to ""
+[3.969s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_typesupport_introspection_cpp.so
+[3.970s] -- Set runtime path of "/root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_typesupport_introspection_cpp.so" to ""
+[3.970s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_typesupport_cpp.so
+[3.970s] -- Set runtime path of "/root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_typesupport_cpp.so" to ""
+[4.041s] Listing '/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core'...
+[4.041s] Compiling '/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/__init__.py'...
+[4.041s] Listing '/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action'...
+[4.041s] Compiling '/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action/__init__.py'...
+[4.041s] Compiling '/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action/_get_plan.py'...
+[4.041s] Compiling '/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action/_p_to_p_move_base.py'...
+[4.042s] Compiling '/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action/_recovery_behaviors.py'...
+[4.042s] Compiling '/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/action/_tag_docking.py'...
+[4.042s] Listing '/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/srv'...
+[4.042s] Compiling '/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/srv/__init__.py'...
+[4.042s] Compiling '/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages/dddmr_sys_core/srv/_get_key_frame_cloud.py'...
+[4.048s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_generator_py.so
+[4.048s] -- Set runtime path of "/root/dddmr_navigation/install/dddmr_sys_core/lib/libdddmr_sys_core__rosidl_generator_py.so" to ""
+[4.049s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/export_dddmr_sys_core__rosidl_generator_cExport.cmake
+[4.049s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/export_dddmr_sys_core__rosidl_generator_cExport-release.cmake
+[4.049s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/export_dddmr_sys_core__rosidl_typesupport_fastrtps_cExport.cmake
+[4.049s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/export_dddmr_sys_core__rosidl_typesupport_fastrtps_cExport-release.cmake
+[4.049s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/export_dddmr_sys_core__rosidl_generator_cppExport.cmake
+[4.050s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/export_dddmr_sys_core__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.050s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/export_dddmr_sys_core__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[4.050s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/dddmr_sys_core__rosidl_typesupport_introspection_cExport.cmake
+[4.050s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/dddmr_sys_core__rosidl_typesupport_introspection_cExport-release.cmake
+[4.050s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/dddmr_sys_core__rosidl_typesupport_cExport.cmake
+[4.050s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/dddmr_sys_core__rosidl_typesupport_cExport-release.cmake
+[4.050s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/dddmr_sys_core__rosidl_typesupport_introspection_cppExport.cmake
+[4.050s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/dddmr_sys_core__rosidl_typesupport_introspection_cppExport-release.cmake
+[4.051s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/dddmr_sys_core__rosidl_typesupport_cppExport.cmake
+[4.051s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/dddmr_sys_core__rosidl_typesupport_cppExport-release.cmake
+[4.051s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/export_dddmr_sys_core__rosidl_generator_pyExport.cmake
+[4.051s] -- Installing: /root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake/export_dddmr_sys_core__rosidl_generator_pyExport-release.cmake
+[4.053s] Invoked command in '/root/dddmr_navigation/build/dddmr_sys_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_sys_core

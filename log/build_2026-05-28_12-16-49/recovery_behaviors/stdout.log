@@ -1,0 +1,57 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_behavior[0m
+[ 10%] [32m[1mLinking CXX shared library librobot_behavior.so[0m
+[ 20%] Built target robot_behavior
+[35m[1mConsolidate compiler generated dependencies of target stacked_robot_behavior[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/stacked_robot_behavior.dir/src/stacked_robot_behavior.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libstacked_robot_behavior.so[0m
+[ 40%] Built target stacked_robot_behavior
+[35m[1mConsolidate compiler generated dependencies of target recovery_behaviors_ros[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/recovery_behaviors_ros.dir/src/recovery_behaviors_ros.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library librecovery_behaviors_ros.so[0m
+[ 60%] Built target recovery_behaviors_ros
+[35m[1mConsolidate compiler generated dependencies of target behaviors[0m
+[35m[1mConsolidate compiler generated dependencies of target recovery_behaviors_node[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/behaviors.dir/behaviors/rotate_inplace_behavior.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/recovery_behaviors_node.dir/src/recovery_behaviors_node.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable recovery_behaviors_node[0m
+[ 90%] Built target recovery_behaviors_node
+[100%] [32m[1mLinking CXX shared library libbehaviors.so[0m
+[100%] Built target behaviors
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/librobot_behavior.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/libstacked_robot_behavior.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/librecovery_behaviors_ros.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/libbehaviors.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/recovery_behaviors/recovery_behaviors_node
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/recovery_behaviors_ros.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/recovery_behaviors_shared_data.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/robot_behavior.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/rotate_inplace_behavior.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/stacked_robot_behavior.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors//launch/recovery_behaviors.launch
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors//config/recovery_behaviors.yaml
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/recovery_behaviors/example_client.py
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/recovery_behaviors.xml
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/library_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/library_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors//recovery_behaviors.xml
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/ament_index/resource_index/package_run_dependencies/recovery_behaviors
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/ament_index/resource_index/parent_prefix_path/recovery_behaviors
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/local_setup.bash
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/local_setup.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/local_setup.zsh
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/local_setup.dsv
+-- Symlinking: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/package.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/ament_index/resource_index/packages/recovery_behaviors
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/ament_index/resource_index/recovery_behaviors__pluginlib__plugin/recovery_behaviors
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/recovery_behaviorsConfig.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/recovery_behaviorsConfig-version.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/package.xml

@@ -1,0 +1,5 @@
+[0.031s] Invoking command in '/root/dddmr_navigation/build/dddmr_semantic_segmentation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_semantic_segmentation -- -j28 -l28
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/semantic_segmentation2point_cloud.dir/src/semantic_segmentation2point_cloud.cpp.o[0m
+[25.779s] gmake[2]: *** [CMakeFiles/semantic_segmentation2point_cloud.dir/build.make:76: CMakeFiles/semantic_segmentation2point_cloud.dir/src/semantic_segmentation2point_cloud.cpp.o] Interrupt
+[25.780s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/semantic_segmentation2point_cloud.dir/all] Interrupt
+[25.780s] gmake: *** [Makefile:146: all] Interrupt

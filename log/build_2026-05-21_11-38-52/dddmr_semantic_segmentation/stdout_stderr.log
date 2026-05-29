@@ -1,0 +1,88 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Pcap: /usr/lib/x86_64-linux-gnu/libpcap.so  
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[33mCMake Warning (dev) at CMakeLists.txt:26 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/dddmr_navigation/build/dddmr_semantic_segmentation
+[ 50%] [32mBuilding CXX object CMakeFiles/semantic_segmentation2point_cloud.dir/src/semantic_segmentation2point_cloud.cpp.o[0m
+[100%] [32m[1mLinking CXX executable semantic_segmentation2point_cloud[0m
+[100%] Built target semantic_segmentation2point_cloud
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/lib/dddmr_semantic_segmentation/semantic_segmentation2point_cloud
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//launch/bag_exclude_ss_trt_launch.py
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//launch/bag_semantic_segmentaton_trt_launch.py
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//launch/rs_semantic_segmentaton_trt_launch.py
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//model/ddrnet_23_slim_dualresnet_citys_best_model_424x848.onnx
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//data/colors_mapillary.csv
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//data/colors_mapillary_person_and_sidewalk.csv
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//data/people.png
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//scripts/ddrnet_image_test.py
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//scripts/ddrnet_ros_img_sub.py
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//scripts/perspective_transform.py
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//scripts/trt_interface.py
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//rviz/bag_semantic_segmentation_launch.rviz
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//rviz/rs_semantic_segmentation_launch.rviz
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/lib/dddmr_semantic_segmentation/ddrnet_ros_img_sub.py
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/ament_index/resource_index/package_run_dependencies/dddmr_semantic_segmentation
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/ament_index/resource_index/parent_prefix_path/dddmr_semantic_segmentation
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/environment/ament_prefix_path.sh
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/environment/ament_prefix_path.dsv
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/environment/path.sh
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/environment/path.dsv
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/local_setup.bash
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/local_setup.sh
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/local_setup.zsh
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/local_setup.dsv
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/package.dsv
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/ament_index/resource_index/packages/dddmr_semantic_segmentation
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/cmake/dddmr_semantic_segmentationConfig.cmake
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/cmake/dddmr_semantic_segmentationConfig-version.cmake
+-- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/package.xml

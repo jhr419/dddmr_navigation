@@ -1,0 +1,4 @@
+source;share/map_editor_panel/local_setup.bash
+source;share/map_editor_panel/local_setup.dsv
+source;share/map_editor_panel/local_setup.sh
+source;share/map_editor_panel/local_setup.zsh

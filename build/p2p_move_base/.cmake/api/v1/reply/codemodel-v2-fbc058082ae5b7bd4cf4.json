@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1d5d448e383e8f869bf8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "p2p_move_base",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "p2p_fsm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p2p_fsm-fd0216d5ab40ca419a93.json",
+					"name" : "p2p_fsm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p2p_global_plan_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p2p_global_plan_manager-62d428c640a3611f1b51.json",
+					"name" : "p2p_global_plan_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p2p_mov2_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p2p_mov2_base-56ac1bb46b484a40a722.json",
+					"name" : "p2p_mov2_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p2p_move_base_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p2p_move_base_node-6d0f60a854d27e397da6.json",
+					"name" : "p2p_move_base_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p2p_move_base_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p2p_move_base_uninstall-8a403eb0c0e69a47c421.json",
+					"name" : "p2p_move_base_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-69752ef5afeb9c65ae5c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/dddmr_navigation/build/p2p_move_base",
+		"source" : "/root/dddmr_navigation/src/dddmr_p2p_move_base"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

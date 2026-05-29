@@ -1,0 +1,93 @@
+[0.050s] Invoking command in '/root/dddmr_navigation/build/dddmr_sys_core': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_sys_core -- -j28 -l28
+[0.087s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.095s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[0.099s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.110s] [  4%] Built target ament_cmake_python_symlink_dddmr_sys_core
+[0.647s] running egg_info
+[0.655s] creating dddmr_sys_core.egg-info
+[0.655s] writing dddmr_sys_core.egg-info/PKG-INFO
+[0.655s] writing dependency_links to dddmr_sys_core.egg-info/dependency_links.txt
+[0.655s] writing top-level names to dddmr_sys_core.egg-info/top_level.txt
+[0.655s] writing manifest file 'dddmr_sys_core.egg-info/SOURCES.txt'
+[0.659s] reading manifest file 'dddmr_sys_core.egg-info/SOURCES.txt'
+[0.660s] writing manifest file 'dddmr_sys_core.egg-info/SOURCES.txt'
+[0.728s] [  4%] Built target ament_cmake_python_build_dddmr_sys_core_egg
+[1.359s] [  4%] Built target dddmr_sys_core__rs
+[2.687s] [  4%] Built target dddmr_sys_core__cpp
+[2.721s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.724s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.724s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.839s] [ 10%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_generator_c.dir/rosidl_generator_c/dddmr_sys_core/action/detail/get_plan__functions.c.o[0m
+[2.842s] [ 12%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_generator_c.dir/rosidl_generator_c/dddmr_sys_core/action/detail/p_to_p_move_base__functions.c.o[0m
+[2.845s] [ 13%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_generator_c.dir/rosidl_generator_c/dddmr_sys_core/srv/detail/get_key_frame_cloud__functions.c.o[0m
+[2.851s] [ 15%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_generator_c.dir/rosidl_generator_c/dddmr_sys_core/action/detail/recovery_behaviors__functions.c.o[0m
+[2.854s] [ 16%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_generator_c.dir/rosidl_generator_c/dddmr_sys_core/action/detail/tag_docking__functions.c.o[0m
+[4.121s] [ 18%] [32m[1mLinking C shared library libdddmr_sys_core__rosidl_generator_c.so[0m
+[4.258s] [ 18%] Built target dddmr_sys_core__rosidl_generator_c
+[4.290s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.290s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.305s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.479s] [ 24%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dddmr_sys_core/action/recovery_behaviors__type_support.cpp.o[0m
+[4.486s] [ 25%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dddmr_sys_core/srv/get_key_frame_cloud__type_support.cpp.o[0m
+[4.487s] [ 27%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dddmr_sys_core/action/tag_docking__type_support.cpp.o[0m
+[4.492s] [ 28%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dddmr_sys_core/action/get_plan__type_support.cpp.o[0m
+[4.492s] [ 30%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dddmr_sys_core/action/p_to_p_move_base__type_support.cpp.o[0m
+[4.924s] [ 31%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dddmr_sys_core/action/detail/tag_docking__type_support.cpp.o[0m
+[4.924s] [ 33%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dddmr_sys_core/action/detail/recovery_behaviors__type_support.cpp.o[0m
+[4.924s] [ 34%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dddmr_sys_core/srv/detail/get_key_frame_cloud__type_support.cpp.o[0m
+[4.931s] [ 36%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dddmr_sys_core/action/detail/p_to_p_move_base__type_support.cpp.o[0m
+[4.931s] [ 37%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dddmr_sys_core/action/detail/get_plan__type_support.cpp.o[0m
+[6.388s] [ 39%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dddmr_sys_core/action/detail/dds_fastrtps/tag_docking__type_support.cpp.o[0m
+[6.391s] [ 40%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dddmr_sys_core/action/detail/dds_fastrtps/get_plan__type_support.cpp.o[0m
+[6.393s] [ 42%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dddmr_sys_core/action/detail/dds_fastrtps/recovery_behaviors__type_support.cpp.o[0m
+[6.394s] [ 43%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dddmr_sys_core/srv/detail/dds_fastrtps/get_key_frame_cloud__type_support.cpp.o[0m
+[6.409s] [ 45%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dddmr_sys_core/action/detail/dds_fastrtps/p_to_p_move_base__type_support.cpp.o[0m
+[6.734s] [ 46%] [32m[1mLinking CXX shared library libdddmr_sys_core__rosidl_typesupport_cpp.so[0m
+[6.863s] [ 46%] Built target dddmr_sys_core__rosidl_typesupport_cpp
+[6.921s] [ 48%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core_enum.dir/src/dddmr_enum_states.cpp.o[0m
+[7.253s] [ 50%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/dddmr_sys_core/action/get_plan__type_support.cpp.o[0m
+[7.255s] [ 51%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/dddmr_sys_core/action/recovery_behaviors__type_support.cpp.o[0m
+[7.258s] [ 53%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/dddmr_sys_core/action/tag_docking__type_support.cpp.o[0m
+[7.268s] [ 54%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/dddmr_sys_core/srv/get_key_frame_cloud__type_support.cpp.o[0m
+[7.268s] [ 56%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/dddmr_sys_core/action/p_to_p_move_base__type_support.cpp.o[0m
+[7.498s] [ 57%] [32m[1mLinking CXX shared library libdddmr_sys_core__rosidl_typesupport_introspection_cpp.so[0m
+[7.546s] [ 59%] [32m[1mLinking CXX shared library libdddmr_sys_core__rosidl_typesupport_c.so[0m
+[7.556s] [ 60%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dddmr_sys_core/action/detail/p_to_p_move_base__type_support_c.cpp.o[0m
+[7.568s] [ 63%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dddmr_sys_core/action/detail/tag_docking__type_support_c.cpp.o[0m
+[7.568s] [ 63%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dddmr_sys_core/action/detail/recovery_behaviors__type_support_c.cpp.o[0m
+[7.574s] [ 65%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dddmr_sys_core/action/detail/get_plan__type_support_c.cpp.o[0m
+[7.585s] [ 66%] [32mBuilding CXX object CMakeFiles/dddmr_sys_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dddmr_sys_core/srv/detail/get_key_frame_cloud__type_support_c.cpp.o[0m
+[7.718s] [ 66%] Built target dddmr_sys_core__rosidl_typesupport_c
+[7.792s] [ 66%] Built target dddmr_sys_core__rosidl_typesupport_introspection_cpp
+[8.322s] [ 68%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dddmr_sys_core/action/detail/p_to_p_move_base__type_support.c.o[0m
+[8.332s] [ 69%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dddmr_sys_core/action/detail/get_plan__type_support.c.o[0m
+[8.340s] [ 71%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dddmr_sys_core/action/detail/tag_docking__type_support.c.o[0m
+[8.355s] [ 74%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dddmr_sys_core/srv/detail/get_key_frame_cloud__type_support.c.o[0m
+[8.355s] [ 74%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dddmr_sys_core/action/detail/recovery_behaviors__type_support.c.o[0m
+[8.436s] [ 75%] [32m[1mLinking CXX shared library libdddmr_sys_core__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.589s] [ 77%] [32m[1mLinking C shared library libdddmr_sys_core__rosidl_typesupport_introspection_c.so[0m
+[8.674s] [ 77%] Built target dddmr_sys_core__rosidl_typesupport_introspection_c
+[8.684s] [ 77%] Built target dddmr_sys_core__rosidl_typesupport_fastrtps_cpp
+[8.807s] [ 78%] [32m[1mLinking CXX shared library libdddmr_sys_core__rosidl_typesupport_fastrtps_c.so[0m
+[8.937s] [ 78%] Built target dddmr_sys_core__rosidl_typesupport_fastrtps_c
+[8.972s] [ 78%] Built target dddmr_sys_core
+[9.036s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.216s] [ 81%] [32m[1mLinking CXX shared library libdddmr_sys_core_enum.so[0m
+[13.196s] [ 81%] Built target dddmr_sys_core_enum
+[13.520s] [ 81%] Built target dddmr_sys_core__py
+[13.545s] [ 83%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_generator_py.dir/rosidl_generator_py/dddmr_sys_core/action/_p_to_p_move_base_s.c.o[0m
+[13.553s] [ 84%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_generator_py.dir/rosidl_generator_py/dddmr_sys_core/action/_recovery_behaviors_s.c.o[0m
+[13.554s] [ 86%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_generator_py.dir/rosidl_generator_py/dddmr_sys_core/action/_tag_docking_s.c.o[0m
+[13.555s] [ 87%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_generator_py.dir/rosidl_generator_py/dddmr_sys_core/srv/_get_key_frame_cloud_s.c.o[0m
+[13.556s] [ 89%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_generator_py.dir/rosidl_generator_py/dddmr_sys_core/action/_get_plan_s.c.o[0m
+[14.150s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/dddmr_sys_core/libdddmr_sys_core__rosidl_generator_py.so[0m
+[14.229s] [ 90%] Built target dddmr_sys_core__rosidl_generator_py
+[14.256s] [ 92%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dddmr_sys_core/_dddmr_sys_core_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.266s] [ 93%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dddmr_sys_core/_dddmr_sys_core_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.278s] [ 95%] [32mBuilding C object CMakeFiles/dddmr_sys_core__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dddmr_sys_core/_dddmr_sys_core_s.ep.rosidl_typesupport_c.c.o[0m
+[15.025s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/dddmr_sys_core/dddmr_sys_core_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.118s] [ 96%] Built target dddmr_sys_core__rosidl_typesupport_introspection_c__pyext
+[15.204s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/dddmr_sys_core/dddmr_sys_core_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.279s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dddmr_sys_core/dddmr_sys_core_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.304s] [100%] Built target dddmr_sys_core__rosidl_typesupport_c__pyext
+[15.362s] [100%] Built target dddmr_sys_core__rosidl_typesupport_fastrtps_c__pyext

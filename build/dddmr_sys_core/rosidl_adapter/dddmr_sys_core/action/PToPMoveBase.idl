@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from dddmr_sys_core/action/PToPMoveBase.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "geometry_msgs/msg/TransformStamped.idl"
+
+module dddmr_sys_core {
+  module action {
+    struct PToPMoveBase_Goal {
+      geometry_msgs::msg::PoseStamped target_pose;
+
+      float target_value;
+    };
+    @verbatim (language="comment", text=
+      "result definition RUNNING = 0, SUCCESS = 1, FAILURE = 2")
+    struct PToPMoveBase_Result {
+      int32 status;
+
+      string result;
+    };
+    struct PToPMoveBase_Feedback {
+      geometry_msgs::msg::TransformStamped base_position;
+
+      string last_decision;
+
+      string current_decision;
+    };
+  };
+};

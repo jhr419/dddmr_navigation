@@ -1,0 +1,1 @@
+/root/dddmr_navigation/build/cloud_msgs/ament_cmake_python/cloud_msgs/cloud_msgs.egg-info/SOURCES.txt

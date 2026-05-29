@@ -1,0 +1,68 @@
+[0.070s] Invoking command in '/root/dddmr_navigation/build/dddmr_beginner_guide': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_beginner_guide -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_beginner_guide
+[0.175s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.029s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.077s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.264s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.279s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.317s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.468s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.682s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.696s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.519s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.849s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.048s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.153s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.271s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[3.328s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.516s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.624s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.751s] -- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)
+[3.768s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.961s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.981s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.990s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.998s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[4.013s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[4.576s] -- Configuring done
+[4.602s] -- Generating done
+[4.615s] -- Build files have been written to: /root/dddmr_navigation/build/dddmr_beginner_guide
+[4.652s] Invoked command in '/root/dddmr_navigation/build/dddmr_beginner_guide' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_beginner_guide -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_beginner_guide
+[4.664s] Invoking command in '/root/dddmr_navigation/build/dddmr_beginner_guide': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_beginner_guide -- -j28 -l28
+[4.932s] Invoked command in '/root/dddmr_navigation/build/dddmr_beginner_guide' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_beginner_guide -- -j28 -l28
+[5.011s] Invoking command in '/root/dddmr_navigation/build/dddmr_beginner_guide': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_beginner_guide
+[5.058s] -- Install configuration: "Release"
+[5.061s] -- Execute custom install script
+[5.081s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//launch/__pycache__/livox_mid360_fastlio_dddmr_mapping.launch.cpython-310.pyc
+[5.082s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//launch/airy_tilt45_mapping.launch
+[5.083s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//launch/airy_tilt45_navigation.launch
+[5.084s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//launch/livox_mid360_fastlio_dddmr_mapping.launch
+[5.084s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//launch/livox_mid360_fastlio_dddmr_mapping.launch.py
+[5.086s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//launch/livox_mid360_mapping.launch
+[5.087s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//launch/livox_mid360_navigaton.launch
+[5.088s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//config/airy_tilt45_mapping.yaml
+[5.090s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//config/airy_tilt45_navigation.yaml
+[5.091s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//config/fastlio_mid360_dddmr.yaml
+[5.092s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//config/livox_mid360_mapping.yaml
+[5.093s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//config/livox_mid360_navigation.yaml
+[5.094s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//rviz/airy_tilt45_mapping.rviz
+[5.094s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//rviz/airy_tilt45_navigation.rviz
+[5.095s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide//rviz/livox_mid360_fastlio_dddmr_mapping.rviz
+[5.095s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/ament_index/resource_index/package_run_dependencies/dddmr_beginner_guide
+[5.096s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/ament_index/resource_index/parent_prefix_path/dddmr_beginner_guide
+[5.097s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/environment/ament_prefix_path.sh
+[5.098s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/environment/ament_prefix_path.dsv
+[5.100s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/environment/path.sh
+[5.100s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/environment/path.dsv
+[5.102s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/local_setup.bash
+[5.102s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/local_setup.sh
+[5.103s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/local_setup.zsh
+[5.104s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/local_setup.dsv
+[5.104s] -- Symlinking: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/package.dsv
+[5.169s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/ament_index/resource_index/packages/dddmr_beginner_guide
+[5.170s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.170s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.171s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/cmake/dddmr_beginner_guideConfig.cmake
+[5.172s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/cmake/dddmr_beginner_guideConfig-version.cmake
+[5.173s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_beginner_guide/share/dddmr_beginner_guide/package.xml
+[5.184s] Invoked command in '/root/dddmr_navigation/build/dddmr_beginner_guide' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_beginner_guide

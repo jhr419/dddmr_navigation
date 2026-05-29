@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dddmr_sys_core/srv/GetKeyFrameCloud.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/PointCloud2.idl"
+
+module dddmr_sys_core {
+  module srv {
+    struct GetKeyFrameCloud_Request {
+      int32 key_frame_number;
+    };
+    struct GetKeyFrameCloud_Response {
+      sensor_msgs::msg::PointCloud2 key_frame_cloud;
+
+      sensor_msgs::msg::PointCloud2 key_frame_ground;
+
+      sensor_msgs::msg::PointCloud2 key_frame_ground_edge;
+    };
+  };
+};

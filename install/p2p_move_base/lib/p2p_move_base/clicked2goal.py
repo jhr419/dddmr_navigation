@@ -1,0 +1,1 @@
+/root/dddmr_navigation/src/dddmr_p2p_move_base/script/clicked2goal.py

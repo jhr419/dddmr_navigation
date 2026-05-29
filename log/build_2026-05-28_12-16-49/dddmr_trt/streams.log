@@ -1,0 +1,21 @@
+[0.037s] Invoking command in '/root/dddmr_navigation/build/dddmr_trt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_trt -- -j28 -l28
+[0.073s] Invoked command in '/root/dddmr_navigation/build/dddmr_trt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_trt -- -j28 -l28
+[0.081s] Invoking command in '/root/dddmr_navigation/build/dddmr_trt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_trt
+[0.088s] -- Install configuration: "Release"
+[0.088s] -- Execute custom install script
+[0.088s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/ament_index/resource_index/package_run_dependencies/dddmr_trt
+[0.089s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/ament_index/resource_index/parent_prefix_path/dddmr_trt
+[0.090s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/environment/ament_prefix_path.sh
+[0.091s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/environment/ament_prefix_path.dsv
+[0.091s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/environment/path.sh
+[0.091s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/environment/path.dsv
+[0.091s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/local_setup.bash
+[0.092s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/local_setup.sh
+[0.092s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/local_setup.zsh
+[0.096s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/local_setup.dsv
+[0.096s] -- Symlinking: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/package.dsv
+[0.103s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/ament_index/resource_index/packages/dddmr_trt
+[0.104s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/cmake/dddmr_trtConfig.cmake
+[0.105s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/cmake/dddmr_trtConfig-version.cmake
+[0.105s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/package.xml
+[0.109s] Invoked command in '/root/dddmr_navigation/build/dddmr_trt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_trt

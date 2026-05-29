@@ -1,0 +1,45 @@
+[0.038s] Invoking command in '/root/dddmr_navigation/build/dddmr_trt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_trt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_trt
+[0.065s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.164s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.172s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.202s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.205s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.211s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.231s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.259s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.260s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.383s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.433s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.475s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.501s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.543s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.568s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.582s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.641s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.643s] -- TensorRT is disabled.
+[0.716s] -- Configuring done
+[0.722s] -- Generating done
+[0.725s] -- Build files have been written to: /root/dddmr_navigation/build/dddmr_trt
+[0.733s] Invoked command in '/root/dddmr_navigation/build/dddmr_trt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_trt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_trt
+[0.735s] Invoking command in '/root/dddmr_navigation/build/dddmr_trt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_trt -- -j28 -l28
+[0.777s] Invoked command in '/root/dddmr_navigation/build/dddmr_trt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_trt -- -j28 -l28
+[0.788s] Invoking command in '/root/dddmr_navigation/build/dddmr_trt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_trt
+[0.797s] -- Install configuration: "Release"
+[0.799s] -- Execute custom install script
+[0.799s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/ament_index/resource_index/package_run_dependencies/dddmr_trt
+[0.799s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/ament_index/resource_index/parent_prefix_path/dddmr_trt
+[0.799s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/environment/ament_prefix_path.sh
+[0.799s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/environment/ament_prefix_path.dsv
+[0.799s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/environment/path.sh
+[0.799s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/environment/path.dsv
+[0.799s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/local_setup.bash
+[0.800s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/local_setup.sh
+[0.800s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/local_setup.zsh
+[0.800s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/local_setup.dsv
+[0.800s] -- Symlinking: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/package.dsv
+[0.806s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/ament_index/resource_index/packages/dddmr_trt
+[0.807s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/cmake/dddmr_trtConfig.cmake
+[0.807s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/cmake/dddmr_trtConfig-version.cmake
+[0.807s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_trt/share/dddmr_trt/package.xml
+[0.809s] Invoked command in '/root/dddmr_navigation/build/dddmr_trt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_trt

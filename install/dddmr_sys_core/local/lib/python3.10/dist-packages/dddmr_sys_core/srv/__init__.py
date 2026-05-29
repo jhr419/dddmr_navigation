@@ -1,0 +1,1 @@
+/root/dddmr_navigation/build/dddmr_sys_core/rosidl_generator_py/dddmr_sys_core/srv/__init__.py

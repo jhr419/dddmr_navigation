@@ -1,0 +1,2 @@
+Invoking command in '/root/dddmr_navigation/build/dddmr_sc_pgo': /usr/bin/cmake /root/dddmr_navigation/src/dddmr_sc_pgo -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sc_pgo
+Invoked command in '/root/dddmr_navigation/build/dddmr_sc_pgo' returned '1': /usr/bin/cmake /root/dddmr_navigation/src/dddmr_sc_pgo -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sc_pgo

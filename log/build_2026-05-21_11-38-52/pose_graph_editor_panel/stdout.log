@@ -1,0 +1,74 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rviz_ogre_vendor: 11.2.26 (/opt/ros/humble/share/rviz_ogre_vendor/cmake)
+-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rviz_assimp_vendor: 11.2.26 (/opt/ros/humble/share/rviz_assimp_vendor/cmake)
+-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+-- Found rviz_rendering: 11.2.26 (/opt/ros/humble/share/rviz_rendering/cmake)
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found rviz_common: 11.2.26 (/opt/ros/humble/share/rviz_common/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/dddmr_navigation/build/pose_graph_editor_panel
+[ 20%] [34m[1mAutomatic UIC for target pose_graph_editor_panel[0m
+[ 20%] Built target pose_graph_editor_panel_autogen
+[35m[1mConsolidate compiler generated dependencies of target pose_graph_editor_panel[0m
+[100%] Built target pose_graph_editor_panel
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel//plugin_description.xml
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/environment/library_path.sh
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/environment/library_path.dsv
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/include/pose_graph_editor_panel/pose_graph_editor_panel.h
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/ament_index/resource_index/package_run_dependencies/pose_graph_editor_panel
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/ament_index/resource_index/parent_prefix_path/pose_graph_editor_panel
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/environment/ament_prefix_path.sh
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/environment/ament_prefix_path.dsv
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/environment/path.sh
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/environment/path.dsv
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/local_setup.bash
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/local_setup.sh
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/local_setup.zsh
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/local_setup.dsv
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/package.dsv
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/ament_index/resource_index/packages/pose_graph_editor_panel
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/ament_index/resource_index/rviz_common__pluginlib__plugin/pose_graph_editor_panel
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/cmake/pose_graph_editor_panelConfig.cmake
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/cmake/pose_graph_editor_panelConfig-version.cmake
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/package.xml
+-- Installing: /root/dddmr_navigation/install/pose_graph_editor_panel/lib/libpose_graph_editor_panel.so
+-- Set runtime path of "/root/dddmr_navigation/install/pose_graph_editor_panel/lib/libpose_graph_editor_panel.so" to ""
+-- Installing: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/cmake/pose_graph_editor_panelExport.cmake
+-- Installing: /root/dddmr_navigation/install/pose_graph_editor_panel/share/pose_graph_editor_panel/cmake/pose_graph_editor_panelExport-release.cmake

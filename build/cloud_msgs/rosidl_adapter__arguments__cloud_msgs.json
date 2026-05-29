@@ -1,0 +1,6 @@
+{
+  "package_name": "cloud_msgs",
+  "non_idl_tuples": [
+    "/root/dddmr_navigation/src/dddmr_lego_loam/cloud_msgs:msg/CloudInfo.msg"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-7aefd91fb4d105b2c06b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mapping_panel",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mapping_panel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mapping_panel-Release-94067c19d8553d09a8fe.json",
+					"name" : "mapping_panel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mapping_panel_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mapping_panel_autogen-Release-2a37c2c6e61761d059ad.json",
+					"name" : "mapping_panel_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mapping_panel_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mapping_panel_uninstall-Release-adc281da7889a2e27760.json",
+					"name" : "mapping_panel_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-d16d9a27f667ecfc933f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/dddmr_navigation/build/mapping_panel",
+		"source" : "/root/dddmr_navigation/src/dddmr_rviz_tools/mapping_panel"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,7 @@
+[ 20%] [34m[1mAutomatic UIC for target mapping_panel[0m
+[ 20%] Built target mapping_panel_autogen
+[ 40%] [34m[1mGenerating include/mapping_panel/moc_mapping_panel.cpp[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/mapping_panel.dir/include/mapping_panel/moc_mapping_panel.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/mapping_panel.dir/src/mapping_panel.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libmapping_panel.so[0m
+[100%] Built target mapping_panel

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/dddmr_navigation/build/mcl_3dl/mcl_3dl" "/root/dddmr_navigation/build/mcl_3dl/pcl_publisher" "TARGETS" "mcl_3dl" "pcl_publisher" "RUNTIME_DESTINATION" "lib/mcl_3dl")

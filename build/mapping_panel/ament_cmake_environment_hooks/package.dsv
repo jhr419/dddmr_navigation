@@ -1,0 +1,4 @@
+source;share/mapping_panel/local_setup.bash
+source;share/mapping_panel/local_setup.dsv
+source;share/mapping_panel/local_setup.sh
+source;share/mapping_panel/local_setup.zsh

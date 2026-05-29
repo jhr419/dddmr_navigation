@@ -1,0 +1,107 @@
+[0.012s] Invoking command in '/root/dddmr_navigation/build/lego_loam_bor': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/cloud_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/cloud_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/cloud_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:/root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/dddmr_navigation/build/lego_loam_bor -- -j28 -l28
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target lego_loam_map_visualization[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target image_projection[0m
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target feature_association[0m
+[0.058s] [  6%] Built target opt_icp_gn
+[0.059s] [ 13%] Built target pointcloud2occupancy
+[0.061s] [ 20%] Built target lego_loam_map_visualization
+[0.063s] [ 26%] Built target image_projection
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target pose_graph_editor[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target optimized_icp_gn_playground[0m
+[0.074s] [ 33%] Built target feature_association
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target map_optimization[0m
+[0.090s] [ 40%] Built target optimized_icp_gn_playground
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target mcl_feature[0m
+[0.111s] [ 53%] Built target pose_graph_editor
+[0.111s] [ 53%] Built target map_optimization
+[0.117s] [ 60%] Built target mcl_feature
+[0.130s] [35m[1mConsolidate compiler generated dependencies of target interactive_pose_graph_editor[0m
+[0.130s] [35m[1mConsolidate compiler generated dependencies of target pose_graph_merge_editor[0m
+[0.157s] [ 66%] Built target interactive_pose_graph_editor
+[0.163s] [ 73%] Built target pose_graph_merge_editor
+[0.173s] [35m[1mConsolidate compiler generated dependencies of target lego_loam_bag[0m
+[0.173s] [35m[1mConsolidate compiler generated dependencies of target lego_loam_bag_lidar2depthimg_node[0m
+[0.175s] [35m[1mConsolidate compiler generated dependencies of target pose_graph_editor_node[0m
+[0.175s] [35m[1mConsolidate compiler generated dependencies of target lego_loam[0m
+[0.196s] [ 80%] Built target lego_loam_bag_lidar2depthimg_node
+[0.196s] [ 86%] Built target lego_loam_bag
+[0.196s] [ 93%] Built target pose_graph_editor_node
+[0.202s] [100%] Built target lego_loam
+[0.208s] Invoked command in '/root/dddmr_navigation/build/lego_loam_bor' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/cloud_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/cloud_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/cloud_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:/root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/dddmr_navigation/build/lego_loam_bor -- -j28 -l28
+[0.210s] Invoking command in '/root/dddmr_navigation/build/lego_loam_bor': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/cloud_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/cloud_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/cloud_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:/root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/dddmr_navigation/build/lego_loam_bor
+[0.217s] -- Install configuration: ""
+[0.217s] -- Execute custom install script
+[0.217s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/libopt_icp_gn.so
+[0.217s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/libimage_projection.so
+[0.217s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/libfeature_association.so
+[0.217s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/libmap_optimization.so
+[0.217s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/liblego_loam_map_visualization.so
+[0.218s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/libpose_graph_editor.so
+[0.218s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/libinteractive_pose_graph_editor.so
+[0.218s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/lego_loam_bor/mcl_feature
+[0.218s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/lego_loam_bor/lego_loam
+[0.218s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/lego_loam_bor/lego_loam_bag
+[0.218s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/lego_loam_bor/pose_graph_editor_node
+[0.218s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/lego_loam_bor/pointcloud2occupancy
+[0.218s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/lego_loam_bor/optimized_icp_gn_playground
+[0.219s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/lego_loam_bor/lego_loam_bag_lidar2depthimg_node
+[0.219s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//channel.h
+[0.219s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//featureAssociation.h
+[0.219s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//imageProjection.h
+[0.219s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//interactive_pose_graph_editor.h
+[0.219s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//lego_loam_map_visualization.hpp
+[0.219s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//mapOptimization.h
+[0.219s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//opt_icp_gn/common.h
+[0.219s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//opt_icp_gn/optimized_ICP_GN.h
+[0.220s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//transforms.hpp
+[0.220s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//utility.h
+[0.220s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//yolo_ros2_image_sub.h
+[0.220s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/lego_loam.launch
+[0.220s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/lego_loam_bag.launch
+[0.220s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/lego_loam_bag_airy.launch
+[0.220s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/lego_loam_bag_go2.launch
+[0.220s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/lego_loam_bag_lidar2depthimg.launch
+[0.220s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/lego_loam_bag_mid360.launch
+[0.220s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/lego_loam_bag_yolo.launch
+[0.221s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/mcl_feature.launch
+[0.221s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/optimized-icp_gn_playground.launch
+[0.221s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/pose_graph_editor.launch
+[0.221s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/yolo_image_sub_test.launch
+[0.221s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/loam_bag_airy_config.yaml
+[0.221s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/loam_bag_c16_config.yaml
+[0.221s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/loam_bag_go2_config.yaml
+[0.221s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/loam_bag_lidar2depthimg_config.yaml
+[0.221s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/loam_bag_mid360_config.yaml
+[0.221s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/loam_bag_yolo_config.yaml
+[0.221s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/loam_c16_config.yaml
+[0.221s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/mcl_c16_config.yaml
+[0.221s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//rviz/lego_loam.rviz
+[0.222s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//rviz/lego_loam_airy.rviz
+[0.222s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//rviz/lego_loam_yolo.rviz
+[0.222s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//rviz/optimized_icp_gn_playground.rviz
+[0.222s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//rviz/pose_graph_editor.rviz
+[0.222s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//rviz/yolo_image_sub_test.rviz
+[0.222s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//pcd/feature.pcd
+[0.222s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//engine/onnx2trt.bash
+[0.222s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//engine/yolo11n_dddmr.onnx
+[0.222s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/environment/library_path.sh
+[0.223s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/environment/library_path.dsv
+[0.223s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/ament_index/resource_index/package_run_dependencies/lego_loam_bor
+[0.223s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/ament_index/resource_index/parent_prefix_path/lego_loam_bor
+[0.223s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/environment/ament_prefix_path.sh
+[0.223s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/environment/ament_prefix_path.dsv
+[0.224s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/environment/path.sh
+[0.224s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/environment/path.dsv
+[0.224s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/local_setup.bash
+[0.224s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/local_setup.sh
+[0.224s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/local_setup.zsh
+[0.224s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/local_setup.dsv
+[0.224s] -- Symlinking: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/package.dsv
+[0.230s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/ament_index/resource_index/packages/lego_loam_bor
+[0.231s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.231s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/cmake/ament_cmake_export_libraries-extras.cmake
+[0.231s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.232s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/cmake/lego_loam_borConfig.cmake
+[0.232s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/cmake/lego_loam_borConfig-version.cmake
+[0.232s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/package.xml
+[0.234s] Invoked command in '/root/dddmr_navigation/build/lego_loam_bor' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/cloud_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/cloud_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/cloud_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:/root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/dddmr_navigation/build/lego_loam_bor

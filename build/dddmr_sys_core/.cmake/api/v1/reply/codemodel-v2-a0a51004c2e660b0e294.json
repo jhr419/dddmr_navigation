@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-72967e483653d6c212fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "dddmr_sys_core__py",
+					"jsonFile" : "directory-dddmr_sys_core__py-Release-932b82317de1d5ea0d3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/dddmr_navigation/build/dddmr_sys_core/dddmr_sys_core__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "dddmr_sys_core__rs",
+					"jsonFile" : "directory-dddmr_sys_core__rs-Release-d45ddf7bce553f2b7995.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/dddmr_navigation/build/dddmr_sys_core/dddmr_sys_core__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "dddmr_sys_core",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dddmr_sys_core_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dddmr_sys_core_egg-Release-ff896346cc53b318dfae.json",
+					"name" : "ament_cmake_python_build_dddmr_sys_core_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_dddmr_sys_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_dddmr_sys_core-Release-b36b28cb9773fa0de5b9.json",
+					"name" : "ament_cmake_python_symlink_dddmr_sys_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core-Release-a1a58dc2e28b1f5d39e5.json",
+					"name" : "dddmr_sys_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core__cpp-Release-2a8bf781e734e887c5bf.json",
+					"name" : "dddmr_sys_core__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dddmr_sys_core__py::@cae8b31dff72fb0175e7",
+					"jsonFile" : "target-dddmr_sys_core__py-Release-322ce02dbeb32d36a062.json",
+					"name" : "dddmr_sys_core__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core__rosidl_generator_c-Release-72e7f1d1a9ebf70d61a2.json",
+					"name" : "dddmr_sys_core__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core__rosidl_generator_py-Release-f83727d747a7f4ed5864.json",
+					"name" : "dddmr_sys_core__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core__rosidl_typesupport_c-Release-4c7d74fb109d64272a7b.json",
+					"name" : "dddmr_sys_core__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core__rosidl_typesupport_c__pyext-Release-8e15203b3f7e03ae5921.json",
+					"name" : "dddmr_sys_core__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core__rosidl_typesupport_cpp-Release-813d01ac3a9f4174cabc.json",
+					"name" : "dddmr_sys_core__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core__rosidl_typesupport_fastrtps_c-Release-86db47c1eb2704010c18.json",
+					"name" : "dddmr_sys_core__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core__rosidl_typesupport_fastrtps_c__pyext-Release-d167e6d1ddf8582a828f.json",
+					"name" : "dddmr_sys_core__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core__rosidl_typesupport_fastrtps_cpp-Release-2501546ac55e0fc05c52.json",
+					"name" : "dddmr_sys_core__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core__rosidl_typesupport_introspection_c-Release-206e190f8af5fafd4ee2.json",
+					"name" : "dddmr_sys_core__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core__rosidl_typesupport_introspection_c__pyext-Release-2da3427273f74a831c47.json",
+					"name" : "dddmr_sys_core__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core__rosidl_typesupport_introspection_cpp-Release-66a751fd8f2bcd80ffe1.json",
+					"name" : "dddmr_sys_core__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "dddmr_sys_core__rs::@24f8d183728f63c0bc6c",
+					"jsonFile" : "target-dddmr_sys_core__rs-Release-cef94987dfc28275227e.json",
+					"name" : "dddmr_sys_core__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core_enum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core_enum-Release-b364313372a8e1988049.json",
+					"name" : "dddmr_sys_core_enum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_sys_core_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_sys_core_uninstall-Release-847b2be734dff43bb47a.json",
+					"name" : "dddmr_sys_core_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-0dae4d004596477d2847.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/dddmr_navigation/build/dddmr_sys_core",
+		"source" : "/root/dddmr_navigation/src/dddmr_sys_core"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

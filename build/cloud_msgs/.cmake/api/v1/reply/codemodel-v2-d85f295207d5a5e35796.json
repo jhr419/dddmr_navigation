@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-3bf9786ac08fbd485eda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "cloud_msgs__py",
+					"jsonFile" : "directory-cloud_msgs__py-Release-06ef4ef32679c0b7bda8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/dddmr_navigation/build/cloud_msgs/cloud_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "cloud_msgs__rs",
+					"jsonFile" : "directory-cloud_msgs__rs-Release-b702afdac78b411db4ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/dddmr_navigation/build/cloud_msgs/cloud_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "cloud_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_cloud_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_cloud_msgs_egg-Release-ce73285b17abde1923cc.json",
+					"name" : "ament_cmake_python_build_cloud_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_cloud_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_cloud_msgs-Release-6c86a25fc9099925fc7a.json",
+					"name" : "ament_cmake_python_symlink_cloud_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_msgs-Release-d04add6c89d171c58bff.json",
+					"name" : "cloud_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_msgs__cpp-Release-637c7f9ae472cde43290.json",
+					"name" : "cloud_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cloud_msgs__py::@41c6d1a10c12bddff21d",
+					"jsonFile" : "target-cloud_msgs__py-Release-fe79e0922e3551061163.json",
+					"name" : "cloud_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_msgs__rosidl_generator_c-Release-651f45f962fa6e5792fc.json",
+					"name" : "cloud_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_msgs__rosidl_generator_py-Release-d3c9c14dfaff82507db7.json",
+					"name" : "cloud_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_msgs__rosidl_typesupport_c-Release-70afc6e4739faec00bef.json",
+					"name" : "cloud_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_msgs__rosidl_typesupport_c__pyext-Release-e8c274c5630eeb1240bd.json",
+					"name" : "cloud_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_msgs__rosidl_typesupport_cpp-Release-7be301e206a6c8ba1e39.json",
+					"name" : "cloud_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_msgs__rosidl_typesupport_fastrtps_c-Release-c8bd6c43400ebd250604.json",
+					"name" : "cloud_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_msgs__rosidl_typesupport_fastrtps_c__pyext-Release-6cc364ed8fd5298117dc.json",
+					"name" : "cloud_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_msgs__rosidl_typesupport_fastrtps_cpp-Release-b48420b58c2457e3879a.json",
+					"name" : "cloud_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_msgs__rosidl_typesupport_introspection_c-Release-fa48a428f9751fec5196.json",
+					"name" : "cloud_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_msgs__rosidl_typesupport_introspection_c__pyext-Release-26223c266b1b3a8e5a66.json",
+					"name" : "cloud_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_msgs__rosidl_typesupport_introspection_cpp-Release-2e2ad8aee6220cfe9e4b.json",
+					"name" : "cloud_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cloud_msgs__rs::@e7e53ffdfe7714ff47a8",
+					"jsonFile" : "target-cloud_msgs__rs-Release-7d834232c480daff15b6.json",
+					"name" : "cloud_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_msgs_uninstall-Release-30b2bc691c1534ad4bc4.json",
+					"name" : "cloud_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-9e2b33d6ffbe45ab027d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/dddmr_navigation/build/cloud_msgs",
+		"source" : "/root/dddmr_navigation/src/dddmr_lego_loam/cloud_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

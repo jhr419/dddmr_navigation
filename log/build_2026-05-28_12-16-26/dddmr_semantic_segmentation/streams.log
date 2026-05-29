@@ -1,0 +1,88 @@
+[0.036s] Invoking command in '/root/dddmr_navigation/build/dddmr_semantic_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_semantic_segmentation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_semantic_segmentation
+[0.053s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.134s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.140s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.160s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.161s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.165s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.177s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.196s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.197s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.286s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.330s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.347s] -- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)
+[0.349s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.376s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.391s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.409s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.466s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.469s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.470s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.471s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.474s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[0.491s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.548s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.564s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.569s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.798s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.803s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.991s] -- Found Qhull version 8.0.2
+[1.210s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.215s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[1.216s] [33mCMake Warning (dev) at CMakeLists.txt:26 (find_package):
+[1.216s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.216s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.216s]   command to set the policy and suppress this warning.
+[1.216s] 
+[1.217s]   CMake variable PCL_ROOT is set to:
+[1.217s] 
+[1.217s]     /usr
+[1.217s] 
+[1.217s]   For compatibility, CMake is ignoring the variable.
+[1.217s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.217s] [0m
+[1.274s] -- Configuring done
+[1.299s] -- Generating done
+[1.305s] -- Build files have been written to: /root/dddmr_navigation/build/dddmr_semantic_segmentation
+[1.315s] Invoked command in '/root/dddmr_navigation/build/dddmr_semantic_segmentation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_semantic_segmentation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_semantic_segmentation
+[1.317s] Invoking command in '/root/dddmr_navigation/build/dddmr_semantic_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_semantic_segmentation -- -j28 -l28
+[1.356s] [35m[1mConsolidate compiler generated dependencies of target semantic_segmentation2point_cloud[0m
+[1.375s] [100%] Built target semantic_segmentation2point_cloud
+[1.390s] Invoked command in '/root/dddmr_navigation/build/dddmr_semantic_segmentation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_semantic_segmentation -- -j28 -l28
+[1.390s] Invoking command in '/root/dddmr_navigation/build/dddmr_semantic_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_semantic_segmentation
+[1.395s] -- Install configuration: "Release"
+[1.395s] -- Execute custom install script
+[1.395s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/lib/dddmr_semantic_segmentation/semantic_segmentation2point_cloud
+[1.395s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//launch/bag_exclude_ss_trt_launch.py
+[1.395s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//launch/bag_semantic_segmentaton_trt_launch.py
+[1.395s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//launch/rs_semantic_segmentaton_trt_launch.py
+[1.396s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//model/ddrnet_23_slim_dualresnet_citys_best_model_424x848.onnx
+[1.396s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//data/colors_mapillary.csv
+[1.396s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//data/colors_mapillary_person_and_sidewalk.csv
+[1.396s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//data/people.png
+[1.396s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//scripts/ddrnet_image_test.py
+[1.396s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//scripts/ddrnet_ros_img_sub.py
+[1.396s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//scripts/perspective_transform.py
+[1.396s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//scripts/trt_interface.py
+[1.396s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//rviz/bag_semantic_segmentation_launch.rviz
+[1.396s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation//rviz/rs_semantic_segmentation_launch.rviz
+[1.396s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/lib/dddmr_semantic_segmentation/ddrnet_ros_img_sub.py
+[1.396s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/ament_index/resource_index/package_run_dependencies/dddmr_semantic_segmentation
+[1.396s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/ament_index/resource_index/parent_prefix_path/dddmr_semantic_segmentation
+[1.396s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/environment/ament_prefix_path.sh
+[1.397s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/environment/ament_prefix_path.dsv
+[1.397s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/environment/path.sh
+[1.397s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/environment/path.dsv
+[1.397s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/local_setup.bash
+[1.397s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/local_setup.sh
+[1.397s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/local_setup.zsh
+[1.397s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/local_setup.dsv
+[1.397s] -- Symlinking: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/package.dsv
+[1.406s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/ament_index/resource_index/packages/dddmr_semantic_segmentation
+[1.407s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.407s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.407s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/cmake/dddmr_semantic_segmentationConfig.cmake
+[1.407s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/cmake/dddmr_semantic_segmentationConfig-version.cmake
+[1.407s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_semantic_segmentation/share/dddmr_semantic_segmentation/package.xml
+[1.408s] Invoked command in '/root/dddmr_navigation/build/dddmr_semantic_segmentation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_semantic_segmentation

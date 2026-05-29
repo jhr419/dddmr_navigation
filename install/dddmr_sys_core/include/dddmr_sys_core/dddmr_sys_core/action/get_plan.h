@@ -1,0 +1,1 @@
+/root/dddmr_navigation/build/dddmr_sys_core/rosidl_generator_c/dddmr_sys_core/action/get_plan.h

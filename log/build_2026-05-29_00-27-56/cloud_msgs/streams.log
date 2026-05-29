@@ -1,0 +1,127 @@
+[0.027s] Invoking command in '/root/dddmr_navigation/build/cloud_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/cloud_msgs -- -j28 -l28
+[0.128s] [  3%] Built target cloud_msgs__rs
+[0.130s] [  6%] Built target cloud_msgs__cpp
+[0.133s] [  6%] Built target ament_cmake_python_symlink_cloud_msgs
+[0.143s] [ 15%] Built target cloud_msgs__rosidl_generator_c
+[0.151s] [ 34%] Built target cloud_msgs__rosidl_typesupport_introspection_cpp
+[0.151s] [ 34%] Built target cloud_msgs__rosidl_typesupport_cpp
+[0.152s] [ 43%] Built target cloud_msgs__rosidl_typesupport_fastrtps_cpp
+[0.161s] [ 53%] Built target cloud_msgs__rosidl_typesupport_fastrtps_c
+[0.161s] [ 62%] Built target cloud_msgs__rosidl_typesupport_introspection_c
+[0.164s] [ 71%] Built target cloud_msgs__rosidl_typesupport_c
+[0.179s] [ 71%] Built target cloud_msgs
+[0.196s] [ 75%] Built target cloud_msgs__py
+[0.220s] [ 81%] Built target cloud_msgs__rosidl_generator_py
+[0.234s] [ 87%] Built target cloud_msgs__rosidl_typesupport_c__pyext
+[0.234s] [ 93%] Built target cloud_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.234s] [100%] Built target cloud_msgs__rosidl_typesupport_introspection_c__pyext
+[0.304s] running egg_info
+[0.304s] writing cloud_msgs.egg-info/PKG-INFO
+[0.304s] writing dependency_links to cloud_msgs.egg-info/dependency_links.txt
+[0.304s] writing top-level names to cloud_msgs.egg-info/top_level.txt
+[0.306s] reading manifest file 'cloud_msgs.egg-info/SOURCES.txt'
+[0.306s] writing manifest file 'cloud_msgs.egg-info/SOURCES.txt'
+[0.321s] [100%] Built target ament_cmake_python_build_cloud_msgs_egg
+[0.352s] Invoked command in '/root/dddmr_navigation/build/cloud_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/cloud_msgs -- -j28 -l28
+[0.353s] Invoking command in '/root/dddmr_navigation/build/cloud_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/cloud_msgs
+[0.359s] -- Install configuration: "Release"
+[0.360s] -- Execute custom install script
+[0.360s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/ament_index/resource_index/rosidl_interfaces/cloud_msgs
+[0.362s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/cloud_info.h
+[0.362s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__functions.h
+[0.362s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__struct.h
+[0.362s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__type_support.h
+[0.363s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.363s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/environment/library_path.sh
+[0.363s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/environment/library_path.dsv
+[0.363s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[0.363s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.363s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/cloud_info.hpp
+[0.363s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__builder.hpp
+[0.364s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__struct.hpp
+[0.364s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__traits.hpp
+[0.364s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__type_support.hpp
+[0.364s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.364s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[0.365s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.365s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[0.365s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.365s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[0.366s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/environment/pythonpath.sh
+[0.366s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/environment/pythonpath.dsv
+[0.366s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.366s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.366s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.366s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.367s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/__init__.py
+[0.367s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_c.c
+[0.367s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.367s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.367s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.367s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.367s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.367s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/libcloud_msgs__rosidl_generator_py.so
+[0.368s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/msg/__init__.py
+[0.368s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/msg/_cloud_info.py
+[0.368s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/msg/_cloud_info_s.c
+[0.369s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.370s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.370s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.370s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/ament_index/resource_index/rust_packages/cloud_msgs
+[0.370s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/rust/Cargo.toml
+[0.370s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/rust/build.rs
+[0.370s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/rust/src/lib.rs
+[0.370s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/rust/src/msg.rs
+[0.370s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/rust/src/msg/rmw.rs
+[0.370s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/msg/CloudInfo.idl
+[0.370s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/msg/CloudInfo.msg
+[0.370s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/ament_index/resource_index/package_run_dependencies/cloud_msgs
+[0.370s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/ament_index/resource_index/parent_prefix_path/cloud_msgs
+[0.371s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/environment/ament_prefix_path.sh
+[0.371s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/environment/ament_prefix_path.dsv
+[0.371s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/environment/path.sh
+[0.371s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/environment/path.dsv
+[0.371s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/local_setup.bash
+[0.371s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/local_setup.sh
+[0.371s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/local_setup.zsh
+[0.371s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/local_setup.dsv
+[0.371s] -- Symlinking: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/package.dsv
+[0.374s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/ament_index/resource_index/packages/cloud_msgs
+[0.374s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/rosidl_cmake-extras.cmake
+[0.374s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.374s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.374s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.374s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.374s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.374s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.374s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgsConfig.cmake
+[0.374s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgsConfig-version.cmake
+[0.374s] -- Up-to-date symlink: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/package.xml
+[0.374s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/lib/libcloud_msgs__rosidl_generator_c.so
+[0.374s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_fastrtps_c.so
+[0.374s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.375s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_introspection_c.so
+[0.375s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_c.so
+[0.375s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_introspection_cpp.so
+[0.375s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_cpp.so
+[0.397s] Listing '/root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs'...
+[0.398s] Listing '/root/dddmr_navigation/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/msg'...
+[0.402s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/lib/libcloud_msgs__rosidl_generator_py.so
+[0.402s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_cExport.cmake
+[0.402s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_cExport-release.cmake
+[0.403s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.403s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[0.403s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_cppExport.cmake
+[0.403s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.403s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[0.404s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.404s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[0.405s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_cExport.cmake
+[0.405s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_cExport-release.cmake
+[0.405s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.405s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.405s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_cppExport.cmake
+[0.405s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_cppExport-release.cmake
+[0.406s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_pyExport.cmake
+[0.406s] -- Up-to-date: /root/dddmr_navigation/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_pyExport-release.cmake
+[0.408s] Invoked command in '/root/dddmr_navigation/build/cloud_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/cloud_msgs

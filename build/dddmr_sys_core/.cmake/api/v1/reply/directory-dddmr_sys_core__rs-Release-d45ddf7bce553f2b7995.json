@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dddmr_sys_core__rs",
+		"source" : "/root/dddmr_navigation/build/dddmr_sys_core/dddmr_sys_core__rs"
+	}
+}

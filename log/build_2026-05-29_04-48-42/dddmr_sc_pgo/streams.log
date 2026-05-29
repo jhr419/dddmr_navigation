@@ -1,0 +1,455 @@
+[0.009s] Invoking command in '/root/dddmr_navigation/build/dddmr_sc_pgo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_sc_pgo -- -j28 -l28
+[0.085s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.162s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.173s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.198s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.200s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.204s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.243s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.244s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.328s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.363s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.377s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.395s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.406s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.417s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[0.419s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.459s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.461s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.485s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.512s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.785s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.790s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.875s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.879s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.884s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.003s] -- Found Qhull version 8.0.2
+[1.089s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.204s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.212s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.213s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.214s] CMake Warning (dev) at CMakeLists.txt:62 (find_package):
+[1.214s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.214s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.214s]   command to set the policy and suppress this warning.
+[1.214s] 
+[1.214s]   CMake variable PCL_ROOT is set to:
+[1.214s] 
+[1.214s]     /usr
+[1.214s] 
+[1.214s]   For compatibility, CMake is ignoring the variable.
+[1.214s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.214s] 
+[1.230s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[1.237s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.283s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.284s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.284s] -- Configured cppcheck include dirs: /root/dddmr_navigation/src/dddmr_sc_pgo/include;/root/dddmr_navigation/src/dddmr_sc_pgo/include/dddmr_sc_pgo
+[1.284s] -- Configured cppcheck exclude dirs and/or files: 
+[1.285s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.285s] -- Configured cpplint exclude dirs and/or files: 
+[1.285s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.285s] -- Added test 'lint_cmake' to check CMake code style
+[1.285s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.286s] -- Added test 'uncrustify' to check C / C++ code style
+[1.286s] -- Configured uncrustify additional arguments: 
+[1.286s] -- Added test 'xmllint' to check XML markup files
+[1.288s] -- Configuring done
+[1.358s] -- Generating done
+[1.363s] -- Build files have been written to: /root/dddmr_navigation/build/dddmr_sc_pgo
+[1.387s] Consolidate compiler generated dependencies of target scan_context_lib
+[1.410s] [ 25%] Building CXX object CMakeFiles/scan_context_lib.dir/src/scan_context.cpp.o
+[2.368s] In file included from /usr/include/pcl-1.12/pcl/point_types.h:354,
+[2.368s]                  from /root/dddmr_navigation/src/dddmr_sc_pgo/include/dddmr_sc_pgo/scan_context.h:21,
+[2.368s]                  from /root/dddmr_navigation/src/dddmr_sc_pgo/src/scan_context.cpp:8:
+[2.368s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.368s]   241 |     struct { \
+[2.368s]       |            ^
+[2.368s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.368s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.368s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.368s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:337:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.368s]   337 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.368s]       |     ^~~~~~~~~~~~~~~
+[2.406s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.406s]   289 |       { \
+[2.406s]       |       ^
+[2.406s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3: note: in expansion of macro ‘PCL_ADD_UNION_RGB’
+[2.406s]   313 |   PCL_ADD_UNION_RGB \
+[2.406s]       |   ^~~~~~~~~~~~~~~~~
+[2.406s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:368:5: note: in expansion of macro ‘PCL_ADD_RGB’
+[2.406s]   368 |     PCL_ADD_RGB;
+[2.406s]       |     ^~~~~~~~~~~
+[2.441s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:318:5: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.441s]   318 |     { \
+[2.441s]       |     ^
+[2.441s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:5: note: in expansion of macro ‘PCL_ADD_INTENSITY’
+[2.441s]   411 |     PCL_ADD_INTENSITY;
+[2.442s]       |     ^~~~~~~~~~~~~~~~~
+[2.442s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:22: warning: extra ‘;’ [-Wpedantic]
+[2.442s]   411 |     PCL_ADD_INTENSITY;
+[2.442s]       |                      ^
+[2.442s]       |                      -
+[2.442s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:324:5: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.442s]   324 |     { \
+[2.442s]       |     ^
+[2.442s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:5: note: in expansion of macro ‘PCL_ADD_INTENSITY_8U’
+[2.442s]   437 |     PCL_ADD_INTENSITY_8U;
+[2.442s]       |     ^~~~~~~~~~~~~~~~~~~~
+[2.442s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:25: warning: extra ‘;’ [-Wpedantic]
+[2.442s]   437 |     PCL_ADD_INTENSITY_8U;
+[2.442s]       |                         ^
+[2.442s]       |                         -
+[2.443s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:330:5: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.443s]   330 |     { \
+[2.443s]       |     ^
+[2.443s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:5: note: in expansion of macro ‘PCL_ADD_INTENSITY_32U’
+[2.443s]   469 |     PCL_ADD_INTENSITY_32U;
+[2.443s]       |     ^~~~~~~~~~~~~~~~~~~~~
+[2.443s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:26: warning: extra ‘;’ [-Wpedantic]
+[2.443s]   469 |     PCL_ADD_INTENSITY_32U;
+[2.443s]       |                          ^
+[2.443s]       |                          -
+[2.443s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.443s]   241 |     struct { \
+[2.443s]       |            ^
+[2.443s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.443s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.443s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.443s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:497:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.443s]   497 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.443s]       |     ^~~~~~~~~~~~~~~
+[2.443s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:501:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.443s]   501 |       {
+[2.443s]       |       ^
+[2.443s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.443s]   241 |     struct { \
+[2.443s]       |            ^
+[2.443s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.443s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.443s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.443s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:533:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.443s]   533 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.444s]       |     ^~~~~~~~~~~~~~~
+[2.444s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.444s]   241 |     struct { \
+[2.444s]       |            ^
+[2.444s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.444s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.444s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.444s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:573:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.444s]   573 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.444s]       |     ^~~~~~~~~~~~~~~
+[2.444s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.444s]   289 |       { \
+[2.444s]       |       ^
+[2.444s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3: note: in expansion of macro ‘PCL_ADD_UNION_RGB’
+[2.444s]   313 |   PCL_ADD_UNION_RGB \
+[2.444s]       |   ^~~~~~~~~~~~~~~~~
+[2.444s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:574:5: note: in expansion of macro ‘PCL_ADD_RGB’
+[2.444s]   574 |     PCL_ADD_RGB;
+[2.444s]       |     ^~~~~~~~~~~
+[2.444s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.444s]   241 |     struct { \
+[2.444s]       |            ^
+[2.444s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.444s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.444s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.444s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:629:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.444s]   629 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.444s]       |     ^~~~~~~~~~~~~~~
+[2.444s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.444s]   289 |       { \
+[2.444s]       |       ^
+[2.445s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3: note: in expansion of macro ‘PCL_ADD_UNION_RGB’
+[2.445s]   313 |   PCL_ADD_UNION_RGB \
+[2.445s]       |   ^~~~~~~~~~~~~~~~~
+[2.445s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:630:5: note: in expansion of macro ‘PCL_ADD_RGB’
+[2.445s]   630 |     PCL_ADD_RGB;
+[2.445s]       |     ^~~~~~~~~~~
+[2.445s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.445s]   241 |     struct { \
+[2.445s]       |            ^
+[2.445s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.445s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.445s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.445s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:636:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.445s]   636 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.445s]       |     ^~~~~~~~~~~~~~~
+[2.445s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.445s]   289 |       { \
+[2.445s]       |       ^
+[2.445s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3: note: in expansion of macro ‘PCL_ADD_UNION_RGB’
+[2.445s]   313 |   PCL_ADD_UNION_RGB \
+[2.445s]       |   ^~~~~~~~~~~~~~~~~
+[2.445s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:637:5: note: in expansion of macro ‘PCL_ADD_RGB’
+[2.445s]   637 |     PCL_ADD_RGB;
+[2.445s]       |     ^~~~~~~~~~~
+[2.446s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.446s]   241 |     struct { \
+[2.446s]       |            ^
+[2.446s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.446s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.446s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.446s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:741:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.446s]   741 |     PCL_ADD_POINT4D; // this adds the members x,y,z
+[2.446s]       |     ^~~~~~~~~~~~~~~
+[2.446s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:745:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.446s]   745 |       {
+[2.446s]       |       ^
+[2.446s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.446s]   241 |     struct { \
+[2.446s]       |            ^
+[2.446s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.446s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.446s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.446s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:782:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.446s]   782 |     PCL_ADD_POINT4D;    // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.446s]       |     ^~~~~~~~~~~~~~~
+[2.446s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:786:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.446s]   786 |       {
+[2.446s]       |       ^
+[2.447s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.447s]   241 |     struct { \
+[2.447s]       |            ^
+[2.447s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.447s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.447s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.447s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:867:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.447s]   867 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.447s]       |     ^~~~~~~~~~~~~~~
+[2.447s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:871:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.447s]   871 |       {
+[2.447s]       |       ^
+[2.447s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.447s]   266 |     struct { \
+[2.447s]       |            ^
+[2.447s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro ‘PCL_ADD_UNION_NORMAL4D’
+[2.447s]   280 |   PCL_ADD_UNION_NORMAL4D \
+[2.447s]       |   ^~~~~~~~~~~~~~~~~~~~~~
+[2.447s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:883:5: note: in expansion of macro ‘PCL_ADD_NORMAL4D’
+[2.447s]   883 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[2.447s]       |     ^~~~~~~~~~~~~~~~
+[2.447s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:887:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.447s]   887 |       {
+[2.447s]       |       ^
+[2.447s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.447s]   266 |     struct { \
+[2.447s]       |            ^
+[2.447s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro ‘PCL_ADD_UNION_NORMAL4D’
+[2.447s]   280 |   PCL_ADD_UNION_NORMAL4D \
+[2.447s]       |   ^~~~~~~~~~~~~~~~~~~~~~
+[2.447s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:924:5: note: in expansion of macro ‘PCL_ADD_NORMAL4D’
+[2.447s]   924 |     PCL_ADD_NORMAL4D;
+[2.447s]       |     ^~~~~~~~~~~~~~~~
+[2.447s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.448s]   241 |     struct { \
+[2.448s]       |            ^
+[2.448s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.448s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.448s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.448s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:955:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.448s]   955 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.448s]       |     ^~~~~~~~~~~~~~~
+[2.448s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.448s]   266 |     struct { \
+[2.448s]       |            ^
+[2.448s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro ‘PCL_ADD_UNION_NORMAL4D’
+[2.448s]   280 |   PCL_ADD_UNION_NORMAL4D \
+[2.448s]       |   ^~~~~~~~~~~~~~~~~~~~~~
+[2.448s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:956:5: note: in expansion of macro ‘PCL_ADD_NORMAL4D’
+[2.448s]   956 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[2.448s]       |     ^~~~~~~~~~~~~~~~
+[2.448s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:960:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.448s]   960 |       {
+[2.448s]       |       ^
+[2.448s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.448s]   241 |     struct { \
+[2.448s]       |            ^
+[2.448s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.448s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.448s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.448s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1001:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.448s]  1001 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.448s]       |     ^~~~~~~~~~~~~~~
+[2.448s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.448s]   266 |     struct { \
+[2.448s]       |            ^
+[2.448s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro ‘PCL_ADD_UNION_NORMAL4D’
+[2.448s]   280 |   PCL_ADD_UNION_NORMAL4D \
+[2.448s]       |   ^~~~~~~~~~~~~~~~~~~~~~
+[2.448s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1002:5: note: in expansion of macro ‘PCL_ADD_NORMAL4D’
+[2.449s]  1002 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[2.449s]       |     ^~~~~~~~~~~~~~~~
+[2.449s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.449s]   289 |       { \
+[2.449s]       |       ^
+[2.449s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:9: note: in expansion of macro ‘PCL_ADD_UNION_RGB’
+[2.449s]  1007 |         PCL_ADD_UNION_RGB;
+[2.449s]       |         ^~~~~~~~~~~~~~~~~
+[2.449s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:26: warning: extra ‘;’ [-Wpedantic]
+[2.449s]  1007 |         PCL_ADD_UNION_RGB;
+[2.449s]       |                          ^
+[2.449s]       |                          -
+[2.449s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1006:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.449s]  1006 |       {
+[2.449s]       |       ^
+[2.449s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.449s]   241 |     struct { \
+[2.449s]       |            ^
+[2.449s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.449s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.449s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.449s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1085:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.449s]  1085 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.449s]       |     ^~~~~~~~~~~~~~~
+[2.449s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.449s]   266 |     struct { \
+[2.449s]       |            ^
+[2.449s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro ‘PCL_ADD_UNION_NORMAL4D’
+[2.450s]   280 |   PCL_ADD_UNION_NORMAL4D \
+[2.450s]       |   ^~~~~~~~~~~~~~~~~~~~~~
+[2.450s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1086:5: note: in expansion of macro ‘PCL_ADD_NORMAL4D’
+[2.450s]  1086 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[2.450s]       |     ^~~~~~~~~~~~~~~~
+[2.450s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1090:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.450s]  1090 |       {
+[2.450s]       |       ^
+[2.450s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.450s]   241 |     struct { \
+[2.450s]       |            ^
+[2.450s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.450s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.450s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.450s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1135:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.450s]  1135 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.450s]       |     ^~~~~~~~~~~~~~~
+[2.450s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.450s]   266 |     struct { \
+[2.450s]       |            ^
+[2.450s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro ‘PCL_ADD_UNION_NORMAL4D’
+[2.450s]   280 |   PCL_ADD_UNION_NORMAL4D \
+[2.450s]       |   ^~~~~~~~~~~~~~~~~~~~~~
+[2.450s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1136:5: note: in expansion of macro ‘PCL_ADD_NORMAL4D’
+[2.450s]  1136 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[2.450s]       |     ^~~~~~~~~~~~~~~~
+[2.450s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1140:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.450s]  1140 |       {
+[2.450s]       |       ^
+[2.451s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.451s]   241 |     struct { \
+[2.451s]       |            ^
+[2.451s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.451s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.451s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.451s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1187:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.451s]  1187 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.451s]       |     ^~~~~~~~~~~~~~~
+[2.451s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1191:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.451s]  1191 |       {
+[2.451s]       |       ^
+[2.451s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.451s]   241 |     struct { \
+[2.451s]       |            ^
+[2.451s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.451s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.451s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.451s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1226:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.451s]  1226 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.451s]       |     ^~~~~~~~~~~~~~~
+[2.451s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1230:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.451s]  1230 |       {
+[2.451s]       |       ^
+[2.452s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1326:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.452s]  1326 |       {
+[2.452s]       |       ^
+[2.452s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1519:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.452s]  1519 |       {
+[2.452s]       |       ^
+[2.466s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1738:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.466s]  1738 |       {
+[2.466s]       |       ^
+[2.466s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.466s]   241 |     struct { \
+[2.466s]       |            ^
+[2.466s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.466s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.466s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.466s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1765:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.466s]  1765 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.466s]       |     ^~~~~~~~~~~~~~~
+[2.466s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.466s]   241 |     struct { \
+[2.466s]       |            ^
+[2.466s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.466s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.466s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.466s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1818:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.466s]  1818 |     PCL_ADD_POINT4D; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[2.466s]       |     ^~~~~~~~~~~~~~~
+[2.466s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.466s]   266 |     struct { \
+[2.466s]       |            ^
+[2.466s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3: note: in expansion of macro ‘PCL_ADD_UNION_NORMAL4D’
+[2.466s]   280 |   PCL_ADD_UNION_NORMAL4D \
+[2.466s]       |   ^~~~~~~~~~~~~~~~~~~~~~
+[2.466s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1819:5: note: in expansion of macro ‘PCL_ADD_NORMAL4D’
+[2.466s]  1819 |     PCL_ADD_NORMAL4D; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[2.466s]       |     ^~~~~~~~~~~~~~~~
+[2.467s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.467s]   289 |       { \
+[2.467s]       |       ^
+[2.467s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:9: note: in expansion of macro ‘PCL_ADD_UNION_RGB’
+[2.467s]  1824 |         PCL_ADD_UNION_RGB;
+[2.467s]       |         ^~~~~~~~~~~~~~~~~
+[2.467s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:26: warning: extra ‘;’ [-Wpedantic]
+[2.467s]  1824 |         PCL_ADD_UNION_RGB;
+[2.467s]       |                          ^
+[2.467s]       |                          -
+[2.467s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1823:7: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.467s]  1823 |       {
+[2.467s]       |       ^
+[2.467s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+[2.467s]   241 |     struct { \
+[2.467s]       |            ^
+[2.467s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3: note: in expansion of macro ‘PCL_ADD_UNION_POINT4D’
+[2.467s]   259 |   PCL_ADD_UNION_POINT4D \
+[2.467s]       |   ^~~~~~~~~~~~~~~~~~~~~
+[2.467s] /usr/include/pcl-1.12/pcl/impl/point_types.hpp:1867:5: note: in expansion of macro ‘PCL_ADD_POINT4D’
+[2.467s]  1867 |     PCL_ADD_POINT4D;
+[2.467s]       |     ^~~~~~~~~~~~~~~
+[2.783s] [ 50%] Linking CXX shared library libscan_context_lib.so
+[2.833s] [ 50%] Built target scan_context_lib
+[2.848s] Consolidate compiler generated dependencies of target sc_pgo_node
+[2.901s] [ 75%] Building CXX object CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o
+[17.596s] [100%] Linking CXX executable sc_pgo_node
+[18.835s] [100%] Built target sc_pgo_node
+[18.873s] Invoked command in '/root/dddmr_navigation/build/dddmr_sc_pgo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_sc_pgo -- -j28 -l28
+[18.879s] Invoking command in '/root/dddmr_navigation/build/dddmr_sc_pgo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_sc_pgo
+[18.884s] -- Install configuration: ""
+[18.885s] -- Execute custom install script
+[18.885s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/lib/dddmr_sc_pgo/sc_pgo_node
+[18.885s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/lib/libscan_context_lib.so
+[18.885s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/include/dddmr_sc_pgo/scan_context.h
+[18.885s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/launch/sc_pgo.launch.py
+[18.885s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/config/sc_pgo.yaml
+[18.886s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/ament_index/resource_index/package_run_dependencies/dddmr_sc_pgo
+[18.886s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/ament_index/resource_index/parent_prefix_path/dddmr_sc_pgo
+[18.886s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/environment/ament_prefix_path.sh
+[18.886s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/environment/ament_prefix_path.dsv
+[18.886s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/environment/path.sh
+[18.886s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/environment/path.dsv
+[18.886s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/local_setup.bash
+[18.886s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/local_setup.sh
+[18.886s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/local_setup.zsh
+[18.886s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/local_setup.dsv
+[18.886s] -- Symlinking: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/package.dsv
+[18.890s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/ament_index/resource_index/packages/dddmr_sc_pgo
+[18.890s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.890s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.891s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/cmake/dddmr_sc_pgoConfig.cmake
+[18.891s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/cmake/dddmr_sc_pgoConfig-version.cmake
+[18.891s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_sc_pgo/share/dddmr_sc_pgo/package.xml
+[18.892s] Invoked command in '/root/dddmr_navigation/build/dddmr_sc_pgo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_sc_pgo

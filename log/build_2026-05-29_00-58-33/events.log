@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000053] (-) JobUnselected: {'identifier': 'base_trajectory'}
+[0.000073] (-) JobUnselected: {'identifier': 'cloud_msgs'}
+[0.000088] (-) JobUnselected: {'identifier': 'dddmr_beginner_guide'}
+[0.000102] (-) JobUnselected: {'identifier': 'dddmr_fastlio_adapter'}
+[0.000115] (-) JobUnselected: {'identifier': 'dddmr_odom_3d'}
+[0.000207] (-) JobUnselected: {'identifier': 'dddmr_rviz_default_plugins'}
+[0.000291] (-) JobUnselected: {'identifier': 'dddmr_semantic_segmentation'}
+[0.000324] (-) JobUnselected: {'identifier': 'dddmr_sys_core'}
+[0.000376] (-) JobUnselected: {'identifier': 'dddmr_trt'}
+[0.000409] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000466] (-) JobUnselected: {'identifier': 'global_planner'}
+[0.000489] (-) JobUnselected: {'identifier': 'lego_loam_bor'}
+[0.000540] (-) JobUnselected: {'identifier': 'local_planner'}
+[0.000554] (-) JobUnselected: {'identifier': 'map_editor_panel'}
+[0.000568] (-) JobUnselected: {'identifier': 'mapping_panel'}
+[0.000581] (-) JobUnselected: {'identifier': 'mcl_3dl'}
+[0.000605] (-) JobUnselected: {'identifier': 'mpc_critics'}
+[0.000641] (-) JobUnselected: {'identifier': 'p2p_move_base'}
+[0.000656] (-) JobUnselected: {'identifier': 'perception_3d'}
+[0.000676] (-) JobUnselected: {'identifier': 'pose_graph_editor_panel'}
+[0.000713] (-) JobUnselected: {'identifier': 'pose_graph_merge_editor_panel'}
+[0.000727] (-) JobUnselected: {'identifier': 'recovery_behaviors'}
+[0.000740] (-) JobUnselected: {'identifier': 'trajectory_generators'}
+[0.000756] (dddmr_sc_pgo) JobQueued: {'identifier': 'dddmr_sc_pgo', 'dependencies': OrderedDict()}
+[0.000796] (dddmr_sc_pgo) JobStarted: {'identifier': 'dddmr_sc_pgo'}
+[0.004471] (dddmr_sc_pgo) JobProgress: {'identifier': 'dddmr_sc_pgo', 'progress': 'cmake'}
+[0.005300] (dddmr_sc_pgo) JobProgress: {'identifier': 'dddmr_sc_pgo', 'progress': 'build'}
+[0.006624] (dddmr_sc_pgo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dddmr_navigation/build/dddmr_sc_pgo', '--', '-j28', '-l28'], 'cwd': '/root/dddmr_navigation/build/dddmr_sc_pgo', 'env': OrderedDict([('npm_config_devdir', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/node-gyp'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/root'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('PUPPETEER_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/puppeteer'), ('HTTPS_PROXY', 'http://127.0.0.1:38251'), ('no_proxy', '127.0.0.1,::1,localhost'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('CARGO_TARGET_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cargo-target'), ('CCACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/ccache'), ('all_proxy', 'http://127.0.0.1:38251'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('HOSTNAME', 'yk'), ('CURSOR_RIPGREP_PATH', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/node_modules/@vscode/ripgrep/bin/rg'), ('PIP_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/pip'), ('NUGET_PACKAGES', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/nuget'), ('HOMEBREW_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/homebrew'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SOCKS_PROXY', 'socks5://127.0.0.1:35283'), ('BROWSER', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root'), ('NO_PROXY', '127.0.0.1,::1,localhost'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1024614c-b5fc-4e4e-b81c-9c78bcdf6c21.sock'), ('ROS_PYTHON_VERSION', '3'), ('CURSOR_ORIG_UID', '0'), ('NO_COLOR', '1'), ('CONDA_PKGS_DIRS', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/conda'), ('DEBUGINFOD_URLS', ''), ('COMPOSER_HOME', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/composer'), ('https_proxy', 'http://127.0.0.1:38251'), ('VSCODE_L10N_BUNDLE_LOCATION', 'vscode-local:/home/yk/.cursor/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.105.0-universal/translations/extensions/vscode.json-language-features.i18n.json'), ('ROS_DISTRO', 'humble'), ('OVSX_REGISTRY_URL', 'https://open-vsx.org'), ('FORCE_COLOR', '0'), ('ALL_PROXY', 'http://127.0.0.1:38251'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('http_proxy', 'http://127.0.0.1:38251'), ('BUN_INSTALL_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/bun'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CURSOR_LAYOUT', 'unifiedAgent'), ('GOMODCACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/go-mod'), ('CP_HOME_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cocoapods'), ('socks_proxy', 'socks5://127.0.0.1:35283'), ('TERM', 'dumb'), ('SOCKS5_PROXY', 'socks5://127.0.0.1:35283'), ('ROS_LOCALHOST_ONLY', '0'), ('POETRY_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/poetry'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('YARN_CACHE_FOLDER', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/yarn'), ('UV_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/uv'), ('PLAYWRIGHT_BROWSERS_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/playwright'), ('BUNDLE_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/bundle'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('NX_CACHE_DIRECTORY', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/nx'), ('LS_COLORS', ''), ('CYPRESS_CACHE_FOLDER', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cypress'), ('SSH_AUTH_SOCK', '/tmp/cursor-remote-ssh-cc04204e-865f-4c41-b7d9-7fa2afb2864a.sock'), ('PNPM_STORE_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/pnpm-store'), ('ROS_DOMAIN_ID', '18'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CURSOR_SANDBOX', 'native'), ('GOCACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/go-build'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_HTTP_PROXY', 'http://127.0.0.1:38251'), ('socks5_proxy', 'socks5://127.0.0.1:35283'), ('NPM_CONFIG_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/npm'), ('PWD', '/root/dddmr_navigation/build/dddmr_sc_pgo'), ('GRADLE_USER_HOME', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/gradle'), ('CURSOR_ORIG_GID', '0'), ('GIT_HTTPS_PROXY', 'http://127.0.0.1:38251'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:38251'), ('TURBO_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/turbo'), ('COLCON', '1'), ('__CURSOR_SANDBOX_ENV_RESTORE', "builtin export HTTP_PROXY='http://127.0.0.1:38251'; builtin export HTTPS_PROXY='http://127.0.0.1:38251'; builtin export http_proxy='http://127.0.0.1:38251'; builtin export https_proxy='http://127.0.0.1:38251'; builtin export GIT_HTTP_PROXY='http://127.0.0.1:38251'; builtin export GIT_HTTPS_PROXY='http://127.0.0.1:38251'; builtin export SOCKS_PROXY='socks5://127.0.0.1:35283'; builtin export SOCKS5_PROXY='socks5://127.0.0.1:35283'; builtin export socks_proxy='socks5://127.0.0.1:35283'; builtin export socks5_proxy='socks5://127.0.0.1:35283'; builtin export ALL_PROXY='http://127.0.0.1:38251'; builtin export all_proxy='http://127.0.0.1:38251'; builtin export NO_PROXY='127.0.0.1,::1,localhost'; builtin export no_proxy='127.0.0.1,::1,localhost'"), ('_ZO_DOCTOR', '0'), ('GEM_SPEC_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/gem-specs'), ('CURSOR_SANDBOX_LANDLOCK_STATUS', 'fully_enforced'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.054017] (dddmr_sc_pgo) StdoutLine: {'line': b'[ 50%] Built target scan_context_lib\n'}
+[0.073325] (dddmr_sc_pgo) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target sc_pgo_node\n'}
+[0.091316] (dddmr_sc_pgo) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o\n'}
+[0.099826] (-) TimerEvent: {}
+[0.200059] (-) TimerEvent: {}
+[0.300317] (-) TimerEvent: {}
+[0.400623] (-) TimerEvent: {}
+[0.500919] (-) TimerEvent: {}
+[0.601199] (-) TimerEvent: {}
+[0.701480] (-) TimerEvent: {}
+[0.801681] (-) TimerEvent: {}
+[0.904389] (-) TimerEvent: {}
+[1.004770] (-) TimerEvent: {}
+[1.104967] (-) TimerEvent: {}
+[1.205370] (-) TimerEvent: {}
+[1.305549] (-) TimerEvent: {}
+[1.405695] (-) TimerEvent: {}
+[1.505872] (-) TimerEvent: {}
+[1.607434] (-) TimerEvent: {}
+[1.707735] (-) TimerEvent: {}
+[1.807983] (-) TimerEvent: {}
+[1.908319] (-) TimerEvent: {}
+[2.008488] (-) TimerEvent: {}
+[2.108624] (-) TimerEvent: {}
+[2.208859] (-) TimerEvent: {}
+[2.309082] (-) TimerEvent: {}
+[2.409286] (-) TimerEvent: {}
+[2.509511] (-) TimerEvent: {}
+[2.609741] (-) TimerEvent: {}
+[2.710027] (-) TimerEvent: {}
+[2.810172] (-) TimerEvent: {}
+[2.910338] (-) TimerEvent: {}
+[3.010531] (-) TimerEvent: {}
+[3.110845] (-) TimerEvent: {}
+[3.211212] (-) TimerEvent: {}
+[3.311434] (-) TimerEvent: {}
+[3.411694] (-) TimerEvent: {}
+[3.511967] (-) TimerEvent: {}
+[3.612142] (-) TimerEvent: {}
+[3.712319] (-) TimerEvent: {}
+[3.812501] (-) TimerEvent: {}
+[3.912726] (-) TimerEvent: {}
+[4.012976] (-) TimerEvent: {}
+[4.113157] (-) TimerEvent: {}
+[4.213335] (-) TimerEvent: {}
+[4.313540] (-) TimerEvent: {}
+[4.413750] (-) TimerEvent: {}
+[4.513937] (-) TimerEvent: {}
+[4.616627] (-) TimerEvent: {}
+[4.716899] (-) TimerEvent: {}
+[4.817170] (-) TimerEvent: {}
+[4.917369] (-) TimerEvent: {}
+[4.979310] (dddmr_sc_pgo) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,\n'}
+[4.979438] (dddmr_sc_pgo) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,\n'}
+[4.979470] (dddmr_sc_pgo) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,\n'}
+[4.979495] (dddmr_sc_pgo) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,\n'}
+[4.979521] (dddmr_sc_pgo) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,\n'}
+[4.979544] (dddmr_sc_pgo) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,\n'}
+[4.979566] (dddmr_sc_pgo) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,\n'}
+[4.979588] (dddmr_sc_pgo) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,\n'}
+[4.979610] (dddmr_sc_pgo) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[4.979632] (dddmr_sc_pgo) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,\n'}
+[4.979653] (dddmr_sc_pgo) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[4.979676] (dddmr_sc_pgo) StderrLine: {'line': b'                 from /root/dddmr_navigation/src/dddmr_sc_pgo/src/sc_pgo_node.cpp:18:\n'}
+[4.979697] (dddmr_sc_pgo) StderrLine: {'line': b'/root/dddmr_navigation/src/dddmr_sc_pgo/src/sc_pgo_node.cpp: In member function \xe2\x80\x98void SC_PGO_Node::addLoopFactor(int, int)\xe2\x80\x99:\n'}
+[4.979720] (dddmr_sc_pgo) StderrLine: {'line': b'/root/dddmr_navigation/src/dddmr_sc_pgo/src/sc_pgo_node.cpp:528:47: error: \xe2\x80\x98loop_noise\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98loop_noise_base\xe2\x80\x99?\n'}
+[4.979741] (dddmr_sc_pgo) StderrLine: {'line': b'  528 |             prev_id, curr_id, icp_mean_error, loop_noise);\n'}
+[4.979761] (dddmr_sc_pgo) StderrLine: {'line': b'      |                                               ^~~~~~~~~~\n'}
+[5.017569] (-) TimerEvent: {}
+[5.117834] (-) TimerEvent: {}
+[5.217952] (-) TimerEvent: {}
+[5.319688] (-) TimerEvent: {}
+[5.420035] (-) TimerEvent: {}
+[5.520208] (-) TimerEvent: {}
+[5.620462] (-) TimerEvent: {}
+[5.720707] (-) TimerEvent: {}
+[5.820980] (-) TimerEvent: {}
+[5.921130] (-) TimerEvent: {}
+[6.023239] (-) TimerEvent: {}
+[6.124135] (-) TimerEvent: {}
+[6.224575] (-) TimerEvent: {}
+[6.324850] (-) TimerEvent: {}
+[6.425087] (-) TimerEvent: {}
+[6.525266] (-) TimerEvent: {}
+[6.625451] (-) TimerEvent: {}
+[6.725656] (-) TimerEvent: {}
+[6.825854] (-) TimerEvent: {}
+[6.926044] (-) TimerEvent: {}
+[7.026247] (-) TimerEvent: {}
+[7.126465] (-) TimerEvent: {}
+[7.226668] (-) TimerEvent: {}
+[7.326907] (-) TimerEvent: {}
+[7.427093] (-) TimerEvent: {}
+[7.527439] (-) TimerEvent: {}
+[7.627846] (-) TimerEvent: {}
+[7.728039] (-) TimerEvent: {}
+[7.828260] (-) TimerEvent: {}
+[7.928431] (-) TimerEvent: {}
+[8.028608] (-) TimerEvent: {}
+[8.128875] (-) TimerEvent: {}
+[8.229040] (-) TimerEvent: {}
+[8.329246] (-) TimerEvent: {}
+[8.429476] (-) TimerEvent: {}
+[8.529708] (-) TimerEvent: {}
+[8.629929] (-) TimerEvent: {}
+[8.730111] (-) TimerEvent: {}
+[8.830297] (-) TimerEvent: {}
+[8.930534] (-) TimerEvent: {}
+[9.030883] (-) TimerEvent: {}
+[9.131256] (-) TimerEvent: {}
+[9.231426] (-) TimerEvent: {}
+[9.331776] (-) TimerEvent: {}
+[9.431963] (-) TimerEvent: {}
+[9.532169] (-) TimerEvent: {}
+[9.632337] (-) TimerEvent: {}
+[9.732558] (-) TimerEvent: {}
+[9.832880] (-) TimerEvent: {}
+[9.933153] (-) TimerEvent: {}
+[10.033337] (-) TimerEvent: {}
+[10.124953] (dddmr_sc_pgo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sc_pgo_node.dir/build.make:76: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o] Error 1\n'}
+[10.125233] (dddmr_sc_pgo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sc_pgo_node.dir/all] Error 2\n'}
+[10.125473] (dddmr_sc_pgo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.127089] (dddmr_sc_pgo) CommandEnded: {'returncode': 2}
+[10.132714] (dddmr_sc_pgo) JobEnded: {'identifier': 'dddmr_sc_pgo', 'rc': 2}
+[10.133422] (-) TimerEvent: {}
+[10.142946] (-) EventReactorShutdown: {}

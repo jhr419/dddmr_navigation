@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/dddmr_navigation/build/local_planner/local_planner_node" "/root/dddmr_navigation/build/local_planner/local_planner_play_ground_node" "TARGETS" "local_planner_node" "local_planner_play_ground_node" "RUNTIME_DESTINATION" "lib/local_planner")

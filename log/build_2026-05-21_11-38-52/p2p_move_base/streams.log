@@ -1,0 +1,170 @@
+[0.015s] Invoking command in '/root/dddmr_navigation/build/p2p_move_base': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/dddmr_navigation/src/dddmr_p2p_move_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/p2p_move_base
+[0.053s] -- The C compiler identification is GNU 13.4.0
+[0.089s] -- The CXX compiler identification is GNU 13.4.0
+[0.093s] -- Detecting C compiler ABI info
+[0.136s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.141s] -- Detecting C compile features
+[0.142s] -- Detecting C compile features - done
+[0.144s] -- Detecting CXX compiler ABI info
+[0.193s] -- Detecting CXX compiler ABI info - done
+[0.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.198s] -- Detecting CXX compile features
+[0.198s] -- Detecting CXX compile features - done
+[0.200s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.293s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.335s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.356s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.384s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.388s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.393s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.401s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.412s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.441s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.443s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.504s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.524s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.553s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.559s] -- Looking for pthread.h
+[0.606s] -- Looking for pthread.h - found
+[0.606s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.654s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.655s] -- Found Threads: TRUE  
+[0.688s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.710s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.722s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.740s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[0.747s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.765s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.776s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.794s] -- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)
+[0.797s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.818s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.828s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.829s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.829s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.831s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.833s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.835s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[0.849s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.875s] -- Checking for module 'eigen3'
+[0.885s] --   Found eigen3, version 3.4.0
+[0.908s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.908s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.935s] -- Checking for module 'flann'
+[0.945s] --   Found flann, version 1.9.1
+[0.975s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.975s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.576s] -- Checking for module 'libusb-1.0'
+[1.586s] --   Found libusb-1.0, version 1.0.25
+[1.610s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.611s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.651s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.746s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.751s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.757s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.850s] -- Found Qhull version 8.0.2
+[1.944s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.036s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.036s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.037s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.037s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.037s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.038s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.038s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.038s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.039s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.039s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.040s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.040s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.041s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.041s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.042s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.043s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.043s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.044s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.044s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.045s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.045s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.046s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.046s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.046s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.047s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.048s] -- Found local_planner: 0.0.0 (/root/dddmr_navigation/install/local_planner/share/local_planner/cmake)
+[2.142s] -- Found recovery_behaviors: 1.0.0 (/root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake)
+[2.170s] [33mCMake Warning (dev) at CMakeLists.txt:28 (find_package):
+[2.170s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.170s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.170s]   command to set the policy and suppress this warning.
+[2.170s] 
+[2.170s]   CMake variable PCL_ROOT is set to:
+[2.170s] 
+[2.170s]     /usr
+[2.170s] 
+[2.170s]   For compatibility, CMake is ignoring the variable.
+[2.171s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.171s] [0m
+[3.238s] -- Configuring done
+[3.362s] -- Generating done
+[3.380s] -- Build files have been written to: /root/dddmr_navigation/build/p2p_move_base
+[3.394s] Invoked command in '/root/dddmr_navigation/build/p2p_move_base' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/dddmr_navigation/src/dddmr_p2p_move_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/p2p_move_base
+[3.395s] Invoking command in '/root/dddmr_navigation/build/p2p_move_base': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/dddmr_navigation/build/p2p_move_base -- -j28 -l28
+[3.430s] [ 12%] [32mBuilding CXX object CMakeFiles/p2p_fsm.dir/src/p2p_fsm.cpp.o[0m
+[3.431s] [ 25%] [32mBuilding CXX object CMakeFiles/p2p_global_plan_manager.dir/src/p2p_global_plan_manager.cpp.o[0m
+[5.142s] [ 37%] [32m[1mLinking CXX shared library libp2p_fsm.so[0m
+[5.458s] [ 37%] Built target p2p_fsm
+[5.886s] [ 50%] [32m[1mLinking CXX shared library libp2p_global_plan_manager.so[0m
+[6.193s] [ 50%] Built target p2p_global_plan_manager
+[6.208s] [ 62%] [32mBuilding CXX object CMakeFiles/p2p_mov2_base.dir/src/p2p_move_base.cpp.o[0m
+[13.539s] [ 75%] [32m[1mLinking CXX shared library libp2p_mov2_base.so[0m
+[14.158s] [ 75%] Built target p2p_mov2_base
+[14.175s] [ 87%] [32mBuilding CXX object CMakeFiles/p2p_move_base_node.dir/src/p2p_move_base_node.cpp.o[0m
+[19.520s] [100%] [32m[1mLinking CXX executable p2p_move_base_node[0m
+[20.309s] [100%] Built target p2p_move_base_node
+[20.346s] Invoked command in '/root/dddmr_navigation/build/p2p_move_base' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/dddmr_navigation/build/p2p_move_base -- -j28 -l28
+[20.347s] Invoking command in '/root/dddmr_navigation/build/p2p_move_base': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/dddmr_navigation/build/p2p_move_base
+[20.351s] -- Install configuration: ""
+[20.351s] -- Execute custom install script
+[20.351s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/lib/libp2p_fsm.so
+[20.356s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/lib/libp2p_mov2_base.so
+[20.361s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/lib/libp2p_global_plan_manager.so
+[20.367s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/lib/p2p_move_base/p2p_move_base_node
+[20.371s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/include//p2p_move_base/p2p_fsm.h
+[20.377s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/include//p2p_move_base/p2p_global_plan_manager.h
+[20.381s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/include//p2p_move_base/p2p_move_base.h
+[20.387s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base//launch/go2_localization.launch
+[20.391s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base//launch/go2_mapping.launch
+[20.396s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base//launch/p2p_move_base_localization.launch
+[20.401s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base//launch/p2p_move_base_mapping.launch
+[20.406s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base//launch/p2p_wo_mcl.launch
+[20.411s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base//config/go2_localization.yaml
+[20.416s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base//config/go2_mapping.yaml
+[20.422s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base//config/p2p_move_base_localization.yaml
+[20.429s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base//config/p2p_move_base_mapping.yaml
+[20.434s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base//config/p2p_wo_mcl.yaml
+[20.440s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base//rviz/go2_mapping.rviz
+[20.445s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base//rviz/p2p_move_base_localization.rviz
+[20.450s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base//rviz/p2p_move_base_mapping.rviz
+[20.455s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base//rviz/p2p_wo_mcl.rviz
+[20.461s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/lib/p2p_move_base/clicked2goal.py
+[20.466s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/environment/library_path.sh
+[20.471s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/environment/library_path.dsv
+[20.476s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/ament_index/resource_index/package_run_dependencies/p2p_move_base
+[20.481s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/ament_index/resource_index/parent_prefix_path/p2p_move_base
+[20.485s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/environment/ament_prefix_path.sh
+[20.490s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/environment/ament_prefix_path.dsv
+[20.496s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/environment/path.sh
+[20.501s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/environment/path.dsv
+[20.506s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/local_setup.bash
+[20.513s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/local_setup.sh
+[20.519s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/local_setup.zsh
+[20.525s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/local_setup.dsv
+[20.531s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/package.dsv
+[20.536s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/ament_index/resource_index/packages/p2p_move_base
+[20.541s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.546s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/cmake/ament_cmake_export_libraries-extras.cmake
+[20.551s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.556s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/cmake/p2p_move_baseConfig.cmake
+[20.561s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/cmake/p2p_move_baseConfig-version.cmake
+[20.566s] -- Symlinking: /root/dddmr_navigation/install/p2p_move_base/share/p2p_move_base/package.xml
+[20.572s] Invoked command in '/root/dddmr_navigation/build/p2p_move_base' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/dddmr_navigation/build/p2p_move_base

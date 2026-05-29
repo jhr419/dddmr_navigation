@@ -1,0 +1,37 @@
+[33mCMake Warning (dev) at CMakeLists.txt:33 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:[m[K In destructor ‘[01m[Kvirtual FeatureAssociation::[01;32m[K~FeatureAssociation[m[K()[m[K’:
+[01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Kgeometry_msgs::msg::TransformStamped_<ContainerAllocator>::[01;32m[KTransformStamped_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+  117 |   [01;35m[K_input_channel.send({})[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Kgeometry_msgs::msg::TransformStamped_<ContainerAllocator>::[01;32m[KTransformStamped_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Kgeometry_msgs::msg::TransformStamped_<ContainerAllocator>::[01;32m[KTransformStamped_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kcloud_msgs::msg::CloudInfo[m[K’ {aka ‘[01m[Kcloud_msgs::msg::CloudInfo_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Kcloud_msgs::msg::CloudInfo_<ContainerAllocator>::[01;32m[KCloudInfo_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+/usr/bin/ld: warning: libpcl_io_ply.so.1.12, needed by /usr/lib/x86_64-linux-gnu/libpcl_io.so, may conflict with libpcl_io_ply.so.1.15
+gmake[2]: *** [CMakeFiles/optimized_icp_gn_playground.dir/build.make:76: CMakeFiles/optimized_icp_gn_playground.dir/src/opt_icp_gn/optimized_ICP_GN_playground.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/map_optimization.dir/build.make:76: CMakeFiles/map_optimization.dir/src/mapOptimization.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/pose_graph_editor.dir/build.make:76: CMakeFiles/pose_graph_editor.dir/src/pose_graph_editor/pose_graph_editor.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/image_projection.dir/build.make:76: CMakeFiles/image_projection.dir/src/imageProjection.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/feature_association.dir/build.make:76: CMakeFiles/feature_association.dir/src/featureAssociation.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/lego_loam_map_visualization.dir/build.make:76: CMakeFiles/lego_loam_map_visualization.dir/src/utils/lego_loam_map_visualization.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:518: CMakeFiles/optimized_icp_gn_playground.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:269: CMakeFiles/lego_loam_map_visualization.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/image_projection.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:217: CMakeFiles/feature_association.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:295: CMakeFiles/pose_graph_editor.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:243: CMakeFiles/map_optimization.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/dddmr_navigation/build/global_planner/global_planner_node" "/root/dddmr_navigation/build/global_planner/dummy_pc_publisher" "/root/dddmr_navigation/build/global_planner/occupancy2ground" "TARGETS" "global_planner_node" "dummy_pc_publisher" "occupancy2ground" "RUNTIME_DESTINATION" "lib/global_planner")

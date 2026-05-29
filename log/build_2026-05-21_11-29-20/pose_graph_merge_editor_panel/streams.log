@@ -1,0 +1,8 @@
+[0.035s] Invoking command in '/root/dddmr_navigation/build/pose_graph_merge_editor_panel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/pose_graph_merge_editor_panel -- -j28 -l28
+[0.096s] [ 20%] [34m[1mAutomatic UIC for target pose_graph_merge_editor_panel[0m
+[0.124s] [ 20%] Built target pose_graph_merge_editor_panel_autogen
+[0.145s] [ 40%] [34m[1mGenerating include/pose_graph_merge_editor_panel/moc_pose_graph_merge_editor_panel.cpp[0m
+[0.178s] [ 60%] [32mBuilding CXX object CMakeFiles/pose_graph_merge_editor_panel.dir/include/pose_graph_merge_editor_panel/moc_pose_graph_merge_editor_panel.cpp.o[0m
+[0.181s] [ 80%] [32mBuilding CXX object CMakeFiles/pose_graph_merge_editor_panel.dir/src/pose_graph_merge_editor_panel.cpp.o[0m
+[16.928s] [100%] [32m[1mLinking CXX shared library libpose_graph_merge_editor_panel.so[0m
+[17.936s] [100%] Built target pose_graph_merge_editor_panel

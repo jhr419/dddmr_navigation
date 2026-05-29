@@ -1,0 +1,26 @@
+[100%] Built target base_trajectory
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/lib/libbase_trajectory.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/include//base_trajectory/trajectory.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/include//base_trajectory/trajectory_sample_generator.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/environment/library_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/environment/library_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/ament_index/resource_index/package_run_dependencies/base_trajectory
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/ament_index/resource_index/parent_prefix_path/base_trajectory
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/environment/path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/environment/path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/local_setup.bash
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/local_setup.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/local_setup.zsh
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/local_setup.dsv
+-- Symlinking: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/package.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/ament_index/resource_index/packages/base_trajectory
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake/base_trajectoryConfig.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake/base_trajectoryConfig-version.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/package.xml

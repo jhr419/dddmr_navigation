@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+    <name>dddmr_sc_pgo</name>
+    <version>1.0.0</version>
+    <description>
+        基于 ScanContext 的回环检测和 GTSAM 位姿图优化
+        用于增强 Fast-LIO 建图精度，修正累积漂移
+        
+        功能特性:
+        - ScanContext 地点识别
+        - 自动回环检测
+        - iSAM2 位姿图优化
+        - 关键帧地图构建
+    </description>
+    
+    <maintainer email="maintainer@example.com">DDDMR Maintainer</maintainer>
+    <license>MIT</license>
+    
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <buildtool_depend>ament_cmake_python</buildtool_depend>
+    
+    <!-- ROS2 核心依赖 -->
+    <depend>rclcpp</depend>
+    <depend>std_msgs</depend>
+    <depend>nav_msgs</depend>
+    <depend>sensor_msgs</depend>
+    <depend>geometry_msgs</depend>
+    <depend>visualization_msgs</depend>
+    
+    <!-- TF2 依赖 -->
+    <depend>tf2</depend>
+    <depend>tf2_ros</depend>
+    <depend>tf2_eigen</depend>
+    
+    <!-- PCL 依赖 -->
+    <depend>pcl_conversions</depend>
+    <depend>pcl_ros</depend>
+    <depend>libpcl-all-dev</depend>
+    
+    <!-- GTSAM 依赖（需要单独安装） -->
+    <!-- sudo apt install libgtsam-dev libgtsam-unstable-dev -->
+    <depend>libgtsam-dev</depend>
+    
+    <!-- Eigen3 -->
+    <depend>libeigen3-dev</depend>
+    
+    <test_depend>ament_lint_auto</test_depend>
+    <test_depend>ament_lint_common</test_depend>
+    
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>

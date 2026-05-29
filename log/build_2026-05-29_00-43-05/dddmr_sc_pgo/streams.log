@@ -1,0 +1,25 @@
+[0.010s] Invoking command in '/root/dddmr_navigation/build/dddmr_sc_pgo': /usr/bin/cmake /root/dddmr_navigation/src/dddmr_sc_pgo -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sc_pgo
+[0.016s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.061s] Traceback (most recent call last):
+[0.061s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.061s]     from ament_package.templates import get_environment_hook_template_path
+[0.061s] ModuleNotFoundError: No module named 'ament_package'
+[0.063s] CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.063s]   execute_process(/usr/bin/python3
+[0.063s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.063s]   /root/dddmr_navigation/build/dddmr_sc_pgo/ament_cmake_package_templates/templates.cmake)
+[0.063s]   returned error code 1
+[0.063s] Call Stack (most recent call first):
+[0.063s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.063s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:39 (find_package)
+[0.063s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.063s]   /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake:17 (find_package)
+[0.063s]   /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake:41 (include)
+[0.063s]   /opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:19 (find_package)
+[0.063s]   /opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)
+[0.063s]   CMakeLists.txt:43 (find_package)
+[0.063s] 
+[0.063s] 
+[0.063s] -- Configuring incomplete, errors occurred!
+[0.063s] See also "/root/dddmr_navigation/build/dddmr_sc_pgo/CMakeFiles/CMakeOutput.log".
+[0.064s] Invoked command in '/root/dddmr_navigation/build/dddmr_sc_pgo' returned '1': /usr/bin/cmake /root/dddmr_navigation/src/dddmr_sc_pgo -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sc_pgo

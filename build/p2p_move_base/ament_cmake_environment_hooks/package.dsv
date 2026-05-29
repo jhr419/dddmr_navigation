@@ -1,0 +1,4 @@
+source;share/p2p_move_base/local_setup.bash
+source;share/p2p_move_base/local_setup.dsv
+source;share/p2p_move_base/local_setup.sh
+source;share/p2p_move_base/local_setup.zsh

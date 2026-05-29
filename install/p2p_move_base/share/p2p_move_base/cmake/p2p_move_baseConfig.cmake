@@ -1,0 +1,1 @@
+/root/dddmr_navigation/build/p2p_move_base/ament_cmake_core/p2p_move_baseConfig.cmake

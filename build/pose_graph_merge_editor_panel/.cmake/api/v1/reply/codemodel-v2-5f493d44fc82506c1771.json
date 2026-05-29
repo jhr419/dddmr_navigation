@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-bd0aeaf661284d9914ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pose_graph_merge_editor_panel",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_graph_merge_editor_panel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_graph_merge_editor_panel-Release-8cbdbbc01ab0412a9803.json",
+					"name" : "pose_graph_merge_editor_panel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_graph_merge_editor_panel_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_graph_merge_editor_panel_autogen-Release-70968b3c5bd2f011764c.json",
+					"name" : "pose_graph_merge_editor_panel_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_graph_merge_editor_panel_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_graph_merge_editor_panel_uninstall-Release-ead733c4db3b2ce87671.json",
+					"name" : "pose_graph_merge_editor_panel_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-d9bbd20dde2ff74a8df7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/dddmr_navigation/build/pose_graph_merge_editor_panel",
+		"source" : "/root/dddmr_navigation/src/dddmr_rviz_tools/pose_graph_merge_editor_panel"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,4 @@
+source;share/dddmr_sc_pgo/local_setup.bash
+source;share/dddmr_sc_pgo/local_setup.dsv
+source;share/dddmr_sc_pgo/local_setup.sh
+source;share/dddmr_sc_pgo/local_setup.zsh

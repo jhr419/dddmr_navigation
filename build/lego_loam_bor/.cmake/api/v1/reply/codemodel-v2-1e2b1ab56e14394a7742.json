@@ -1,0 +1,205 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-46b25dee0401f3ed0033.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lego_loam_bor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "feature_association::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feature_association-1d3e4f7056f52f106d34.json",
+					"name" : "feature_association",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_projection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_projection-7fb48d08a1554bdf40ed.json",
+					"name" : "image_projection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interactive_pose_graph_editor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interactive_pose_graph_editor-1f9c1eded2c089d21dc3.json",
+					"name" : "interactive_pose_graph_editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lego_loam::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lego_loam-2668d776d6508bdeba72.json",
+					"name" : "lego_loam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lego_loam_bag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lego_loam_bag-fa327312144ddc0d46a5.json",
+					"name" : "lego_loam_bag",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lego_loam_bag_lidar2depthimg_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lego_loam_bag_lidar2depthimg_node-58a2ee83efc654a6a3b5.json",
+					"name" : "lego_loam_bag_lidar2depthimg_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lego_loam_bor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lego_loam_bor_uninstall-93e0a528150fce81fb54.json",
+					"name" : "lego_loam_bor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lego_loam_map_visualization::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lego_loam_map_visualization-26d463278a6bb8570fba.json",
+					"name" : "lego_loam_map_visualization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_optimization::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_optimization-ade3b4035acfb1d4e1b5.json",
+					"name" : "map_optimization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mcl_feature::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mcl_feature-f3d332270d1f33762a17.json",
+					"name" : "mcl_feature",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opt_icp_gn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opt_icp_gn-558a4dff8034ad928151.json",
+					"name" : "opt_icp_gn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "optimized_icp_gn_playground::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-optimized_icp_gn_playground-a17a2b6e856171aac93b.json",
+					"name" : "optimized_icp_gn_playground",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud2occupancy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud2occupancy-6b0ecea880479dfac22d.json",
+					"name" : "pointcloud2occupancy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_graph_editor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_graph_editor-642300c5cf262b7f552c.json",
+					"name" : "pose_graph_editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_graph_editor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_graph_editor_node-f2995f94a8d1cf7ea52b.json",
+					"name" : "pose_graph_editor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_graph_merge_editor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_graph_merge_editor-cd87867e5f6dd3929e00.json",
+					"name" : "pose_graph_merge_editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-08f8b2161d4a2a0fbcb3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/dddmr_navigation/build/lego_loam_bor",
+		"source" : "/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

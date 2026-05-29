@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000234] (-) JobUnselected: {'identifier': 'base_trajectory'}
+[0.000292] (-) JobUnselected: {'identifier': 'cloud_msgs'}
+[0.000339] (-) JobUnselected: {'identifier': 'dddmr_beginner_guide'}
+[0.000355] (-) JobUnselected: {'identifier': 'dddmr_fastlio_adapter'}
+[0.000371] (-) JobUnselected: {'identifier': 'dddmr_odom_3d'}
+[0.000389] (-) JobUnselected: {'identifier': 'dddmr_rviz_default_plugins'}
+[0.000419] (-) JobUnselected: {'identifier': 'dddmr_semantic_segmentation'}
+[0.000440] (-) JobUnselected: {'identifier': 'dddmr_sys_core'}
+[0.000449] (-) JobUnselected: {'identifier': 'dddmr_trt'}
+[0.000455] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000462] (-) JobUnselected: {'identifier': 'global_planner'}
+[0.000467] (-) JobUnselected: {'identifier': 'lego_loam_bor'}
+[0.000474] (-) JobUnselected: {'identifier': 'local_planner'}
+[0.000480] (-) JobUnselected: {'identifier': 'map_editor_panel'}
+[0.000486] (-) JobUnselected: {'identifier': 'mapping_panel'}
+[0.000492] (-) JobUnselected: {'identifier': 'mcl_3dl'}
+[0.000498] (-) JobUnselected: {'identifier': 'mpc_critics'}
+[0.000503] (-) JobUnselected: {'identifier': 'p2p_move_base'}
+[0.000509] (-) JobUnselected: {'identifier': 'perception_3d'}
+[0.000516] (-) JobUnselected: {'identifier': 'pose_graph_editor_panel'}
+[0.000522] (-) JobUnselected: {'identifier': 'pose_graph_merge_editor_panel'}
+[0.000528] (-) JobUnselected: {'identifier': 'recovery_behaviors'}
+[0.000534] (-) JobUnselected: {'identifier': 'trajectory_generators'}
+[0.000541] (dddmr_sc_pgo) JobQueued: {'identifier': 'dddmr_sc_pgo', 'dependencies': OrderedDict()}
+[0.000549] (dddmr_sc_pgo) JobStarted: {'identifier': 'dddmr_sc_pgo'}
+[0.008697] (dddmr_sc_pgo) JobProgress: {'identifier': 'dddmr_sc_pgo', 'progress': 'cmake'}
+[0.009359] (dddmr_sc_pgo) Command: {'cmd': ['/usr/bin/cmake', '/root/dddmr_navigation/src/dddmr_sc_pgo', '-DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sc_pgo'], 'cwd': '/root/dddmr_navigation/build/dddmr_sc_pgo', 'env': OrderedDict([('npm_config_devdir', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/node-gyp'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/root'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('PUPPETEER_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/puppeteer'), ('HTTPS_PROXY', 'http://127.0.0.1:38783'), ('no_proxy', '127.0.0.1,::1,localhost'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('CARGO_TARGET_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cargo-target'), ('CCACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/ccache'), ('all_proxy', 'http://127.0.0.1:38783'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('HOSTNAME', 'yk'), ('CURSOR_RIPGREP_PATH', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/node_modules/@vscode/ripgrep/bin/rg'), ('PIP_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/pip'), ('NUGET_PACKAGES', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/nuget'), ('HOMEBREW_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/homebrew'), ('SHLVL', '1'), ('SOCKS_PROXY', 'socks5://127.0.0.1:43629'), ('BROWSER', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root'), ('NO_PROXY', '127.0.0.1,::1,localhost'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1024614c-b5fc-4e4e-b81c-9c78bcdf6c21.sock'), ('CURSOR_ORIG_UID', '0'), ('NO_COLOR', '1'), ('CONDA_PKGS_DIRS', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/conda'), ('DEBUGINFOD_URLS', ''), ('COMPOSER_HOME', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/composer'), ('https_proxy', 'http://127.0.0.1:38783'), ('VSCODE_L10N_BUNDLE_LOCATION', 'vscode-local:/home/yk/.cursor/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.105.0-universal/translations/extensions/vscode.json-language-features.i18n.json'), ('OVSX_REGISTRY_URL', 'https://open-vsx.org'), ('FORCE_COLOR', '0'), ('ALL_PROXY', 'http://127.0.0.1:38783'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('http_proxy', 'http://127.0.0.1:38783'), ('BUN_INSTALL_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/bun'), ('_', '/usr/bin/colcon'), ('CURSOR_LAYOUT', 'unifiedAgent'), ('GOMODCACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/go-mod'), ('CP_HOME_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cocoapods'), ('socks_proxy', 'socks5://127.0.0.1:43629'), ('TERM', 'dumb'), ('SOCKS5_PROXY', 'socks5://127.0.0.1:43629'), ('ROS_LOCALHOST_ONLY', '0'), ('POETRY_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/poetry'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/root/.cursor-server/bin/009bb5a3600dd98fe1c1f25798f767f686e14750/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('YARN_CACHE_FOLDER', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/yarn'), ('UV_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/uv'), ('PLAYWRIGHT_BROWSERS_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/playwright'), ('BUNDLE_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/bundle'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('NX_CACHE_DIRECTORY', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/nx'), ('LS_COLORS', ''), ('CYPRESS_CACHE_FOLDER', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/cypress'), ('SSH_AUTH_SOCK', '/tmp/cursor-remote-ssh-cc04204e-865f-4c41-b7d9-7fa2afb2864a.sock'), ('PNPM_STORE_PATH', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/pnpm-store'), ('ROS_DOMAIN_ID', '18'), ('CURSOR_SANDBOX', 'native'), ('GOCACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/go-build'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_HTTP_PROXY', 'http://127.0.0.1:38783'), ('socks5_proxy', 'socks5://127.0.0.1:43629'), ('NPM_CONFIG_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/npm'), ('PWD', '/root/dddmr_navigation/build/dddmr_sc_pgo'), ('GRADLE_USER_HOME', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/gradle'), ('CURSOR_ORIG_GID', '0'), ('GIT_HTTPS_PROXY', 'http://127.0.0.1:38783'), ('HTTP_PROXY', 'http://127.0.0.1:38783'), ('TURBO_CACHE_DIR', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/turbo'), ('COLCON', '1'), ('__CURSOR_SANDBOX_ENV_RESTORE', "builtin export HTTP_PROXY='http://127.0.0.1:38783'; builtin export HTTPS_PROXY='http://127.0.0.1:38783'; builtin export http_proxy='http://127.0.0.1:38783'; builtin export https_proxy='http://127.0.0.1:38783'; builtin export GIT_HTTP_PROXY='http://127.0.0.1:38783'; builtin export GIT_HTTPS_PROXY='http://127.0.0.1:38783'; builtin export SOCKS_PROXY='socks5://127.0.0.1:43629'; builtin export SOCKS5_PROXY='socks5://127.0.0.1:43629'; builtin export socks_proxy='socks5://127.0.0.1:43629'; builtin export socks5_proxy='socks5://127.0.0.1:43629'; builtin export ALL_PROXY='http://127.0.0.1:38783'; builtin export all_proxy='http://127.0.0.1:38783'; builtin export NO_PROXY='127.0.0.1,::1,localhost'; builtin export no_proxy='127.0.0.1,::1,localhost'"), ('_ZO_DOCTOR', '0'), ('GEM_SPEC_CACHE', '/tmp/cursor-sandbox-cache/a5e1508de0508be018cfaa2e30320439/gem-specs'), ('CURSOR_SANDBOX_LANDLOCK_STATUS', 'fully_enforced')]), 'shell': False}
+[0.016434] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.061540] (dddmr_sc_pgo) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.061643] (dddmr_sc_pgo) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.061673] (dddmr_sc_pgo) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.061695] (dddmr_sc_pgo) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.063175] (dddmr_sc_pgo) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.063253] (dddmr_sc_pgo) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.063282] (dddmr_sc_pgo) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.063306] (dddmr_sc_pgo) StderrLine: {'line': b'  /root/dddmr_navigation/build/dddmr_sc_pgo/ament_cmake_package_templates/templates.cmake)\n'}
+[0.063328] (dddmr_sc_pgo) StderrLine: {'line': b'  returned error code 1\n'}
+[0.063349] (dddmr_sc_pgo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.063371] (dddmr_sc_pgo) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.063392] (dddmr_sc_pgo) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:39 (find_package)\n'}
+[0.063417] (dddmr_sc_pgo) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)\n'}
+[0.063438] (dddmr_sc_pgo) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake:17 (find_package)\n'}
+[0.063458] (dddmr_sc_pgo) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake:41 (include)\n'}
+[0.063478] (dddmr_sc_pgo) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake:19 (find_package)\n'}
+[0.063498] (dddmr_sc_pgo) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake:41 (include)\n'}
+[0.063518] (dddmr_sc_pgo) StderrLine: {'line': b'  CMakeLists.txt:43 (find_package)\n'}
+[0.063539] (dddmr_sc_pgo) StderrLine: {'line': b'\n'}
+[0.063558] (dddmr_sc_pgo) StderrLine: {'line': b'\n'}
+[0.063577] (dddmr_sc_pgo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.063599] (dddmr_sc_pgo) StdoutLine: {'line': b'See also "/root/dddmr_navigation/build/dddmr_sc_pgo/CMakeFiles/CMakeOutput.log".\n'}
+[0.064963] (dddmr_sc_pgo) CommandEnded: {'returncode': 1}
+[0.075425] (dddmr_sc_pgo) JobEnded: {'identifier': 'dddmr_sc_pgo', 'rc': 1}
+[0.085657] (-) EventReactorShutdown: {}

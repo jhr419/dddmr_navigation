@@ -1,0 +1,3 @@
+/root/dddmr_navigation/install/mapping_panel/lib/libmapping_panel.so
+/root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/mapping_panelExport.cmake
+/root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/mapping_panelExport-release.cmake

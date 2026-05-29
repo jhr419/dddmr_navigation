@@ -1,0 +1,68 @@
+[0.436s] Invoking command in '/root/dddmr_navigation/build/dddmr_fastlio_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_fastlio_adapter -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_fastlio_adapter
+[0.684s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.477s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.529s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.748s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.771s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.820s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.908s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.021s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.298s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.315s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.311s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.631s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[3.692s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.882s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.997s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[4.025s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.556s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.577s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.588s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.589s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.597s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[4.703s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.859s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.898s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.901s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[4.901s] [0m** WARNING ** io features related to png will be disabled[0m
+[6.254s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[7.217s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.388s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[7.394s] -- looking for PCL_COMMON
+[7.397s] -- looking for PCL_OCTREE
+[7.400s] -- looking for PCL_IO
+[7.402s] -- looking for PCL_KDTREE
+[7.404s] -- looking for PCL_SEARCH
+[7.407s] -- looking for PCL_SAMPLE_CONSENSUS
+[7.410s] -- looking for PCL_FILTERS
+[7.416s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[8.180s] -- Configuring done
+[8.393s] -- Generating done
+[8.444s] -- Build files have been written to: /root/dddmr_navigation/build/dddmr_fastlio_adapter
+[8.507s] Invoked command in '/root/dddmr_navigation/build/dddmr_fastlio_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_fastlio_adapter -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_fastlio_adapter
+[8.519s] Invoking command in '/root/dddmr_navigation/build/dddmr_fastlio_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_fastlio_adapter -- -j28 -l28
+[8.830s] [35m[1mConsolidate compiler generated dependencies of target fastlio_dddmr_adapter_node[0m
+[9.053s] [100%] Built target fastlio_dddmr_adapter_node
+[9.128s] Invoked command in '/root/dddmr_navigation/build/dddmr_fastlio_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_fastlio_adapter -- -j28 -l28
+[9.140s] Invoking command in '/root/dddmr_navigation/build/dddmr_fastlio_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_fastlio_adapter
+[9.200s] -- Install configuration: "Release"
+[9.202s] -- Execute custom install script
+[9.205s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/lib/dddmr_fastlio_adapter/fastlio_dddmr_adapter_node
+[9.208s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/config/livox_mid360_dddmr_adapter.yaml
+[9.209s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/ament_index/resource_index/package_run_dependencies/dddmr_fastlio_adapter
+[9.210s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/ament_index/resource_index/parent_prefix_path/dddmr_fastlio_adapter
+[9.212s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/environment/ament_prefix_path.sh
+[9.213s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/environment/ament_prefix_path.dsv
+[9.215s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/environment/path.sh
+[9.216s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/environment/path.dsv
+[9.217s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/local_setup.bash
+[9.218s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/local_setup.sh
+[9.220s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/local_setup.zsh
+[9.220s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/local_setup.dsv
+[9.222s] -- Symlinking: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/package.dsv
+[9.277s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/ament_index/resource_index/packages/dddmr_fastlio_adapter
+[9.278s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/cmake/dddmr_fastlio_adapterConfig.cmake
+[9.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/cmake/dddmr_fastlio_adapterConfig-version.cmake
+[9.281s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_fastlio_adapter/share/dddmr_fastlio_adapter/package.xml
+[9.294s] Invoked command in '/root/dddmr_navigation/build/dddmr_fastlio_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_fastlio_adapter

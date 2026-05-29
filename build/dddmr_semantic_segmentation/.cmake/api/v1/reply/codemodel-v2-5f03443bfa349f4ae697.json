@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f7cb58456a6ff5eb5a4f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dddmr_semantic_segmentation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_semantic_segmentation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_semantic_segmentation_uninstall-Release-0cc5996ec0571c21257f.json",
+					"name" : "dddmr_semantic_segmentation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_segmentation2point_cloud::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_segmentation2point_cloud-Release-269298722e582c241b31.json",
+					"name" : "semantic_segmentation2point_cloud",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-fe10c3e42803bf5820fa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/dddmr_navigation/build/dddmr_semantic_segmentation",
+		"source" : "/root/dddmr_navigation/src/dddmr_semantic_segmentation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

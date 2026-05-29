@@ -1,0 +1,51 @@
+[0.016s] Invoking command in '/root/dddmr_navigation/build/recovery_behaviors': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/dddmr_navigation/build/recovery_behaviors -- -j28 -l28
+[0.075s] [ 20%] Built target robot_behavior
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target stacked_robot_behavior[0m
+[0.117s] [ 40%] Built target stacked_robot_behavior
+[0.132s] [35m[1mConsolidate compiler generated dependencies of target recovery_behaviors_ros[0m
+[0.154s] [ 60%] Built target recovery_behaviors_ros
+[0.170s] [35m[1mConsolidate compiler generated dependencies of target recovery_behaviors_node[0m
+[0.171s] [35m[1mConsolidate compiler generated dependencies of target behaviors[0m
+[0.194s] [100%] Built target behaviors
+[0.194s] [100%] Built target recovery_behaviors_node
+[0.200s] Invoked command in '/root/dddmr_navigation/build/recovery_behaviors' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/dddmr_navigation/build/recovery_behaviors -- -j28 -l28
+[0.202s] Invoking command in '/root/dddmr_navigation/build/recovery_behaviors': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/dddmr_navigation/build/recovery_behaviors
+[0.207s] -- Install configuration: ""
+[0.207s] -- Execute custom install script
+[0.207s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/librobot_behavior.so
+[0.208s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/libstacked_robot_behavior.so
+[0.208s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/librecovery_behaviors_ros.so
+[0.208s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/libbehaviors.so
+[0.208s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/recovery_behaviors/recovery_behaviors_node
+[0.208s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/recovery_behaviors_ros.h
+[0.208s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/recovery_behaviors_shared_data.h
+[0.208s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/robot_behavior.h
+[0.208s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/rotate_inplace_behavior.h
+[0.208s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/stacked_robot_behavior.h
+[0.208s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors//launch/recovery_behaviors.launch
+[0.208s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors//config/recovery_behaviors.yaml
+[0.208s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/recovery_behaviors/example_client.py
+[0.208s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/recovery_behaviors.xml
+[0.209s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/library_path.sh
+[0.209s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/library_path.dsv
+[0.209s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors//recovery_behaviors.xml
+[0.209s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/ament_index/resource_index/package_run_dependencies/recovery_behaviors
+[0.209s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/ament_index/resource_index/parent_prefix_path/recovery_behaviors
+[0.209s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/ament_prefix_path.sh
+[0.209s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/ament_prefix_path.dsv
+[0.209s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/path.sh
+[0.209s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/path.dsv
+[0.209s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/local_setup.bash
+[0.209s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/local_setup.sh
+[0.209s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/local_setup.zsh
+[0.209s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/local_setup.dsv
+[0.209s] -- Symlinking: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/package.dsv
+[0.214s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/ament_index/resource_index/packages/recovery_behaviors
+[0.214s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/ament_index/resource_index/recovery_behaviors__pluginlib__plugin/recovery_behaviors
+[0.214s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.214s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/ament_cmake_export_libraries-extras.cmake
+[0.214s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.214s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/recovery_behaviorsConfig.cmake
+[0.214s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/recovery_behaviorsConfig-version.cmake
+[0.215s] -- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/package.xml
+[0.216s] Invoked command in '/root/dddmr_navigation/build/recovery_behaviors' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/base_trajectory:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dddmr_navigation/install/dddmr_sys_core/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/dddmr_navigation/build/recovery_behaviors

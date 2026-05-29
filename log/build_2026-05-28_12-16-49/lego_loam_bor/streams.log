@@ -1,0 +1,154 @@
+[0.015s] Invoking command in '/root/dddmr_navigation/build/lego_loam_bor': CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/cloud_msgs:/root/livox_ws/install/livox_ros_driver2:/root/dddmr_navigation/install/dddmr_sc_pgo:/root/dddmr_navigation/install/p2p_move_base:/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/pose_graph_merge_editor_panel:/root/dddmr_navigation/install/pose_graph_editor_panel:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/mcl_3dl:/root/dddmr_navigation/install/mapping_panel:/root/dddmr_navigation/install/map_editor_panel:/root/dddmr_navigation/install/lego_loam_bor:/root/dddmr_navigation/install/global_planner:/root/dddmr_navigation/install/fast_lio:/root/dddmr_navigation/install/dddmr_semantic_segmentation:/root/dddmr_navigation/install/dddmr_rviz_default_plugins:/root/dddmr_navigation/install/dddmr_odom_3d:/root/dddmr_navigation/install/dddmr_fastlio_adapter:/root/dddmr_navigation/install/dddmr_beginner_guide:/root/dddmr_navigation/install/base_trajectory:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/cloud_msgs/lib:/root/livox_ws/install/livox_ros_driver2/lib:/root/dddmr_navigation/install/dddmr_sc_pgo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/root/dddmr_navigation/install/p2p_move_base/lib:/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/pose_graph_merge_editor_panel/lib:/root/dddmr_navigation/install/pose_graph_editor_panel/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/mcl_3dl/lib:/root/dddmr_navigation/install/mapping_panel/lib:/root/dddmr_navigation/install/map_editor_panel/lib:/root/dddmr_navigation/install/lego_loam_bor/lib:/root/dddmr_navigation/install/global_planner/lib:/root/dddmr_navigation/install/fast_lio/lib:/root/dddmr_navigation/install/dddmr_rviz_default_plugins/lib:/root/dddmr_navigation/install/base_trajectory/lib /usr/bin/cmake --build /root/dddmr_navigation/build/lego_loam_bor -- -j28 -l28
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target opt_icp_gn[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target pointcloud2occupancy[0m
+[0.078s] [  3%] [32mBuilding CXX object CMakeFiles/feature_association.dir/src/featureAssociation.cpp.o[0m
+[0.078s] [  6%] [32mBuilding CXX object CMakeFiles/lego_loam_map_visualization.dir/src/utils/lego_loam_map_visualization.cpp.o[0m
+[0.081s] [ 10%] [32mBuilding CXX object CMakeFiles/image_projection.dir/src/imageProjection.cpp.o[0m
+[0.083s] [ 16%] Built target opt_icp_gn
+[0.088s] [ 23%] Built target pointcloud2occupancy
+[0.113s] [ 26%] [32mBuilding CXX object CMakeFiles/optimized_icp_gn_playground.dir/src/opt_icp_gn/optimized_ICP_GN_playground.cpp.o[0m
+[0.126s] [ 30%] [32mBuilding CXX object CMakeFiles/map_optimization.dir/src/mapOptimization.cpp.o[0m
+[0.128s] [ 33%] [32mBuilding CXX object CMakeFiles/pose_graph_editor.dir/src/pose_graph_editor/pose_graph_editor.cpp.o[0m
+[3.805s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:[m[K In destructor ‘[01m[Kvirtual FeatureAssociation::[01;32m[K~FeatureAssociation[m[K()[m[K’:
+[3.805s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Kgeometry_msgs::msg::TransformStamped_<ContainerAllocator>::[01;32m[KTransformStamped_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[3.805s]   117 |   [01;35m[K_input_channel.send({})[m[K;
+[3.805s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.805s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[3.805s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Kgeometry_msgs::msg::TransformStamped_<ContainerAllocator>::[01;32m[KTransformStamped_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[3.805s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[3.805s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Kgeometry_msgs::msg::TransformStamped_<ContainerAllocator>::[01;32m[KTransformStamped_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[3.805s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[3.805s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kcloud_msgs::msg::CloudInfo[m[K’ {aka ‘[01m[Kcloud_msgs::msg::CloudInfo_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Kcloud_msgs::msg::CloudInfo_<ContainerAllocator>::[01;32m[KCloudInfo_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[3.805s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[6.001s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:[m[K In destructor ‘[01m[Kvirtual MapOptimization::[01;32m[K~MapOptimization[m[K()[m[K’:
+[6.001s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:353:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Kgeometry_msgs::msg::TransformStamped_<ContainerAllocator>::[01;32m[KTransformStamped_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[6.001s]   353 |   [01;35m[K_input_channel.send({})[m[K;
+[6.001s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[6.001s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:353:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[6.001s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:353:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Kgeometry_msgs::msg::TransformStamped_<ContainerAllocator>::[01;32m[KTransformStamped_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[6.001s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:353:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[6.001s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:353:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Kgeometry_msgs::msg::TransformStamped_<ContainerAllocator>::[01;32m[KTransformStamped_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[6.001s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:353:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[6.001s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:353:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Knav_msgs::msg::Odometry[m[K’ {aka ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Knav_msgs::msg::Odometry_<ContainerAllocator>::[01;32m[KOdometry_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[6.001s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:353:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[6.001s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:353:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Knav_msgs::msg::Odometry[m[K’ {aka ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Knav_msgs::msg::Odometry_<ContainerAllocator>::[01;32m[KOdometry_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[6.001s] [01m[K/root/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:353:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[9.264s] [ 36%] [32m[1mLinking CXX executable optimized_icp_gn_playground[0m
+[10.007s] /usr/bin/ld: warning: libpcl_io_ply.so.1.12, needed by /usr/lib/x86_64-linux-gnu/libpcl_io.so, may conflict with libpcl_io_ply.so.1.15
+[10.204s] [ 36%] Built target optimized_icp_gn_playground
+[13.805s] [ 40%] [32m[1mLinking CXX shared library liblego_loam_map_visualization.so[0m
+[13.870s] [ 43%] [32m[1mLinking CXX shared library libimage_projection.so[0m
+[15.325s] [ 43%] Built target image_projection
+[15.717s] [ 43%] Built target lego_loam_map_visualization
+[18.507s] [ 46%] [32m[1mLinking CXX shared library libpose_graph_editor.so[0m
+[19.621s] [ 46%] Built target pose_graph_editor
+[19.651s] [35m[1mConsolidate compiler generated dependencies of target pose_graph_merge_editor[0m
+[19.687s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_graph_merge_editor.dir/src/pose_graph_editor/pose_graph_merge_editor.cpp.o[0m
+[23.940s] [ 53%] [32m[1mLinking CXX shared library libfeature_association.so[0m
+[25.621s] [ 53%] Built target feature_association
+[25.638s] [35m[1mConsolidate compiler generated dependencies of target mcl_feature[0m
+[25.671s] [ 56%] [32mBuilding CXX object CMakeFiles/mcl_feature.dir/src/mcl_feature_node.cpp.o[0m
+[28.315s] [ 60%] [32m[1mLinking CXX shared library libmap_optimization.so[0m
+[29.937s] [ 60%] Built target map_optimization
+[29.953s] [35m[1mConsolidate compiler generated dependencies of target interactive_pose_graph_editor[0m
+[29.982s] [ 63%] [32mBuilding CXX object CMakeFiles/interactive_pose_graph_editor.dir/src/interactive_pose_graph_editor.cpp.o[0m
+[33.296s] [ 66%] [32m[1mLinking CXX executable mcl_feature[0m
+[34.498s] [ 66%] Built target mcl_feature
+[34.749s] [ 70%] [32m[1mLinking CXX shared library libpose_graph_merge_editor.so[0m
+[35.524s] [ 70%] Built target pose_graph_merge_editor
+[35.536s] [35m[1mConsolidate compiler generated dependencies of target pose_graph_editor_node[0m
+[35.566s] [ 73%] [32mBuilding CXX object CMakeFiles/pose_graph_editor_node.dir/src/pose_graph_editor/pose_graph_editor_node.cpp.o[0m
+[43.479s] [ 76%] [32m[1mLinking CXX shared library libinteractive_pose_graph_editor.so[0m
+[44.579s] [ 76%] Built target interactive_pose_graph_editor
+[44.593s] [35m[1mConsolidate compiler generated dependencies of target lego_loam[0m
+[44.594s] [35m[1mConsolidate compiler generated dependencies of target lego_loam_bag[0m
+[44.594s] [35m[1mConsolidate compiler generated dependencies of target lego_loam_bag_lidar2depthimg_node[0m
+[44.626s] [ 80%] [32mBuilding CXX object CMakeFiles/lego_loam.dir/src/lego_loam_node.cpp.o[0m
+[44.629s] [ 83%] [32mBuilding CXX object CMakeFiles/lego_loam_bag.dir/src/lego_loam_bag_node.cpp.o[0m
+[44.631s] [ 86%] [32mBuilding CXX object CMakeFiles/lego_loam_bag_lidar2depthimg_node.dir/src/utils/lego_loam_bag_lidar2depthimg_node.cpp.o[0m
+[46.882s] [ 90%] [32m[1mLinking CXX executable pose_graph_editor_node[0m
+[47.943s] [ 90%] Built target pose_graph_editor_node
+[54.380s] [ 93%] [32m[1mLinking CXX executable lego_loam[0m
+[56.467s] [ 93%] Built target lego_loam
+[60.773s] [ 96%] [32m[1mLinking CXX executable lego_loam_bag_lidar2depthimg_node[0m
+[60.967s] [100%] [32m[1mLinking CXX executable lego_loam_bag[0m
+[63.656s] [100%] Built target lego_loam_bag_lidar2depthimg_node
+[64.020s] [100%] Built target lego_loam_bag
+[64.030s] Invoked command in '/root/dddmr_navigation/build/lego_loam_bor' returned '0': CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/cloud_msgs:/root/livox_ws/install/livox_ros_driver2:/root/dddmr_navigation/install/dddmr_sc_pgo:/root/dddmr_navigation/install/p2p_move_base:/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/pose_graph_merge_editor_panel:/root/dddmr_navigation/install/pose_graph_editor_panel:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/mcl_3dl:/root/dddmr_navigation/install/mapping_panel:/root/dddmr_navigation/install/map_editor_panel:/root/dddmr_navigation/install/lego_loam_bor:/root/dddmr_navigation/install/global_planner:/root/dddmr_navigation/install/fast_lio:/root/dddmr_navigation/install/dddmr_semantic_segmentation:/root/dddmr_navigation/install/dddmr_rviz_default_plugins:/root/dddmr_navigation/install/dddmr_odom_3d:/root/dddmr_navigation/install/dddmr_fastlio_adapter:/root/dddmr_navigation/install/dddmr_beginner_guide:/root/dddmr_navigation/install/base_trajectory:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/cloud_msgs/lib:/root/livox_ws/install/livox_ros_driver2/lib:/root/dddmr_navigation/install/dddmr_sc_pgo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/root/dddmr_navigation/install/p2p_move_base/lib:/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/pose_graph_merge_editor_panel/lib:/root/dddmr_navigation/install/pose_graph_editor_panel/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/mcl_3dl/lib:/root/dddmr_navigation/install/mapping_panel/lib:/root/dddmr_navigation/install/map_editor_panel/lib:/root/dddmr_navigation/install/lego_loam_bor/lib:/root/dddmr_navigation/install/global_planner/lib:/root/dddmr_navigation/install/fast_lio/lib:/root/dddmr_navigation/install/dddmr_rviz_default_plugins/lib:/root/dddmr_navigation/install/base_trajectory/lib /usr/bin/cmake --build /root/dddmr_navigation/build/lego_loam_bor -- -j28 -l28
+[64.032s] Invoking command in '/root/dddmr_navigation/build/lego_loam_bor': CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/cloud_msgs:/root/livox_ws/install/livox_ros_driver2:/root/dddmr_navigation/install/dddmr_sc_pgo:/root/dddmr_navigation/install/p2p_move_base:/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/pose_graph_merge_editor_panel:/root/dddmr_navigation/install/pose_graph_editor_panel:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/mcl_3dl:/root/dddmr_navigation/install/mapping_panel:/root/dddmr_navigation/install/map_editor_panel:/root/dddmr_navigation/install/lego_loam_bor:/root/dddmr_navigation/install/global_planner:/root/dddmr_navigation/install/fast_lio:/root/dddmr_navigation/install/dddmr_semantic_segmentation:/root/dddmr_navigation/install/dddmr_rviz_default_plugins:/root/dddmr_navigation/install/dddmr_odom_3d:/root/dddmr_navigation/install/dddmr_fastlio_adapter:/root/dddmr_navigation/install/dddmr_beginner_guide:/root/dddmr_navigation/install/base_trajectory:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/cloud_msgs/lib:/root/livox_ws/install/livox_ros_driver2/lib:/root/dddmr_navigation/install/dddmr_sc_pgo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/root/dddmr_navigation/install/p2p_move_base/lib:/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/pose_graph_merge_editor_panel/lib:/root/dddmr_navigation/install/pose_graph_editor_panel/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/mcl_3dl/lib:/root/dddmr_navigation/install/mapping_panel/lib:/root/dddmr_navigation/install/map_editor_panel/lib:/root/dddmr_navigation/install/lego_loam_bor/lib:/root/dddmr_navigation/install/global_planner/lib:/root/dddmr_navigation/install/fast_lio/lib:/root/dddmr_navigation/install/dddmr_rviz_default_plugins/lib:/root/dddmr_navigation/install/base_trajectory/lib /usr/bin/cmake --install /root/dddmr_navigation/build/lego_loam_bor
+[64.038s] -- Install configuration: ""
+[64.039s] -- Execute custom install script
+[64.040s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/libopt_icp_gn.so
+[64.040s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/libimage_projection.so
+[64.040s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/libfeature_association.so
+[64.040s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/libmap_optimization.so
+[64.040s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/liblego_loam_map_visualization.so
+[64.041s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/libpose_graph_editor.so
+[64.041s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/libinteractive_pose_graph_editor.so
+[64.041s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/lego_loam_bor/mcl_feature
+[64.041s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/lego_loam_bor/lego_loam
+[64.041s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/lego_loam_bor/lego_loam_bag
+[64.041s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/lego_loam_bor/pose_graph_editor_node
+[64.041s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/lego_loam_bor/pointcloud2occupancy
+[64.041s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/lego_loam_bor/optimized_icp_gn_playground
+[64.041s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/lib/lego_loam_bor/lego_loam_bag_lidar2depthimg_node
+[64.042s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//channel.h
+[64.042s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//featureAssociation.h
+[64.042s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//imageProjection.h
+[64.042s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//interactive_pose_graph_editor.h
+[64.042s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//lego_loam_map_visualization.hpp
+[64.042s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//mapOptimization.h
+[64.042s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//opt_icp_gn/common.h
+[64.043s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//opt_icp_gn/optimized_ICP_GN.h
+[64.043s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//transforms.hpp
+[64.043s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//utility.h
+[64.043s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/include//yolo_ros2_image_sub.h
+[64.044s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/lego_loam.launch
+[64.044s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/lego_loam_bag.launch
+[64.044s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/lego_loam_bag_airy.launch
+[64.044s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/lego_loam_bag_go2.launch
+[64.044s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/lego_loam_bag_lidar2depthimg.launch
+[64.044s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/lego_loam_bag_mid360.launch
+[64.044s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/lego_loam_bag_yolo.launch
+[64.044s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/mcl_feature.launch
+[64.044s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/optimized-icp_gn_playground.launch
+[64.044s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/pose_graph_editor.launch
+[64.044s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//launch/yolo_image_sub_test.launch
+[64.045s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/loam_bag_airy_config.yaml
+[64.045s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/loam_bag_c16_config.yaml
+[64.045s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/loam_bag_go2_config.yaml
+[64.045s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/loam_bag_lidar2depthimg_config.yaml
+[64.045s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/loam_bag_mid360_config.yaml
+[64.045s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/loam_bag_yolo_config.yaml
+[64.045s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/loam_c16_config.yaml
+[64.045s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//config/mcl_c16_config.yaml
+[64.046s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//rviz/lego_loam.rviz
+[64.046s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//rviz/lego_loam_airy.rviz
+[64.046s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//rviz/lego_loam_yolo.rviz
+[64.046s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//rviz/optimized_icp_gn_playground.rviz
+[64.046s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//rviz/pose_graph_editor.rviz
+[64.046s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//rviz/yolo_image_sub_test.rviz
+[64.047s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//pcd/feature.pcd
+[64.047s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//engine/onnx2trt.bash
+[64.047s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor//engine/yolo11n_dddmr.onnx
+[64.047s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/environment/library_path.sh
+[64.047s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/environment/library_path.dsv
+[64.047s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/ament_index/resource_index/package_run_dependencies/lego_loam_bor
+[64.047s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/ament_index/resource_index/parent_prefix_path/lego_loam_bor
+[64.047s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/environment/ament_prefix_path.sh
+[64.048s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/environment/ament_prefix_path.dsv
+[64.048s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/environment/path.sh
+[64.048s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/environment/path.dsv
+[64.048s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/local_setup.bash
+[64.048s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/local_setup.sh
+[64.048s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/local_setup.zsh
+[64.048s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/local_setup.dsv
+[64.048s] -- Symlinking: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/package.dsv
+[64.056s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/ament_index/resource_index/packages/lego_loam_bor
+[64.056s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/cmake/ament_cmake_export_include_directories-extras.cmake
+[64.056s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/cmake/ament_cmake_export_libraries-extras.cmake
+[64.056s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/cmake/ament_cmake_export_dependencies-extras.cmake
+[64.056s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/cmake/lego_loam_borConfig.cmake
+[64.056s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/cmake/lego_loam_borConfig-version.cmake
+[64.056s] -- Up-to-date symlink: /root/dddmr_navigation/install/lego_loam_bor/share/lego_loam_bor/package.xml
+[64.057s] Invoked command in '/root/dddmr_navigation/build/lego_loam_bor' returned '0': CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/dddmr_trt:/root/dddmr_navigation/install/dddmr_sys_core:/root/dddmr_navigation/install/cloud_msgs:/root/livox_ws/install/livox_ros_driver2:/root/dddmr_navigation/install/dddmr_sc_pgo:/root/dddmr_navigation/install/p2p_move_base:/root/dddmr_navigation/install/recovery_behaviors:/root/dddmr_navigation/install/local_planner:/root/dddmr_navigation/install/trajectory_generators:/root/dddmr_navigation/install/pose_graph_merge_editor_panel:/root/dddmr_navigation/install/pose_graph_editor_panel:/root/dddmr_navigation/install/perception_3d:/root/dddmr_navigation/install/mpc_critics:/root/dddmr_navigation/install/mcl_3dl:/root/dddmr_navigation/install/mapping_panel:/root/dddmr_navigation/install/map_editor_panel:/root/dddmr_navigation/install/lego_loam_bor:/root/dddmr_navigation/install/global_planner:/root/dddmr_navigation/install/fast_lio:/root/dddmr_navigation/install/dddmr_semantic_segmentation:/root/dddmr_navigation/install/dddmr_rviz_default_plugins:/root/dddmr_navigation/install/dddmr_odom_3d:/root/dddmr_navigation/install/dddmr_fastlio_adapter:/root/dddmr_navigation/install/dddmr_beginner_guide:/root/dddmr_navigation/install/base_trajectory:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/dddmr_sys_core/lib:/root/dddmr_navigation/install/cloud_msgs/lib:/root/livox_ws/install/livox_ros_driver2/lib:/root/dddmr_navigation/install/dddmr_sc_pgo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/root/dddmr_navigation/install/p2p_move_base/lib:/root/dddmr_navigation/install/recovery_behaviors/lib:/root/dddmr_navigation/install/local_planner/lib:/root/dddmr_navigation/install/trajectory_generators/lib:/root/dddmr_navigation/install/pose_graph_merge_editor_panel/lib:/root/dddmr_navigation/install/pose_graph_editor_panel/lib:/root/dddmr_navigation/install/perception_3d/lib:/root/dddmr_navigation/install/mpc_critics/lib:/root/dddmr_navigation/install/mcl_3dl/lib:/root/dddmr_navigation/install/mapping_panel/lib:/root/dddmr_navigation/install/map_editor_panel/lib:/root/dddmr_navigation/install/lego_loam_bor/lib:/root/dddmr_navigation/install/global_planner/lib:/root/dddmr_navigation/install/fast_lio/lib:/root/dddmr_navigation/install/dddmr_rviz_default_plugins/lib:/root/dddmr_navigation/install/base_trajectory/lib /usr/bin/cmake --install /root/dddmr_navigation/build/lego_loam_bor

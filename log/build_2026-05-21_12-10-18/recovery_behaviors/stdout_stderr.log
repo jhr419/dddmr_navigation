@@ -1,0 +1,114 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)
+-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+-- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found base_trajectory: 0.0.0 (/root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake)
+-- Found perception_3d: 2.5.0 (/root/dddmr_navigation/install/perception_3d/share/perception_3d/cmake)
+-- Found mpc_critics: 1.0.0 (/root/dddmr_navigation/install/mpc_critics/share/mpc_critics/cmake)
+-- Found trajectory_generators: 1.0.0 (/root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/cmake)
+-- Found dddmr_sys_core: 1.0.0 (/root/dddmr_navigation/install/dddmr_sys_core/share/dddmr_sys_core/cmake)
+[33mCMake Warning (dev) at CMakeLists.txt:30 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/dddmr_navigation/build/recovery_behaviors
+[35m[1mConsolidate compiler generated dependencies of target robot_behavior[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/robot_behavior.dir/src/robot_behavior.cpp.o[0m
+[ 20%] [32m[1mLinking CXX shared library librobot_behavior.so[0m
+[ 20%] Built target robot_behavior
+[35m[1mConsolidate compiler generated dependencies of target stacked_robot_behavior[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/stacked_robot_behavior.dir/src/stacked_robot_behavior.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libstacked_robot_behavior.so[0m
+[ 40%] Built target stacked_robot_behavior
+[35m[1mConsolidate compiler generated dependencies of target recovery_behaviors_ros[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/recovery_behaviors_ros.dir/src/recovery_behaviors_ros.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library librecovery_behaviors_ros.so[0m
+[ 60%] Built target recovery_behaviors_ros
+[35m[1mConsolidate compiler generated dependencies of target recovery_behaviors_node[0m
+[35m[1mConsolidate compiler generated dependencies of target behaviors[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/behaviors.dir/behaviors/rotate_inplace_behavior.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/recovery_behaviors_node.dir/src/recovery_behaviors_node.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable recovery_behaviors_node[0m
+[ 90%] Built target recovery_behaviors_node
+[100%] [32m[1mLinking CXX shared library libbehaviors.so[0m
+[100%] Built target behaviors
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/librobot_behavior.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/libstacked_robot_behavior.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/librecovery_behaviors_ros.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/libbehaviors.so
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/recovery_behaviors/recovery_behaviors_node
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/recovery_behaviors_ros.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/recovery_behaviors_shared_data.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/robot_behavior.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/rotate_inplace_behavior.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/include//recovery_behaviors/stacked_robot_behavior.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors//launch/recovery_behaviors.launch
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors//config/recovery_behaviors.yaml
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/lib/recovery_behaviors/example_client.py
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/recovery_behaviors.xml
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/library_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/library_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors//recovery_behaviors.xml
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/ament_index/resource_index/package_run_dependencies/recovery_behaviors
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/ament_index/resource_index/parent_prefix_path/recovery_behaviors
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/environment/path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/local_setup.bash
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/local_setup.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/local_setup.zsh
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/local_setup.dsv
+-- Symlinking: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/package.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/ament_index/resource_index/packages/recovery_behaviors
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/ament_index/resource_index/recovery_behaviors__pluginlib__plugin/recovery_behaviors
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/recovery_behaviorsConfig.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/cmake/recovery_behaviorsConfig-version.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/recovery_behaviors/share/recovery_behaviors/package.xml

@@ -1,0 +1,5 @@
+-I/root/dddmr_navigation/src/dddmr_rviz_tools/mapping_panel/include
+-I/usr/include/pcl-1.12
+-o
+/root/dddmr_navigation/build/mapping_panel/include/mapping_panel/moc_mapping_panel.cpp
+/root/dddmr_navigation/src/dddmr_rviz_tools/mapping_panel/include/mapping_panel/mapping_panel.h

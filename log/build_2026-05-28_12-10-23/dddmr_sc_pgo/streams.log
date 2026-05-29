@@ -1,0 +1,24 @@
+[0.009s] Invoking command in '/root/dddmr_navigation/build/dddmr_sc_pgo': /usr/bin/cmake /root/dddmr_navigation/src/dddmr_sc_pgo -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sc_pgo
+[0.136s] -- The C compiler identification is GNU 13.4.0
+[0.209s] -- The CXX compiler identification is GNU 13.4.0
+[0.216s] -- Detecting C compiler ABI info
+[0.263s] -- Detecting C compiler ABI info - done
+[0.269s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.269s] -- Detecting C compile features
+[0.270s] -- Detecting C compile features - done
+[0.272s] -- Detecting CXX compiler ABI info
+[0.320s] -- Detecting CXX compiler ABI info - done
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.325s] -- Detecting CXX compile features
+[0.325s] -- Detecting CXX compile features - done
+[0.325s] [31mCMake Error at CMakeLists.txt:19 (if):
+[0.326s]   if given arguments:
+[0.326s] 
+[0.326s]     "CMAKE_BUILD_TYPE" "AND" "CMAKE_BUILD_TYPE" "NOT_EQUAL" "Release"
+[0.326s] 
+[0.326s]   Unknown arguments specified
+[0.326s] 
+[0.326s] [0m
+[0.326s] -- Configuring incomplete, errors occurred!
+[0.326s] See also "/root/dddmr_navigation/build/dddmr_sc_pgo/CMakeFiles/CMakeOutput.log".
+[0.327s] Invoked command in '/root/dddmr_navigation/build/dddmr_sc_pgo' returned '1': /usr/bin/cmake /root/dddmr_navigation/src/dddmr_sc_pgo -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_sc_pgo

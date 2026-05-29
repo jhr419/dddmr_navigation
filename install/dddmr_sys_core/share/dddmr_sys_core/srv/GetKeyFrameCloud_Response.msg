@@ -1,0 +1,1 @@
+/root/dddmr_navigation/build/dddmr_sys_core/rosidl_cmake/srv/GetKeyFrameCloud_Response.msg

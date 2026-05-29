@@ -1,0 +1,11 @@
+source;share/dddmr_sc_pgo/hook/cmake_prefix_path.ps1
+source;share/dddmr_sc_pgo/hook/cmake_prefix_path.dsv
+source;share/dddmr_sc_pgo/hook/cmake_prefix_path.sh
+source;share/dddmr_sc_pgo/hook/ld_library_path_lib.ps1
+source;share/dddmr_sc_pgo/hook/ld_library_path_lib.dsv
+source;share/dddmr_sc_pgo/hook/ld_library_path_lib.sh
+source;share/dddmr_sc_pgo/local_setup.bash
+source;share/dddmr_sc_pgo/local_setup.dsv
+source;share/dddmr_sc_pgo/local_setup.ps1
+source;share/dddmr_sc_pgo/local_setup.sh
+source;share/dddmr_sc_pgo/local_setup.zsh

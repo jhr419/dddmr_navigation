@@ -1,0 +1,3 @@
+source;share/pose_graph_merge_editor_panel/environment/ament_prefix_path.sh
+source;share/pose_graph_merge_editor_panel/environment/library_path.sh
+source;share/pose_graph_merge_editor_panel/environment/path.sh

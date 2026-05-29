@@ -1,0 +1,58 @@
+[0.051s] Invoking command in '/root/dddmr_navigation/build/cloud_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/cloud_msgs -- -j28 -l28
+[0.079s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.084s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[0.086s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.098s] [  9%] Built target ament_cmake_python_symlink_cloud_msgs
+[0.610s] [  9%] Built target cloud_msgs__rs
+[0.628s] [ 12%] [32mBuilding C object CMakeFiles/cloud_msgs__rosidl_generator_c.dir/rosidl_generator_c/cloud_msgs/msg/detail/cloud_info__functions.c.o[0m
+[0.677s] running egg_info
+[0.679s] creating cloud_msgs.egg-info
+[0.679s] writing cloud_msgs.egg-info/PKG-INFO
+[0.679s] writing dependency_links to cloud_msgs.egg-info/dependency_links.txt
+[0.679s] writing top-level names to cloud_msgs.egg-info/top_level.txt
+[0.679s] writing manifest file 'cloud_msgs.egg-info/SOURCES.txt'
+[0.684s] reading manifest file 'cloud_msgs.egg-info/SOURCES.txt'
+[0.684s] writing manifest file 'cloud_msgs.egg-info/SOURCES.txt'
+[0.723s] [ 12%] Built target cloud_msgs__cpp
+[0.740s] [ 12%] Built target ament_cmake_python_build_cloud_msgs_egg
+[0.756s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.765s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.765s] [ 21%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.833s] [ 25%] [32m[1mLinking C shared library libcloud_msgs__rosidl_generator_c.so[0m
+[0.907s] [ 25%] Built target cloud_msgs__rosidl_generator_c
+[0.942s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.945s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.962s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.278s] [ 37%] [32mBuilding CXX object CMakeFiles/cloud_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cloud_msgs/msg/cloud_info__type_support.cpp.o[0m
+[1.446s] [ 40%] [32mBuilding CXX object CMakeFiles/cloud_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/cloud_msgs/msg/cloud_info__type_support.cpp.o[0m
+[1.562s] [ 43%] [32mBuilding CXX object CMakeFiles/cloud_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cloud_msgs/msg/detail/cloud_info__type_support.cpp.o[0m
+[1.586s] [ 46%] [32mBuilding CXX object CMakeFiles/cloud_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cloud_msgs/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o[0m
+[1.595s] [ 50%] [32m[1mLinking CXX shared library libcloud_msgs__rosidl_typesupport_c.so[0m
+[1.714s] [ 53%] [32mBuilding C object CMakeFiles/cloud_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cloud_msgs/msg/detail/cloud_info__type_support.c.o[0m
+[1.714s] [ 53%] Built target cloud_msgs__rosidl_typesupport_c
+[1.747s] [ 56%] [32mBuilding CXX object CMakeFiles/cloud_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cloud_msgs/msg/detail/cloud_info__type_support_c.cpp.o[0m
+[1.847s] [ 59%] [32m[1mLinking C shared library libcloud_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.972s] [ 59%] Built target cloud_msgs__rosidl_typesupport_introspection_c
+[2.086s] [ 62%] [32m[1mLinking CXX shared library libcloud_msgs__rosidl_typesupport_cpp.so[0m
+[2.205s] [ 62%] Built target cloud_msgs__rosidl_typesupport_cpp
+[2.527s] [ 65%] [32m[1mLinking CXX shared library libcloud_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.637s] [ 65%] Built target cloud_msgs__rosidl_typesupport_fastrtps_c
+[2.676s] [ 68%] [32m[1mLinking CXX shared library libcloud_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.878s] [ 68%] Built target cloud_msgs__rosidl_typesupport_introspection_cpp
+[3.918s] [ 71%] [32m[1mLinking CXX shared library libcloud_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.235s] [ 71%] Built target cloud_msgs__rosidl_typesupport_fastrtps_cpp
+[4.308s] [ 71%] Built target cloud_msgs
+[4.392s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.474s] [ 75%] Built target cloud_msgs__py
+[5.549s] [ 78%] [32mBuilding C object CMakeFiles/cloud_msgs__rosidl_generator_py.dir/rosidl_generator_py/cloud_msgs/msg/_cloud_info_s.c.o[0m
+[6.875s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/cloud_msgs/libcloud_msgs__rosidl_generator_py.so[0m
+[6.998s] [ 81%] Built target cloud_msgs__rosidl_generator_py
+[7.063s] [ 84%] [32mBuilding C object CMakeFiles/cloud_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.072s] [ 87%] [32mBuilding C object CMakeFiles/cloud_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.094s] [ 90%] [32mBuilding C object CMakeFiles/cloud_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.523s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/cloud_msgs/cloud_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.551s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/cloud_msgs/cloud_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.596s] [100%] [32m[1mLinking C shared library rosidl_generator_py/cloud_msgs/cloud_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.674s] [100%] Built target cloud_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.679s] [100%] Built target cloud_msgs__rosidl_typesupport_introspection_c__pyext
+[7.733s] [100%] Built target cloud_msgs__rosidl_typesupport_c__pyext

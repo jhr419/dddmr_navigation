@@ -1,0 +1,4 @@
+source;share/pose_graph_merge_editor_panel/local_setup.bash
+source;share/pose_graph_merge_editor_panel/local_setup.dsv
+source;share/pose_graph_merge_editor_panel/local_setup.sh
+source;share/pose_graph_merge_editor_panel/local_setup.zsh

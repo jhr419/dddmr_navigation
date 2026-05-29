@@ -1,0 +1,10 @@
+/root/dddmr_navigation/build/dddmr_semantic_segmentation/CMakeFiles/uninstall.dir
+/root/dddmr_navigation/build/dddmr_semantic_segmentation/CMakeFiles/dddmr_semantic_segmentation_uninstall.dir
+/root/dddmr_navigation/build/dddmr_semantic_segmentation/CMakeFiles/semantic_segmentation2point_cloud.dir
+/root/dddmr_navigation/build/dddmr_semantic_segmentation/CMakeFiles/test.dir
+/root/dddmr_navigation/build/dddmr_semantic_segmentation/CMakeFiles/edit_cache.dir
+/root/dddmr_navigation/build/dddmr_semantic_segmentation/CMakeFiles/rebuild_cache.dir
+/root/dddmr_navigation/build/dddmr_semantic_segmentation/CMakeFiles/list_install_components.dir
+/root/dddmr_navigation/build/dddmr_semantic_segmentation/CMakeFiles/install.dir
+/root/dddmr_navigation/build/dddmr_semantic_segmentation/CMakeFiles/install/local.dir
+/root/dddmr_navigation/build/dddmr_semantic_segmentation/CMakeFiles/install/strip.dir

@@ -1,0 +1,24 @@
+[0.007s] Invoking command in '/root/dddmr_navigation/build/dddmr_sc_pgo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_sc_pgo -- -j28 -l28
+[0.061s] [ 50%] Built target scan_context_lib
+[0.083s] Consolidate compiler generated dependencies of target sc_pgo_node
+[0.103s] [ 75%] Building CXX object CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o
+[4.930s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+[4.930s]                  from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+[4.930s]                  from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+[4.930s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+[4.930s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[4.930s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[4.930s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[4.930s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[4.930s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[4.930s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[4.930s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[4.930s]                  from /root/dddmr_navigation/src/dddmr_sc_pgo/src/sc_pgo_node.cpp:18:
+[4.930s] /root/dddmr_navigation/src/dddmr_sc_pgo/src/sc_pgo_node.cpp: In member function ‘void SC_PGO_Node::addLoopFactor(int, int)’:
+[4.930s] /root/dddmr_navigation/src/dddmr_sc_pgo/src/sc_pgo_node.cpp:528:47: error: ‘loop_noise’ was not declared in this scope; did you mean ‘loop_noise_base’?
+[4.930s]   528 |             prev_id, curr_id, icp_mean_error, loop_noise);
+[4.930s]       |                                               ^~~~~~~~~~
+[10.023s] gmake[2]: *** [CMakeFiles/sc_pgo_node.dir/build.make:76: CMakeFiles/sc_pgo_node.dir/src/sc_pgo_node.cpp.o] Error 1
+[10.023s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sc_pgo_node.dir/all] Error 2
+[10.023s] gmake: *** [Makefile:146: all] Error 2
+[10.025s] Invoked command in '/root/dddmr_navigation/build/dddmr_sc_pgo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_sc_pgo -- -j28 -l28

@@ -1,0 +1,7 @@
+[01m[K/root/dddmr_navigation/src/dddmr_rviz_tools/dddmr_rviz_default_plugins/src/dddmr_rviz_default_plugins/tools/point_cloud_selection/point_cloud_selection_tool.cpp:[m[K In member function ‘[01m[Kvoid dddmr_rviz_default_plugins::tools::PointCloudSelectionTool::[01;32m[KpublishSelected[m[K(rviz_common::ViewportMouseEvent&)[m[K’:
+[01m[K/root/dddmr_navigation/src/dddmr_rviz_tools/dddmr_rviz_default_plugins/src/dddmr_rviz_default_plugins/tools/point_cloud_selection/point_cloud_selection_tool.cpp:203:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  203 | void PointCloudSelectionTool::publishSelected([01;35m[Krviz_common::ViewportMouseEvent & event[m[K){
+      |                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/dddmr_rviz_default_plugins.dir/build.make:250: CMakeFiles/dddmr_rviz_default_plugins.dir/src/dddmr_rviz_default_plugins/tools/point_cloud_selection/point_cloud_selection_tool.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dddmr_rviz_default_plugins.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

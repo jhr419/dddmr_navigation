@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/dddmr_navigation/build/dddmr_semantic_segmentation/semantic_segmentation2point_cloud" "TARGETS" "semantic_segmentation2point_cloud" "RUNTIME_DESTINATION" "lib/dddmr_semantic_segmentation")

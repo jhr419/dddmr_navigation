@@ -1,0 +1,4 @@
+
+sensor_msgs/PointCloud2 key_frame_cloud
+sensor_msgs/PointCloud2 key_frame_ground
+sensor_msgs/PointCloud2 key_frame_ground_edge

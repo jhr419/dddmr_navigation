@@ -1,0 +1,78 @@
+[0.507s] Invoking command in '/root/dddmr_navigation/build/base_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_local_planner/base_trajectory -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/base_trajectory
+[0.853s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.618s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.666s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.828s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.847s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.889s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.137s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.422s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.543s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.623s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.930s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.943s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.877s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.600s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.626s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.663s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.666s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[4.666s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[4.819s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[5.075s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.321s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[7.544s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.590s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.768s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.816s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.862s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.950s] -- Found Qhull version 8.0.2
+[10.985s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.115s] [33mCMake Warning (dev) at CMakeLists.txt:22 (find_package):
+[12.115s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[12.116s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[12.116s]   command to set the policy and suppress this warning.
+[12.117s] 
+[12.117s]   CMake variable PCL_ROOT is set to:
+[12.118s] 
+[12.118s]     /usr
+[12.119s] 
+[12.119s]   For compatibility, CMake is ignoring the variable.
+[12.120s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[12.121s] [0m
+[12.866s] -- Configuring done
+[13.167s] -- Generating done
+[13.231s] -- Build files have been written to: /root/dddmr_navigation/build/base_trajectory
+[13.305s] Invoked command in '/root/dddmr_navigation/build/base_trajectory' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_local_planner/base_trajectory -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/base_trajectory
+[13.320s] Invoking command in '/root/dddmr_navigation/build/base_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/base_trajectory -- -j28 -l28
+[13.618s] [35m[1mConsolidate compiler generated dependencies of target base_trajectory[0m
+[13.748s] [100%] Built target base_trajectory
+[13.837s] Invoked command in '/root/dddmr_navigation/build/base_trajectory' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/base_trajectory -- -j28 -l28
+[13.854s] Invoking command in '/root/dddmr_navigation/build/base_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/base_trajectory
+[13.895s] -- Install configuration: "Release"
+[13.899s] -- Execute custom install script
+[13.901s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/lib/libbase_trajectory.so
+[13.905s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/include//base_trajectory/trajectory.h
+[13.906s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/include//base_trajectory/trajectory_sample_generator.h
+[13.907s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/environment/library_path.sh
+[13.907s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/environment/library_path.dsv
+[13.909s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/ament_index/resource_index/package_run_dependencies/base_trajectory
+[13.911s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/ament_index/resource_index/parent_prefix_path/base_trajectory
+[13.912s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/environment/ament_prefix_path.sh
+[13.913s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/environment/ament_prefix_path.dsv
+[13.914s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/environment/path.sh
+[13.914s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/environment/path.dsv
+[13.915s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/local_setup.bash
+[13.916s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/local_setup.sh
+[13.916s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/local_setup.zsh
+[13.918s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/local_setup.dsv
+[13.918s] -- Symlinking: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/package.dsv
+[13.973s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/ament_index/resource_index/packages/base_trajectory
+[13.976s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.977s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake/ament_cmake_export_libraries-extras.cmake
+[13.977s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.978s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake/base_trajectoryConfig.cmake
+[13.978s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake/base_trajectoryConfig-version.cmake
+[13.979s] -- Up-to-date symlink: /root/dddmr_navigation/install/base_trajectory/share/base_trajectory/package.xml
+[13.991s] Invoked command in '/root/dddmr_navigation/build/base_trajectory' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/base_trajectory

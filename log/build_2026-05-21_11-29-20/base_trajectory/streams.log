@@ -1,0 +1,7 @@
+[0.053s] Invoking command in '/root/dddmr_navigation/build/base_trajectory': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/base_trajectory -- -j28 -l28
+[0.091s] [ 50%] [32mBuilding CXX object CMakeFiles/base_trajectory.dir/src/trajectory.cpp.o[0m
+[10.584s] [100%] [32m[1mLinking CXX shared library libbase_trajectory.so[0m
+[25.818s] gmake[2]: *** Deleting file 'libbase_trajectory.so'
+[25.818s] gmake[2]: *** [CMakeFiles/base_trajectory.dir/build.make:350: libbase_trajectory.so] Interrupt
+[25.818s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/base_trajectory.dir/all] Interrupt
+[25.819s] gmake: *** [Makefile:146: all] Interrupt

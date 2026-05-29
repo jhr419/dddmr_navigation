@@ -1,0 +1,1 @@
+/root/dddmr_navigation/build/global_planner/ament_cmake_core/global_plannerConfig-version.cmake

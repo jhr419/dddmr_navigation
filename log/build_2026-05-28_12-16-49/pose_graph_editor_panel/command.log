@@ -1,0 +1,4 @@
+Invoking command in '/root/dddmr_navigation/build/pose_graph_editor_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/pose_graph_editor_panel -- -j28 -l28
+Invoked command in '/root/dddmr_navigation/build/pose_graph_editor_panel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/pose_graph_editor_panel -- -j28 -l28
+Invoking command in '/root/dddmr_navigation/build/pose_graph_editor_panel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/pose_graph_editor_panel
+Invoked command in '/root/dddmr_navigation/build/pose_graph_editor_panel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/pose_graph_editor_panel

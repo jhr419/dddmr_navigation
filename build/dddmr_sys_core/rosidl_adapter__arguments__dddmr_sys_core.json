@@ -1,0 +1,10 @@
+{
+  "package_name": "dddmr_sys_core",
+  "non_idl_tuples": [
+    "/root/dddmr_navigation/src/dddmr_sys_core:action/PToPMoveBase.action",
+    "/root/dddmr_navigation/src/dddmr_sys_core:action/GetPlan.action",
+    "/root/dddmr_navigation/src/dddmr_sys_core:action/RecoveryBehaviors.action",
+    "/root/dddmr_navigation/src/dddmr_sys_core:action/TagDocking.action",
+    "/root/dddmr_navigation/src/dddmr_sys_core:srv/GetKeyFrameCloud.srv"
+  ]
+}

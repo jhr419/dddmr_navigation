@@ -1,0 +1,61 @@
+[0.433s] Invoking command in '/root/dddmr_navigation/build/dddmr_odom_3d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_odom_3d -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_odom_3d
+[0.660s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.550s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.613s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.848s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.864s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.906s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.976s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.070s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.298s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.313s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.280s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.681s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.928s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.061s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.217s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[4.291s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.531s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.674s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.833s] -- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)
+[4.855s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[5.108s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[5.132s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.143s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.155s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[5.173s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[5.960s] -- Configuring done
+[6.053s] -- Generating done
+[6.087s] -- Build files have been written to: /root/dddmr_navigation/build/dddmr_odom_3d
+[6.129s] Invoked command in '/root/dddmr_navigation/build/dddmr_odom_3d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dddmr_navigation/src/dddmr_odom_3d -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/dddmr_odom_3d
+[6.137s] Invoking command in '/root/dddmr_navigation/build/dddmr_odom_3d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_odom_3d -- -j28 -l28
+[6.433s] [35m[1mConsolidate compiler generated dependencies of target odom_3d[0m
+[6.567s] [100%] Built target odom_3d
+[6.649s] Invoked command in '/root/dddmr_navigation/build/dddmr_odom_3d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dddmr_navigation/build/dddmr_odom_3d -- -j28 -l28
+[6.667s] Invoking command in '/root/dddmr_navigation/build/dddmr_odom_3d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_odom_3d
+[6.725s] -- Install configuration: "Release"
+[6.729s] -- Execute custom install script
+[6.731s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/lib/dddmr_odom_3d/odom_3d
+[6.734s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/include//odom_3d.h
+[6.738s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d//launch/example_odom_3d_launch.py
+[6.740s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d//rviz/odom_3d_example_.rviz
+[6.743s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d//bag_files/rosbag2_odom2d_imu/metadata.yaml
+[6.743s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d//bag_files/rosbag2_odom2d_imu/rosbag2_2025_06_28-22_48_31_0.db3
+[6.746s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/ament_index/resource_index/package_run_dependencies/dddmr_odom_3d
+[6.747s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/ament_index/resource_index/parent_prefix_path/dddmr_odom_3d
+[6.747s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d/environment/ament_prefix_path.sh
+[6.748s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d/environment/ament_prefix_path.dsv
+[6.749s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d/environment/path.sh
+[6.750s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d/environment/path.dsv
+[6.751s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d/local_setup.bash
+[6.752s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d/local_setup.sh
+[6.753s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d/local_setup.zsh
+[6.754s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d/local_setup.dsv
+[6.754s] -- Symlinking: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d/package.dsv
+[6.829s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/ament_index/resource_index/packages/dddmr_odom_3d
+[6.831s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.832s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.834s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d/cmake/dddmr_odom_3dConfig.cmake
+[6.835s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d/cmake/dddmr_odom_3dConfig-version.cmake
+[6.837s] -- Up-to-date symlink: /root/dddmr_navigation/install/dddmr_odom_3d/share/dddmr_odom_3d/package.xml
+[6.852s] Invoked command in '/root/dddmr_navigation/build/dddmr_odom_3d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dddmr_navigation/build/dddmr_odom_3d

@@ -1,0 +1,32 @@
+[ 20%] [34m[1mAutomatic UIC for target pose_graph_merge_editor_panel[0m
+[ 20%] Built target pose_graph_merge_editor_panel_autogen
+[100%] Built target pose_graph_merge_editor_panel
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel//plugin_description.xml
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/environment/library_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/environment/library_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/include/pose_graph_merge_editor_panel/pose_graph_merge_editor_panel.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/ament_index/resource_index/package_run_dependencies/pose_graph_merge_editor_panel
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/ament_index/resource_index/parent_prefix_path/pose_graph_merge_editor_panel
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/environment/path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/environment/path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/local_setup.bash
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/local_setup.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/local_setup.zsh
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/local_setup.dsv
+-- Symlinking: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/package.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/ament_index/resource_index/packages/pose_graph_merge_editor_panel
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/ament_index/resource_index/rviz_common__pluginlib__plugin/pose_graph_merge_editor_panel
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/cmake/pose_graph_merge_editor_panelConfig.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/cmake/pose_graph_merge_editor_panelConfig-version.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/package.xml
+-- Up-to-date: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/lib/libpose_graph_merge_editor_panel.so
+-- Up-to-date: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/cmake/pose_graph_merge_editor_panelExport.cmake
+-- Up-to-date: /root/dddmr_navigation/install/pose_graph_merge_editor_panel/share/pose_graph_merge_editor_panel/cmake/pose_graph_merge_editor_panelExport-release.cmake

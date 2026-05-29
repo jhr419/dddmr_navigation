@@ -1,0 +1,111 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rviz_common: 11.2.26 (/opt/ros/humble/share/rviz_common/cmake)
+-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for dependencies of ignition-math6
+-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+-- Found laser_geometry: 2.4.1 (/opt/ros/humble/share/laser_geometry/cmake)
+-- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[33mCMake Warning (dev) at CMakeLists.txt:51 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/dddmr_navigation/build/dddmr_rviz_default_plugins
+[35m[1mConsolidate compiler generated dependencies of target dddmr_rviz_default_plugins[0m
+[  5%] [32mBuilding CXX object CMakeFiles/dddmr_rviz_default_plugins.dir/src/dddmr_rviz_default_plugins/tools/point_cloud_selection/point_cloud_selection_tool.cpp.o[0m
+[01m[K/root/dddmr_navigation/src/dddmr_rviz_tools/dddmr_rviz_default_plugins/src/dddmr_rviz_default_plugins/tools/point_cloud_selection/point_cloud_selection_tool.cpp:[m[K In member function ‘[01m[Kvoid dddmr_rviz_default_plugins::tools::PointCloudSelectionTool::[01;32m[KpublishSelected[m[K(rviz_common::ViewportMouseEvent&)[m[K’:
+[01m[K/root/dddmr_navigation/src/dddmr_rviz_tools/dddmr_rviz_default_plugins/src/dddmr_rviz_default_plugins/tools/point_cloud_selection/point_cloud_selection_tool.cpp:203:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  203 | void PointCloudSelectionTool::publishSelected([01;35m[Krviz_common::ViewportMouseEvent & event[m[K){
+      |                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[ 11%] [32m[1mLinking CXX shared library libdddmr_rviz_default_plugins.so[0m
+[100%] Built target dddmr_rviz_default_plugins
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins//plugins_description.xml
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/library_path.sh
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/library_path.dsv
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/goal_pose/goal_tool.hpp
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/move/move_tool.hpp
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/point_cloud_selection/point_cloud_selection_tool.hpp
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/pose/pose_tool.hpp
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/pose_estimate/initial_pose_tool.hpp
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/select/edge_selection_tool.hpp
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/tools/select/node_selection_tool.hpp
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/include/dddmr_rviz_default_plugins/dddmr_rviz_default_plugins/visibility_control.hpp
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/icons/classes/3DGoalPose.png
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/icons/classes/3DInitialPose.png
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/icons/classes/Select.png
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/ament_index/resource_index/package_run_dependencies/dddmr_rviz_default_plugins
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/ament_index/resource_index/parent_prefix_path/dddmr_rviz_default_plugins
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/ament_prefix_path.sh
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/ament_prefix_path.dsv
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/path.sh
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/environment/path.dsv
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/local_setup.bash
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/local_setup.sh
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/local_setup.zsh
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/local_setup.dsv
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/package.dsv
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/ament_index/resource_index/packages/dddmr_rviz_default_plugins
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/dddmr_rviz_default_plugins
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_plugins-extras.cmake
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_pluginsConfig.cmake
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_pluginsConfig-version.cmake
+-- Symlinking: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/package.xml
+-- Installing: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/lib/libdddmr_rviz_default_plugins.so
+-- Set runtime path of "/root/dddmr_navigation/install/dddmr_rviz_default_plugins/lib/libdddmr_rviz_default_plugins.so" to ""
+-- Installing: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_pluginsExport.cmake
+-- Installing: /root/dddmr_navigation/install/dddmr_rviz_default_plugins/share/dddmr_rviz_default_plugins/cmake/dddmr_rviz_default_pluginsExport-release.cmake

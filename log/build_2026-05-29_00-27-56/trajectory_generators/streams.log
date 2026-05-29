@@ -1,0 +1,53 @@
+[0.104s] Invoking command in '/root/dddmr_navigation/build/trajectory_generators': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/dddmr_navigation/build/trajectory_generators -- -j28 -l28
+[0.154s] [ 16%] Built target trajectory_generator_theory
+[0.178s] [ 33%] Built target stacked_generator
+[0.206s] [ 50%] Built target trajectory_generator_ros
+[0.232s] [ 83%] Built target theories
+[0.259s] [100%] Built target trajectory_generators_node
+[0.269s] Invoked command in '/root/dddmr_navigation/build/trajectory_generators' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/dddmr_navigation/build/trajectory_generators -- -j28 -l28
+[0.272s] Invoking command in '/root/dddmr_navigation/build/trajectory_generators': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/dddmr_navigation/build/trajectory_generators
+[0.277s] -- Install configuration: ""
+[0.277s] -- Execute custom install script
+[0.278s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/lib/libtrajectory_generator_theory.so
+[0.278s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/lib/libstacked_generator.so
+[0.278s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/lib/libtrajectory_generator_ros.so
+[0.278s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/lib/libtheories.so
+[0.279s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/lib/trajectory_generators/trajectory_generators_node
+[0.279s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/dd_rotate_inplace_theory.h
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/dd_simple_trajectory_generator_limits.h
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/dd_simple_trajectory_generator_params.h
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/dd_simple_trajectory_generator_theory.h
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/omni_simple_trajectory_generator_limits.h
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/omni_simple_trajectory_generator_params.h
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/omni_simple_trajectory_generator_theory.h
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/stacked_generator.h
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/trajectory_generator_theory.h
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/trajectory_generators_ros.h
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/trajectory_shared_data.h
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/velocity_iterator.h
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators//launch/trajectory_generators.launch
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators//config/trajectory_generators.yaml
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/trajectory_generators.xml
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/environment/library_path.sh
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/environment/library_path.dsv
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators//trajectory_generators.xml
+[0.280s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/ament_index/resource_index/package_run_dependencies/trajectory_generators
+[0.281s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/ament_index/resource_index/parent_prefix_path/trajectory_generators
+[0.281s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/environment/ament_prefix_path.sh
+[0.281s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/environment/ament_prefix_path.dsv
+[0.281s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/environment/path.sh
+[0.281s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/environment/path.dsv
+[0.281s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/local_setup.bash
+[0.282s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/local_setup.sh
+[0.282s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/local_setup.zsh
+[0.282s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/local_setup.dsv
+[0.282s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/package.dsv
+[0.289s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/ament_index/resource_index/packages/trajectory_generators
+[0.289s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/ament_index/resource_index/trajectory_generators__pluginlib__plugin/trajectory_generators
+[0.289s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.289s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/cmake/ament_cmake_export_libraries-extras.cmake
+[0.289s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.289s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/cmake/trajectory_generatorsConfig.cmake
+[0.289s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/cmake/trajectory_generatorsConfig-version.cmake
+[0.289s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/package.xml
+[0.300s] Invoked command in '/root/dddmr_navigation/build/trajectory_generators' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/dddmr_navigation/build/trajectory_generators

@@ -1,0 +1,32 @@
+[ 20%] [34m[1mAutomatic UIC for target mapping_panel[0m
+[ 20%] Built target mapping_panel_autogen
+[100%] Built target mapping_panel
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel//plugin_description.xml
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/library_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/library_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/include/mapping_panel/mapping_panel.h
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/ament_index/resource_index/package_run_dependencies/mapping_panel
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/ament_index/resource_index/parent_prefix_path/mapping_panel
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/path.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/environment/path.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/local_setup.bash
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/local_setup.sh
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/local_setup.zsh
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/local_setup.dsv
+-- Symlinking: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/package.dsv
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/ament_index/resource_index/packages/mapping_panel
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/ament_index/resource_index/rviz_common__pluginlib__plugin/mapping_panel
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/mapping_panelConfig.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/mapping_panelConfig-version.cmake
+-- Up-to-date symlink: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/package.xml
+-- Up-to-date: /root/dddmr_navigation/install/mapping_panel/lib/libmapping_panel.so
+-- Up-to-date: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/mapping_panelExport.cmake
+-- Up-to-date: /root/dddmr_navigation/install/mapping_panel/share/mapping_panel/cmake/mapping_panelExport-release.cmake

@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-28fe536fb41d97d0ee06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "perception_3d",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cluster_marking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cluster_marking-Release-77c1fc659f9d244d0cb5.json",
+					"name" : "cluster_marking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "depth_camera_buffer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-depth_camera_buffer-Release-15db9051328251b72671.json",
+					"name" : "depth_camera_buffer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "depthimg2pointcloud_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-depthimg2pointcloud_node-Release-34fcb4c79253f472372f.json",
+					"name" : "depthimg2pointcloud_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "layers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-layers-Release-5db454f14dc5fe9592ac.json",
+					"name" : "layers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_3d_ros_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_3d_ros_node-Release-6b2b8f9e9371c1e20af3.json",
+					"name" : "perception_3d_ros_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_3d_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_3d_uninstall-Release-2e330974469b441e81d1.json",
+					"name" : "perception_3d_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_sensor-Release-b37a3902eb0607a620f0.json",
+					"name" : "perception_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shared_data_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shared_data_sensor-Release-d93751de9bf7c58c593f.json",
+					"name" : "shared_data_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stacked_perception::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stacked_perception-Release-93684611d36317ebf23a.json",
+					"name" : "stacked_perception",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stacked_perception_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stacked_perception_ros-Release-a42062567a949ca3efb2.json",
+					"name" : "stacked_perception_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-51e772c722ba4314b727.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/dddmr_navigation/build/perception_3d",
+		"source" : "/root/dddmr_navigation/src/dddmr_perception_3d"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

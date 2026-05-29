@@ -1,0 +1,1 @@
+/root/dddmr_navigation/build/cloud_msgs/rosidl_generator_rs/cloud_msgs/rust/src/msg/rmw.rs

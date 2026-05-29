@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-46c3e74270ed1115dbff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dddmr_rviz_default_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_rviz_default_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_rviz_default_plugins-Release-3062a978e187568ea6ad.json",
+					"name" : "dddmr_rviz_default_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dddmr_rviz_default_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dddmr_rviz_default_plugins_uninstall-Release-855e9e750a08d7da3162.json",
+					"name" : "dddmr_rviz_default_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-1650cd136332cc3de5c2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/dddmr_navigation/build/dddmr_rviz_default_plugins",
+		"source" : "/root/dddmr_navigation/src/dddmr_rviz_tools/dddmr_rviz_default_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

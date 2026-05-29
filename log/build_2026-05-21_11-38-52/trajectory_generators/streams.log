@@ -1,0 +1,174 @@
+[0.037s] Invoking command in '/root/dddmr_navigation/build/trajectory_generators': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/dddmr_navigation/src/dddmr_local_planner/trajectory_generators -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/trajectory_generators
+[0.172s] -- The C compiler identification is GNU 13.4.0
+[0.250s] -- The CXX compiler identification is GNU 13.4.0
+[0.261s] -- Detecting C compiler ABI info
+[0.355s] -- Detecting C compiler ABI info - done
+[0.364s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.364s] -- Detecting C compile features
+[0.364s] -- Detecting C compile features - done
+[0.368s] -- Detecting CXX compiler ABI info
+[0.466s] -- Detecting CXX compiler ABI info - done
+[0.475s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.475s] -- Detecting CXX compile features
+[0.476s] -- Detecting CXX compile features - done
+[0.483s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.699s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.789s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.836s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.913s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.921s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.940s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.961s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.991s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.074s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.085s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.210s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.250s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.311s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.321s] -- Looking for pthread.h
+[1.406s] -- Looking for pthread.h - found
+[1.406s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.492s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.494s] -- Found Threads: TRUE  
+[1.581s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.649s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.680s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.733s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.753s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.808s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.831s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.860s] -- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)
+[1.868s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.931s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.954s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.957s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.957s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.962s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.968s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.972s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[2.004s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.054s] -- Checking for module 'eigen3'
+[2.068s] --   Found eigen3, version 3.4.0
+[2.108s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.108s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.154s] -- Checking for module 'flann'
+[2.171s] --   Found flann, version 1.9.1
+[2.221s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.221s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.418s] -- Checking for module 'libusb-1.0'
+[3.439s] --   Found libusb-1.0, version 1.0.25
+[3.487s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.500s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.579s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.789s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.796s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.805s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.992s] -- Found Qhull version 8.0.2
+[4.216s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.409s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.410s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.411s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.412s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.413s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.414s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.414s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.415s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.416s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.418s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.419s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.420s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.421s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.423s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.424s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.428s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.430s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.430s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.432s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.433s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.434s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.435s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.435s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.437s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.439s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.441s] -- Found base_trajectory: 0.0.0 (/root/dddmr_navigation/install/base_trajectory/share/base_trajectory/cmake)
+[4.460s] [33mCMake Warning (dev) at CMakeLists.txt:30 (find_package):
+[4.460s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[4.460s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[4.460s]   command to set the policy and suppress this warning.
+[4.460s] 
+[4.460s]   CMake variable PCL_ROOT is set to:
+[4.460s] 
+[4.461s]     /usr
+[4.461s] 
+[4.461s]   For compatibility, CMake is ignoring the variable.
+[4.461s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.461s] [0m
+[4.886s] -- Configuring done
+[5.085s] -- Generating done
+[5.123s] -- Build files have been written to: /root/dddmr_navigation/build/trajectory_generators
+[5.147s] Invoked command in '/root/dddmr_navigation/build/trajectory_generators' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/dddmr_navigation/src/dddmr_local_planner/trajectory_generators -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dddmr_navigation/install/trajectory_generators
+[5.149s] Invoking command in '/root/dddmr_navigation/build/trajectory_generators': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/dddmr_navigation/build/trajectory_generators -- -j28 -l28
+[5.215s] [  8%] [32mBuilding CXX object CMakeFiles/trajectory_generator_theory.dir/src/trajectory_generator_theory.cpp.o[0m
+[14.900s] [ 16%] [32m[1mLinking CXX shared library libtrajectory_generator_theory.so[0m
+[124.610s] [ 16%] Built target trajectory_generator_theory
+[124.626s] [ 25%] [32mBuilding CXX object CMakeFiles/stacked_generator.dir/src/stacked_generator.cpp.o[0m
+[129.100s] [ 33%] [32m[1mLinking CXX shared library libstacked_generator.so[0m
+[138.473s] [ 33%] Built target stacked_generator
+[138.493s] [ 41%] [32mBuilding CXX object CMakeFiles/trajectory_generator_ros.dir/src/trajectory_generators_ros.cpp.o[0m
+[145.101s] [ 50%] [32m[1mLinking CXX shared library libtrajectory_generator_ros.so[0m
+[145.495s] [ 50%] Built target trajectory_generator_ros
+[145.514s] [ 58%] [32mBuilding CXX object CMakeFiles/theories.dir/theories/omni_simple_trajectory_generator_theory.cpp.o[0m
+[145.514s] [ 75%] [32mBuilding CXX object CMakeFiles/theories.dir/theories/dd_simple_trajectory_generator_theory.cpp.o[0m
+[145.514s] [ 75%] [32mBuilding CXX object CMakeFiles/theories.dir/theories/dd_rotate_inplace_theory.cpp.o[0m
+[151.442s] [ 83%] [32m[1mLinking CXX shared library libtheories.so[0m
+[151.912s] [ 83%] Built target theories
+[151.933s] [ 91%] [32mBuilding CXX object CMakeFiles/trajectory_generators_node.dir/src/trajectory_generators_node.cpp.o[0m
+[157.173s] [100%] [32m[1mLinking CXX executable trajectory_generators_node[0m
+[157.522s] [100%] Built target trajectory_generators_node
+[157.560s] Invoked command in '/root/dddmr_navigation/build/trajectory_generators' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/dddmr_navigation/build/trajectory_generators -- -j28 -l28
+[157.561s] Invoking command in '/root/dddmr_navigation/build/trajectory_generators': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/dddmr_navigation/build/trajectory_generators
+[157.567s] -- Install configuration: ""
+[157.567s] -- Execute custom install script
+[157.568s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/lib/libtrajectory_generator_theory.so
+[157.573s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/lib/libstacked_generator.so
+[157.580s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/lib/libtrajectory_generator_ros.so
+[157.586s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/lib/libtheories.so
+[157.591s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/lib/trajectory_generators/trajectory_generators_node
+[157.597s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/dd_rotate_inplace_theory.h
+[157.604s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/dd_simple_trajectory_generator_limits.h
+[157.610s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/dd_simple_trajectory_generator_params.h
+[157.616s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/dd_simple_trajectory_generator_theory.h
+[157.622s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/omni_simple_trajectory_generator_limits.h
+[157.629s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/omni_simple_trajectory_generator_params.h
+[157.634s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/omni_simple_trajectory_generator_theory.h
+[157.640s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/stacked_generator.h
+[157.648s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/trajectory_generator_theory.h
+[157.653s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/trajectory_generators_ros.h
+[157.660s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/trajectory_shared_data.h
+[157.667s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/include//trajectory_generators/velocity_iterator.h
+[157.675s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators//launch/trajectory_generators.launch
+[157.681s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators//config/trajectory_generators.yaml
+[157.687s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/trajectory_generators.xml
+[157.694s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/environment/library_path.sh
+[157.700s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/environment/library_path.dsv
+[157.705s] -- Up-to-date symlink: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators//trajectory_generators.xml
+[157.706s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/ament_index/resource_index/package_run_dependencies/trajectory_generators
+[157.714s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/ament_index/resource_index/parent_prefix_path/trajectory_generators
+[157.720s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/environment/ament_prefix_path.sh
+[157.726s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/environment/ament_prefix_path.dsv
+[157.733s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/environment/path.sh
+[157.740s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/environment/path.dsv
+[157.746s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/local_setup.bash
+[157.754s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/local_setup.sh
+[157.760s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/local_setup.zsh
+[157.766s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/local_setup.dsv
+[157.772s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/package.dsv
+[157.779s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/ament_index/resource_index/packages/trajectory_generators
+[157.784s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/ament_index/resource_index/trajectory_generators__pluginlib__plugin/trajectory_generators
+[157.790s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/cmake/ament_cmake_export_include_directories-extras.cmake
+[157.796s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/cmake/ament_cmake_export_libraries-extras.cmake
+[157.803s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/cmake/ament_cmake_export_dependencies-extras.cmake
+[157.808s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/cmake/trajectory_generatorsConfig.cmake
+[157.815s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/cmake/trajectory_generatorsConfig-version.cmake
+[157.821s] -- Symlinking: /root/dddmr_navigation/install/trajectory_generators/share/trajectory_generators/package.xml
+[157.828s] Invoked command in '/root/dddmr_navigation/build/trajectory_generators' returned '0': AMENT_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dddmr_navigation/install/base_trajectory:/root/livox_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/root/dddmr_navigation/install/base_trajectory/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/dddmr_navigation/build/trajectory_generators

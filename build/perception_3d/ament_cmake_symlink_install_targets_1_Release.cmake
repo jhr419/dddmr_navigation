@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/dddmr_navigation/build/perception_3d/perception_3d_ros_node" "/root/dddmr_navigation/build/perception_3d/depthimg2pointcloud_node" "TARGETS" "perception_3d_ros_node" "depthimg2pointcloud_node" "RUNTIME_DESTINATION" "lib/perception_3d")
